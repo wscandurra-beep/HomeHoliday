@@ -11,6 +11,14 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      IMMOBILIARE_CLIENT_ID: ${{ secrets.IMMOBILIARE_CLIENT_ID }}
+      IMMOBILIARE_CLIENT_SECRET: ${{ secrets.IMMOBILIARE_CLIENT_SECRET }}
+      IMMOBILIARE_USERNAME: ${{ secrets.IMMOBILIARE_USERNAME }}
+      IMMOBILIARE_PASSWORD: ${{ secrets.IMMOBILIARE_PASSWORD }}
+      IMMOBILIARE_BASE_URL: ${{ vars.IMMOBILIARE_BASE_URL }}
+      IMMOBILIARE_PAGE_SIZE: '50'
+      IMMOBILIARE_MAX_PAGES: '10'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
