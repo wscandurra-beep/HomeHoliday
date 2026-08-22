@@ -32,12 +32,12 @@ jobs:
         run: node scripts/refresh-listings.mjs
       - name: Commit data changes
         run: |
-          if git diff --quiet -- data/listings.json; then
+          if git diff --quiet -- public/data/listings.json; then
             echo "No listing changes"
             exit 0
           fi
           git config user.name "homeholiday-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/listings.json
+          git add public/data/listings.json
           git commit -m "chore: refresh property listings"
           git push
