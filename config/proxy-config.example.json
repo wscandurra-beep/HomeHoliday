@@ -1,0 +1,11 @@
+{
+  "proxy": {
+    "active": false,
+    "url": "http://user:pass@proxy-provider.com:8080",
+    "rotateOnEachRequest": true
+  },
+  "rateLimit": {
+    "requestsPerMinute": 10,
+    "minDelayBetweenRequests": 2000
+  }
+}
