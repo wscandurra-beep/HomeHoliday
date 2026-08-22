@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fetchImmobiliareListings } from './connectors/immobiliare-insights.mjs';
 
-const dataDir = path.resolve('data');
+const dataDir = path.resolve('public/data');
 const storePath = path.join(dataDir, 'listings.json');
 const searchesPath = path.resolve('config/tracked-searches.json');
 
