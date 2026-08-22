@@ -23,6 +23,8 @@ export type Listing = {
   rooms?: number;
   status: ListingStatus;
   priceHistory: PricePoint[];
+  duplicateGroupId?: string;
+  duplicateSources?: string[];
 };
 
 export type Tracker = {
