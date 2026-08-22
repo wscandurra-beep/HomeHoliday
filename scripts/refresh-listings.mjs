@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fetchImmobiliareListings } from './connectors/immobiliare-insights.mjs';
+import { fetchImmobiliarePublicListings } from './connectors/immobiliare-public.mjs';
 
 const dataDir = path.resolve('public/data');
 const storePath = path.join(dataDir, 'listings.json');
@@ -57,11 +58,11 @@ function reconcile(previous, incoming, now) {
 
 async function collectFromConnectors(searches, now) {
   const incoming = [];
-  const immobiliareSearches = searches.filter((x) => x.provider === 'immobiliare');
+  const officialSearches = searches.filter((x) => x.provider === 'immobiliare');
+  const publicSearches = searches.filter((x) => x.provider === 'immobiliare-public');
 
-  if (immobiliareSearches.length) {
-    incoming.push(...await fetchImmobiliareListings(immobiliareSearches, now));
-  }
+  if (officialSearches.length) incoming.push(...await fetchImmobiliareListings(officialSearches, now));
+  if (publicSearches.length) incoming.push(...await fetchImmobiliarePublicListings(publicSearches, now));
 
   return incoming;
 }
