@@ -1,7 +1,43 @@
 [
   {
-    "id": "bardonecchia-sale-public",
-    "name": "Bardonecchia vendita",
+    "id": "bardonecchia-casa",
+    "name": "Bardonecchia vendita - Casa.it",
+    "provider": "casa",
+    "location": "Bardonecchia",
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "active": true
+  },
+  {
+    "id": "bardonecchia-idealista",
+    "name": "Bardonecchia vendita - Idealista",
+    "provider": "idealista",
+    "location": "Bardonecchia",
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "active": true
+  },
+  {
+    "id": "bardonecchia-subito",
+    "name": "Bardonecchia vendita - Subito.it",
+    "provider": "subito",
+    "location": "Bardonecchia",
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "active": true
+  },
+  {
+    "id": "bardonecchia-bakeca",
+    "name": "Bardonecchia vendita - Bakeca.it",
+    "provider": "bakeca",
+    "location": "Bardonecchia",
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "active": true
+  },
+  {
+    "id": "bardonecchia-immobiliare-public",
+    "name": "Bardonecchia vendita - Immobiliare.it public",
     "provider": "immobiliare-public",
     "location": "Bardonecchia",
     "searchUrl": "https://www.immobiliare.it/vendita-appartamenti/bardonecchia/",
@@ -9,6 +45,6 @@
     "minPrice": 100000,
     "maxPrice": 350000,
     "maxPages": 3,
-    "active": true
+    "active": false
   }
 ]
