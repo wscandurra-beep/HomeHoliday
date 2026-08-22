@@ -8,6 +8,7 @@ import { fetchPublicPortalListings } from './connectors/public-portals.mjs';
 const dataDir = path.resolve('public/data');
 const storePath = path.join(dataDir, 'listings.json');
 const searchesPath = path.resolve('config/tracked-searches.json');
+const bootstrapPath = path.resolve('config/bootstrap-listings.json');
 
 const PROVIDER_SOURCE = {
   immobiliare: 'Immobiliare.it',
@@ -27,6 +28,13 @@ async function readSearches() {
   try {
     const searches = JSON.parse(await fs.readFile(searchesPath, 'utf8'));
     return Array.isArray(searches) ? searches.filter((x) => x.active) : [];
+  } catch { return []; }
+}
+
+async function readBootstrap() {
+  try {
+    const listings = JSON.parse(await fs.readFile(bootstrapPath, 'utf8'));
+    return Array.isArray(listings) ? listings : [];
   } catch { return []; }
 }
 
@@ -141,14 +149,17 @@ async function collectFromConnectors(searches, now) {
 const now = new Date().toISOString();
 const store = await readStore();
 const searches = await readSearches();
+const bootstrapListings = await readBootstrap();
 
-if (!searches.length) {
-  console.log('HomeHoliday refresh skipped: no active tracked searches configured.');
+if (!searches.length && !bootstrapListings.length) {
+  console.log('HomeHoliday refresh skipped: no active tracked searches or bootstrap listings configured.');
   process.exit(0);
 }
 
 const { incoming, providerStatus, successfulSources } = await collectFromConnectors(searches, now);
-const reconciled = reconcile(store.listings ?? [], incoming, now, successfulSources);
+const mergedIncoming = [...incoming, ...bootstrapListings];
+providerStatus.bootstrap = { ok: true, checkedAt: now, count: bootstrapListings.length, message: 'Initial Immobiliare.it + Casa.it snapshot' };
+const reconciled = reconcile(store.listings ?? [], mergedIncoming, now, successfulSources);
 const listings = annotateDuplicateGroups(reconciled);
 await fs.mkdir(dataDir, { recursive: true });
 await fs.writeFile(storePath, JSON.stringify({ listings, refreshedAt: now, providerStatus }, null, 2) + '\n');
@@ -156,4 +167,4 @@ await fs.writeFile(storePath, JSON.stringify({ listings, refreshedAt: now, provi
 for (const [provider, status] of Object.entries(providerStatus)) {
   console.log(`${provider}: ${status.ok ? `OK (${status.count ?? 0} listings)` : `FAILED (${status.message})`}`);
 }
-console.log(`HomeHoliday refresh complete: ${incoming.length} incoming, ${listings.length} tracked.`);
+console.log(`HomeHoliday refresh complete: ${incoming.length} live + ${bootstrapListings.length} bootstrap incoming, ${listings.length} tracked.`);
