@@ -9,6 +9,7 @@ const dataDir = path.resolve('public/data');
 const storePath = path.join(dataDir, 'listings.json');
 const searchesPath = path.resolve('config/tracked-searches.json');
 const bootstrapPath = path.resolve('config/bootstrap-listings.json');
+const bootstrapDir = path.resolve('config/bootstrap');
 
 const PROVIDER_SOURCE = {
   immobiliare: 'Immobiliare.it',
@@ -31,11 +32,26 @@ async function readSearches() {
   } catch { return []; }
 }
 
-async function readBootstrap() {
+async function readJsonArray(filePath) {
   try {
-    const listings = JSON.parse(await fs.readFile(bootstrapPath, 'utf8'));
-    return Array.isArray(listings) ? listings : [];
+    const parsed = JSON.parse(await fs.readFile(filePath, 'utf8'));
+    return Array.isArray(parsed) ? parsed : [];
   } catch { return []; }
+}
+
+async function readBootstrap() {
+  const listings = [...await readJsonArray(bootstrapPath)];
+  try {
+    const files = (await fs.readdir(bootstrapDir)).filter((name) => name.endsWith('.json')).sort();
+    for (const file of files) listings.push(...await readJsonArray(path.join(bootstrapDir, file)));
+  } catch {}
+
+  const unique = new Map();
+  for (const item of listings) {
+    if (!item?.source || !item?.externalId) continue;
+    unique.set(`${item.source}:${item.externalId}`, item);
+  }
+  return [...unique.values()];
 }
 
 function reconcile(previous, incoming, now, successfulSources) {
@@ -48,7 +64,7 @@ function reconcile(previous, incoming, now, successfulSources) {
     seen.add(key);
     const old = byKey.get(key);
     if (!old) {
-      next.push({ ...item, status: 'NEW', firstSeenAt: now, lastSeenAt: now, priceHistory: [{ price: item.price, capturedAt: now }] });
+      next.push({ ...item, status: 'NEW', firstSeenAt: item.firstSeenAt ?? now, lastSeenAt: item.lastSeenAt ?? now, priceHistory: item.priceHistory?.length ? item.priceHistory : [{ price: item.price, capturedAt: now }] });
       continue;
     }
     const priceChanged = old.price !== item.price;
@@ -59,7 +75,7 @@ function reconcile(previous, incoming, now, successfulSources) {
       status: wasRemoved ? 'BACK_ONLINE' : priceChanged ? 'UPDATED' : 'ACTIVE',
       firstSeenAt: old.firstSeenAt,
       lastSeenAt: now,
-      priceHistory: priceChanged ? [...(old.priceHistory ?? []), { price: item.price, capturedAt: now }] : (old.priceHistory ?? [])
+      priceHistory: priceChanged ? [...(old.priceHistory ?? []), { price: item.price, capturedAt: now }] : (old.priceHistory ?? item.priceHistory ?? [])
     });
   }
 
@@ -158,7 +174,7 @@ if (!searches.length && !bootstrapListings.length) {
 
 const { incoming, providerStatus, successfulSources } = await collectFromConnectors(searches, now);
 const mergedIncoming = [...incoming, ...bootstrapListings];
-providerStatus.bootstrap = { ok: true, checkedAt: now, count: bootstrapListings.length, message: 'Initial Immobiliare.it + Casa.it snapshot' };
+providerStatus.bootstrap = { ok: true, checkedAt: now, count: bootstrapListings.length, message: 'Initial multi-source snapshot' };
 const reconciled = reconcile(store.listings ?? [], mergedIncoming, now, successfulSources);
 const listings = annotateDuplicateGroups(reconciled);
 await fs.mkdir(dataDir, { recursive: true });
