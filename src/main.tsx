@@ -9,6 +9,16 @@ const UI_REFRESH_MS=60_000;
 type ProviderState={ok:boolean;checkedAt:string;count?:number;message?:string};
 type ListingStore={listings:Listing[];refreshedAt:string|null;providerStatus?:Record<string,ProviderState>};
 type PropertyGroup={id:string;primary:Listing;sources:Listing[]};
+type DeviceTestState='idle'|'testing'|'readable'|'opaque'|'failed';
+type DeviceTestResult={state:DeviceTestState;detail:string};
+
+const DEVICE_TEST_PROVIDERS=[
+ {key:'immobiliare',label:'Immobiliare.it',url:'https://www.immobiliare.it/vendita-appartamenti/bardonecchia/'},
+ {key:'casa',label:'Casa.it',url:'https://www.casa.it/vendita/residenziale/bardonecchia/'},
+ {key:'idealista',label:'Idealista',url:'https://www.idealista.it/vendita-case/bardonecchia-torino/'},
+ {key:'subito',label:'Subito.it',url:'https://www.subito.it/annunci-piemonte/vendita/immobili/?q=Bardonecchia'},
+ {key:'bakeca',label:'Bakeca.it',url:'https://torino.bakeca.it/annunci/case/luogo/bardonecchia/'}
+] as const;
 
 function money(n:number){return new Intl.NumberFormat('it-IT',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n)}
 function formatDate(value?:string){if(!value)return '—';return new Intl.DateTimeFormat('it-IT').format(new Date(`${value.slice(0,10)}T00:00:00Z`));}
@@ -39,6 +49,31 @@ function groupListings(items:Listing[]):PropertyGroup[]{
    .sort((a,b)=>new Date(b.primary.firstSeenAt).getTime()-new Date(a.primary.firstSeenAt).getTime());
 }
 
+async function testProviderFromDevice(url:string):Promise<DeviceTestResult>{
+ const controller=new AbortController();
+ const timeout=window.setTimeout(()=>controller.abort(),8000);
+ try{
+   try{
+     const response=await fetch(`${url}${url.includes('?')?'&':'?'}hh_device_test=${Date.now()}`,{method:'GET',mode:'cors',cache:'no-store',signal:controller.signal});
+     window.clearTimeout(timeout);
+     return response.ok
+       ? {state:'readable',detail:`Risposta leggibile dal browser · HTTP ${response.status}`}
+       : {state:'readable',detail:`Risposta leggibile · HTTP ${response.status}`};
+   }catch{
+     try{
+       const opaque=await fetch(`${url}${url.includes('?')?'&':'?'}hh_device_test=${Date.now()}`,{method:'GET',mode:'no-cors',cache:'no-store',signal:controller.signal});
+       window.clearTimeout(timeout);
+       return opaque.type==='opaque'
+         ? {state:'opaque',detail:'Il browser riesce a inviare la richiesta, ma la risposta non è leggibile (CORS/risposta opaca).'}
+         : {state:'opaque',detail:'Connessione effettuata, risposta non ispezionabile.'};
+     }catch{
+       window.clearTimeout(timeout);
+       return {state:'failed',detail:'Richiesta non completata dal dispositivo.'};
+     }
+   }
+ }finally{window.clearTimeout(timeout)}
+}
+
 async function loadListingStore():Promise<ListingStore>{
  const url=`${import.meta.env.BASE_URL}data/listings.json?v=${Date.now()}`;
  const response=await fetch(url,{cache:'no-store',headers:{'Cache-Control':'no-cache'}});
@@ -58,6 +93,8 @@ function App(){
  const [dataSource,setDataSource]=useState<'live'|'demo'>('demo');
  const [refreshedAt,setRefreshedAt]=useState<string|null>(null);
  const [providerStatus,setProviderStatus]=useState<Record<string,ProviderState>>({});
+ const [deviceTests,setDeviceTests]=useState<Record<string,DeviceTestResult>>({});
+ const [deviceTesting,setDeviceTesting]=useState(false);
 
  useEffect(()=>{localStorage.setItem(STORAGE_KEY,JSON.stringify(trackers))},[trackers]);
  useEffect(()=>{
@@ -90,9 +127,18 @@ function App(){
  function createTracker(){if(!place.trim()||max<min)return;const tracker:Tracker={id:crypto.randomUUID(),name:place.trim(),location:place.trim(),minPrice:min,maxPrice:max,sellerType:seller,active:true,refreshHours:2};setTrackers(prev=>[tracker,...prev]);}
  function applyTracker(t:Tracker){setPlace(t.location);setMin(t.minPrice);setMax(t.maxPrice);setSeller(t.sellerType)}
  function removeTracker(id:string){setTrackers(prev=>prev.filter(t=>t.id!==id))}
+ async function runDeviceTests(){
+   if(deviceTesting)return;
+   setDeviceTesting(true);
+   setDeviceTests(Object.fromEntries(DEVICE_TEST_PROVIDERS.map(p=>[p.key,{state:'testing',detail:'Test in corso…'}])));
+   const results=await Promise.all(DEVICE_TEST_PROVIDERS.map(async p=>[p.key,await testProviderFromDevice(p.url)] as const));
+   setDeviceTests(Object.fromEntries(results));
+   setDeviceTesting(false);
+ }
 
  return <main><header><div><span className="brand">HomeHoliday</span><h1>Property Tracker</h1><p>Un solo posto per trovare, confrontare e monitorare gli immobili.</p></div><div className="pulse"><i/> {dataSource==='live'?'Dati tracker':'Modalità demo'} · {formatRefresh(refreshedAt)}</div></header>
  <section className="tracker"><h2>Crea il tuo tracker</h2><div className="filters"><label>Luogo<input value={place} onChange={e=>setPlace(e.target.value)} placeholder="Città o zona"/></label><label>Prezzo minimo<input type="number" value={min} onChange={e=>setMin(Math.max(0,+e.target.value||0))}/></label><label>Prezzo massimo<input type="number" value={max} onChange={e=>setMax(Math.max(0,+e.target.value||0))}/></label><label>Inserzionista<select value={seller} onChange={e=>setSeller(e.target.value as typeof seller)}><option>Tutti</option><option>Privato</option><option>Agenzia</option></select></label></div><button type="button" onClick={createTracker} disabled={!place.trim()||max<min}>+ Crea Tracker</button></section>
+ <section className="deviceTest"><div className="sectionTitle"><div><h2>Test da questo dispositivo</h2><p>Verifica se i portali sono raggiungibili direttamente dal browser del tuo iPhone.</p></div><button type="button" onClick={()=>void runDeviceTests()} disabled={deviceTesting}>{deviceTesting?'Test in corso…':'Testa ora'}</button></div><div className="deviceTestGrid">{DEVICE_TEST_PROVIDERS.map(p=>{const result=deviceTests[p.key]||{state:'idle' as DeviceTestState,detail:'Non ancora testato'};return <div className={`deviceTestCard ${result.state}`} key={p.key}><span className="deviceTestDot"/><div><b>{p.label}</b><small>{result.detail}</small></div></div>})}</div><p className="deviceTestNote">Una risposta “opaca” significa che Safari riesce a inviare la richiesta ma non può leggere il contenuto per le regole CORS. Non dimostra che il portale abbia restituito HTTP 200.</p></section>
  {Object.keys(providerStatus).length>0&&<section className="providers"><div className="sectionTitle"><div><h2>Fonti monitorate</h2><p>Stato dell’ultimo controllo automatico</p></div></div><div className="providerGrid">{Object.entries(providerStatus).map(([key,state])=><div className={`providerCard ${state.ok?'ok':'ko'}`} key={key}><span className="providerDot"/><div><b>{providerLabel(key)}</b><small>{state.ok?`${state.count??0} annunci trovati`:state.message||'Non disponibile'}</small></div></div>)}</div></section>}
  {trackers.length>0&&<section className="saved"><div className="sectionTitle"><div><h2>I tuoi Tracker</h2><p>Ricerche persistenti pronte per il monitoraggio automatico</p></div><strong>{trackers.length} attivi</strong></div><div className="trackerList">{trackers.map(t=><div className="trackerCard" key={t.id}><button className="trackerMain" onClick={()=>applyTracker(t)}><b>{t.name}</b><span>{money(t.minPrice)} – {money(t.maxPrice)} · {t.sellerType}</span><small>Ogni {t.refreshHours} ore</small></button><button className="remove" aria-label={`Rimuovi tracker ${t.name}`} onClick={()=>removeTracker(t.id)}>×</button></div>)}</div></section>}
  <section className="stats"><div><b>{properties.length}</b><span>Immobili unici</span></div><div><b>{newProperties}</b><span>Nuovi</span></div><div><b>{multiSourceCount}</b><span>Su più fonti</span></div><div><b>{privateProperties}</b><span>Con privato</span></div></section>
