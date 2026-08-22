@@ -1,67 +1,54 @@
 [
   {
+    "id": "bardonecchia-sale-casa",
+    "name": "Bardonecchia vendita (Casa.it)",
+    "provider": "casa",
+    "location": "Bardonecchia",
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "maxPages": 3,
+    "active": true
+  },
+  {
+    "id": "bardonecchia-sale-idealista",
+    "name": "Bardonecchia vendita (Idealista)",
+    "provider": "idealista",
+    "location": "Bardonecchia",
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "maxPages": 3,
+    "active": true
+  },
+  {
+    "id": "bardonecchia-sale-subito",
+    "name": "Bardonecchia vendita (Subito.it)",
+    "provider": "subito",
+    "location": "Bardonecchia",
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "maxPages": 3,
+    "active": true
+  },
+  {
+    "id": "bardonecchia-sale-bakeca",
+    "name": "Bardonecchia vendita (Bakeca.it)",
+    "provider": "bakeca",
+    "location": "Bardonecchia",
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "maxPages": 3,
+    "active": true
+  },
+  {
     "id": "bardonecchia-sale-immobiliare",
     "name": "Bardonecchia vendita (Immobiliare.it)",
     "provider": "immobiliare-public",
-    "location": "bardonecchia",
+    "location": "Bardonecchia",
     "searchUrl": "https://www.immobiliare.it/vendita-appartamenti/bardonecchia/",
     "privateSearchUrl": "https://www.immobiliare.it/vendita-appartamenti/bardonecchia/da-privati/",
     "minPrice": 100000,
     "maxPrice": 350000,
     "maxPages": 3,
-    "active": true
-  },
-  {
-    "id": "bardonecchia-sale-casa",
-    "name": "Bardonecchia vendita (Casa.it)",
-    "provider": "casa-it-public",
-    "location": "bardonecchia",
-    "minPrice": 100000,
-    "maxPrice": 350000,
-    "maxPages": 3,
-    "active": true,
-    "useProxy": true,
-    "proxyConfig": {
-      "active": true,
-      "url": "http://user:pass@proxy-provider.com:8080",
-      "rotateOnEachRequest": true
-    }
-  },
-  {
-    "id": "bardonecchia-sale-idealista",
-    "name": "Bardonecchia vendita (Idealista)",
-    "provider": "idealista-public",
-    "location": "bardonecchia",
-    "minPrice": 100000,
-    "maxPrice": 350000,
-    "maxPages": 3,
-    "active": true,
-    "useProxy": true,
-    "proxyConfig": {
-      "active": true,
-      "url": "http://user:pass@proxy-provider.com:8080",
-      "rotateOnEachRequest": true
-    }
-  },
-  {
-    "id": "bardonecchia-sale-subito",
-    "name": "Bardonecchia vendita (Subito.it)",
-    "provider": "subito-public",
-    "location": "bardonecchia",
-    "minPrice": 100000,
-    "maxPrice": 350000,
-    "maxPages": 3,
-    "active": true
-  },
-  {
-    "id": "bardonecchia-sale-bakeka",
-    "name": "Bardonecchia vendita (Bakeca.it)",
-    "provider": "bakeca-public",
-    "location": "bardonecchia",
-    "minPrice": 100000,
-    "maxPrice": 350000,
-    "maxPages": 3,
-    "active": true
+    "active": false
   }
-]
 ]
