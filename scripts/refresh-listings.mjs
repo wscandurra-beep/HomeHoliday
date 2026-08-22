@@ -2,29 +2,34 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fetchImmobiliareListings } from './connectors/immobiliare-insights.mjs';
 import { fetchImmobiliarePublicListings } from './connectors/immobiliare-public.mjs';
+import { fetchPublicPortalListings } from './connectors/public-portals.mjs';
 
 const dataDir = path.resolve('public/data');
 const storePath = path.join(dataDir, 'listings.json');
 const searchesPath = path.resolve('config/tracked-searches.json');
 
+const PROVIDER_SOURCE = {
+  immobiliare: 'Immobiliare.it',
+  'immobiliare-public': 'Immobiliare.it',
+  casa: 'Casa.it',
+  idealista: 'Idealista',
+  subito: 'Subito.it',
+  bakeca: 'Bakeca.it'
+};
+
 async function readStore() {
-  try {
-    return JSON.parse(await fs.readFile(storePath, 'utf8'));
-  } catch {
-    return { listings: [], refreshedAt: null, providerStatus: {} };
-  }
+  try { return JSON.parse(await fs.readFile(storePath, 'utf8')); }
+  catch { return { listings: [], refreshedAt: null, providerStatus: {} }; }
 }
 
 async function readSearches() {
   try {
     const searches = JSON.parse(await fs.readFile(searchesPath, 'utf8'));
     return Array.isArray(searches) ? searches.filter((x) => x.active) : [];
-  } catch {
-    return [];
-  }
+  } catch { return []; }
 }
 
-function reconcile(previous, incoming, now) {
+function reconcile(previous, incoming, now, successfulSources) {
   const byKey = new Map(previous.map((x) => [`${x.source}:${x.externalId}`, x]));
   const seen = new Set();
   const next = [];
@@ -51,38 +56,43 @@ function reconcile(previous, incoming, now) {
 
   for (const old of previous) {
     const key = `${old.source}:${old.externalId}`;
-    if (!seen.has(key)) next.push({ ...old, status: 'REMOVED' });
+    if (seen.has(key)) continue;
+    if (successfulSources.has(old.source)) next.push({ ...old, status: 'REMOVED' });
+    else next.push(old);
   }
   return next;
+}
+
+async function runProvider(provider, providerSearches, now) {
+  if (!providerSearches.length) return { listings: [], status: null };
+  try {
+    let listings = [];
+    if (provider === 'immobiliare') listings = await fetchImmobiliareListings(providerSearches, now);
+    else if (provider === 'immobiliare-public') listings = await fetchImmobiliarePublicListings(providerSearches, now);
+    else listings = await fetchPublicPortalListings(provider, providerSearches, now);
+    return { listings, status: { ok: true, checkedAt: now, count: listings.length } };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.warn(`${provider} unavailable: ${message}`);
+    return { listings: [], status: { ok: false, checkedAt: now, message } };
+  }
 }
 
 async function collectFromConnectors(searches, now) {
   const incoming = [];
   const providerStatus = {};
-  const officialSearches = searches.filter((x) => x.provider === 'immobiliare');
-  const publicSearches = searches.filter((x) => x.provider === 'immobiliare-public');
+  const successfulSources = new Set();
+  const providers = [...new Set(searches.map((x) => x.provider))];
 
-  if (officialSearches.length) {
-    try {
-      incoming.push(...await fetchImmobiliareListings(officialSearches, now));
-      providerStatus.immobiliare = { ok: true, checkedAt: now };
-    } catch (error) {
-      providerStatus.immobiliare = { ok: false, checkedAt: now, message: error instanceof Error ? error.message : String(error) };
-      console.warn(`Immobiliare API unavailable: ${providerStatus.immobiliare.message}`);
-    }
+  for (const provider of providers) {
+    const providerSearches = searches.filter((x) => x.provider === provider);
+    const result = await runProvider(provider, providerSearches, now);
+    if (result.status) providerStatus[provider] = result.status;
+    incoming.push(...result.listings);
+    if (result.status?.ok && PROVIDER_SOURCE[provider]) successfulSources.add(PROVIDER_SOURCE[provider]);
   }
 
-  if (publicSearches.length) {
-    try {
-      incoming.push(...await fetchImmobiliarePublicListings(publicSearches, now));
-      providerStatus['immobiliare-public'] = { ok: true, checkedAt: now };
-    } catch (error) {
-      providerStatus['immobiliare-public'] = { ok: false, checkedAt: now, message: error instanceof Error ? error.message : String(error) };
-      console.warn(`Immobiliare public source unavailable: ${providerStatus['immobiliare-public'].message}`);
-    }
-  }
-
-  return { incoming, providerStatus };
+  return { incoming, providerStatus, successfulSources };
 }
 
 const now = new Date().toISOString();
@@ -94,9 +104,12 @@ if (!searches.length) {
   process.exit(0);
 }
 
-const { incoming, providerStatus } = await collectFromConnectors(searches, now);
-const anyProviderOk = Object.values(providerStatus).some((x) => x.ok);
-const listings = anyProviderOk ? reconcile(store.listings ?? [], incoming, now) : (store.listings ?? []);
+const { incoming, providerStatus, successfulSources } = await collectFromConnectors(searches, now);
+const listings = reconcile(store.listings ?? [], incoming, now, successfulSources);
 await fs.mkdir(dataDir, { recursive: true });
 await fs.writeFile(storePath, JSON.stringify({ listings, refreshedAt: now, providerStatus }, null, 2) + '\n');
+
+for (const [provider, status] of Object.entries(providerStatus)) {
+  console.log(`${provider}: ${status.ok ? `OK (${status.count ?? 0} listings)` : `FAILED (${status.message})`}`);
+}
 console.log(`HomeHoliday refresh complete: ${incoming.length} incoming, ${listings.length} tracked.`);
