@@ -1,12 +1,14 @@
 [
   {
-    "id": "bardonecchia-sale",
+    "id": "bardonecchia-sale-public",
     "name": "Bardonecchia vendita",
-    "provider": "immobiliare",
-    "municipalityID": "REPLACE_WITH_IMMOBILIARE_MUNICIPALITY_ID",
-    "contractTypeID": 1,
+    "provider": "immobiliare-public",
+    "location": "Bardonecchia",
+    "searchUrl": "https://www.immobiliare.it/vendita-appartamenti/bardonecchia/",
+    "privateSearchUrl": "https://www.immobiliare.it/vendita-appartamenti/bardonecchia/da-privati/",
     "minPrice": 100000,
     "maxPrice": 350000,
-    "active": false
+    "maxPages": 3,
+    "active": true
   }
 ]
