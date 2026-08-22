@@ -1,12 +1,14 @@
 /*
-HomeHoliday – Casa.it session exporter v4
-Run from Chrome/Edge DevTools > Sources > Snippets while the filtered Casa.it SRP is open.
-Reads the rendered DOM and persists progress in window.name across page navigation.
+HomeHoliday – Casa.it session exporter v5
+Run once from Chrome/Edge DevTools > Sources > Snippets while the filtered Casa.it SRP page 1 is open.
+This version keeps the main page in place and loads subsequent result pages in a hidden same-origin iframe,
+so the full extraction can run automatically in one pass without re-running the snippet after each page.
 */
 (async () => {
   const MAX_PRICE = 260000;
   const MAX_PAGES = 50;
-  const STATE_PREFIX = '__HOMEHOLIDAY_CASA_V4__';
+  const RENDER_WAIT_MS = 2200;
+  const BETWEEN_PAGES_MS = 500;
   const clean = (v='') => String(v).replace(/\s+/g,' ').trim();
   const sleep = (ms) => new Promise(r=>setTimeout(r,ms));
 
@@ -21,14 +23,14 @@ Reads the rendered DOM and persists progress in window.name across page navigati
     }
     return [...new Set(values)].sort((a,b)=>b-a);
   }
-  function moneyToNumber(text='') { return euroValues(text)[0] ?? null; }
+  const moneyToNumber=(text='')=>euroValues(text)[0]??null;
   const extractId=(href='')=>String(href).match(/\/immobili\/(\d+)\/?/i)?.[1]||null;
 
-  function findCard(link){
+  function findCard(doc, link){
     let node=link, best=null;
     for(let i=0;node&&i<12;i++,node=node.parentElement){
       const t=clean(node.textContent||'');
-      const ids=[...node.querySelectorAll?.('a[href*="/immobili/"]')||[]].map(a=>extractId(a.href)).filter(Boolean);
+      const ids=[...(node.querySelectorAll?.('a[href*="/immobili/"]')||[])].map(a=>extractId(a.href)).filter(Boolean);
       const uniqueIds=new Set(ids);
       if(uniqueIds.size===1 && t.length>=50 && /€/.test(t)) best=node;
       if(best && /m²|mq|local[ei]|bagni?|piano/i.test(t)) return best;
@@ -37,13 +39,12 @@ Reads the rendered DOM and persists progress in window.name across page navigati
   }
 
   function parseSqm(text='') {
-    const matches=[...String(text).matchAll(/(?:^|\D)(\d{1,3})\s*(?:m²|mq|m2)\b/gi)]
-      .map(m=>Number(m[1])).filter(n=>n>=10&&n<=1000);
-    return matches.length ? matches[0] : undefined;
+    const matches=[...String(text).matchAll(/(?:^|\D)(\d{1,3})\s*(?:m²|mq|m2)\b/gi)].map(m=>Number(m[1])).filter(n=>n>=10&&n<=1000);
+    return matches.length?matches[0]:undefined;
   }
   function parseRooms(text='') {
     const n=Number(String(text).match(/(?:^|\D)(\d{1,2})\s*(?:locali|locale|vani|vano)\b/i)?.[1]);
-    return n>=1&&n<=30 ? n : undefined;
+    return n>=1&&n<=30?n:undefined;
   }
 
   function buildListing(externalId,href,text,titleHint=''){
@@ -57,14 +58,14 @@ Reads the rendered DOM and persists progress in window.name across page navigati
       sqm:parseSqm(text),rooms:parseRooms(text),status:'ACTIVE'};
   }
 
-  function extractFromDom(){
+  function extractFromDocument(doc, pageUrl){
     const result=new Map();
-    const anchors=[...document.querySelectorAll('a[href*="/immobili/"]')];
+    const anchors=[...doc.querySelectorAll('a[href*="/immobili/"]')];
     const cards=new Map();
     for(const link of anchors){
-      let href; try{href=new URL(link.getAttribute('href'),location.href).href.split('#')[0];}catch{continue;}
+      let href; try{href=new URL(link.getAttribute('href'),pageUrl).href.split('#')[0];}catch{continue;}
       const id=extractId(href); if(!id) continue;
-      const card=findCard(link); if(!card) continue;
+      const card=findCard(doc,link); if(!card) continue;
       if(!cards.has(id)) cards.set(id,{href,card});
     }
     for(const [id,{href,card}] of cards){
@@ -73,42 +74,94 @@ Reads the rendered DOM and persists progress in window.name across page navigati
       const item=buildListing(id,href,text,heading?.textContent||'');
       if(item) result.set(id,item);
     }
-    return {items:[...result.values()],candidateIds:cards.size,anchorCount:anchors.length};
+    return {items:[...result.values()],anchorCount:anchors.length,candidateIds:cards.size};
   }
 
-  function loadState(){if(!window.name.startsWith(STATE_PREFIX))return null;try{return JSON.parse(window.name.slice(STATE_PREFIX.length));}catch{return null;}}
-  const saveState=(s)=>{window.name=STATE_PREFIX+JSON.stringify(s)};
-  const clearState=()=>{if(window.name.startsWith(STATE_PREFIX))window.name='';};
-  const currentPage=()=>{const n=Number(new URL(location.href).searchParams.get('page')||'1');return Number.isFinite(n)&&n>0?n:1;};
+  function totalResults(doc){
+    const text=clean(doc.body?.innerText||'');
+    const m=text.match(/(\d{1,4})\s+(?:Case|case|risultati)/i);
+    return m?Number(m[1]):undefined;
+  }
 
-  function download(state){
+  async function loadPageInIframe(url){
+    return new Promise((resolve,reject)=>{
+      const iframe=document.createElement('iframe');
+      iframe.style.position='absolute';
+      iframe.style.width='1px';
+      iframe.style.height='1px';
+      iframe.style.opacity='0';
+      iframe.style.pointerEvents='none';
+      iframe.setAttribute('aria-hidden','true');
+      let settled=false;
+      const cleanup=()=>{try{iframe.remove();}catch{}};
+      const timer=setTimeout(()=>{if(!settled){settled=true;cleanup();reject(new Error('Timeout caricamento pagina'));}},15000);
+      iframe.onload=async()=>{
+        if(settled)return;
+        try{
+          await sleep(RENDER_WAIT_MS);
+          const doc=iframe.contentDocument;
+          if(!doc) throw new Error('Iframe non accessibile');
+          const finalUrl=iframe.contentWindow?.location?.href||url;
+          settled=true; clearTimeout(timer);
+          const extracted=extractFromDocument(doc,finalUrl);
+          const nextLink=[...doc.querySelectorAll('a[href]')].find(a=>{try{return Number(new URL(a.href,finalUrl).searchParams.get('page'))===Number(new URL(finalUrl).searchParams.get('page')||'1')+1;}catch{return false;}});
+          const info={doc,finalUrl,extracted,nextHref:nextLink?.href,total:totalResults(doc)};
+          cleanup(); resolve(info);
+        }catch(err){settled=true;clearTimeout(timer);cleanup();reject(err);}
+      };
+      iframe.onerror=()=>{if(!settled){settled=true;clearTimeout(timer);cleanup();reject(new Error('Errore caricamento iframe'));}};
+      iframe.src=url;
+      document.body.appendChild(iframe);
+    });
+  }
+
+  function download(all,pages,sourcePage,startedAt){
     const capturedAt=new Date().toISOString();
-    const listings=Object.values(state.listings).map(item=>({...item,firstSeenAt:state.startedAt,lastSeenAt:capturedAt,priceHistory:[{price:item.price,capturedAt}]}));
-    const payload={provider:'Casa.it',search:'Bardonecchia vendita ≤ €260.000',sourcePage:state.sourcePage,capturedAt,pages:state.pages,count:listings.length,listings};
+    const listings=[...all.values()].map(item=>({...item,firstSeenAt:startedAt,lastSeenAt:capturedAt,priceHistory:[{price:item.price,capturedAt}]}));
+    const payload={provider:'Casa.it',search:'Bardonecchia vendita ≤ €260.000',sourcePage,capturedAt,pages,count:listings.length,listings};
     const blobUrl=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));
     const a=document.createElement('a');a.href=blobUrl;a.download=`homeholiday-casa-${capturedAt.slice(0,10)}.json`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(blobUrl),5000);
-    clearState(); alert(`HomeHoliday Casa.it: ${listings.length} annunci esportati. Carica il JSON in ChatGPT.`);
+    console.log(`HomeHoliday Casa.it: completato. ${listings.length} annunci.`);
+    alert(`HomeHoliday Casa.it: ${listings.length} annunci esportati. Carica il JSON in ChatGPT.`);
   }
 
-  const page=currentPage(); let state=loadState();
-  if(!state||(page===1&&state.lastProcessedPage>=page)) state={startedAt:new Date().toISOString(),sourcePage:location.href,pages:[],listings:{},lastProcessedPage:0,emptyPages:0};
   if(document.readyState!=='complete') await new Promise(r=>addEventListener('load',r,{once:true}));
-  await sleep(1800);
+  await sleep(RENDER_WAIT_MS);
 
-  const dom=extractFromDom();
-  console.log(`HomeHoliday Casa.it diagnostics: listingAnchors=${dom.anchorCount}, candidateIds=${dom.candidateIds}, extracted=${dom.items.length}`);
-  console.table(dom.items.slice(0,8).map(x=>({id:x.externalId,price:x.price,title:x.title,sqm:x.sqm,rooms:x.rooms})));
+  const sourcePage=location.href;
+  const startedAt=new Date().toISOString();
+  const all=new Map();
+  const pages=[];
 
-  const before=Object.keys(state.listings).length; for(const item of dom.items) state.listings[item.externalId]=item;
-  const added=Object.keys(state.listings).length-before;
-  state.pages.push({page,found:dom.items.length,added,diagnostics:{listingAnchors:dom.anchorCount,candidateIds:dom.candidateIds}});
-  state.lastProcessedPage=page; state.emptyPages=added===0?state.emptyPages+1:0; saveState(state);
-  console.log(`HomeHoliday Casa.it: pagina ${page}: ${dom.items.length} letti, ${added} nuovi, totale ${Object.keys(state.listings).length}.`);
+  const first=extractFromDocument(document,location.href);
+  for(const item of first.items) all.set(item.externalId,item);
+  pages.push({page:1,found:first.items.length,added:first.items.length,diagnostics:{listingAnchors:first.anchorCount,candidateIds:first.candidateIds,totalResults:totalResults(document)}});
+  console.log(`HomeHoliday Casa.it: pagina 1: ${first.items.length} letti, totale ${all.size}.`);
+  console.table(first.items.slice(0,8).map(x=>({id:x.externalId,price:x.price,title:x.title,sqm:x.sqm,rooms:x.rooms})));
+  if(first.items.length===0){alert('HomeHoliday Casa.it: 0 annunci riconosciuti sulla pagina 1. Non è stato creato alcun JSON.');return;}
 
-  if(page===1&&dom.items.length===0){clearState();alert('HomeHoliday Casa.it: 0 annunci riconosciuti. Inviami la riga diagnostics della Console.');return;}
+  let currentUrl=new URL(location.href);
+  currentUrl.searchParams.delete('page');
+  let page=2;
+  let emptyPages=0;
 
-  const nextLink=[...document.querySelectorAll('a[href]')].find(a=>{try{return Number(new URL(a.href,location.href).searchParams.get('page'))===page+1;}catch{return false;}});
-  if(page>=MAX_PAGES||state.emptyPages>=1||!nextLink){download(state);return;}
-  console.log(`HomeHoliday Casa.it: apro pagina ${page+1}. Dopo il caricamento riesegui lo stesso Snippet con Ctrl+Enter.`);
-  location.href=nextLink.href;
+  while(page<=MAX_PAGES){
+    const url=new URL(currentUrl);
+    url.searchParams.set('page',String(page));
+    console.log(`HomeHoliday Casa.it: caricamento automatico pagina ${page}…`);
+    let info;
+    try{info=await loadPageInIframe(url.href);}catch(err){console.warn(`HomeHoliday Casa.it: stop pagina ${page}: ${err.message}`);break;}
+    const before=all.size;
+    for(const item of info.extracted.items) all.set(item.externalId,item);
+    const added=all.size-before;
+    pages.push({page,found:info.extracted.items.length,added,diagnostics:{listingAnchors:info.extracted.anchorCount,candidateIds:info.extracted.candidateIds,totalResults:info.total}});
+    console.log(`HomeHoliday Casa.it: pagina ${page}: ${info.extracted.items.length} letti, ${added} nuovi, totale ${all.size}.`);
+    emptyPages=added===0?emptyPages+1:0;
+    if(emptyPages>=1) break;
+    if(!info.nextHref) break;
+    page+=1;
+    await sleep(BETWEEN_PAGES_MS);
+  }
+
+  download(all,pages,sourcePage,startedAt);
 })();
