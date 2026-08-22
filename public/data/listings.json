@@ -7,7 +7,7 @@
       "location": "Bardonecchia",
       "price": 170000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd36vrg-torino-657203379.htm",
@@ -28,7 +28,7 @@
       "location": "Bardonecchia",
       "price": 197000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-59-m%C2%B2-con-3-locali-a-bardonecchia-torino-656009608.htm",
@@ -55,7 +55,7 @@
       "location": "Bardonecchia",
       "price": 250000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-78-m%C2%B2-con-3-locali-e-box-auto-a-ba-torino-655695221.htm",
@@ -81,7 +81,7 @@
       "location": "Bardonecchia",
       "price": 185000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-60-m%C2%B2-con-2-locali-e-box-auto-a-ba-torino-655155246.htm",
@@ -107,7 +107,7 @@
       "location": "Bardonecchia",
       "price": 240000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd03vrg-torino-655015008.htm",
@@ -128,7 +128,7 @@
       "location": "Bardonecchia",
       "price": 165000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-96-m%C2%B2-con-3-locali-a-bardonecchia-torino-654682069.htm",
@@ -149,7 +149,7 @@
       "location": "Bardonecchia",
       "price": 123000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-torino-bardonecchia-25vrg-torino-654314783.htm",
@@ -170,7 +170,7 @@
       "location": "Bardonecchia",
       "price": 115000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd18vrg-torino-652425446.htm",
@@ -191,13 +191,13 @@
       "location": "Bardonecchia",
       "price": 55000,
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/uffici-locali-commerciali/immobile-di-40-m%C2%B2-a-bardonecchia-torino-651443588.htm",
       "sqm": 40,
       "rooms": 1,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 55000,
@@ -212,7 +212,7 @@
       "location": "Bardonecchia",
       "price": 210000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/3-locali-a-bardonecchia-torino-651310781.htm",
@@ -243,7 +243,7 @@
       "sourceUrl": "https://www.immobiliare.it/annunci/105261457/",
       "sqm": 55,
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 110000,
@@ -251,7 +251,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "immobiliare-130790504",
@@ -263,7 +263,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/130790504/",
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 155000,
@@ -271,7 +271,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "immobiliare-124664157",
@@ -283,7 +283,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/124664157/",
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 247000,
@@ -291,7 +291,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "1cff049aca",
       "duplicateSources": [
         "Immobiliare.it",
@@ -308,7 +308,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/118853945/",
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 175000,
@@ -316,7 +316,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "immobiliare-131385270",
@@ -328,7 +328,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/131385270/",
       "rooms": 3,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 197000,
@@ -336,7 +336,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "ac28adf88c",
       "duplicateSources": [
         "Subito.it",
@@ -354,7 +354,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/128963784/",
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 165000,
@@ -362,7 +362,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "immobiliare-128150652",
@@ -374,7 +374,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/128150652/",
       "rooms": 3,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 210000,
@@ -382,7 +382,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "2742925fe1",
       "duplicateSources": [
         "Subito.it",
@@ -400,7 +400,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/130995386/",
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 185000,
@@ -408,7 +408,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "921a2d369a",
       "duplicateSources": [
         "Subito.it",
@@ -425,7 +425,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/127405041/",
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 159000,
@@ -433,7 +433,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "4abde39317",
       "duplicateSources": [
         "Immobiliare.it",
@@ -450,7 +450,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/35763326/",
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 169000,
@@ -458,7 +458,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "05010d4f99",
       "duplicateSources": [
         "Immobiliare.it",
@@ -475,7 +475,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/127130063/",
       "rooms": 1,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 59000,
@@ -483,7 +483,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "immobiliare-128966152",
@@ -495,7 +495,7 @@
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/128966152/",
       "rooms": 3,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 250000,
@@ -503,7 +503,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "4de179cb88",
       "duplicateSources": [
         "Subito.it",
@@ -521,7 +521,7 @@
       "sourceUrl": "https://www.casa.it/immobili/42184921/",
       "sqm": 75,
       "rooms": 3,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 195000,
@@ -529,7 +529,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "ac28adf88c",
       "duplicateSources": [
         "Subito.it",
@@ -548,7 +548,7 @@
       "sourceUrl": "https://www.casa.it/immobili/53906099/",
       "sqm": 90,
       "rooms": 4,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 109125,
@@ -556,7 +556,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "casa-53376120",
@@ -569,7 +569,7 @@
       "sourceUrl": "https://www.casa.it/immobili/53376120/",
       "sqm": 51,
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 160000,
@@ -577,7 +577,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "4abde39317",
       "duplicateSources": [
         "Immobiliare.it",
@@ -595,7 +595,7 @@
       "sourceUrl": "https://www.casa.it/immobili/53120423/",
       "sqm": 70,
       "rooms": 3,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 165000,
@@ -603,7 +603,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "casa-53894274",
@@ -616,7 +616,7 @@
       "sourceUrl": "https://www.casa.it/immobili/53894274/",
       "sqm": 90,
       "rooms": 1,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 109125,
@@ -624,7 +624,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "casa-52753450",
@@ -637,7 +637,7 @@
       "sourceUrl": "https://www.casa.it/immobili/52753450/",
       "sqm": 80,
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 247000,
@@ -645,7 +645,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "1cff049aca",
       "duplicateSources": [
         "Immobiliare.it",
@@ -663,7 +663,7 @@
       "sourceUrl": "https://www.casa.it/immobili/50230708/",
       "sqm": 50,
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 180000,
@@ -671,7 +671,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "casa-49300397",
@@ -684,7 +684,7 @@
       "sourceUrl": "https://www.casa.it/immobili/49300397/",
       "sqm": 48,
       "rooms": 2,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 170000,
@@ -692,7 +692,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "05010d4f99",
       "duplicateSources": [
         "Immobiliare.it",
@@ -710,7 +710,7 @@
       "sourceUrl": "https://www.casa.it/immobili/53895121/",
       "sqm": 90,
       "rooms": 3,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 109125,
@@ -718,7 +718,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "casa-52703120",
@@ -731,7 +731,7 @@
       "sourceUrl": "https://www.casa.it/immobili/52703120/",
       "sqm": 70,
       "rooms": 4,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 165000,
@@ -739,7 +739,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "casa-54493489",
@@ -752,7 +752,7 @@
       "sourceUrl": "https://www.casa.it/immobili/54493489/",
       "sqm": 90,
       "rooms": 4,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 109126,
@@ -760,7 +760,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     },
     {
       "id": "casa-53734901",
@@ -773,7 +773,7 @@
       "sourceUrl": "https://www.casa.it/immobili/53734901/",
       "sqm": 56,
       "rooms": 3,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 210000,
@@ -781,7 +781,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T14:38:43.212Z",
       "duplicateGroupId": "2742925fe1",
       "duplicateSources": [
         "Subito.it",
@@ -800,7 +800,7 @@
       "sourceUrl": "https://www.casa.it/immobili/54490527/",
       "sqm": 90,
       "rooms": 4,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 109125,
@@ -808,34 +808,34 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T14:03:52.603Z"
+      "lastSeenAt": "2026-08-22T14:38:43.212Z"
     }
   ],
-  "refreshedAt": "2026-08-22T14:03:52.603Z",
+  "refreshedAt": "2026-08-22T14:38:43.212Z",
   "providerStatus": {
     "casa": {
-      "ok": true,
-      "checkedAt": "2026-08-22T14:03:52.603Z",
-      "count": 0
+      "ok": false,
+      "checkedAt": "2026-08-22T14:38:43.212Z",
+      "message": "Casa.it public access declined (403)"
     },
     "idealista": {
       "ok": false,
-      "checkedAt": "2026-08-22T14:03:52.603Z",
+      "checkedAt": "2026-08-22T14:38:43.212Z",
       "message": "Idealista public access declined (403)"
     },
     "subito": {
       "ok": true,
-      "checkedAt": "2026-08-22T14:03:52.603Z",
+      "checkedAt": "2026-08-22T14:38:43.212Z",
       "count": 10
     },
     "bakeca": {
       "ok": false,
-      "checkedAt": "2026-08-22T14:03:52.603Z",
+      "checkedAt": "2026-08-22T14:38:43.212Z",
       "message": "Bakeca.it public access declined (403)"
     },
     "bootstrap": {
       "ok": true,
-      "checkedAt": "2026-08-22T14:03:52.603Z",
+      "checkedAt": "2026-08-22T14:38:43.212Z",
       "count": 25,
       "message": "Initial Immobiliare.it + Casa.it snapshot"
     }
