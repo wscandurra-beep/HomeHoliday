@@ -132,7 +132,21 @@ if (!searches.length && !bootstrapListings.length) {
 
 const { incoming, providerStatus, successfulSources } = await collectFromConnectors(searches, now);
 const mergedIncoming = [...incoming, ...bootstrapListings];
-providerStatus.bootstrap = { ok: true, checkedAt: now, count: bootstrapListings.length, message: 'Initial multi-source snapshot' };
+const bootstrapSourceCounts = Object.entries(bootstrapListings.reduce((counts, listing) => {
+  counts[listing.source] = (counts[listing.source] ?? 0) + 1;
+  return counts;
+}, {})).sort(([a], [b]) => a.localeCompare(b));
+const bootstrapSourceMessage = `Fonti: ${bootstrapSourceCounts.map(([source, count]) => `${source} (${count})`).join(', ')}`;
+providerStatus.bootstrap = { ok: true, checkedAt: now, count: bootstrapListings.length, message: bootstrapSourceMessage };
+const bootstrapImmobiliareCount = bootstrapSourceCounts.find(([source]) => source === 'Immobiliare.it')?.[1];
+if (bootstrapImmobiliareCount && !providerStatus['immobiliare-public'] && !providerStatus.immobiliare) {
+  providerStatus['immobiliare-public'] = {
+    ok: true,
+    checkedAt: now,
+    count: bootstrapImmobiliareCount,
+    message: 'Dati disponibili dal bootstrap'
+  };
+}
 const reconciled = reconcile(store.listings ?? [], mergedIncoming, now, successfulSources);
 const listings = annotateDuplicateGroups(reconciled);
 await fs.mkdir(dataDir, { recursive: true });
