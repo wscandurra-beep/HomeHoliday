@@ -1,6 +1,6 @@
 /*
 HomeHoliday – Immobiliare.it session exporter
-Run this JavaScript on an open Immobiliare.it Bardonecchia search page from Safari/Shortcuts.
+Run this JavaScript on an open Immobiliare.it Bardonecchia search page from Chrome/Edge DevTools Snippets.
 It uses the current browser session and same-origin requests only.
 */
 (async () => {
@@ -67,13 +67,25 @@ It uses the current browser session and same-origin requests only.
   let consecutiveEmpty = 0;
   const pages = [];
 
+  console.log(`HomeHoliday: avvio estrazione da ${base.href}`);
+
   for (let page = 1; page <= MAX_PAGES; page += 1) {
     const url = new URL(base);
     if (page > 1) url.searchParams.set('pag', String(page));
     else url.searchParams.delete('pag');
 
+    console.log(`HomeHoliday: pagina ${page}…`);
     const response = await fetch(url.href, { credentials: 'include', cache: 'no-store' });
+
+    // Immobiliare.it returns 404 when requesting a page beyond the last valid page.
+    // Once at least one page has been read, this means normal end of pagination.
+    if (response.status === 404 && page > 1) {
+      pages.push({ page, found: 0, added: 0, endOfResults: true });
+      console.log(`HomeHoliday: pagina ${page} non esiste (404) → fine risultati.`);
+      break;
+    }
     if (!response.ok) throw new Error(`Pagina ${page}: HTTP ${response.status}`);
+
     const html = await response.text();
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const items = extractFromDocument(doc, url.href);
@@ -81,10 +93,14 @@ It uses the current browser session and same-origin requests only.
     items.forEach((item) => all.set(item.externalId, item));
     const added = all.size - before;
     pages.push({ page, found: items.length, added });
+    console.log(`HomeHoliday: pagina ${page}: ${items.length} letti, ${added} nuovi, totale ${all.size}.`);
 
     if (added === 0) consecutiveEmpty += 1;
     else consecutiveEmpty = 0;
-    if (consecutiveEmpty >= 2) break;
+    if (consecutiveEmpty >= 2) {
+      console.log('HomeHoliday: due pagine senza nuovi annunci → fine risultati.');
+      break;
+    }
     await sleep(SLEEP_MS);
   }
 
@@ -108,12 +124,14 @@ It uses the current browser session and same-origin requests only.
 
   const json = JSON.stringify(payload, null, 2);
   const blob = new Blob([json], { type: 'application/json' });
+  const blobUrl = URL.createObjectURL(blob);
   const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
+  a.href = blobUrl;
   a.download = `homeholiday-immobiliare-${capturedAt.slice(0, 10)}.json`;
   document.body.appendChild(a);
   a.click();
   a.remove();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-  alert(`HomeHoliday: ${listings.length} annunci esportati da ${pages.length} pagine.`);
+  setTimeout(() => URL.revokeObjectURL(blobUrl), 5000);
+  console.log(`HomeHoliday: completato. ${listings.length} annunci da ${pages.filter(p => !p.endOfResults).length} pagine valide.`);
+  alert(`HomeHoliday: ${listings.length} annunci esportati da ${pages.filter(p => !p.endOfResults).length} pagine valide.`);
 })();
