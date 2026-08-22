@@ -81,9 +81,73 @@ function titleFromAnchor(inner, chunk, location) {
   return parsed || `Immobile a ${location}`;
 }
 
+function addListing(result, provider, search, now, raw) {
+  const def = PROVIDERS[provider];
+  const location = String(search.location || '').trim();
+  const url = absolutize(raw.url || '', def.baseUrl);
+  const price = Number(raw.price || 0);
+  if (!url || !price || price < (search.minPrice ?? 0) || price > (search.maxPrice ?? Number.MAX_SAFE_INTEGER)) return;
+  const externalId = idFromUrl(url);
+  result.set(`${def.source}:${externalId}`, {
+    id: `${provider}-${externalId}`,
+    externalId,
+    title: String(raw.title || `Immobile a ${location}`).slice(0, 180),
+    location: location || raw.location || 'Località non disponibile',
+    price,
+    publishedAt: raw.publishedAt,
+    firstSeenAt: now,
+    lastSeenAt: now,
+    sellerType: raw.sellerType || 'Agenzia',
+    source: def.source,
+    sourceUrl: url,
+    sqm: raw.sqm ? Number(raw.sqm) : undefined,
+    rooms: raw.rooms ? Number(raw.rooms) : undefined,
+    status: 'ACTIVE',
+    priceHistory: []
+  });
+}
+
+function walkJson(value, visit) {
+  if (Array.isArray(value)) return value.forEach((x) => walkJson(x, visit));
+  if (!value || typeof value !== 'object') return;
+  visit(value);
+  Object.values(value).forEach((x) => walkJson(x, visit));
+}
+
+function parseStructuredListings(html, provider, search, now, result) {
+  const scripts = html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi);
+  for (const match of scripts) {
+    try {
+      const json = JSON.parse(decode(match[1]).trim());
+      walkJson(json, (item) => {
+        const offers = item.offers || item.offer || {};
+        const price = Number(offers.price ?? offers.lowPrice ?? item.price ?? 0);
+        const url = item.url ?? offers.url;
+        if (!price || !url) return;
+        const text = JSON.stringify(item);
+        const location = String(search.location || '').trim();
+        if (location && !text.toLowerCase().includes(location.toLowerCase())) return;
+        const size = item.floorSize?.value ?? item.floorSize ?? item.area?.value ?? item.area;
+        const rooms = item.numberOfRooms ?? item.numberOfBedrooms;
+        addListing(result, provider, search, now, {
+          url,
+          price,
+          title: item.name ?? item.headline ?? item.description,
+          sqm: size,
+          rooms,
+          sellerType: /privat[oa]/i.test(text) && !/agenzia/i.test(text) ? 'Privato' : 'Agenzia',
+          publishedAt: item.datePosted ? String(item.datePosted).slice(0, 10) : undefined
+        });
+      });
+    } catch { /* ignore malformed structured data */ }
+  }
+}
+
 function parseListings(html, provider, search, now) {
   const def = PROVIDERS[provider];
   const result = new Map();
+  parseStructuredListings(html, provider, search, now, result);
+
   const anchorRe = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
   let match;
   while ((match = anchorRe.exec(html))) {
@@ -98,25 +162,15 @@ function parseListings(html, provider, search, now) {
     const location = String(search.location || '').trim();
     if (location && !text.toLowerCase().includes(location.toLowerCase())) continue;
     const price = parsePrice(text);
-    if (!price || price < (search.minPrice ?? 0) || price > (search.maxPrice ?? Number.MAX_SAFE_INTEGER)) continue;
-    const externalId = idFromUrl(url);
-    const sellerType = /\bprivat[oa]\b/i.test(text) && !/\bagenzia\b/i.test(text) ? 'Privato' : 'Agenzia';
-    result.set(`${def.source}:${externalId}`, {
-      id: `${provider}-${externalId}`,
-      externalId,
-      title: titleFromAnchor(match[2], chunk, location),
-      location: location || 'Località non disponibile',
+    if (!price) continue;
+    addListing(result, provider, search, now, {
+      url,
       price,
-      publishedAt: parsePublishedAt(text),
-      firstSeenAt: now,
-      lastSeenAt: now,
-      sellerType,
-      source: def.source,
-      sourceUrl: url,
+      title: titleFromAnchor(match[2], chunk, location),
       sqm: parseSqm(text),
       rooms: parseRooms(text),
-      status: 'ACTIVE',
-      priceHistory: []
+      publishedAt: parsePublishedAt(text),
+      sellerType: /\bprivat[oa]\b/i.test(text) && !/\bagenzia\b/i.test(text) ? 'Privato' : 'Agenzia'
     });
   }
   return [...result.values()];
@@ -131,9 +185,7 @@ async function fetchPage(url, source) {
     },
     redirect: 'follow'
   });
-  if (response.status === 403 || response.status === 429) {
-    throw new Error(`${source} public access declined (${response.status})`);
-  }
+  if (response.status === 403 || response.status === 429) throw new Error(`${source} public access declined (${response.status})`);
   if (!response.ok) throw new Error(`${source} request failed (${response.status})`);
   return response.text();
 }
@@ -145,9 +197,7 @@ export async function fetchPublicPortalListings(provider, searches, now = new Da
   for (const search of searches) {
     const url = search.url || def.buildUrl(search);
     const html = await fetchPage(url, def.source);
-    for (const listing of parseListings(html, provider, search, now)) {
-      output.set(`${listing.source}:${listing.externalId}`, listing);
-    }
+    for (const listing of parseListings(html, provider, search, now)) output.set(`${listing.source}:${listing.externalId}`, listing);
   }
   return [...output.values()];
 }
