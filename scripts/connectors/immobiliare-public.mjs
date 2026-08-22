@@ -3,6 +3,8 @@ const DEFAULT_HEADERS = {
   'Accept-Language': 'it-IT,it;q=0.9,en;q=0.8'
 };
 
+const ABSOLUTE_MAX_PAGES = 50;
+
 function decode(text='') {
   return text
     .replace(/&nbsp;/g,' ')
@@ -58,7 +60,8 @@ function listingIds(html) {
 function makeUrl(base, page, minPrice, maxPrice) {
   const url = new URL(base);
   url.searchParams.set('criterio','rilevanza');
-  if (minPrice != null) url.searchParams.set('prezzoMinimo', String(minPrice));
+  if (minPrice != null && Number(minPrice) > 0) url.searchParams.set('prezzoMinimo', String(minPrice));
+  else url.searchParams.delete('prezzoMinimo');
   if (maxPrice != null) url.searchParams.set('prezzoMassimo', String(maxPrice));
   if (page > 1) url.searchParams.set('pag', String(page));
   else url.searchParams.delete('pag');
@@ -107,25 +110,42 @@ function extractListings(html, search, privateIds, now) {
   return [...output.values()];
 }
 
+async function collectAllPages(baseUrl, search, onPage) {
+  const configuredLimit = Number(search.maxPages ?? ABSOLUTE_MAX_PAGES);
+  const maxPages = Math.min(Math.max(configuredLimit, 1), ABSOLUTE_MAX_PAGES);
+  const seenIds = new Set();
+
+  for (let page = 1; page <= maxPages; page += 1) {
+    const html = await getPage(makeUrl(baseUrl, page, search.minPrice, search.maxPrice));
+    const ids = listingIds(html);
+    const freshIds = [...ids].filter(id => !seenIds.has(id));
+
+    if (ids.size === 0 || freshIds.length === 0) break;
+    freshIds.forEach(id => seenIds.add(id));
+    await onPage(html, page, ids);
+  }
+
+  return seenIds;
+}
+
 export async function fetchImmobiliarePublicListings(searches, now = new Date().toISOString()) {
   const result = new Map();
+
   for (const search of searches) {
-    const maxPages = Math.min(Math.max(Number(search.maxPages ?? 3), 1), 5);
     const privateIds = new Set();
 
     if (search.privateSearchUrl) {
-      for (let page = 1; page <= maxPages; page++) {
-        const html = await getPage(makeUrl(search.privateSearchUrl, page, search.minPrice, search.maxPrice));
-        for (const id of listingIds(html)) privateIds.add(id);
-      }
+      await collectAllPages(search.privateSearchUrl, search, async (_html, _page, ids) => {
+        ids.forEach(id => privateIds.add(id));
+      });
     }
 
-    for (let page = 1; page <= maxPages; page++) {
-      const html = await getPage(makeUrl(search.searchUrl, page, search.minPrice, search.maxPrice));
+    await collectAllPages(search.searchUrl, search, async (html) => {
       for (const listing of extractListings(html, search, privateIds, now)) {
         result.set(`${listing.source}:${listing.externalId}`, listing);
       }
-    }
+    });
   }
+
   return [...result.values()];
 }
