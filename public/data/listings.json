@@ -7,7 +7,7 @@
       "location": "Bardonecchia",
       "price": 170000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd36vrg-torino-657203379.htm",
@@ -28,7 +28,7 @@
       "location": "Bardonecchia",
       "price": 197000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-59-m%C2%B2-con-3-locali-a-bardonecchia-torino-656009608.htm",
@@ -49,7 +49,7 @@
       "location": "Bardonecchia",
       "price": 250000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-78-m%C2%B2-con-3-locali-e-box-auto-a-ba-torino-655695221.htm",
@@ -70,7 +70,7 @@
       "location": "Bardonecchia",
       "price": 185000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-60-m%C2%B2-con-2-locali-e-box-auto-a-ba-torino-655155246.htm",
@@ -91,7 +91,7 @@
       "location": "Bardonecchia",
       "price": 240000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd03vrg-torino-655015008.htm",
@@ -112,7 +112,7 @@
       "location": "Bardonecchia",
       "price": 165000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-96-m%C2%B2-con-3-locali-a-bardonecchia-torino-654682069.htm",
@@ -133,7 +133,7 @@
       "location": "Bardonecchia",
       "price": 123000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-torino-bardonecchia-25vrg-torino-654314783.htm",
@@ -154,7 +154,7 @@
       "location": "Bardonecchia",
       "price": 115000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd18vrg-torino-652425446.htm",
@@ -175,7 +175,7 @@
       "location": "Bardonecchia",
       "price": 210000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T06:59:37.728Z",
+      "lastSeenAt": "2026-08-22T08:47:55.343Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/3-locali-a-bardonecchia-torino-651310781.htm",
@@ -190,26 +190,26 @@
       ]
     }
   ],
-  "refreshedAt": "2026-08-22T06:59:37.728Z",
+  "refreshedAt": "2026-08-22T08:47:55.343Z",
   "providerStatus": {
     "casa": {
-      "ok": false,
-      "checkedAt": "2026-08-22T06:59:37.728Z",
-      "message": "Casa.it public access declined (403)"
+      "ok": true,
+      "checkedAt": "2026-08-22T08:47:55.343Z",
+      "count": 0
     },
     "idealista": {
       "ok": false,
-      "checkedAt": "2026-08-22T06:59:37.728Z",
+      "checkedAt": "2026-08-22T08:47:55.343Z",
       "message": "Idealista public access declined (403)"
     },
     "subito": {
       "ok": true,
-      "checkedAt": "2026-08-22T06:59:37.728Z",
+      "checkedAt": "2026-08-22T08:47:55.343Z",
       "count": 9
     },
     "bakeca": {
       "ok": false,
-      "checkedAt": "2026-08-22T06:59:37.728Z",
+      "checkedAt": "2026-08-22T08:47:55.343Z",
       "message": "Bakeca.it public access declined (403)"
     }
   }
