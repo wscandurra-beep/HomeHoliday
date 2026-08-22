@@ -1,14 +1,25 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fetchImmobiliareListings } from './connectors/immobiliare-insights.mjs';
 
 const dataDir = path.resolve('data');
 const storePath = path.join(dataDir, 'listings.json');
+const searchesPath = path.resolve('config/tracked-searches.json');
 
 async function readStore() {
   try {
     return JSON.parse(await fs.readFile(storePath, 'utf8'));
   } catch {
     return { listings: [], refreshedAt: null };
+  }
+}
+
+async function readSearches() {
+  try {
+    const searches = JSON.parse(await fs.readFile(searchesPath, 'utf8'));
+    return Array.isArray(searches) ? searches.filter((x) => x.active) : [];
+  } catch {
+    return [];
   }
 }
 
@@ -31,6 +42,7 @@ function reconcile(previous, incoming, now) {
       ...old,
       ...item,
       status: wasRemoved ? 'BACK_ONLINE' : priceChanged ? 'UPDATED' : 'ACTIVE',
+      firstSeenAt: old.firstSeenAt,
       lastSeenAt: now,
       priceHistory: priceChanged ? [...(old.priceHistory ?? []), { price: item.price, capturedAt: now }] : (old.priceHistory ?? [])
     });
@@ -43,14 +55,27 @@ function reconcile(previous, incoming, now) {
   return next;
 }
 
-async function collectFromConnectors() {
-  // Real providers will be added here. Each provider must return normalized listings.
-  return [];
+async function collectFromConnectors(searches, now) {
+  const incoming = [];
+  const immobiliareSearches = searches.filter((x) => x.provider === 'immobiliare');
+
+  if (immobiliareSearches.length) {
+    incoming.push(...await fetchImmobiliareListings(immobiliareSearches, now));
+  }
+
+  return incoming;
 }
 
 const now = new Date().toISOString();
 const store = await readStore();
-const incoming = await collectFromConnectors();
+const searches = await readSearches();
+
+if (!searches.length) {
+  console.log('HomeHoliday refresh skipped: no active tracked searches configured.');
+  process.exit(0);
+}
+
+const incoming = await collectFromConnectors(searches, now);
 const listings = reconcile(store.listings ?? [], incoming, now);
 await fs.mkdir(dataDir, { recursive: true });
 await fs.writeFile(storePath, JSON.stringify({ listings, refreshedAt: now }, null, 2) + '\n');
