@@ -154,7 +154,12 @@ Immobiliare.it public terms restrict commercial exploitation of information from
 
 ## Current status
 
-The Immobiliare.it connector is implemented and wired into the two-hour worker, but it cannot make live production calls until valid Immobiliare.it Insights credentials are added and at least one tracked search is activated with a valid municipality taxonomy ID.
+The Immobiliare.it connector is implemented and wired into the two-hour worker, but live production monitoring is not yet active. Activation requires:
+
+1. valid Immobiliare.it Insights credentials;
+2. a valid Immobiliare.it municipality taxonomy ID for each tracked area;
+3. the corresponding entry in `config/tracked-searches.json` set to `active: true`;
+4. the credentials stored as GitHub Actions secrets.
 
 The React UI still uses demo data independently from the scheduled repository data. Connecting the generated listing store to the UI is the next application step.
 
