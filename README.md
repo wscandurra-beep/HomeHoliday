@@ -104,14 +104,7 @@ Example:
 
 `municipalityID` is an Immobiliare.it Insights taxonomy identifier, not free text. Municipality IDs can be obtained using the official location taxonomy endpoints once API access is available.
 
-Supported connector filters currently include:
-
-- municipality
-- minimum / maximum price
-- minimum / maximum surface
-- contract type
-- publication status
-- client type when enabled by the API account
+Supported connector filters currently include municipality, minimum/maximum price, minimum/maximum surface, contract type, publication status and client type when enabled by the API account.
 
 Results are normalized into the shared HomeHoliday listing model and include, when provided by the API, title, municipality, price, surface, rooms, source URL, publication/update date, image, seller type and address.
 
@@ -154,12 +147,7 @@ Immobiliare.it public terms restrict commercial exploitation of information from
 
 ## Current status
 
-The Immobiliare.it connector is implemented and wired into the two-hour worker, but live production monitoring is not yet active. Activation requires:
-
-1. valid Immobiliare.it Insights credentials;
-2. a valid Immobiliare.it municipality taxonomy ID for each tracked area;
-3. the corresponding entry in `config/tracked-searches.json` set to `active: true`;
-4. the credentials stored as GitHub Actions secrets.
+The Immobiliare.it connector is implemented and wired into the two-hour worker, but live production monitoring is not yet active. Activation requires valid Immobiliare.it Insights credentials, a valid municipality taxonomy ID for each tracked area, `active: true` on the corresponding tracked search, and the credentials stored as GitHub Actions secrets.
 
 The React UI still uses demo data independently from the scheduled repository data. Connecting the generated listing store to the UI is the next application step.
 
