@@ -1,9 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import crypto from 'node:crypto';
 import { fetchImmobiliareListings } from './connectors/immobiliare-insights.mjs';
 import { fetchImmobiliarePublicListings } from './connectors/immobiliare-public.mjs';
 import { fetchPublicPortalListings } from './connectors/public-portals.mjs';
+import { annotateDuplicateGroups } from './deduplicate-listings.mjs';
 
 const dataDir = path.resolve('public/data');
 const storePath = path.join(dataDir, 'listings.json');
@@ -86,48 +86,6 @@ function reconcile(previous, incoming, now, successfulSources) {
     else next.push(old);
   }
   return next;
-}
-
-function closeEnough(a, b, tolerance) {
-  if (!a || !b) return true;
-  return Math.abs(a - b) / Math.max(a, b) <= tolerance;
-}
-
-function likelySameProperty(a, b) {
-  if (a.source === b.source) return false;
-  if (String(a.location).toLowerCase() !== String(b.location).toLowerCase()) return false;
-  if (!closeEnough(a.price, b.price, 0.015)) return false;
-  if (!closeEnough(a.sqm, b.sqm, 0.03)) return false;
-  if (a.rooms && b.rooms && Number(a.rooms) !== Number(b.rooms)) return false;
-  return true;
-}
-
-function annotateDuplicateGroups(listings) {
-  const groups = [];
-  const assigned = new Set();
-  for (let i = 0; i < listings.length; i += 1) {
-    if (assigned.has(i)) continue;
-    const members = [i];
-    for (let j = i + 1; j < listings.length; j += 1) {
-      if (!assigned.has(j) && members.some((idx) => likelySameProperty(listings[idx], listings[j]))) members.push(j);
-    }
-    if (members.length > 1) {
-      members.forEach((idx) => assigned.add(idx));
-      groups.push(members);
-    }
-  }
-
-  const result = listings.map((x) => ({ ...x, duplicateGroupId: undefined, duplicateSources: undefined }));
-  for (const members of groups) {
-    const seed = members.map((i) => `${result[i].source}:${result[i].externalId}`).sort().join('|');
-    const groupId = crypto.createHash('sha1').update(seed).digest('hex').slice(0, 10);
-    const sources = [...new Set(members.map((i) => result[i].source))];
-    members.forEach((i) => {
-      result[i].duplicateGroupId = groupId;
-      result[i].duplicateSources = sources;
-    });
-  }
-  return result;
 }
 
 async function runProvider(provider, providerSearches, now) {
