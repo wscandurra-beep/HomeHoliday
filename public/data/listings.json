@@ -1,4 +1,216 @@
 {
-  "listings": [],
-  "refreshedAt": null
+  "listings": [
+    {
+      "id": "subito-657203379",
+      "externalId": "657203379",
+      "title": "Appartamento Bardonecchia [BD36VRG]",
+      "location": "Bardonecchia",
+      "price": 170000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd36vrg-torino-657203379.htm",
+      "sqm": 95,
+      "rooms": 5,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    },
+    {
+      "id": "subito-656009608",
+      "externalId": "656009608",
+      "title": "Appartamento di 59 m² con 3 locali a Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 197000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-59-m%C2%B2-con-3-locali-a-bardonecchia-torino-656009608.htm",
+      "sqm": 59,
+      "rooms": 3,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 197000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    },
+    {
+      "id": "subito-655695221",
+      "externalId": "655695221",
+      "title": "Appartamento di 78 m² con 3 locali e box auto a Ba",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-78-m%C2%B2-con-3-locali-e-box-auto-a-ba-torino-655695221.htm",
+      "sqm": 78,
+      "rooms": 3,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    },
+    {
+      "id": "subito-655155246",
+      "externalId": "655155246",
+      "title": "Appartamento di 60 m² con 2 locali e box auto a Ba",
+      "location": "Bardonecchia",
+      "price": 185000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-60-m%C2%B2-con-2-locali-e-box-auto-a-ba-torino-655155246.htm",
+      "sqm": 60,
+      "rooms": 2,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 185000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    },
+    {
+      "id": "subito-655015008",
+      "externalId": "655015008",
+      "title": "Appartamento Bardonecchia [BD03VRG]",
+      "location": "Bardonecchia",
+      "price": 240000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd03vrg-torino-655015008.htm",
+      "sqm": 100,
+      "rooms": 4,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 240000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    },
+    {
+      "id": "subito-654682069",
+      "externalId": "654682069",
+      "title": "Appartamento di 96 m² con 3 locali a Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 165000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-96-m%C2%B2-con-3-locali-a-bardonecchia-torino-654682069.htm",
+      "sqm": 96,
+      "rooms": 3,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    },
+    {
+      "id": "subito-654314783",
+      "externalId": "654314783",
+      "title": "Appartamento Torino [BARDONECCHIA 25VRG]",
+      "location": "Bardonecchia",
+      "price": 123000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/appartamento-torino-bardonecchia-25vrg-torino-654314783.htm",
+      "sqm": 42,
+      "rooms": 2,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 123000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    },
+    {
+      "id": "subito-652425446",
+      "externalId": "652425446",
+      "title": "Appartamento Bardonecchia [BD18VRG]",
+      "location": "Bardonecchia",
+      "price": 115000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd18vrg-torino-652425446.htm",
+      "sqm": 35,
+      "rooms": 1,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 115000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    },
+    {
+      "id": "subito-651310781",
+      "externalId": "651310781",
+      "title": "3 LOCALI A BARDONECCHIA",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "firstSeenAt": "2026-08-22T06:41:21.175Z",
+      "lastSeenAt": "2026-08-22T06:41:21.175Z",
+      "sellerType": "Agenzia",
+      "source": "Subito.it",
+      "sourceUrl": "https://www.subito.it/appartamenti/3-locali-a-bardonecchia-torino-651310781.htm",
+      "sqm": 63,
+      "rooms": 3,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 210000,
+          "capturedAt": "2026-08-22T06:41:21.175Z"
+        }
+      ]
+    }
+  ],
+  "refreshedAt": "2026-08-22T06:41:21.175Z",
+  "providerStatus": {
+    "casa": {
+      "ok": true,
+      "checkedAt": "2026-08-22T06:41:21.175Z",
+      "count": 0
+    },
+    "idealista": {
+      "ok": false,
+      "checkedAt": "2026-08-22T06:41:21.175Z",
+      "message": "Idealista public access declined (403)"
+    },
+    "subito": {
+      "ok": true,
+      "checkedAt": "2026-08-22T06:41:21.175Z",
+      "count": 9
+    },
+    "bakeca": {
+      "ok": false,
+      "checkedAt": "2026-08-22T06:41:21.175Z",
+      "message": "Bakeca.it public access declined (403)"
+    }
+  }
 }
