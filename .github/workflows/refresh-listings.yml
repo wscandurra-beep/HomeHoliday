@@ -1,0 +1,35 @@
+name: Refresh property listings
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh listings
+        run: node scripts/refresh-listings.mjs
+      - name: Commit data changes
+        run: |
+          if git diff --quiet -- data/listings.json; then
+            echo "No listing changes"
+            exit 0
+          fi
+          git config user.name "homeholiday-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/listings.json
+          git commit -m "chore: refresh property listings"
+          git push
