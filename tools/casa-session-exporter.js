@@ -1,80 +1,79 @@
 /*
-HomeHoliday – Casa.it session exporter v3
+HomeHoliday – Casa.it session exporter v4
 Run from Chrome/Edge DevTools > Sources > Snippets while the filtered Casa.it SRP is open.
-Reads the rendered DOM first, then falls back to the full HTML/embedded data when Casa.it does not expose listing anchors directly.
-Progress is persisted in window.name across page navigation.
+Reads the rendered DOM and persists progress in window.name across page navigation.
 */
 (async () => {
   const MAX_PRICE = 260000;
   const MAX_PAGES = 50;
-  const STATE_PREFIX = '__HOMEHOLIDAY_CASA_V3__';
+  const STATE_PREFIX = '__HOMEHOLIDAY_CASA_V4__';
   const clean = (v='') => String(v).replace(/\s+/g,' ').trim();
   const sleep = (ms) => new Promise(r=>setTimeout(r,ms));
 
-  function moneyToNumber(text='') {
+  function euroValues(text='') {
     const s=String(text).replace(/\u00a0/g,' ');
-    for (const re of [/(?:Asta\s+da\s+)?€\s*([\d.]+(?:,\d{1,2})?)/gi,/([\d.]+(?:,\d{1,2})?)\s*€/gi]) {
-      for (const m of s.matchAll(re)) {
+    const values=[];
+    for(const re of [/(?:Asta\s+da\s+)?€\s*([\d.]+(?:,\d{1,2})?)/gi,/([\d.]+(?:,\d{1,2})?)\s*€/gi]) {
+      for(const m of s.matchAll(re)) {
         const n=Number(m[1].replace(/\./g,'').replace(',','.'));
-        if (n>0 && n<=MAX_PRICE) return n;
+        if(Number.isFinite(n) && n>=10000 && n<=MAX_PRICE) values.push(n);
       }
     }
-    return null;
+    return [...new Set(values)].sort((a,b)=>b-a);
   }
+  function moneyToNumber(text='') { return euroValues(text)[0] ?? null; }
   const extractId=(href='')=>String(href).match(/\/immobili\/(\d+)\/?/i)?.[1]||null;
 
   function findCard(link){
-    let node=link;
-    for(let i=0;node&&i<10;i++,node=node.parentElement){
+    let node=link, best=null;
+    for(let i=0;node&&i<12;i++,node=node.parentElement){
       const t=clean(node.textContent||'');
-      if(t.length>=50&&/€|Asta\s+da/i.test(t)&&/m²|mq|local[ei]|bagni?|piano/i.test(t)) return node;
+      const ids=[...node.querySelectorAll?.('a[href*="/immobili/"]')||[]].map(a=>extractId(a.href)).filter(Boolean);
+      const uniqueIds=new Set(ids);
+      if(uniqueIds.size===1 && t.length>=50 && /€/.test(t)) best=node;
+      if(best && /m²|mq|local[ei]|bagni?|piano/i.test(t)) return best;
     }
-    return link.closest('article,li,[data-testid],[class*="card"],[class*="listing"],[class*="property"]')||link.parentElement;
+    return best || link.closest('article,li,[data-testid],[class*="card"],[class*="listing"],[class*="property"]') || link.parentElement;
+  }
+
+  function parseSqm(text='') {
+    const matches=[...String(text).matchAll(/(?:^|\D)(\d{1,3})\s*(?:m²|mq|m2)\b/gi)]
+      .map(m=>Number(m[1])).filter(n=>n>=10&&n<=1000);
+    return matches.length ? matches[0] : undefined;
+  }
+  function parseRooms(text='') {
+    const n=Number(String(text).match(/(?:^|\D)(\d{1,2})\s*(?:locali|locale|vani|vano)\b/i)?.[1]);
+    return n>=1&&n<=30 ? n : undefined;
   }
 
   function buildListing(externalId,href,text,titleHint=''){
     const price=moneyToNumber(text); if(!price) return null;
-    const sqm=text.match(/(\d{1,4})\s*(?:m²|mq|m2)\b/i)?.[1];
-    const rooms=text.match(/(\d{1,2})\s*(?:locali|locale|vani|vano)\b/i)?.[1];
     let title=clean(titleHint);
     if(!title||title.length<5||title.length>220){
       title=clean(text.match(/(?:Monolocale|Bilocale|Trilocale|Quadrilocale|Pentalocale|Appartamento|Attico|Mansarda|Casa\s+(?:indipendente|bifamiliare)|Villa|Rustico|Baita|Bungalow|Chalet)[^€]{0,180}/i)?.[0]||`Immobile Casa.it ${externalId}`);
     }
     return {id:`casa-${externalId}`,externalId,title,location:'Bardonecchia',price,
       sellerType:/Inserzionista\s+privato|\bPrivato\b/i.test(text)?'Privato':'Agenzia',source:'Casa.it',sourceUrl:href,
-      sqm:sqm?Number(sqm):undefined,rooms:rooms?Number(rooms):undefined,status:'ACTIVE'};
+      sqm:parseSqm(text),rooms:parseRooms(text),status:'ACTIVE'};
   }
 
   function extractFromDom(){
     const result=new Map();
-    const anchors=[...document.querySelectorAll('a[href]')];
-    let candidateAnchors=0;
+    const anchors=[...document.querySelectorAll('a[href*="/immobili/"]')];
+    const cards=new Map();
     for(const link of anchors){
       let href; try{href=new URL(link.getAttribute('href'),location.href).href.split('#')[0];}catch{continue;}
-      const id=extractId(href); if(!id) continue; candidateAnchors++;
-      const card=findCard(link), text=clean(card?.textContent||link.textContent||'');
-      const heading=card?.querySelector('h1,h2,h3,h4,h5,[class*="title"],[data-testid*="title"]');
-      const item=buildListing(id,href,text,heading?.textContent||link.textContent||'');
+      const id=extractId(href); if(!id) continue;
+      const card=findCard(link); if(!card) continue;
+      if(!cards.has(id)) cards.set(id,{href,card});
+    }
+    for(const [id,{href,card}] of cards){
+      const text=clean(card.textContent||'');
+      const heading=card.querySelector('h1,h2,h3,h4,h5,[class*="title"],[data-testid*="title"]');
+      const item=buildListing(id,href,text,heading?.textContent||'');
       if(item) result.set(id,item);
     }
-    return {items:[...result.values()],candidateAnchors};
-  }
-
-  function extractFromHtml(){
-    const html=document.documentElement.outerHTML;
-    const result=new Map();
-    const re=/(?:https?:\\?\/\\?\/www\.casa\.it)?\\?\/immobili\\?\/(\d+)\\?\/?/gi;
-    let m, matches=0;
-    while((m=re.exec(html))){
-      matches++;
-      const id=m[1]; if(result.has(id)) continue;
-      const start=Math.max(0,m.index-3500), end=Math.min(html.length,m.index+3500);
-      const chunk=html.slice(start,end).replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ');
-      const text=clean(chunk.replace(/&nbsp;|&#160;/gi,' ').replace(/&euro;|&#8364;/gi,'€').replace(/&amp;/gi,'&'));
-      const item=buildListing(id,`https://www.casa.it/immobili/${id}/`,text,'');
-      if(item) result.set(id,item);
-    }
-    return {items:[...result.values()],htmlMatches:matches};
+    return {items:[...result.values()],candidateIds:cards.size,anchorCount:anchors.length};
   }
 
   function loadState(){if(!window.name.startsWith(STATE_PREFIX))return null;try{return JSON.parse(window.name.slice(STATE_PREFIX.length));}catch{return null;}}
@@ -97,21 +96,16 @@ Progress is persisted in window.name across page navigation.
   await sleep(1800);
 
   const dom=extractFromDom();
-  const html=dom.items.length?{items:[],htmlMatches:0}:extractFromHtml();
-  const items=dom.items.length?dom.items:html.items;
-  console.log(`HomeHoliday Casa.it diagnostics: anchors=${document.querySelectorAll('a[href]').length}, candidateListingAnchors=${dom.candidateAnchors}, htmlListingMatches=${html.htmlMatches}, extracted=${items.length}`);
+  console.log(`HomeHoliday Casa.it diagnostics: listingAnchors=${dom.anchorCount}, candidateIds=${dom.candidateIds}, extracted=${dom.items.length}`);
+  console.table(dom.items.slice(0,8).map(x=>({id:x.externalId,price:x.price,title:x.title,sqm:x.sqm,rooms:x.rooms})));
 
-  const before=Object.keys(state.listings).length; for(const item of items) state.listings[item.externalId]=item;
+  const before=Object.keys(state.listings).length; for(const item of dom.items) state.listings[item.externalId]=item;
   const added=Object.keys(state.listings).length-before;
-  state.pages.push({page,found:items.length,added,diagnostics:{candidateListingAnchors:dom.candidateAnchors,htmlListingMatches:html.htmlMatches}});
+  state.pages.push({page,found:dom.items.length,added,diagnostics:{listingAnchors:dom.anchorCount,candidateIds:dom.candidateIds}});
   state.lastProcessedPage=page; state.emptyPages=added===0?state.emptyPages+1:0; saveState(state);
-  console.log(`HomeHoliday Casa.it: pagina ${page}: ${items.length} letti, ${added} nuovi, totale ${Object.keys(state.listings).length}.`);
+  console.log(`HomeHoliday Casa.it: pagina ${page}: ${dom.items.length} letti, ${added} nuovi, totale ${Object.keys(state.listings).length}.`);
 
-  if(page===1&&items.length===0){
-    clearState();
-    alert('HomeHoliday Casa.it: ancora 0 annunci. Copia dalla Console la riga "HomeHoliday Casa.it diagnostics" e inviamela. Non è stato creato alcun JSON.');
-    return;
-  }
+  if(page===1&&dom.items.length===0){clearState();alert('HomeHoliday Casa.it: 0 annunci riconosciuti. Inviami la riga diagnostics della Console.');return;}
 
   const nextLink=[...document.querySelectorAll('a[href]')].find(a=>{try{return Number(new URL(a.href,location.href).searchParams.get('page'))===page+1;}catch{return false;}});
   if(page>=MAX_PAGES||state.emptyPages>=1||!nextLink){download(state);return;}
