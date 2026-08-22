@@ -1,6 +1,6 @@
 # HomeHoliday
 
-HomeHoliday is a property scouting and monitoring application that consolidates real-estate listings into persistent trackers.
+HomeHoliday is a personal property scouting and monitoring application that consolidates real-estate listings into persistent trackers.
 
 ## MVP
 
@@ -11,9 +11,10 @@ HomeHoliday is a property scouting and monitoring application that consolidates 
 - Status tracking: `NEW`, `ACTIVE`, `UPDATED`, `REMOVED`, `BACK_ONLINE`
 - Price history
 - Connector architecture for multiple listing sources
-- Official Immobiliare.it Insights / Realitycs connector
+- Public Immobiliare.it tracker for personal use
+- Optional official Immobiliare.it Insights / Realitycs connector
 - Scheduled refresh workflow every 2 hours
-- Responsive React interface
+- Responsive React interface published with GitHub Pages
 
 ## Architecture
 
@@ -26,91 +27,43 @@ Normalizer
       ↓
 Reconciliation / status engine
       ↓
-Listing store
+public/data/listings.json
       ↓
-Trackers + UI
+React UI / GitHub Pages
 ```
 
-Provider-specific acquisition logic is isolated from the UI. Front-end connectors live under `src/connectors/`; scheduled server-side data acquisition lives under `scripts/connectors/`.
+Scheduled acquisition lives under `scripts/connectors/`. The worker `scripts/refresh-listings.mjs` runs every two hours through `.github/workflows/refresh-listings.yml`.
 
-The scheduled worker is `scripts/refresh-listings.mjs`. The GitHub Actions workflow `.github/workflows/refresh-listings.yml` invokes it every two hours after the implementation is merged into `main`.
+## Immobiliare.it public tracker
 
-## Immobiliare.it integration
+The active MVP connector is `scripts/connectors/immobiliare-public.mjs`. It reads only configured public search-result pages and does not log in, solve CAPTCHAs, rotate identities or bypass access controls.
 
-HomeHoliday uses the official Immobiliare.it Insights / Realitycs Comps API rather than scraping the public website.
-
-The current connector calls:
-
-- `POST /oauth/token` for OAuth 2.0 authentication
-- `POST /comparables/fullSearchByAttribute` for individual asking listings
-
-The production Comps API base URL is:
-
-```text
-https://comparables.realitycs.it
-```
-
-The sandbox URL is:
-
-```text
-https://sandbox-comparables.realitycs.it
-```
-
-### Required credentials
-
-Access to the API must be enabled by Immobiliare.it Insights. Configure these GitHub Actions repository secrets:
-
-```text
-IMMOBILIARE_CLIENT_ID
-IMMOBILIARE_CLIENT_SECRET
-IMMOBILIARE_USERNAME
-IMMOBILIARE_PASSWORD
-```
-
-Optionally configure the repository variable:
-
-```text
-IMMOBILIARE_BASE_URL=https://comparables.realitycs.it
-```
-
-If `IMMOBILIARE_BASE_URL` is not provided locally, the connector defaults to the production Comps endpoint.
-
-Do not commit credentials to the repository.
-
-### Tracked searches
-
-Automated searches are configured in:
-
-```text
-config/tracked-searches.json
-```
-
-Example:
+The initial active tracker monitors Bardonecchia apartments for sale between €100,000 and €350,000. Configuration is stored in `config/tracked-searches.json`:
 
 ```json
 [
   {
-    "id": "bardonecchia-sale",
+    "id": "bardonecchia-sale-public",
     "name": "Bardonecchia vendita",
-    "provider": "immobiliare",
-    "municipalityID": "<IMMOBILIARE_MUNICIPALITY_ID>",
-    "contractTypeID": 1,
+    "provider": "immobiliare-public",
+    "location": "Bardonecchia",
+    "searchUrl": "https://www.immobiliare.it/vendita-appartamenti/bardonecchia/",
+    "privateSearchUrl": "https://www.immobiliare.it/vendita-appartamenti/bardonecchia/da-privati/",
     "minPrice": 100000,
     "maxPrice": 350000,
+    "maxPages": 3,
     "active": true
   }
 ]
 ```
 
-`municipalityID` is an Immobiliare.it Insights taxonomy identifier, not free text. Municipality IDs can be obtained using the official location taxonomy endpoints once API access is available.
+The connector adds Immobiliare.it's public `prezzoMinimo`, `prezzoMassimo` and `pag` parameters, so it queries only the configured price range and a bounded number of result pages. The separate public private-seller search is used to classify matching listing IDs as `Privato`; other matching results are classified as `Agenzia`.
 
-Supported connector filters currently include municipality, minimum/maximum price, minimum/maximum surface, contract type, publication status and client type when enabled by the API account.
+If Immobiliare.it returns HTTP 403 or 429, the connector stops and reports the failure. It intentionally does not try to evade those controls.
 
-Results are normalized into the shared HomeHoliday listing model and include, when provided by the API, title, municipality, price, surface, rooms, source URL, publication/update date, image, seller type and address.
+## Refresh behavior
 
-### Refresh behavior
-
-The refresh workflow runs every two hours. The reconciliation engine compares each result with the previous snapshot and assigns:
+Every two hours the worker compares the new snapshot with the previous one and assigns:
 
 - `NEW` — first observation
 - `ACTIVE` — listing still present with no price change
@@ -118,9 +71,13 @@ The refresh workflow runs every two hours. The reconciliation engine compares ea
 - `REMOVED` — previously tracked listing no longer returned
 - `BACK_ONLINE` — previously removed listing appears again
 
-Price changes are appended to `priceHistory`.
+Price changes are appended to `priceHistory`. The store is written to `public/data/listings.json`. Because it is under `public/`, Vite includes it in the GitHub Pages deployment. The UI loads this file directly; demo data are used only when the store is empty or unavailable.
 
-The worker deliberately skips execution when no tracked search has `active: true`. The initial Bardonecchia configuration is therefore disabled until a valid Immobiliare.it municipality ID and API credentials are available.
+A refresh commit on `main` also triggers the Pages deployment workflow, so new tracker data become visible on the site automatically.
+
+## Official Immobiliare.it Insights connector
+
+The previous official connector remains available as `scripts/connectors/immobiliare-insights.mjs`. It uses the Immobiliare.it Insights / Realitycs API with OAuth credentials and can be re-enabled later by adding a tracker with `provider: "immobiliare"` and configuring the required GitHub Secrets.
 
 ## Local development
 
@@ -129,34 +86,32 @@ npm install
 npm run dev
 ```
 
-To execute the scheduled data worker locally:
+Run the tracker manually with:
 
 ```bash
-IMMOBILIARE_CLIENT_ID=... \
-IMMOBILIARE_CLIENT_SECRET=... \
-IMMOBILIARE_USERNAME=... \
-IMMOBILIARE_PASSWORD=... \
 node scripts/refresh-listings.mjs
 ```
 
-## Data access and compliance
+No API credentials are required for the currently active public tracker.
 
-HomeHoliday is designed to use authorized APIs, feeds, or other explicitly permitted provider integrations. It does not implement automated scraping of Immobiliare.it.
+## Data access and use
 
-Immobiliare.it public terms restrict commercial exploitation of information from the public site. API access and the data that may be used, retained, displayed or redistributed remain subject to the commercial agreement and permissions granted by Immobiliare.it Insights.
+The public connector is intended for low-frequency, personal monitoring. It stores a compact subset of listing information needed by HomeHoliday: listing ID/link, price, location, approximate surface/rooms when detectable, seller classification and observation history. It links back to the original Immobiliare.it listing instead of reproducing the full listing content.
+
+The connector is intentionally conservative: three result pages by default, one scheduled run every two hours, no login automation, no access-control circumvention and no high-frequency crawling.
 
 ## Current status
 
-The Immobiliare.it connector is implemented and wired into the two-hour worker, but live production monitoring is not yet active. Activation requires valid Immobiliare.it Insights credentials, a valid municipality taxonomy ID for each tracked area, `active: true` on the corresponding tracked search, and the credentials stored as GitHub Actions secrets.
-
-The React UI still uses demo data independently from the scheduled repository data. Connecting the generated listing store to the UI is the next application step.
+- HomeHoliday is published through GitHub Pages.
+- The React UI reads `public/data/listings.json`.
+- Bardonecchia €100k–€350k public monitoring is active in configuration.
+- The refresh Action runs every two hours and can also be started manually from GitHub Actions.
 
 ## Next milestones
 
-1. Obtain and configure Immobiliare.it Insights credentials and municipality IDs.
-2. Activate the first real tracked search and validate the API payload end-to-end.
-3. Connect `data/listings.json` or a database-backed API to the React interface.
-4. Add cross-platform duplicate detection.
-5. Add notification rules for new listings and price drops.
-6. Add additional providers behind the same connector contract.
-7. Add opportunity scoring based on comparable €/m².
+1. Validate the first public refresh payload end-to-end.
+2. Improve extraction of title, surface and agency name where available.
+3. Add cross-platform duplicate detection.
+4. Add notification rules for new listings and price drops.
+5. Add additional providers behind the same connector contract.
+6. Add opportunity scoring based on comparable €/m².
