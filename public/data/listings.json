@@ -7,7 +7,7 @@
       "location": "Bardonecchia",
       "price": 170000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd36vrg-torino-657203379.htm",
@@ -19,6 +19,11 @@
           "price": 170000,
           "capturedAt": "2026-08-22T06:41:21.175Z"
         }
+      ],
+      "duplicateGroupId": "39d70461f9",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
       ]
     },
     {
@@ -28,7 +33,7 @@
       "location": "Bardonecchia",
       "price": 197000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-59-m%C2%B2-con-3-locali-a-bardonecchia-torino-656009608.htm",
@@ -41,11 +46,10 @@
           "capturedAt": "2026-08-22T06:41:21.175Z"
         }
       ],
-      "duplicateGroupId": "ac28adf88c",
+      "duplicateGroupId": "c60db04b54",
       "duplicateSources": [
         "Subito.it",
-        "Immobiliare.it",
-        "Casa.it"
+        "Immobiliare.it"
       ]
     },
     {
@@ -55,7 +59,7 @@
       "location": "Bardonecchia",
       "price": 250000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-78-m%C2%B2-con-3-locali-e-box-auto-a-ba-torino-655695221.htm",
@@ -68,7 +72,7 @@
           "capturedAt": "2026-08-22T06:41:21.175Z"
         }
       ],
-      "duplicateGroupId": "4de179cb88",
+      "duplicateGroupId": "12eac93611",
       "duplicateSources": [
         "Subito.it",
         "Immobiliare.it"
@@ -81,7 +85,7 @@
       "location": "Bardonecchia",
       "price": 185000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-60-m%C2%B2-con-2-locali-e-box-auto-a-ba-torino-655155246.htm",
@@ -94,7 +98,7 @@
           "capturedAt": "2026-08-22T06:41:21.175Z"
         }
       ],
-      "duplicateGroupId": "921a2d369a",
+      "duplicateGroupId": "b4abe838cf",
       "duplicateSources": [
         "Subito.it",
         "Immobiliare.it"
@@ -107,7 +111,7 @@
       "location": "Bardonecchia",
       "price": 240000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd03vrg-torino-655015008.htm",
@@ -119,6 +123,11 @@
           "price": 240000,
           "capturedAt": "2026-08-22T06:41:21.175Z"
         }
+      ],
+      "duplicateGroupId": "0ade76cb7c",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
       ]
     },
     {
@@ -128,7 +137,7 @@
       "location": "Bardonecchia",
       "price": 165000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-di-96-m%C2%B2-con-3-locali-a-bardonecchia-torino-654682069.htm",
@@ -140,6 +149,11 @@
           "price": 165000,
           "capturedAt": "2026-08-22T06:41:21.175Z"
         }
+      ],
+      "duplicateGroupId": "33aa654533",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
       ]
     },
     {
@@ -149,7 +163,7 @@
       "location": "Bardonecchia",
       "price": 123000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-torino-bardonecchia-25vrg-torino-654314783.htm",
@@ -170,7 +184,7 @@
       "location": "Bardonecchia",
       "price": 115000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/appartamento-bardonecchia-bd18vrg-torino-652425446.htm",
@@ -182,6 +196,11 @@
           "price": 115000,
           "capturedAt": "2026-08-22T06:41:21.175Z"
         }
+      ],
+      "duplicateGroupId": "b4fee53048",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
       ]
     },
     {
@@ -191,7 +210,7 @@
       "location": "Bardonecchia",
       "price": 55000,
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/uffici-locali-commerciali/immobile-di-40-m%C2%B2-a-bardonecchia-torino-651443588.htm",
@@ -212,7 +231,7 @@
       "location": "Bardonecchia",
       "price": 210000,
       "firstSeenAt": "2026-08-22T06:41:21.175Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
       "sellerType": "Agenzia",
       "source": "Subito.it",
       "sourceUrl": "https://www.subito.it/appartamenti/3-locali-a-bardonecchia-torino-651310781.htm",
@@ -225,286 +244,7 @@
           "capturedAt": "2026-08-22T06:41:21.175Z"
         }
       ],
-      "duplicateGroupId": "2742925fe1",
-      "duplicateSources": [
-        "Subito.it",
-        "Immobiliare.it",
-        "Casa.it"
-      ]
-    },
-    {
-      "id": "immobiliare-105261457",
-      "externalId": "105261457",
-      "title": "Bilocale Strada Provinciale del Melezet, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 110000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/105261457/",
-      "sqm": 55,
-      "rooms": 2,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 110000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
-    },
-    {
-      "id": "immobiliare-130790504",
-      "externalId": "130790504",
-      "title": "Bilocale via Einaudi 29, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 155000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/130790504/",
-      "rooms": 2,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 155000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
-    },
-    {
-      "id": "immobiliare-124664157",
-      "externalId": "124664157",
-      "title": "Bilocale via La Rho 19, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 247000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/124664157/",
-      "rooms": 2,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 247000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "1cff049aca",
-      "duplicateSources": [
-        "Immobiliare.it",
-        "Casa.it"
-      ]
-    },
-    {
-      "id": "immobiliare-118853945",
-      "externalId": "118853945",
-      "title": "Bilocale via Mauro Amprimo 4, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 175000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/118853945/",
-      "rooms": 2,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 175000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
-    },
-    {
-      "id": "immobiliare-131385270",
-      "externalId": "131385270",
-      "title": "Trilocale Borgata Les Arnauds 25, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 197000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/131385270/",
-      "rooms": 3,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 197000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "ac28adf88c",
-      "duplicateSources": [
-        "Subito.it",
-        "Immobiliare.it",
-        "Casa.it"
-      ]
-    },
-    {
-      "id": "immobiliare-128963784",
-      "externalId": "128963784",
-      "title": "Bilocale via Luigi Einaudi 11, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 165000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/128963784/",
-      "rooms": 2,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 165000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
-    },
-    {
-      "id": "immobiliare-128150652",
-      "externalId": "128150652",
-      "title": "Trilocale viale Capuccio 10, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 210000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/128150652/",
-      "rooms": 3,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 210000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "2742925fe1",
-      "duplicateSources": [
-        "Subito.it",
-        "Immobiliare.it",
-        "Casa.it"
-      ]
-    },
-    {
-      "id": "immobiliare-130995386",
-      "externalId": "130995386",
-      "title": "Bilocale via Giuseppe Francesco Medail 57, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 185000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/130995386/",
-      "rooms": 2,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 185000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "921a2d369a",
-      "duplicateSources": [
-        "Subito.it",
-        "Immobiliare.it"
-      ]
-    },
-    {
-      "id": "immobiliare-127405041",
-      "externalId": "127405041",
-      "title": "Bilocale via Medail 98, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 159000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/127405041/",
-      "rooms": 2,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 159000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "4abde39317",
-      "duplicateSources": [
-        "Immobiliare.it",
-        "Casa.it"
-      ]
-    },
-    {
-      "id": "immobiliare-35763326",
-      "externalId": "35763326",
-      "title": "Bilocale via Giuseppe Verdi 23, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 169000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/35763326/",
-      "rooms": 2,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 169000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "05010d4f99",
-      "duplicateSources": [
-        "Immobiliare.it",
-        "Casa.it"
-      ]
-    },
-    {
-      "id": "immobiliare-127130063",
-      "externalId": "127130063",
-      "title": "Monolocale via Campo Principe 27, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 59000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/127130063/",
-      "rooms": 1,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 59000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
-    },
-    {
-      "id": "immobiliare-128966152",
-      "externalId": "128966152",
-      "title": "Trilocale via Pollicino 10, Centro, Bardonecchia",
-      "location": "Bardonecchia",
-      "price": 250000,
-      "sellerType": "Agenzia",
-      "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/annunci/128966152/",
-      "rooms": 3,
-      "status": "ACTIVE",
-      "priceHistory": [
-        {
-          "price": 250000,
-          "capturedAt": "2026-08-22T14:03:52.603Z"
-        }
-      ],
-      "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "4de179cb88",
+      "duplicateGroupId": "b8c60e361d",
       "duplicateSources": [
         "Subito.it",
         "Immobiliare.it"
@@ -529,13 +269,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "ac28adf88c",
-      "duplicateSources": [
-        "Subito.it",
-        "Immobiliare.it",
-        "Casa.it"
-      ]
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
     },
     {
       "id": "casa-53906099",
@@ -556,7 +290,12 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
     },
     {
       "id": "casa-53376120",
@@ -577,11 +316,11 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "4abde39317",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "6eebc5e351",
       "duplicateSources": [
-        "Immobiliare.it",
-        "Casa.it"
+        "Casa.it",
+        "Immobiliare.it"
       ]
     },
     {
@@ -603,7 +342,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
     },
     {
       "id": "casa-53894274",
@@ -624,7 +363,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
     },
     {
       "id": "casa-52753450",
@@ -645,11 +384,11 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "1cff049aca",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "113450177f",
       "duplicateSources": [
-        "Immobiliare.it",
-        "Casa.it"
+        "Casa.it",
+        "Immobiliare.it"
       ]
     },
     {
@@ -671,7 +410,12 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "89c312e9b3",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
     },
     {
       "id": "casa-49300397",
@@ -692,11 +436,11 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "05010d4f99",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "596c81e5bc",
       "duplicateSources": [
-        "Immobiliare.it",
-        "Casa.it"
+        "Casa.it",
+        "Immobiliare.it"
       ]
     },
     {
@@ -718,7 +462,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
     },
     {
       "id": "casa-52703120",
@@ -739,7 +483,12 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "579e8c5c23",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
     },
     {
       "id": "casa-54493489",
@@ -760,7 +509,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z"
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
     },
     {
       "id": "casa-53734901",
@@ -781,13 +530,7 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-22T18:49:19.988Z",
-      "duplicateGroupId": "2742925fe1",
-      "duplicateSources": [
-        "Subito.it",
-        "Immobiliare.it",
-        "Casa.it"
-      ]
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
     },
     {
       "id": "casa-54490527",
@@ -808,36 +551,3555 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
+    },
+    {
+      "id": "immobiliare-105261457",
+      "externalId": "105261457",
+      "title": "Bilocale Strada Provinciale del Melezet, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 110000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/105261457/",
+      "sqm": 55,
+      "rooms": 2,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 110000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
+    },
+    {
+      "id": "immobiliare-128759738",
+      "externalId": "128759738",
+      "title": "Bilocale via Giuseppe Francesco Medail 57, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 95000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128759738/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 95000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-118853945",
+      "externalId": "118853945",
+      "title": "Bilocale via Mauro Amprimo 4, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 175000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/118853945/",
+      "rooms": 2,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 175000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
+    },
+    {
+      "id": "immobiliare-124664157",
+      "externalId": "124664157",
+      "title": "Bilocale via La Rho 19, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 247000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124664157/",
+      "rooms": 2,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 247000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "113450177f",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-131194424",
+      "externalId": "131194424",
+      "title": "Bilocale via Cianfuran, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 185000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131194424/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 185000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "b4abe838cf",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-131385270",
+      "externalId": "131385270",
+      "title": "Trilocale Borgata Les Arnauds, 25, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 197000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131385270/",
+      "rooms": 3,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 197000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "c60db04b54",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-128963784",
+      "externalId": "128963784",
+      "title": "Bilocale via Luigi Einaudi 11, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 165000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128963784/",
+      "rooms": 2,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
+    },
+    {
+      "id": "immobiliare-128150652",
+      "externalId": "128150652",
+      "title": "Trilocale viale Capuccio 10, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128150652/",
+      "rooms": 3,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 210000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "b8c60e361d",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-130995386",
+      "externalId": "130995386",
+      "title": "Bilocale via Giuseppe Francesco Medail 57, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 185000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130995386/",
+      "rooms": 2,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 185000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "b4abe838cf",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-35763326",
+      "externalId": "35763326",
+      "title": "Bilocale via Giuseppe Verdi 23, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 169000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/35763326/",
+      "rooms": 2,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 169000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "596c81e5bc",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-127130063",
+      "externalId": "127130063",
+      "title": "Monolocale via Campo Principe 27, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 59000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127130063/",
+      "rooms": 1,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 59000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z"
+    },
+    {
+      "id": "immobiliare-128966152",
+      "externalId": "128966152",
+      "title": "Trilocale via Pollicino 10, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128966152/",
+      "rooms": 3,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "12eac93611",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-129277312",
+      "externalId": "129277312",
+      "title": "Bilocale viale della Vittoria 10, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 98000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129277312/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 98000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-127486658",
+      "externalId": "127486658",
+      "title": "Trilocale via Montello 11, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 199000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127486658/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 199000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "c60db04b54",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-113775083",
+      "externalId": "113775083",
+      "title": "Quadrilocale viale Roma 80, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/113775083/",
+      "status": "NEW",
+      "rooms": 4,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128788696",
+      "externalId": "128788696",
+      "title": "Appartamento all'asta via la Rho, 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128788696/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-126558775",
+      "externalId": "126558775",
+      "title": "Bilocale via Giovanni Giolitti 13, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 170000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/126558775/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "596c81e5bc",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-125195097",
+      "externalId": "125195097",
+      "title": "Bilocale viale della Vittoria 67, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 198000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125195097/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 198000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131201754",
+      "externalId": "131201754",
+      "title": "Quadrilocale via Sommeiller, 8, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 240000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131201754/",
+      "status": "NEW",
+      "rooms": 4,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 240000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "0ade76cb7c",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-129422412",
+      "externalId": "129422412",
+      "title": "Appartamento all'asta via La Rho 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 145500,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129422412/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 145500,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-122170328",
+      "externalId": "122170328",
+      "title": "Bilocale via Giuseppe Francesco Medail 82, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 159000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/122170328/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 159000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "6eebc5e351",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-115960111",
+      "externalId": "115960111",
+      "title": "Trilocale via Fontan 4/6, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 229000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/115960111/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 229000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-63004426",
+      "externalId": "63004426",
+      "title": "Monolocale via Montello 11, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 80000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/63004426/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 80000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125028809",
+      "externalId": "125028809",
+      "title": "Bilocale viale Callet 19, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 133000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125028809/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 133000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130994482",
+      "externalId": "130994482",
+      "title": "Bilocale viale San Francesco 6, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 170000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130994482/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "596c81e5bc",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-127123209",
+      "externalId": "127123209",
+      "title": "Quadrilocale via Giuseppe Francesco Medail 19, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 185000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127123209/",
+      "status": "NEW",
+      "rooms": 4,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 185000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128838390",
+      "externalId": "128838390",
+      "title": "Bilocale Strada Provinciale del Melezet, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 200000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128838390/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 200000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128865328",
+      "externalId": "128865328",
+      "title": "Bilocale Strada Provinciale del Melezet, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 180000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128865328/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 180000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "89c312e9b3",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-128832448",
+      "externalId": "128832448",
+      "title": "Bilocale Strada Provinciale del Melezet 102, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 130000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128832448/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 130000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-124053187",
+      "externalId": "124053187",
+      "title": "Appartamento via G. F. Medail 102, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 240000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124053187/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 240000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "0ade76cb7c",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-130514828",
+      "externalId": "130514828",
+      "title": "Trilocale via G. F. Medail 100B, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 178000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130514828/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 178000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125595363",
+      "externalId": "125595363",
+      "title": "Bilocale via Cianfuran 5, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 215000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125595363/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 215000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-114324451",
+      "externalId": "114324451",
+      "title": "Appartamento via Medail 19, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 198000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/114324451/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 198000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "c60db04b54",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-127405041",
+      "externalId": "127405041",
+      "title": "Bilocale via Medail 98, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 159000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127405041/",
+      "rooms": 2,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 159000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "duplicateGroupId": "6eebc5e351",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-130033740",
+      "externalId": "130033740",
+      "title": "Trilocale frazione Melezet 12, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130033740/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 210000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "b8c60e361d",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-129237228",
+      "externalId": "129237228",
+      "title": "Appartamento via Luigi Einaudi 15, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 240000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129237228/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 240000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "0ade76cb7c",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-116135713",
+      "externalId": "116135713",
+      "title": "Bilocale via Susa 13, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 118000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/116135713/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 118000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129645798",
+      "externalId": "129645798",
+      "title": "Bilocale via Mazzini 18, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 237000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129645798/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 237000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-120542970",
+      "externalId": "120542970",
+      "title": "Trilocale via La Rho 19, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 149000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/120542970/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 149000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-126587231",
+      "externalId": "126587231",
+      "title": "Trilocale via Cianfuran, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 198000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/126587231/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 198000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "c60db04b54",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-123633723",
+      "externalId": "123633723",
+      "title": "Quadrilocale Borgata Gleise, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 182000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/123633723/",
+      "status": "NEW",
+      "rooms": 4,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 182000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128773304",
+      "externalId": "128773304",
+      "title": "Appartamento all'asta via LA RHO 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 145490,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128773304/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 145490,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131274480",
+      "externalId": "131274480",
+      "title": "Appartamento all'asta via La Rho 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109120,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131274480/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109120,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-103997671",
+      "externalId": "103997671",
+      "title": "Mansarda piazza Valle Stretta 7, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 170000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/103997671/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "39d70461f9",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-127058401",
+      "externalId": "127058401",
+      "title": "Trilocale via Montello 57, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 259000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127058401/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 259000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-107016509",
+      "externalId": "107016509",
+      "title": "Trilocale via Giuseppe Francesco Medail 27, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/107016509/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128771682",
+      "externalId": "128771682",
+      "title": "Appartamento all'asta via la Rho, 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128771682/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-115492957",
+      "externalId": "115492957",
+      "title": "Bilocale via Pollicino 10, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 180000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/115492957/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 180000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "89c312e9b3",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-78936329",
+      "externalId": "78936329",
+      "title": "Bilocale regione Campo Smith, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 195000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/78936329/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 195000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128777738",
+      "externalId": "128777738",
+      "title": "Appartamento all'asta via La Rho 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128777738/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-60678110",
+      "externalId": "60678110",
+      "title": "Bilocale via Medail 43, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 168000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/60678110/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 168000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "596c81e5bc",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-84799668",
+      "externalId": "84799668",
+      "title": "Trilocale viale della Vittoria 15, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 195000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/84799668/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 195000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "c60db04b54",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-127622160",
+      "externalId": "127622160",
+      "title": "Bilocale via Medail 6, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 190000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127622160/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 190000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131109262",
+      "externalId": "131109262",
+      "title": "Trilocale via Montenero 22, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 165000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131109262/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "33aa654533",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-131382180",
+      "externalId": "131382180",
+      "title": "Trilocale viale Bramafam 39, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131382180/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "12eac93611",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-117395143",
+      "externalId": "117395143",
+      "title": "Bilocale via Medail 74, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 190000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/117395143/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 190000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-126015157",
+      "externalId": "126015157",
+      "title": "Trilocale Medail 12, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 165000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/126015157/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "33aa654533",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-130889688",
+      "externalId": "130889688",
+      "title": "Bilocale Borgata Medail 46, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 230000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130889688/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 230000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125224015",
+      "externalId": "125224015",
+      "title": "Bilocale Medail 56, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 160000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125224015/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 160000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "6eebc5e351",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-130891472",
+      "externalId": "130891472",
+      "title": "Bilocale Genova 7, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 175000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130891472/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 175000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125224013",
+      "externalId": "125224013",
+      "title": "Monolocale via Melezet 18, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 98000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125224013/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 98000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-124612505",
+      "externalId": "124612505",
+      "title": "Bilocale via Medail 102, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 139000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124612505/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 139000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-87181214",
+      "externalId": "87181214",
+      "title": "Bilocale via Medail 85, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 150000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/87181214/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 150000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125233549",
+      "externalId": "125233549",
+      "title": "Bilocale via Giuseppe Verdi 27, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125233549/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 210000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125737541",
+      "externalId": "125737541",
+      "title": "Bilocale via Susa 13, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 120000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125737541/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 120000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128239678",
+      "externalId": "128239678",
+      "title": "Bilocale via Montello 9, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 258000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128239678/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 258000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-122538764",
+      "externalId": "122538764",
+      "title": "Monolocale viale Roma 74, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 79000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/122538764/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 79000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128932040",
+      "externalId": "128932040",
+      "title": "Trilocale via Montello 57, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 240000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128932040/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 240000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129518418",
+      "externalId": "129518418",
+      "title": "Bilocale via Medail, 20, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129518418/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 210000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125746981",
+      "externalId": "125746981",
+      "title": "Trilocale via Susa 13, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 220000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125746981/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-117324209",
+      "externalId": "117324209",
+      "title": "Bilocale via Melezet 120, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 150000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/117324209/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 150000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131662494",
+      "externalId": "131662494",
+      "title": "Bilocale via Campo Principe 21, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131662494/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "113450177f",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-123627111",
+      "externalId": "123627111",
+      "title": "Trilocale via Camillo Benso di Cavour 31, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 170000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/123627111/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-126799159",
+      "externalId": "126799159",
+      "title": "Bilocale viale Bramafam 37, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 115000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/126799159/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 115000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125364923",
+      "externalId": "125364923",
+      "title": "Trilocale via Germano Sommeiller 20, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 180000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125364923/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 180000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131630826",
+      "externalId": "131630826",
+      "title": "Bilocale viale della Vittoria, 8, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 185000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131630826/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 185000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "b4abe838cf",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-127952414",
+      "externalId": "127952414",
+      "title": "Trilocale viale della Vittoria, 34, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127952414/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "12eac93611",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-131850992",
+      "externalId": "131850992",
+      "title": "Bilocale via generale cantore, 11, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 135000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131850992/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 135000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-126977969",
+      "externalId": "126977969",
+      "title": "Bilocale viale Roma 79, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 148000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/126977969/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 148000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-127159485",
+      "externalId": "127159485",
+      "title": "Trilocale Borgata Gleise, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 255000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127159485/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 255000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125996311",
+      "externalId": "125996311",
+      "title": "Bilocale via Medail, 21, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 150000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125996311/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 150000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130868812",
+      "externalId": "130868812",
+      "title": "Trilocale via Genova 17, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 220000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130868812/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128750298",
+      "externalId": "128750298",
+      "title": "Appartamento all'asta via La Rho 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128750298/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-128758796",
+      "externalId": "128758796",
+      "title": "Bilocale ottimo stato, su più livelli, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 137000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128758796/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 137000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-126627343",
+      "externalId": "126627343",
+      "title": "Bilocale buono stato, primo piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 158000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/126627343/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 158000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "6eebc5e351",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-115982675",
+      "externalId": "115982675",
+      "title": "Bilocale Borgata Pré Richard 10, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 149000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/115982675/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 149000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130639950",
+      "externalId": "130639950",
+      "title": "Trilocale viale Roma 68, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 220000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130639950/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129900654",
+      "externalId": "129900654",
+      "title": "Bilocale via Montello 7, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 125000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129900654/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 125000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128461286",
+      "externalId": "128461286",
+      "title": "Trilocale via Giuseppe Verdi 7, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 238000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128461286/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 238000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-102061664",
+      "externalId": "102061664",
+      "title": "Terratetto unifamiliare Strada Provinciale di Millaures, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 170000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/102061664/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "39d70461f9",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-129512692",
+      "externalId": "129512692",
+      "title": "Trilocale via Giuseppe Verdi 7, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 238000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129512692/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 238000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-119839892",
+      "externalId": "119839892",
+      "title": "Trilocale Borgata Rochemolles, Rochemolles, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 95000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/119839892/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 95000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-111955699",
+      "externalId": "111955699",
+      "title": "Bilocale via Melezet 87., Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/111955699/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-75338864",
+      "externalId": "75338864",
+      "title": "Rustico Borgata Horres snc, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 130000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/75338864/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 130000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131827846",
+      "externalId": "131827846",
+      "title": "Appartamento all'asta via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131827846/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-126474757",
+      "externalId": "126474757",
+      "title": "Monolocale via Giuseppe Francesco Medail 43, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 62000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/126474757/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 62000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130444700",
+      "externalId": "130444700",
+      "title": "Monolocale via Medail, 20, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 115000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130444700/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 115000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "b4fee53048",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-124962155",
+      "externalId": "124962155",
+      "title": "Appartamento via Susa 7, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 235000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124962155/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 235000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-124164571",
+      "externalId": "124164571",
+      "title": "Trilocale buono stato, secondo piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 150000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124164571/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 150000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-127103425",
+      "externalId": "127103425",
+      "title": "Trilocale via Verdi 14, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 230000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127103425/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 230000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129348528",
+      "externalId": "129348528",
+      "title": "Appartamento Borgata Pré Richard, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 190000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129348528/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 190000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-92454546",
+      "externalId": "92454546",
+      "title": "Open space via Pietro Micca 62, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 88000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/92454546/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 88000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128219314",
+      "externalId": "128219314",
+      "title": "Trilocale via Papa Giovanni XXIII 16, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 230000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128219314/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 230000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131343160",
+      "externalId": "131343160",
+      "title": "Monolocale via Germano Sommeiller 17, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 70000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131343160/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 70000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130329648",
+      "externalId": "130329648",
+      "title": "Trilocale Strada Provinciale di Millaures, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 135000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130329648/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 135000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130347350",
+      "externalId": "130347350",
+      "title": "Appartamento all'asta via La Rho 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 145500,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130347350/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 145500,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-127364947",
+      "externalId": "127364947",
+      "title": "Trilocale via Montenero 16, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 230000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127364947/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 230000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129512698",
+      "externalId": "129512698",
+      "title": "Bilocale via Giuseppe Francesco Medail 57, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 95000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129512698/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 95000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-122436714",
+      "externalId": "122436714",
+      "title": "Bilocale Borgata Gleise 20, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 185000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/122436714/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 185000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "b4abe838cf",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-131821402",
+      "externalId": "131821402",
+      "title": "Bilocale via Einaudi 27, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 140000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131821402/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 140000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131784092",
+      "externalId": "131784092",
+      "title": "Bilocale via Einaudi 27, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 140000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131784092/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 140000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131737738",
+      "externalId": "131737738",
+      "title": "Appartamento via susa, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 170000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131737738/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "39d70461f9",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-131479416",
+      "externalId": "131479416",
+      "title": "Bilocale via Melezet 38, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 220000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131479416/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130765028",
+      "externalId": "130765028",
+      "title": "Trilocale via Medail 101, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 189000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130765028/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 189000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129200732",
+      "externalId": "129200732",
+      "title": "Bilocale via Frejus, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 255000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129200732/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 255000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-93851416",
+      "externalId": "93851416",
+      "title": "Bilocale viale Callet 19, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/93851416/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-102728404",
+      "externalId": "102728404",
+      "title": "Bilocale via Pollicino 10, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 215000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/102728404/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 215000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128742912",
+      "externalId": "128742912",
+      "title": "Appartamento all'asta via la Rho, 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128742912/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-127934978",
+      "externalId": "127934978",
+      "title": "Bilocale buono stato, primo piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 150000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127934978/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 150000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-115086571",
+      "externalId": "115086571",
+      "title": "Bilocale viale Roma 74, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 138000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/115086571/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 138000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131639420",
+      "externalId": "131639420",
+      "title": "Trilocale ottimo stato, su più livelli, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 220000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131639420/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131869450",
+      "externalId": "131869450",
+      "title": "Bilocale viale della Vittoria 21, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 200000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131869450/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 200000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-119264769",
+      "externalId": "119264769",
+      "title": "Bilocale via Verdi 12, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/119264769/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 210000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128135652",
+      "externalId": "128135652",
+      "title": "Quadrilocale via Pollicino 10, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128135652/",
+      "status": "NEW",
+      "rooms": 4,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131042994",
+      "externalId": "131042994",
+      "title": "Trilocale buono stato, primo piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 172000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131042994/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 172000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125371867",
+      "externalId": "125371867",
+      "title": "Bilocale via Melezet 87, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125371867/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-110410429",
+      "externalId": "110410429",
+      "title": "Bilocale viale Roma 15, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 95000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/110410429/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 95000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-122515956",
+      "externalId": "122515956",
+      "title": "Monolocale via Susa 13, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 99000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/122515956/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 99000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-127499726",
+      "externalId": "127499726",
+      "title": "Bilocale piazza Medail 89, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 220000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127499726/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130141466",
+      "externalId": "130141466",
+      "title": "Monolocale viale della Vittoria 67, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 90000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130141466/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 90000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131484654",
+      "externalId": "131484654",
+      "title": "Monolocale via Giuseppe Francesco Medail 57, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 165000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131484654/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-118231931",
+      "externalId": "118231931",
+      "title": "Open space via Pietro Micca 62, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 100000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/118231931/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 100000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128809122",
+      "externalId": "128809122",
+      "title": "Bilocale via Modane No Number, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 120000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128809122/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 120000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130982608",
+      "externalId": "130982608",
+      "title": "Monolocale via Medail 38, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 150000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130982608/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 150000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128843324",
+      "externalId": "128843324",
+      "title": "Appartamento all'asta via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 145500,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128843324/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 145500,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131268758",
+      "externalId": "131268758",
+      "title": "Appartamento all'asta via La Rho, 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131268758/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-105372389",
+      "externalId": "105372389",
+      "title": "Bilocale vicolo Orti 2, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 170000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/105372389/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "596c81e5bc",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-124635837",
+      "externalId": "124635837",
+      "title": "Terratetto unifamiliare frazione Rochemolles, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 159000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124635837/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 159000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "6eebc5e351",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-128633754",
+      "externalId": "128633754",
+      "title": "Monolocale via G. F. Medail, 20, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 68000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128633754/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 68000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129561304",
+      "externalId": "129561304",
+      "title": "Bilocale viale Dalla Vecchia 8, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129561304/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-128832562",
+      "externalId": "128832562",
+      "title": "Monolocale via Medail, 20, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 68000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/128832562/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 68000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131253630",
+      "externalId": "131253630",
+      "title": "Trilocale via G. F. Medail, 43, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 205000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131253630/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 205000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129371384",
+      "externalId": "129371384",
+      "title": "Bilocale buono stato, primo piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 165000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129371384/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-124286091",
+      "externalId": "124286091",
+      "title": "Quadrilocale via Medail, 12, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 165000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124286091/",
+      "status": "NEW",
+      "rooms": 4,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "579e8c5c23",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-131852518",
+      "externalId": "131852518",
+      "title": "Bilocale frazione Melezet 102, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 160000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131852518/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 160000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "6eebc5e351",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-129562590",
+      "externalId": "129562590",
+      "title": "Monolocale viale Dalla Vecchia 8, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 135000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129562590/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 135000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131313468",
+      "externalId": "131313468",
+      "title": "Monolocale viale San Francesco 3, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 98000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131313468/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 98000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-124283995",
+      "externalId": "124283995",
+      "title": "Monolocale viale Callet 19, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 69000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124283995/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 69000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-125374655",
+      "externalId": "125374655",
+      "title": "Rustico Borgata Les Arnauds 40, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 180000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125374655/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 180000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "89c312e9b3",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-131298942",
+      "externalId": "131298942",
+      "title": "Appartamento all'asta via la Rho, 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131298942/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-125204443",
+      "externalId": "125204443",
+      "title": "Appartamento ottimo stato, secondo piano, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 35000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/125204443/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 35000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-127337671",
+      "externalId": "127337671",
+      "title": "Appartamento ottimo stato, quarto piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 220000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/127337671/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-129959282",
+      "externalId": "129959282",
+      "title": "Appartamento buono stato, secondo piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 185000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/129959282/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 185000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "b4abe838cf",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-55640334",
+      "externalId": "55640334",
+      "title": "Bilocale buono stato, primo piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 149000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/55640334/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 149000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131628316",
+      "externalId": "131628316",
+      "title": "Appartamento buono stato, secondo piano, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 132000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131628316/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 132000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131262670",
+      "externalId": "131262670",
+      "title": "Appartamento all'asta, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131262670/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-120119222",
+      "externalId": "120119222",
+      "title": "Trilocale viale Bramafam 37, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/120119222/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130693724",
+      "externalId": "130693724",
+      "title": "Monolocale via Giuseppe Francesco Medail 25, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 93000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130693724/",
+      "status": "NEW",
+      "rooms": 1,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 93000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-80049665",
+      "externalId": "80049665",
+      "title": "Trilocale via Melezet 16, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/80049665/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "12eac93611",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-115006457",
+      "externalId": "115006457",
+      "title": "Rustico piazza Suspize 9, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 110000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/115006457/",
+      "status": "NEW",
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 110000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "da61a967cd",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-130759624",
+      "externalId": "130759624",
+      "title": "Bilocale viale della Vittoria 10, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 215000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130759624/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 215000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-124603591",
+      "externalId": "124603591",
+      "title": "Trilocale Strada Provinciale del Melezet 140, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 195000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/124603591/",
+      "status": "NEW",
+      "rooms": 3,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 195000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ],
+      "duplicateGroupId": "c60db04b54",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-113106667",
+      "externalId": "113106667",
+      "title": "Bilocale via Giuseppe Francesco Medail 42, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 195000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/113106667/",
+      "status": "NEW",
+      "rooms": 2,
+      "firstSeenAt": "2026-08-22T18:59:21.223Z",
+      "lastSeenAt": "2026-08-22T18:59:21.223Z",
+      "priceHistory": [
+        {
+          "price": 195000,
+          "capturedAt": "2026-08-22T18:59:21.223Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-130790504",
+      "externalId": "130790504",
+      "title": "Bilocale via Einaudi 29, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 155000,
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/130790504/",
+      "rooms": 2,
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 155000,
+          "capturedAt": "2026-08-22T14:03:52.603Z"
+        }
+      ],
+      "firstSeenAt": "2026-08-22T14:03:52.603Z",
       "lastSeenAt": "2026-08-22T18:49:19.988Z"
     }
   ],
-  "refreshedAt": "2026-08-22T18:49:19.988Z",
+  "refreshedAt": "2026-08-22T18:59:21.223Z",
   "providerStatus": {
     "casa": {
       "ok": false,
-      "checkedAt": "2026-08-22T18:49:19.988Z",
+      "checkedAt": "2026-08-22T18:59:21.223Z",
       "message": "Casa.it public access declined (403)"
     },
     "idealista": {
       "ok": false,
-      "checkedAt": "2026-08-22T18:49:19.988Z",
+      "checkedAt": "2026-08-22T18:59:21.223Z",
       "message": "Idealista public access declined (403)"
     },
     "subito": {
       "ok": true,
-      "checkedAt": "2026-08-22T18:49:19.988Z",
+      "checkedAt": "2026-08-22T18:59:21.223Z",
       "count": 10
     },
     "bakeca": {
       "ok": false,
-      "checkedAt": "2026-08-22T18:49:19.988Z",
+      "checkedAt": "2026-08-22T18:59:21.223Z",
       "message": "Bakeca.it public access declined (403)"
     },
     "bootstrap": {
       "ok": true,
-      "checkedAt": "2026-08-22T18:49:19.988Z",
-      "count": 25,
-      "message": "Initial Immobiliare.it + Casa.it snapshot"
+      "checkedAt": "2026-08-22T18:59:21.223Z",
+      "count": 176,
+      "message": "Initial multi-source snapshot"
     }
   }
 }
