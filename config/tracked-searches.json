@@ -1,0 +1,12 @@
+[
+  {
+    "id": "bardonecchia-sale",
+    "name": "Bardonecchia vendita",
+    "provider": "immobiliare",
+    "municipalityID": "REPLACE_WITH_IMMOBILIARE_MUNICIPALITY_ID",
+    "contractTypeID": 1,
+    "minPrice": 100000,
+    "maxPrice": 350000,
+    "active": false
+  }
+]
