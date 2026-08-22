@@ -51,7 +51,7 @@
     "bootstrapMode": "manual-or-alert",
     "minPrice": 0,
     "maxPrice": 260000,
-    "maxPages": 3,
+    "maxPages": 50,
     "active": false
   }
 ]
