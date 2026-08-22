@@ -11,7 +11,7 @@ async function readStore() {
   try {
     return JSON.parse(await fs.readFile(storePath, 'utf8'));
   } catch {
-    return { listings: [], refreshedAt: null };
+    return { listings: [], refreshedAt: null, providerStatus: {} };
   }
 }
 
@@ -58,13 +58,31 @@ function reconcile(previous, incoming, now) {
 
 async function collectFromConnectors(searches, now) {
   const incoming = [];
+  const providerStatus = {};
   const officialSearches = searches.filter((x) => x.provider === 'immobiliare');
   const publicSearches = searches.filter((x) => x.provider === 'immobiliare-public');
 
-  if (officialSearches.length) incoming.push(...await fetchImmobiliareListings(officialSearches, now));
-  if (publicSearches.length) incoming.push(...await fetchImmobiliarePublicListings(publicSearches, now));
+  if (officialSearches.length) {
+    try {
+      incoming.push(...await fetchImmobiliareListings(officialSearches, now));
+      providerStatus.immobiliare = { ok: true, checkedAt: now };
+    } catch (error) {
+      providerStatus.immobiliare = { ok: false, checkedAt: now, message: error instanceof Error ? error.message : String(error) };
+      console.warn(`Immobiliare API unavailable: ${providerStatus.immobiliare.message}`);
+    }
+  }
 
-  return incoming;
+  if (publicSearches.length) {
+    try {
+      incoming.push(...await fetchImmobiliarePublicListings(publicSearches, now));
+      providerStatus['immobiliare-public'] = { ok: true, checkedAt: now };
+    } catch (error) {
+      providerStatus['immobiliare-public'] = { ok: false, checkedAt: now, message: error instanceof Error ? error.message : String(error) };
+      console.warn(`Immobiliare public source unavailable: ${providerStatus['immobiliare-public'].message}`);
+    }
+  }
+
+  return { incoming, providerStatus };
 }
 
 const now = new Date().toISOString();
@@ -76,8 +94,9 @@ if (!searches.length) {
   process.exit(0);
 }
 
-const incoming = await collectFromConnectors(searches, now);
-const listings = reconcile(store.listings ?? [], incoming, now);
+const { incoming, providerStatus } = await collectFromConnectors(searches, now);
+const anyProviderOk = Object.values(providerStatus).some((x) => x.ok);
+const listings = anyProviderOk ? reconcile(store.listings ?? [], incoming, now) : (store.listings ?? []);
 await fs.mkdir(dataDir, { recursive: true });
-await fs.writeFile(storePath, JSON.stringify({ listings, refreshedAt: now }, null, 2) + '\n');
+await fs.writeFile(storePath, JSON.stringify({ listings, refreshedAt: now, providerStatus }, null, 2) + '\n');
 console.log(`HomeHoliday refresh complete: ${incoming.length} incoming, ${listings.length} tracked.`);
