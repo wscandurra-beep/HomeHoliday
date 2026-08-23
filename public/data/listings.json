@@ -1,6 +1,85 @@
 {
   "listings": [
     {
+      "id": "casa-54599180",
+      "externalId": "54599180",
+      "title": "Attico/Mansarda in vendita in Via Campo Principe 31, Les Arnauds, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 370000,
+      "publishedAt": "2026-08-22T17:42:50.000Z",
+      "firstSeenAt": "2026-08-22T17:42:50.000Z",
+      "lastSeenAt": "2026-08-23T10:49:54.000Z",
+      "sellerType": "Agenzia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/54599180/",
+      "sqm": 98,
+      "rooms": 4,
+      "bathrooms": 2,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 370000,
+          "capturedAt": "2026-08-22T17:42:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-email-1a02dc4cb5004417",
+      "externalId": "email-1a02dc4cb5004417",
+      "title": "Trilocale via Melezet 125, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "publishedAt": "2026-08-23T08:37:46.000Z",
+      "firstSeenAt": "2026-08-23T08:37:46.000Z",
+      "lastSeenAt": "2026-08-23T08:37:46.000Z",
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://clicks.immobiliare.it/f/a/8pmsiTK7cBXP1wyQ-_NEmQ~~/AAAHahA~/h3FQGW2OvIaTJ0J68Me0OeVupzHrxpByMBPOH4dssa2hk-GsXXNdOtcPDMgLBva8eIqMwQxNiQaI3R1xGqgoA5dBQLDhuKJXlnil0wUU7JMMcrGLaeA0GntiGFsnpjJstab2PwDJqZI5GCfqito_pPIygkrq3INuCbTJHCyOTqUNdXX4PIP62pDunOwMykBg_3LK-09u-uU6QQDlT8eJ5WIT-oyVk6F8yLEc9Rm3Icf3CblkuQ5gq-cL8B8xlH1dLUKAdfFeOui0rlTGea-Hvw~~",
+      "sqm": 90,
+      "rooms": 3,
+      "bathrooms": 1,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-23T08:37:46.000Z"
+        }
+      ],
+      "duplicateGroupId": "email-melezet-125-225000",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "casa-54599477",
+      "externalId": "54599477",
+      "title": "Trilocale in vendita in Via Melezet 125, Les Arnauds, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "publishedAt": "2026-08-23T12:51:02.000Z",
+      "firstSeenAt": "2026-08-23T12:51:02.000Z",
+      "lastSeenAt": "2026-08-23T12:51:02.000Z",
+      "sellerType": "Agenzia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/54599477/",
+      "sqm": 90,
+      "rooms": 3,
+      "bathrooms": 1,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-23T12:51:02.000Z"
+        }
+      ],
+      "duplicateGroupId": "email-melezet-125-225000",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
       "id": "subito-657203379",
       "externalId": "657203379",
       "title": "Appartamento Bardonecchia [BD36VRG]",
@@ -6453,7 +6532,7 @@
       "lastSeenAt": "2026-08-22T18:49:19.988Z"
     }
   ],
-  "refreshedAt": "2026-08-23T10:41:07.551Z",
+  "refreshedAt": "2026-08-23T12:51:02.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -6486,6 +6565,12 @@
       "checkedAt": "2026-08-23T10:41:07.551Z",
       "count": 163,
       "message": "Dati disponibili dal bootstrap"
+    },
+    "emailAlerts": {
+      "ok": true,
+      "checkedAt": "2026-08-23T12:51:02.000Z",
+      "count": 3,
+      "message": "Importati alert Gmail: Casa.it (2), Immobiliare.it (1); Idealista in attesa del primo alert immobili"
     }
   }
 }
