@@ -10,6 +10,7 @@ const storePath = path.join(dataDir, 'listings.json');
 const searchesPath = path.resolve('config/tracked-searches.json');
 const bootstrapPath = path.resolve('config/bootstrap-listings.json');
 const bootstrapDir = path.resolve('config/bootstrap');
+const sqmBackfillPath = path.resolve('config/sqm-backfill.json');
 
 const PROVIDER_SOURCE = {
   immobiliare: 'Immobiliare.it',
@@ -52,6 +53,13 @@ async function readBootstrap() {
     unique.set(`${item.source}:${item.externalId}`, item);
   }
   return [...unique.values()];
+}
+
+async function readSqmBackfill() {
+  try {
+    const parsed = JSON.parse(await fs.readFile(sqmBackfillPath, 'utf8'));
+    return parsed && typeof parsed === 'object' ? parsed : {};
+  } catch { return {}; }
 }
 
 function reconcile(previous, incoming, now, successfulSources) {
@@ -124,6 +132,7 @@ const now = new Date().toISOString();
 const store = await readStore();
 const searches = await readSearches();
 const bootstrapListings = await readBootstrap();
+const sqmBackfill = await readSqmBackfill();
 
 if (!searches.length && !bootstrapListings.length) {
   console.log('HomeHoliday refresh skipped: no active tracked searches or bootstrap listings configured.');
@@ -131,7 +140,11 @@ if (!searches.length && !bootstrapListings.length) {
 }
 
 const { incoming, providerStatus, successfulSources } = await collectFromConnectors(searches, now);
-const mergedIncoming = [...incoming, ...bootstrapListings];
+const mergedIncoming = [...incoming, ...bootstrapListings].map((listing) => {
+  if (listing.sqm != null) return listing;
+  const sqm = Number(sqmBackfill[`${listing.source}:${listing.externalId}`]);
+  return sqm > 0 ? { ...listing, sqm } : listing;
+});
 const bootstrapSourceCounts = Object.entries(bootstrapListings.reduce((counts, listing) => {
   counts[listing.source] = (counts[listing.source] ?? 0) + 1;
   return counts;

@@ -235,7 +235,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 72
     },
     {
       "id": "casa-54592324",
@@ -262,7 +263,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "casa-54589163",
@@ -289,7 +291,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 62
     },
     {
       "id": "casa-54584945",
@@ -316,7 +319,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 62
     },
     {
       "id": "casa-54578755",
@@ -338,7 +342,8 @@
           "price": 215000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 51
     },
     {
       "id": "casa-54572531",
@@ -360,7 +365,8 @@
           "price": 170000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 95
     },
     {
       "id": "casa-54556513",
@@ -387,7 +393,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 54
     },
     {
       "id": "casa-54515254",
@@ -414,7 +421,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 40
     },
     {
       "id": "casa-54501704",
@@ -441,7 +449,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "casa-54501697",
@@ -463,7 +472,8 @@
           "price": 185000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "casa-54501695",
@@ -490,7 +500,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 48
     },
     {
       "id": "casa-54501691",
@@ -512,7 +523,8 @@
           "price": 230000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "casa-54492229",
@@ -539,7 +551,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-54490527",
@@ -589,7 +602,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-54475615",
@@ -616,7 +630,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-54474969",
@@ -643,7 +658,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-54467544",
@@ -670,7 +686,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-54455496",
@@ -697,7 +714,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 100
     },
     {
       "id": "casa-54454125",
@@ -719,7 +737,8 @@
           "price": 185000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "casa-54448570",
@@ -746,7 +765,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 75
     },
     {
       "id": "casa-54407298",
@@ -773,7 +793,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 35
     },
     {
       "id": "casa-54390272",
@@ -795,7 +816,8 @@
           "price": 175000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 51
     },
     {
       "id": "casa-54366513",
@@ -822,7 +844,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 68
     },
     {
       "id": "casa-54340630",
@@ -849,7 +872,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 40
     },
     {
       "id": "casa-54340581",
@@ -876,7 +900,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 80
     },
     {
       "id": "casa-54340568",
@@ -903,7 +928,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 61
     },
     {
       "id": "casa-54303447",
@@ -930,7 +956,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 35
     },
     {
       "id": "casa-54278076",
@@ -952,7 +979,8 @@
           "price": 135000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 86
     },
     {
       "id": "casa-54270938",
@@ -979,7 +1007,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 78
     },
     {
       "id": "casa-54264794",
@@ -1006,7 +1035,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 120
     },
     {
       "id": "casa-54240970",
@@ -1033,7 +1063,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 63
     },
     {
       "id": "casa-54218413",
@@ -1055,7 +1086,8 @@
           "price": 259000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 77
     },
     {
       "id": "casa-54131415",
@@ -1082,7 +1114,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "casa-54121382",
@@ -1104,7 +1137,8 @@
           "price": 220000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 43
     },
     {
       "id": "casa-54103755",
@@ -1131,7 +1165,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 61
     },
     {
       "id": "casa-54053597",
@@ -1153,7 +1188,8 @@
           "price": 255000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 58
     },
     {
       "id": "casa-54045901",
@@ -1175,7 +1211,8 @@
           "price": 27000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 11
     },
     {
       "id": "casa-54043657",
@@ -1202,7 +1239,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 51
     },
     {
       "id": "casa-54039418",
@@ -1229,7 +1267,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 55
     },
     {
       "id": "casa-54027258",
@@ -1256,7 +1295,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-53990431",
@@ -1278,7 +1318,8 @@
           "price": 175000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "casa-53955043",
@@ -1300,7 +1341,8 @@
           "price": 165000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "casa-53933945",
@@ -1327,7 +1369,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-53906099",
@@ -1382,7 +1425,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-53895121",
@@ -1455,7 +1499,8 @@
           "price": 109125,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "casa-53826973",
@@ -1477,7 +1522,8 @@
           "price": 220000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "casa-53761438",
@@ -1504,7 +1550,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 65
     },
     {
       "id": "casa-53734901",
@@ -1553,7 +1600,8 @@
           "price": 12000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 13
     },
     {
       "id": "casa-53697661",
@@ -1580,7 +1628,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 59
     },
     {
       "id": "casa-53678678",
@@ -1602,7 +1651,8 @@
           "price": 150000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 43
     },
     {
       "id": "casa-53657696",
@@ -1624,7 +1674,8 @@
           "price": 230000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "casa-53589814",
@@ -1646,7 +1697,8 @@
           "price": 195000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 55
     },
     {
       "id": "casa-53586448",
@@ -1673,7 +1725,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "casa-53525219",
@@ -1700,7 +1753,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 54
     },
     {
       "id": "casa-53519009",
@@ -1722,7 +1776,8 @@
           "price": 220000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 65
     },
     {
       "id": "casa-53511618",
@@ -1749,7 +1804,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 88
     },
     {
       "id": "casa-53502107",
@@ -1771,7 +1827,8 @@
           "price": 69000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 24
     },
     {
       "id": "casa-53492628",
@@ -1793,7 +1850,8 @@
           "price": 160000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 31
     },
     {
       "id": "casa-53489884",
@@ -1815,7 +1873,8 @@
           "price": 154000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 82
     },
     {
       "id": "casa-53442073",
@@ -1836,7 +1895,8 @@
           "price": 190000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 650
     },
     {
       "id": "casa-53441968",
@@ -1858,7 +1918,8 @@
           "price": 255000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 80
     },
     {
       "id": "casa-53424681",
@@ -1885,7 +1946,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 63
     },
     {
       "id": "casa-53390131",
@@ -1912,7 +1974,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "casa-53376120",
@@ -1962,7 +2025,8 @@
           "price": 115000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 42
     },
     {
       "id": "casa-53296575",
@@ -1984,7 +2048,8 @@
           "price": 162000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 47
     },
     {
       "id": "casa-53284300",
@@ -2006,7 +2071,8 @@
           "price": 198000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 82
     },
     {
       "id": "casa-53268639",
@@ -2028,7 +2094,8 @@
           "price": 135000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "casa-53202962",
@@ -2055,7 +2122,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 33
     },
     {
       "id": "casa-53154639",
@@ -2077,7 +2145,8 @@
           "price": 109000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 30
     },
     {
       "id": "casa-53120423",
@@ -2127,7 +2196,8 @@
           "price": 185000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "casa-53048561",
@@ -2154,7 +2224,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 85
     },
     {
       "id": "casa-53048090",
@@ -2181,7 +2252,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "casa-53015890",
@@ -2203,7 +2275,8 @@
           "price": 70000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 28
     },
     {
       "id": "casa-52908854",
@@ -2225,7 +2298,8 @@
           "price": 40000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 93
     },
     {
       "id": "casa-52855255",
@@ -2252,7 +2326,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 44
     },
     {
       "id": "casa-52753450",
@@ -2302,7 +2377,8 @@
           "price": 159000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 95
     },
     {
       "id": "casa-52712521",
@@ -2324,7 +2400,8 @@
           "price": 250000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 65
     },
     {
       "id": "casa-52712508",
@@ -2346,7 +2423,8 @@
           "price": 128000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 38
     },
     {
       "id": "casa-52703120",
@@ -2395,7 +2473,8 @@
           "price": 12000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 13
     },
     {
       "id": "casa-52423106",
@@ -2417,7 +2496,8 @@
           "price": 182000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 80
     },
     {
       "id": "casa-52142898",
@@ -2444,7 +2524,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "casa-52116420",
@@ -2471,7 +2552,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 25
     },
     {
       "id": "casa-52020339",
@@ -2498,7 +2580,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 33
     },
     {
       "id": "casa-51994422",
@@ -2520,7 +2603,8 @@
           "price": 170000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 55
     },
     {
       "id": "casa-51558205",
@@ -2542,7 +2626,8 @@
           "price": 215000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 105
     },
     {
       "id": "casa-51520865",
@@ -2569,7 +2654,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 72
     },
     {
       "id": "casa-50570226",
@@ -2596,7 +2682,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 102
     },
     {
       "id": "casa-50233615",
@@ -2623,7 +2710,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 52
     },
     {
       "id": "casa-50230708",
@@ -2678,7 +2766,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 110
     },
     {
       "id": "casa-49461889",
@@ -2700,7 +2789,8 @@
           "price": 120000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "casa-49300397",
@@ -2755,7 +2845,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 52
     },
     {
       "id": "casa-47159029",
@@ -2782,7 +2873,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "casa-45888937",
@@ -2804,7 +2896,8 @@
           "price": 195000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "casa-43580295",
@@ -2825,7 +2918,8 @@
           "price": 130000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 190
     },
     {
       "id": "casa-42184921",
@@ -2875,7 +2969,8 @@
           "price": 225000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
-      ]
+      ],
+      "sqm": 52
     },
     {
       "id": "immobiliare-105261457",
@@ -2916,7 +3011,8 @@
           "price": 95000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 38
     },
     {
       "id": "immobiliare-118853945",
@@ -2936,7 +3032,8 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-23T14:40:09.355Z"
+      "lastSeenAt": "2026-08-23T14:40:09.355Z",
+      "sqm": 50
     },
     {
       "id": "immobiliare-124664157",
@@ -2961,7 +3058,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 80
     },
     {
       "id": "immobiliare-131194424",
@@ -2981,7 +3079,8 @@
           "price": 185000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-131385270",
@@ -3006,7 +3105,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 59
     },
     {
       "id": "immobiliare-128963784",
@@ -3026,7 +3126,8 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-23T14:40:09.355Z"
+      "lastSeenAt": "2026-08-23T14:40:09.355Z",
+      "sqm": 50
     },
     {
       "id": "immobiliare-128150652",
@@ -3051,7 +3152,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 56
     },
     {
       "id": "immobiliare-130995386",
@@ -3071,7 +3173,8 @@
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
-      "lastSeenAt": "2026-08-23T14:40:09.355Z"
+      "lastSeenAt": "2026-08-23T14:40:09.355Z",
+      "sqm": 51
     },
     {
       "id": "immobiliare-35763326",
@@ -3096,7 +3199,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 48
     },
     {
       "id": "immobiliare-127130063",
@@ -3121,7 +3225,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 40
     },
     {
       "id": "immobiliare-128966152",
@@ -3146,7 +3251,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 80
     },
     {
       "id": "immobiliare-129277312",
@@ -3171,7 +3277,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 51
     },
     {
       "id": "immobiliare-127486658",
@@ -3191,7 +3298,8 @@
           "price": 199000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-113775083",
@@ -3216,7 +3324,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 100
     },
     {
       "id": "immobiliare-128788696",
@@ -3240,7 +3349,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-126558775",
@@ -3260,7 +3370,8 @@
           "price": 170000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 56
     },
     {
       "id": "immobiliare-125195097",
@@ -3280,7 +3391,8 @@
           "price": 198000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 56
     },
     {
       "id": "immobiliare-131201754",
@@ -3305,7 +3417,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 100
     },
     {
       "id": "immobiliare-129422412",
@@ -3329,7 +3442,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-122170328",
@@ -3349,7 +3463,8 @@
           "price": 159000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "immobiliare-115960111",
@@ -3369,7 +3484,8 @@
           "price": 229000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 53
     },
     {
       "id": "immobiliare-63004426",
@@ -3389,7 +3505,8 @@
           "price": 80000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 30
     },
     {
       "id": "immobiliare-125028809",
@@ -3414,7 +3531,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 44
     },
     {
       "id": "immobiliare-130994482",
@@ -3439,7 +3557,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 59
     },
     {
       "id": "immobiliare-127123209",
@@ -3459,7 +3578,8 @@
           "price": 185000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 87
     },
     {
       "id": "immobiliare-128838390",
@@ -3479,7 +3599,8 @@
           "price": 200000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-128865328",
@@ -3499,7 +3620,8 @@
           "price": 180000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-128832448",
@@ -3519,7 +3641,8 @@
           "price": 130000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 40
     },
     {
       "id": "immobiliare-124053187",
@@ -3538,7 +3661,8 @@
           "price": 240000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 145
     },
     {
       "id": "immobiliare-130514828",
@@ -3558,7 +3682,8 @@
           "price": 178000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 63
     },
     {
       "id": "immobiliare-125595363",
@@ -3578,7 +3703,8 @@
           "price": 215000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 59
     },
     {
       "id": "immobiliare-114324451",
@@ -3602,7 +3728,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 102
     },
     {
       "id": "immobiliare-127405041",
@@ -3627,7 +3754,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 54
     },
     {
       "id": "immobiliare-130033740",
@@ -3652,7 +3780,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 63
     },
     {
       "id": "immobiliare-129237228",
@@ -3671,7 +3800,8 @@
           "price": 240000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 100
     },
     {
       "id": "immobiliare-116135713",
@@ -3696,7 +3826,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 55
     },
     {
       "id": "immobiliare-129645798",
@@ -3721,7 +3852,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "immobiliare-120542970",
@@ -3746,7 +3878,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 72
     },
     {
       "id": "immobiliare-126587231",
@@ -3766,7 +3899,8 @@
           "price": 198000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 80
     },
     {
       "id": "immobiliare-123633723",
@@ -3786,7 +3920,8 @@
           "price": 182000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 80
     },
     {
       "id": "immobiliare-128773304",
@@ -3810,7 +3945,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-131274480",
@@ -3834,7 +3970,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-103997671",
@@ -3858,7 +3995,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "immobiliare-127058401",
@@ -3878,7 +4016,8 @@
           "price": 259000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 77
     },
     {
       "id": "immobiliare-107016509",
@@ -3903,7 +4042,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-128771682",
@@ -3927,7 +4067,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-115492957",
@@ -3952,7 +4093,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "immobiliare-78936329",
@@ -3972,7 +4114,8 @@
           "price": 195000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-128777738",
@@ -3996,7 +4139,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-60678110",
@@ -4016,7 +4160,8 @@
           "price": 168000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "immobiliare-84799668",
@@ -4041,7 +4186,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 75
     },
     {
       "id": "immobiliare-127622160",
@@ -4066,7 +4212,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "immobiliare-131109262",
@@ -4086,7 +4233,8 @@
           "price": 165000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 96
     },
     {
       "id": "immobiliare-131382180",
@@ -4111,7 +4259,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 78
     },
     {
       "id": "immobiliare-117395143",
@@ -4136,7 +4285,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 52
     },
     {
       "id": "immobiliare-126015157",
@@ -4161,7 +4311,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-130889688",
@@ -4181,7 +4332,8 @@
           "price": 230000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-125224015",
@@ -4206,7 +4358,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 51
     },
     {
       "id": "immobiliare-130891472",
@@ -4226,7 +4379,8 @@
           "price": 175000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 51
     },
     {
       "id": "immobiliare-125224013",
@@ -4251,7 +4405,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 33
     },
     {
       "id": "immobiliare-124612505",
@@ -4276,7 +4431,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 52
     },
     {
       "id": "immobiliare-87181214",
@@ -4296,7 +4452,8 @@
           "price": 150000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 61
     },
     {
       "id": "immobiliare-125233549",
@@ -4316,7 +4473,8 @@
           "price": 210000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 52
     },
     {
       "id": "immobiliare-125737541",
@@ -4336,7 +4494,8 @@
           "price": 120000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "immobiliare-128239678",
@@ -4361,7 +4520,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 48
     },
     {
       "id": "immobiliare-122538764",
@@ -4386,7 +4546,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 25
     },
     {
       "id": "immobiliare-128932040",
@@ -4411,7 +4572,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-129518418",
@@ -4436,7 +4598,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 61
     },
     {
       "id": "immobiliare-125746981",
@@ -4461,7 +4624,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 85
     },
     {
       "id": "immobiliare-117324209",
@@ -4481,7 +4645,8 @@
           "price": 150000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 38
     },
     {
       "id": "immobiliare-131662494",
@@ -4506,7 +4671,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 54
     },
     {
       "id": "immobiliare-123627111",
@@ -4526,7 +4692,8 @@
           "price": 170000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-126799159",
@@ -4546,7 +4713,8 @@
           "price": 115000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 42
     },
     {
       "id": "immobiliare-125364923",
@@ -4566,7 +4734,8 @@
           "price": 180000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 91
     },
     {
       "id": "immobiliare-131630826",
@@ -4586,7 +4755,8 @@
           "price": 185000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 55
     },
     {
       "id": "immobiliare-127952414",
@@ -4606,7 +4776,8 @@
           "price": 250000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 82
     },
     {
       "id": "immobiliare-131850992",
@@ -4626,7 +4797,8 @@
           "price": 135000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "immobiliare-126977969",
@@ -4651,7 +4823,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "immobiliare-127159485",
@@ -4671,7 +4844,8 @@
           "price": 255000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 85
     },
     {
       "id": "immobiliare-125996311",
@@ -4691,7 +4865,8 @@
           "price": 150000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 47
     },
     {
       "id": "immobiliare-130868812",
@@ -4711,7 +4886,8 @@
           "price": 220000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-128750298",
@@ -4735,7 +4911,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-128758796",
@@ -4775,7 +4952,8 @@
           "price": 158000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 47
     },
     {
       "id": "immobiliare-115982675",
@@ -4820,7 +4998,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 61
     },
     {
       "id": "immobiliare-129900654",
@@ -4840,7 +5019,8 @@
           "price": 125000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 47
     },
     {
       "id": "immobiliare-128461286",
@@ -4860,7 +5040,8 @@
           "price": 238000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 78
     },
     {
       "id": "immobiliare-102061664",
@@ -4879,7 +5060,8 @@
           "price": 170000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 655
     },
     {
       "id": "immobiliare-129512692",
@@ -4899,7 +5081,8 @@
           "price": 238000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 78
     },
     {
       "id": "immobiliare-119839892",
@@ -4919,7 +5102,8 @@
           "price": 95000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-111955699",
@@ -4939,7 +5123,8 @@
           "price": 225000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "immobiliare-75338864",
@@ -4958,7 +5143,8 @@
           "price": 130000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 190
     },
     {
       "id": "immobiliare-131827846",
@@ -4977,7 +5163,8 @@
           "price": 109125,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-126474757",
@@ -4997,7 +5184,8 @@
           "price": 62000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 18
     },
     {
       "id": "immobiliare-130444700",
@@ -5022,7 +5210,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 35
     },
     {
       "id": "immobiliare-124962155",
@@ -5041,7 +5230,8 @@
           "price": 235000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 161
     },
     {
       "id": "immobiliare-124164571",
@@ -5061,7 +5251,8 @@
           "price": 150000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 55
     },
     {
       "id": "immobiliare-127103425",
@@ -5086,7 +5277,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 63
     },
     {
       "id": "immobiliare-129348528",
@@ -5105,7 +5297,8 @@
           "price": 190000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 650
     },
     {
       "id": "immobiliare-92454546",
@@ -5124,7 +5317,8 @@
           "price": 88000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 95
     },
     {
       "id": "immobiliare-128219314",
@@ -5144,7 +5338,8 @@
           "price": 230000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 72
     },
     {
       "id": "immobiliare-131343160",
@@ -5164,7 +5359,8 @@
           "price": 70000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 28
     },
     {
       "id": "immobiliare-130329648",
@@ -5184,7 +5380,8 @@
           "price": 135000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 75
     },
     {
       "id": "immobiliare-130347350",
@@ -5203,7 +5400,8 @@
           "price": 145500,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-127364947",
@@ -5228,7 +5426,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 88
     },
     {
       "id": "immobiliare-129512698",
@@ -5248,7 +5447,8 @@
           "price": 95000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 38
     },
     {
       "id": "immobiliare-122436714",
@@ -5268,7 +5468,8 @@
           "price": 185000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-131821402",
@@ -5293,7 +5494,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 62
     },
     {
       "id": "immobiliare-131784092",
@@ -5318,7 +5520,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 62
     },
     {
       "id": "immobiliare-131737738",
@@ -5337,7 +5540,8 @@
           "price": 170000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 95
     },
     {
       "id": "immobiliare-131479416",
@@ -5357,7 +5561,8 @@
           "price": 220000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 52
     },
     {
       "id": "immobiliare-130765028",
@@ -5382,7 +5587,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-129200732",
@@ -5402,7 +5608,8 @@
           "price": 255000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 58
     },
     {
       "id": "immobiliare-93851416",
@@ -5422,7 +5629,8 @@
           "price": 225000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "immobiliare-102728404",
@@ -5442,7 +5650,8 @@
           "price": 215000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-128742912",
@@ -5466,7 +5675,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-127934978",
@@ -5506,7 +5716,8 @@
           "price": 138000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 54
     },
     {
       "id": "immobiliare-131639420",
@@ -5526,7 +5737,8 @@
           "price": 220000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 57
     },
     {
       "id": "immobiliare-131869450",
@@ -5551,7 +5763,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 72
     },
     {
       "id": "immobiliare-119264769",
@@ -5571,7 +5784,8 @@
           "price": 210000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-128135652",
@@ -5596,7 +5810,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 120
     },
     {
       "id": "immobiliare-131042994",
@@ -5616,7 +5831,8 @@
           "price": 172000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 57
     },
     {
       "id": "immobiliare-125371867",
@@ -5636,7 +5852,8 @@
           "price": 225000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "immobiliare-110410429",
@@ -5656,7 +5873,8 @@
           "price": 95000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "immobiliare-122515956",
@@ -5676,7 +5894,8 @@
           "price": 99000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 40
     },
     {
       "id": "immobiliare-127499726",
@@ -5701,7 +5920,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "immobiliare-130141466",
@@ -5721,7 +5941,8 @@
           "price": 90000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 25
     },
     {
       "id": "immobiliare-131484654",
@@ -5746,7 +5967,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 40
     },
     {
       "id": "immobiliare-118231931",
@@ -5765,7 +5987,8 @@
           "price": 100000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 95
     },
     {
       "id": "immobiliare-128809122",
@@ -5785,7 +6008,8 @@
           "price": 120000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 45
     },
     {
       "id": "immobiliare-130982608",
@@ -5810,7 +6034,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 35
     },
     {
       "id": "immobiliare-128843324",
@@ -5829,7 +6054,8 @@
           "price": 145500,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-131268758",
@@ -5853,7 +6079,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-105372389",
@@ -5873,7 +6100,8 @@
           "price": 170000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-124635837",
@@ -5892,7 +6120,8 @@
           "price": 159000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 95
     },
     {
       "id": "immobiliare-128633754",
@@ -5917,7 +6146,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 33
     },
     {
       "id": "immobiliare-129561304",
@@ -5957,7 +6187,8 @@
           "price": 68000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 33
     },
     {
       "id": "immobiliare-131253630",
@@ -5982,7 +6213,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 75
     },
     {
       "id": "immobiliare-129371384",
@@ -6027,7 +6259,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 70
     },
     {
       "id": "immobiliare-131852518",
@@ -6052,7 +6285,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-129562590",
@@ -6092,7 +6326,8 @@
           "price": 98000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 25
     },
     {
       "id": "immobiliare-124283995",
@@ -6112,7 +6347,8 @@
           "price": 69000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 22
     },
     {
       "id": "immobiliare-125374655",
@@ -6131,7 +6367,8 @@
           "price": 180000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 92
     },
     {
       "id": "immobiliare-131298942",
@@ -6155,7 +6392,8 @@
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it"
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-125204443",
@@ -6193,7 +6431,8 @@
           "price": 220000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 65
     },
     {
       "id": "immobiliare-129959282",
@@ -6232,7 +6471,8 @@
           "price": 149000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 50
     },
     {
       "id": "immobiliare-131628316",
@@ -6251,7 +6491,8 @@
           "price": 132000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 37
     },
     {
       "id": "immobiliare-131262670",
@@ -6270,7 +6511,8 @@
           "price": 109125,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 90
     },
     {
       "id": "immobiliare-120119222",
@@ -6290,7 +6532,8 @@
           "price": 225000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 75
     },
     {
       "id": "immobiliare-130693724",
@@ -6349,7 +6592,8 @@
           "price": 110000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 250
     },
     {
       "id": "immobiliare-130759624",
@@ -6389,7 +6633,8 @@
           "price": 195000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 60
     },
     {
       "id": "immobiliare-113106667",
@@ -6409,7 +6654,8 @@
           "price": 195000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
-      ]
+      ],
+      "sqm": 55
     },
     {
       "id": "casa-54599180",
