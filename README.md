@@ -15,6 +15,7 @@ HomeHoliday is a personal property scouting and monitoring application that cons
 - Optional official Immobiliare.it Insights / Realitycs connector
 - Scheduled refresh workflow every 2 hours
 - Responsive React interface published with GitHub Pages
+- Flag e note sincronizzabili fra dispositivi con Supabase Auth
 
 ## Architecture
 
@@ -93,6 +94,31 @@ node scripts/refresh-listings.mjs
 ```
 
 No API credentials are required for the currently active public tracker.
+
+## Sincronizzazione fra dispositivi con Supabase
+
+Flag e note restano sempre salvati anche nel browser. Collegando Supabase vengono inoltre sincronizzati sul cloud per l'utente autenticato. L'accesso avviene tramite magic link email, senza password. Al primo accesso le annotazioni locali già presenti vengono trasferite automaticamente.
+
+1. Crea un progetto su Supabase.
+2. Apri **SQL Editor** ed esegui il file [`supabase/migrations/202608230001_create_property_annotations.sql`](supabase/migrations/202608230001_create_property_annotations.sql). La tabella usa Row Level Security: ogni utente può leggere e modificare soltanto le proprie annotazioni.
+3. In **Authentication → URL Configuration** imposta come Site URL e Redirect URL:
+
+   ```text
+   https://wscandurra-beep.github.io/HomeHoliday/
+   ```
+
+4. In GitHub apri **Settings → Secrets and variables → Actions → Variables** e crea:
+
+   ```text
+   VITE_SUPABASE_URL=https://PROJECT_REF.supabase.co
+   VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_...
+   ```
+
+5. Avvia nuovamente il workflow **Deploy HomeHoliday to GitHub Pages**.
+
+La publishable key può essere inclusa nel frontend perché l'accesso ai dati è protetto dalle policy RLS. Non inserire mai una `secret` key o la `service_role` key nel repository o nelle variabili Vite.
+
+Per lo sviluppo locale copia `.env.example` in `.env.local`, compila i due valori e avvia `npm run dev`.
 
 ## Data access and use
 
