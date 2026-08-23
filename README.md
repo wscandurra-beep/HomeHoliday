@@ -100,7 +100,7 @@ No API credentials are required for the currently active public tracker.
 Flag e note restano sempre salvati anche nel browser. Collegando Supabase vengono inoltre sincronizzati sul cloud per l'utente autenticato. L'accesso avviene tramite magic link email, senza password. Al primo accesso le annotazioni locali già presenti vengono trasferite automaticamente.
 
 1. Crea un progetto su Supabase.
-2. Apri **SQL Editor** ed esegui il file [`supabase/migrations/202608230001_create_property_annotations.sql`](supabase/migrations/202608230001_create_property_annotations.sql). La tabella usa Row Level Security: ogni utente può leggere e modificare soltanto le proprie annotazioni.
+2. Apri **SQL Editor** ed esegui in ordine i file [`202608230001_create_property_annotations.sql`](supabase/migrations/202608230001_create_property_annotations.sql) e [`202608230002_add_shared_workspaces.sql`](supabase/migrations/202608230002_add_shared_workspaces.sql). Le tabelle usano Row Level Security: soltanto i membri di un gruppo possono leggerne e modificarne le annotazioni.
 3. In **Authentication → URL Configuration** imposta come Site URL e Redirect URL:
 
    ```text
@@ -110,7 +110,6 @@ Flag e note restano sempre salvati anche nel browser. Collegando Supabase vengon
 4. In GitHub apri **Settings → Secrets and variables → Actions → Variables** e crea:
 
    ```text
-   VITE_SUPABASE_URL=https://PROJECT_REF.supabase.co
    VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_...
    ```
 
@@ -119,6 +118,17 @@ Flag e note restano sempre salvati anche nel browser. Collegando Supabase vengon
 La publishable key può essere inclusa nel frontend perché l'accesso ai dati è protetto dalle policy RLS. Non inserire mai una `secret` key o la `service_role` key nel repository o nelle variabili Vite.
 
 Per lo sviluppo locale copia `.env.example` in `.env.local`, compila i due valori e avvia `npm run dev`.
+
+### Gruppi condivisi
+
+Dopo l'accesso ogni utente dispone di uno spazio personale. Per condividere flag e note fra email diverse:
+
+1. crea un gruppo dall'area **Sincronizzazione e condivisione**;
+2. genera un codice di invito monouso, valido per sette giorni;
+3. comunica il codice alla seconda persona;
+4. la seconda persona accede con la propria email e inserisce il codice in **Entra in un gruppo**.
+
+Il proprietario può vedere i partecipanti e rimuovere i membri. Ogni gruppo mantiene annotazioni e cache locale separate.
 
 ## Data access and use
 
