@@ -1,0 +1,24 @@
+.filters {
+  grid-template-columns: minmax(220px, 2fr) repeat(5, minmax(120px, 1fr));
+}
+
+@media (max-width: 1000px) {
+  .filters {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .filters label:first-child {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 760px) {
+  .filters {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .filters label:first-child,
+  .filters label:last-child {
+    grid-column: 1 / -1;
+  }
+}
