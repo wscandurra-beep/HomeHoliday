@@ -1,89 +1,24 @@
-/* HomeHoliday – Idealista.it exporter test v3
-Run from the filtered Idealista SRP page.
-Test mode: extracts the first 3 listings only.
-Uses random 5–20 second pacing between detail loads.
+/* HomeHoliday – Idealista.it bulk exporter v4
+Run from the filtered Idealista SRP page ordered by publication date.
+Reads each SRP page (30 listings/page), opens detail pages individually,
+and uses random 5–20 second pacing between detail loads.
 */
 (async()=>{
-  const TEST_LIMIT=3,MAX_PRICE=260000,LOAD_WAIT=1800,PAUSE_MIN_MS=5000,PAUSE_MAX_MS=20000;
+  const MAX_PRICE=260000,MAX_PAGES=20,LOAD_WAIT=1800,PAUSE_MIN_MS=5000,PAUSE_MAX_MS=20000,LOAD_RETRIES=2;
   const clean=(v='')=>String(v).replace(/\s+/g,' ').trim();
   const sleep=ms=>new Promise(r=>setTimeout(r,ms));
   const randomPause=()=>Math.floor(PAUSE_MIN_MS+Math.random()*(PAUSE_MAX_MS-PAUSE_MIN_MS+1));
   const idOf=url=>String(url).match(/\/immobile\/(\d+)\/?/i)?.[1]||null;
-
-  function euroNumbers(text=''){
-    const out=[];
-    for(const m of String(text).matchAll(/([\d.]+(?:,\d{1,2})?)\s*€/g)){
-      const n=Number(m[1].replace(/\./g,'').replace(',','.'));
-      if(Number.isFinite(n)&&n>=10000&&n<=MAX_PRICE)out.push(n);
-    }
-    for(const m of String(text).matchAll(/€\s*([\d.]+(?:,\d{1,2})?)/g)){
-      const n=Number(m[1].replace(/\./g,'').replace(',','.'));
-      if(Number.isFinite(n)&&n>=10000&&n<=MAX_PRICE)out.push(n);
-    }
-    return out;
-  }
-
-  function listingLinks(doc,baseUrl){
-    const seen=new Set(),out=[];
-    for(const card of doc.querySelectorAll('article.item')){
-      const dataId=clean(card.getAttribute('data-element-id')||'');
-      const link=card.querySelector('a.item-link[href*="/immobile/"]')||card.querySelector('a[href*="/immobile/"]');
-      let href=null,id=dataId||null;
-      if(link){
-        try{href=new URL(link.getAttribute('href'),baseUrl).href.split('#')[0];}catch{}
-        id=id||idOf(href);
-      }
-      if(!href&&id){try{href=new URL(`/immobile/${id}/`,baseUrl).href;}catch{}}
-      if(!id||!href||seen.has(id))continue;
-      seen.add(id);
-      const title=clean(link?.getAttribute('title')||link?.textContent||card.querySelector('h2,h3')?.textContent||'');
-      out.push({id,href,title});
-    }
-    return out;
-  }
-
-  function detail(doc,url){
-    const id=idOf(url);if(!id)return null;
-    const title=clean(doc.querySelector('h1')?.textContent||doc.title||`Immobile Idealista ${id}`);
-    const body=clean(doc.body?.innerText||''),p=body.indexOf(title),near=p>=0?body.slice(p,p+2400):body.slice(0,3000);
-    let price=null;
-    for(const s of ['.info-data-price','.price-container','.price-row','[class*="price"]']){
-      const e=doc.querySelector(s);if(!e)continue;
-      const vals=euroNumbers(clean(e.textContent||''));if(vals.length){price=vals[0];break;}
-    }
-    if(!price)price=euroNumbers(near)[0]||euroNumbers(body)[0]||null;
-    if(!price)return null;
-    const sqm=Number(near.match(/(\d{1,3})\s*m²\b/i)?.[1]);
-    const rooms=Number(near.match(/(\d{1,2})\s*(?:local[ei]|stanze?|camere?)\b/i)?.[1]);
-    const baths=Number(near.match(/(\d{1,2})\s*bagn[oi]\b/i)?.[1]);
-    const floor=clean(near.match(/(?:piano\s+terra|\d+[°º]?\s*piano|piano\s+\w+)/i)?.[0]||'');
-    const sellerText=[...doc.querySelectorAll('a,span,div')].map(e=>clean(e.textContent||'')).find(t=>/privato|agenzia|immobiliare/i.test(t))||'';
-    const sellerType=/\bprivato\b/i.test(sellerText)?'Privato':'Agenzia';
-    return{id:`idealista-${id}`,externalId:id,title,location:'Bardonecchia',price,sellerType,source:'Idealista',sourceUrl:url,sqm:sqm>=10&&sqm<=1000?sqm:undefined,rooms:rooms>=1&&rooms<=30?rooms:undefined,bathrooms:baths>=1&&baths<=20?baths:undefined,floor:floor||undefined,status:'ACTIVE'};
-  }
-
+  function euroNumbers(text=''){const out=[];for(const re of [/([\d.]+(?:,\d{1,2})?)\s*€/g,/€\s*([\d.]+(?:,\d{1,2})?)/g])for(const m of String(text).matchAll(re)){const n=Number(m[1].replace(/\./g,'').replace(',','.'));if(Number.isFinite(n)&&n>=10000&&n<=MAX_PRICE)out.push(n);}return out;}
+  function listingLinks(doc,baseUrl){const seen=new Set(),out=[];for(const card of doc.querySelectorAll('article.item')){const dataId=clean(card.getAttribute('data-element-id')||'');const link=card.querySelector('a.item-link[href*="/immobile/"]')||card.querySelector('a[href*="/immobile/"]');let href=null,id=dataId||null;if(link){try{href=new URL(link.getAttribute('href'),baseUrl).href.split('#')[0];}catch{}id=id||idOf(href);}if(!href&&id){try{href=new URL(`/immobile/${id}/`,baseUrl).href;}catch{}}if(!id||!href||seen.has(id))continue;seen.add(id);out.push({id,href,title:clean(link?.getAttribute('title')||link?.textContent||'')});}return out;}
+  function detail(doc,url){const id=idOf(url);if(!id)return null;const title=clean(doc.querySelector('h1')?.textContent||doc.title||`Immobile Idealista ${id}`);const body=clean(doc.body?.innerText||''),p=body.indexOf(title),near=p>=0?body.slice(p,p+2600):body.slice(0,3200);let price=null;for(const s of ['.info-data-price','.price-container','.price-row','[class*="price"]']){const e=doc.querySelector(s);if(!e)continue;const vals=euroNumbers(clean(e.textContent||''));if(vals.length){price=vals[0];break;}}if(!price)price=euroNumbers(near)[0]||euroNumbers(body)[0]||null;if(!price)return null;const sqm=Number(near.match(/(\d{1,3})\s*m²\b/i)?.[1]),rooms=Number(near.match(/(\d{1,2})\s*(?:local[ei]|stanze?|camere?)\b/i)?.[1]),baths=Number(near.match(/(\d{1,2})\s*bagn[oi]\b/i)?.[1]),floor=clean(near.match(/(?:piano\s+terra|\d+[°º]?\s*piano|piano\s+\w+)/i)?.[0]||'');const sellerText=[...doc.querySelectorAll('a,span,div')].map(e=>clean(e.textContent||'')).find(t=>/privato|agenzia|immobiliare/i.test(t))||'';return{id:`idealista-${id}`,externalId:id,title,location:'Bardonecchia',price,sellerType:/\bprivato\b/i.test(sellerText)?'Privato':'Agenzia',source:'Idealista',sourceUrl:url,sqm:sqm>=10&&sqm<=1000?sqm:undefined,rooms:rooms>=1&&rooms<=30?rooms:undefined,bathrooms:baths>=1&&baths<=20?baths:undefined,floor:floor||undefined,status:'ACTIVE'};}
   function makeFrame(){const f=document.createElement('iframe');Object.assign(f.style,{position:'fixed',left:'-10000px',top:'0',width:'1280px',height:'900px',opacity:'0',pointerEvents:'none'});document.body.appendChild(f);return f;}
-  async function loadInFrame(frame,url){return new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(new Error(`timeout: ${url}`)),25000);frame.onload=async()=>{try{await sleep(LOAD_WAIT);const doc=frame.contentDocument,currentUrl=frame.contentWindow?.location?.href||url;if(!doc||!idOf(currentUrl))throw new Error('pagina dettaglio non leggibile');clearTimeout(timer);resolve({doc,url:currentUrl});}catch(e){clearTimeout(timer);reject(e);}};frame.src=url;});}
-  function download(listings,steps,startUrl,startedAt){const capturedAt=new Date().toISOString(),normalized=listings.map(x=>({...x,firstSeenAt:startedAt,lastSeenAt:capturedAt,priceHistory:[{price:x.price,capturedAt}]})),payload={provider:'Idealista',mode:'srp-detail-test-v3',search:'Bardonecchia vendita ≤ €260.000, pubblicazione desc',sourcePage:startUrl,capturedAt,count:normalized.length,steps,listings:normalized};const u=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=u;a.download=`homeholiday-idealista-test-${capturedAt.slice(0,10)}.json`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),5000);alert(`HomeHoliday Idealista: test completato (${normalized.length}/${TEST_LIMIT} annunci).`);}
-
-  if(document.readyState!=='complete')await new Promise(r=>addEventListener('load',r,{once:true}));
-  const startUrl=location.href;
-  if(!/idealista\.it\/vendita-case\//i.test(startUrl)){alert('Apri la pagina risultati Idealista indicata e riesegui lo Snippet.');return;}
-  const cards=[...document.querySelectorAll('article.item')],candidates=listingLinks(document,startUrl);
-  console.log(`Idealista diagnostics: cards=${cards.length}, listings=${candidates.length}`);
-  console.table(candidates.slice(0,10));
-  if(!candidates.length){alert('Idealista: nessun annuncio identificato.');return;}
-
-  const selected=candidates.slice(0,TEST_LIMIT),listings=[],steps=[],frame=makeFrame(),startedAt=new Date().toISOString();
-  try{
-    for(let i=0;i<selected.length;i++){
-      const candidate=selected[i];
-      if(i>0){const pause=randomPause();console.log(`Idealista: attesa casuale ${(pause/1000).toFixed(1)}s prima dell'annuncio ${i+1}/${selected.length}…`);await sleep(pause);}
-      console.log(`Idealista: apertura ${i+1}/${selected.length} – ${candidate.id}`);
-      try{const loaded=await loadInFrame(frame,candidate.href),item=detail(loaded.doc,loaded.url);if(item){listings.push(item);steps.push({sequence:i+1,id:item.externalId,status:'ok',price:item.price,url:item.sourceUrl});console.log(`Idealista ${i+1}/${selected.length}: ${item.externalId} €${item.price}`);}else{steps.push({sequence:i+1,id:candidate.id,status:'parse-error',url:candidate.href});console.warn(`Idealista: parsing fallito per ${candidate.id}`);}}
-      catch(e){steps.push({sequence:i+1,id:candidate.id,status:'load-error',url:candidate.href,error:String(e?.message||e)});console.warn(`Idealista: caricamento fallito per ${candidate.id}`,e);}
-    }
-  }finally{frame.remove();}
-  console.log(`Idealista test completato: ${listings.length}/${selected.length}`);
-  download(listings,steps,startUrl,startedAt);
+  async function loadFrame(frame,url,requireDetail=true){return new Promise((resolve,reject)=>{let done=false;const timer=setTimeout(()=>{if(!done){done=true;reject(new Error(`timeout: ${url}`));}},30000);frame.onload=async()=>{if(done)return;try{await sleep(LOAD_WAIT);const doc=frame.contentDocument,currentUrl=frame.contentWindow?.location?.href||url;if(!doc||(requireDetail&&!idOf(currentUrl)))throw new Error('pagina non leggibile');done=true;clearTimeout(timer);resolve({doc,url:currentUrl});}catch(e){done=true;clearTimeout(timer);reject(e);}};frame.src=url;});}
+  async function loadWithRetry(frame,url,requireDetail=true){let last;for(let a=1;a<=LOAD_RETRIES+1;a++){try{return await loadFrame(frame,url,requireDetail);}catch(e){last=e;if(a<=LOAD_RETRIES){console.warn(`Idealista: retry ${a}/${LOAD_RETRIES} per ${url}`);await sleep(2500+a*1500);}}}throw last;}
+  function pageUrl(base,page){const u=new URL(base);if(page<=1)u.searchParams.delete('pag');else u.searchParams.set('pag',String(page));return u.href;}
+  function download(all,steps,pages,startUrl,startedAt,stopReason){const capturedAt=new Date().toISOString(),listings=[...all.values()].map(x=>({...x,firstSeenAt:startedAt,lastSeenAt:capturedAt,priceHistory:[{price:x.price,capturedAt}]})),payload={provider:'Idealista',mode:'srp-detail-bulk-v4',search:'Bardonecchia vendita ≤ €260.000, pubblicazione desc',sourcePage:startUrl,capturedAt,count:listings.length,stopReason,pages,steps,listings};const u=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=u;a.download=`homeholiday-idealista-${capturedAt.slice(0,10)}.json`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),5000);alert(`HomeHoliday Idealista: ${listings.length} annunci esportati.`);}
+  if(document.readyState!=='complete')await new Promise(r=>addEventListener('load',r,{once:true}));const startUrl=location.href;if(!/idealista\.it\/vendita-case\//i.test(startUrl)){alert('Apri la pagina risultati Idealista e riesegui lo Snippet.');return;}
+  const base=new URL(startUrl);base.searchParams.delete('pag');const all=new Map(),steps=[],pages=[],frame=makeFrame(),startedAt=new Date().toISOString();let stopReason='max-pages';
+  try{for(let page=1;page<=MAX_PAGES;page++){let srp;if(page===1)srp={doc:document,url:startUrl};else{console.log(`Idealista: caricamento SRP pagina ${page}…`);try{srp=await loadWithRetry(frame,pageUrl(base.href,page),false);}catch(e){pages.push({page,status:'load-error',error:String(e?.message||e)});stopReason='srp-load-error';break;}}const candidates=listingLinks(srp.doc,srp.url);console.log(`Idealista SRP pagina ${page}: ${candidates.length} annunci individuati.`);pages.push({page,status:'ok',candidates:candidates.length});if(!candidates.length){stopReason='empty-page';break;}let newOnPage=0;for(let i=0;i<candidates.length;i++){const c=candidates[i];if(all.has(c.id))continue;const pause=randomPause();console.log(`Idealista: attesa ${(pause/1000).toFixed(1)}s – pagina ${page}, annuncio ${i+1}/${candidates.length}…`);await sleep(pause);try{const loaded=await loadWithRetry(frame,c.href,true),item=detail(loaded.doc,loaded.url);if(item){all.set(item.externalId,item);newOnPage++;steps.push({page,position:i+1,id:item.externalId,status:'ok',price:item.price,url:item.sourceUrl});console.log(`Idealista: ${all.size} acquisiti – ${item.externalId} €${item.price}`);}else{steps.push({page,position:i+1,id:c.id,status:'parse-error',url:c.href});console.warn(`Idealista: parsing fallito ${c.id}`);}}catch(e){steps.push({page,position:i+1,id:c.id,status:'load-error',url:c.href,error:String(e?.message||e)});console.warn(`Idealista: caricamento fallito ${c.id}`);}}if(candidates.length<30){stopReason='last-partial-page';break;}if(newOnPage===0){stopReason='no-new-listings';break;}}}catch(e){stopReason=`error:${e.message}`;console.warn('Idealista stop:',e);}finally{frame.remove();}
+  console.log(`Idealista completato: ${all.size}; stop=${stopReason}`);download(all,steps,pages,startUrl,startedAt,stopReason);
 })();
