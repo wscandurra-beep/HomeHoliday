@@ -33,6 +33,8 @@ export type Tracker = {
   location: string;
   minPrice: number;
   maxPrice: number;
+  minSqm?: number;
+  maxSqm?: number;
   sellerType: 'Tutti' | SellerType;
   active: boolean;
   refreshHours: number;
