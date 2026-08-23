@@ -51,3 +51,19 @@ test('does not put two listings from the same portal in one duplicate group', ()
   assert.equal(grouped.filter((item) => item.duplicateGroupId === grouped[0].duplicateGroupId).length, 2);
   assert.equal(grouped[2].duplicateGroupId, undefined);
 });
+
+test('pairs same-day NEW listings when one portal hides the address', () => {
+  const common = { status: 'NEW', firstSeenAt: '2026-08-23T12:00:00.000Z' };
+  const subito = { ...listing('658035891', 'Subito.it', 'Appartamento Bardonecchia [BD23VRG]', 225000, 90, 3), ...common };
+  const immobiliare = { ...listing('122598732', 'Immobiliare.it', 'Trilocale via Melezet 125, Centro, Bardonecchia', 225000, 90, 3), ...common };
+  assert.equal(likelySameProperty(subito, immobiliare), true);
+  const grouped = annotateDuplicateGroups([subito, immobiliare]);
+  assert.equal(grouped[0].duplicateGroupId, grouped[1].duplicateGroupId);
+});
+
+test('does not use attribute-only pairing for older or different-day listings', () => {
+  const subito = { ...listing('subito', 'Subito.it', 'Appartamento Bardonecchia [BD23VRG]', 225000, 90, 3), status: 'ACTIVE', firstSeenAt: '2026-08-23T12:00:00.000Z' };
+  const immobiliare = { ...listing('imm', 'Immobiliare.it', 'Trilocale via Melezet 125, Centro, Bardonecchia', 225000, 90, 3), status: 'ACTIVE', firstSeenAt: '2026-08-23T12:00:00.000Z' };
+  assert.equal(likelySameProperty(subito, immobiliare), false);
+  assert.equal(likelySameProperty({ ...subito, status: 'NEW' }, { ...immobiliare, status: 'NEW', firstSeenAt: '2026-08-24T08:00:00.000Z' }), false);
+});

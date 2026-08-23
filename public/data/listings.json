@@ -19,6 +19,12 @@
           "price": 225000,
           "capturedAt": "2026-08-23T13:02:15.924Z"
         }
+      ],
+      "duplicateGroupId": "7548b327f0",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it",
+        "Casa.it"
       ]
     },
     {
@@ -6435,8 +6441,8 @@
       ]
     },
     {
-      "id": "immobiliare-email-1a02dc4cb5004417",
-      "externalId": "email-1a02dc4cb5004417",
+      "id": "immobiliare-122598732",
+      "externalId": "122598732",
       "title": "Trilocale via Melezet 125, Centro, Bardonecchia",
       "location": "Bardonecchia",
       "price": 225000,
@@ -6445,7 +6451,7 @@
       "lastSeenAt": "2026-08-23T08:37:46.000Z",
       "sellerType": "Agenzia",
       "source": "Immobiliare.it",
-      "sourceUrl": "https://www.immobiliare.it/vendita-appartamenti/bardonecchia/",
+      "sourceUrl": "https://www.immobiliare.it/annunci/122598732/",
       "sqm": 90,
       "rooms": 3,
       "bathrooms": 1,
@@ -6456,8 +6462,9 @@
           "capturedAt": "2026-08-23T08:37:46.000Z"
         }
       ],
-      "duplicateGroupId": "0ed75c3670",
+      "duplicateGroupId": "7548b327f0",
       "duplicateSources": [
+        "Subito.it",
         "Immobiliare.it",
         "Casa.it"
       ]
@@ -6484,8 +6491,9 @@
           "capturedAt": "2026-08-23T12:51:02.000Z"
         }
       ],
-      "duplicateGroupId": "0ed75c3670",
+      "duplicateGroupId": "7548b327f0",
       "duplicateSources": [
+        "Subito.it",
         "Immobiliare.it",
         "Casa.it"
       ]

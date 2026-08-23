@@ -67,7 +67,15 @@ function strictAttributeMatch(a, b) {
   if (a.rooms == null || b.rooms == null || Number(a.rooms) !== Number(b.rooms)) return false;
   const aType = propertyType(a.title);
   const bType = propertyType(b.title);
-  return !aType || !bType || aType === bType;
+  return !aType || !bType || aType === bType || ['appartamento', 'casa'].includes(aType) || ['appartamento', 'casa'].includes(bType);
+}
+
+function newOnSameDay(a, b) {
+  if (a.status !== 'NEW' || b.status !== 'NEW') return false;
+  const aDate = a.publishedAt || a.firstSeenAt;
+  const bDate = b.publishedAt || b.firstSeenAt;
+  if (!aDate || !bDate) return false;
+  return String(aDate).slice(0, 10) === String(bDate).slice(0, 10);
 }
 
 export function likelySameProperty(a, b) {
@@ -90,9 +98,10 @@ export function likelySameProperty(a, b) {
     if (aAddress.civic && bAddress.civic) return true;
   }
 
-  // With a hidden or incomplete address, group only on a complete, very close
-  // set of independent attributes. This deliberately favours false negatives.
-  return strictAttributeMatch(a, b);
+  // A newly published listing may hide the address or use only an agency code.
+  // In that case pair it only with another NEW cross-portal listing observed on
+  // the same day and with a complete, nearly identical attribute set.
+  return newOnSameDay(a, b) && strictAttributeMatch(a, b);
 }
 
 export function annotateDuplicateGroups(listings) {
