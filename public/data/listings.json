@@ -232,10 +232,11 @@
         }
       ],
       "sqm": 72,
-      "duplicateGroupId": "b67532ae2e",
+      "duplicateGroupId": "1ab7f60a5c",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -1060,10 +1061,11 @@
         }
       ],
       "sqm": 63,
-      "duplicateGroupId": "0f013661be",
+      "duplicateGroupId": "36cae76e4d",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -3752,10 +3754,11 @@
         }
       ],
       "sqm": 63,
-      "duplicateGroupId": "0f013661be",
+      "duplicateGroupId": "36cae76e4d",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -5730,10 +5733,11 @@
         }
       ],
       "sqm": 72,
-      "duplicateGroupId": "b67532ae2e",
+      "duplicateGroupId": "1ab7f60a5c",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -6693,10 +6697,11 @@
           "capturedAt": "2026-08-23T08:37:46.000Z"
         }
       ],
-      "duplicateGroupId": "eaca1d30b6",
+      "duplicateGroupId": "baa7f75fd9",
       "duplicateSources": [
         "Immobiliare.it",
-        "Casa.it"
+        "Casa.it",
+        "Idealista"
       ]
     },
     {
@@ -6721,10 +6726,11 @@
           "capturedAt": "2026-08-23T12:51:02.000Z"
         }
       ],
-      "duplicateGroupId": "eaca1d30b6",
+      "duplicateGroupId": "baa7f75fd9",
       "duplicateSources": [
         "Immobiliare.it",
-        "Casa.it"
+        "Casa.it",
+        "Idealista"
       ]
     },
     {
@@ -6767,9 +6773,115 @@
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
       "lastSeenAt": "2026-08-22T18:49:19.988Z"
+    },
+    {
+      "id": "idealista-36620578",
+      "externalId": "36620578",
+      "title": "Trilocale in Via Melezet 125, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 225000,
+      "publishedAt": "2026-08-24T12:24:56.000Z",
+      "firstSeenAt": "2026-08-24T12:24:56.000Z",
+      "lastSeenAt": "2026-08-24T12:24:56.000Z",
+      "sellerType": "Agenzia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36620578/",
+      "sqm": 90,
+      "rooms": 3,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 225000,
+          "capturedAt": "2026-08-24T12:24:56.000Z"
+        }
+      ],
+      "duplicateGroupId": "baa7f75fd9",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-36614698",
+      "externalId": "36614698",
+      "title": "Bilocale in Viale della Vittoria 21, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 200000,
+      "publishedAt": "2026-08-24T12:24:56.000Z",
+      "firstSeenAt": "2026-08-24T12:24:56.000Z",
+      "lastSeenAt": "2026-08-24T12:24:56.000Z",
+      "sellerType": "Agenzia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36614698/",
+      "sqm": 72,
+      "rooms": 2,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 200000,
+          "capturedAt": "2026-08-24T12:24:56.000Z"
+        }
+      ],
+      "duplicateGroupId": "1ab7f60a5c",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-36065470",
+      "externalId": "36065470",
+      "title": "Trilocale in Frazione Melezet 12, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "publishedAt": "2026-08-24T12:24:56.000Z",
+      "firstSeenAt": "2026-08-24T12:24:56.000Z",
+      "lastSeenAt": "2026-08-24T12:24:56.000Z",
+      "sellerType": "Agenzia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36065470/",
+      "sqm": 63,
+      "rooms": 3,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 210000,
+          "capturedAt": "2026-08-24T12:24:56.000Z"
+        }
+      ],
+      "duplicateGroupId": "36cae76e4d",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-36372946",
+      "externalId": "36372946",
+      "title": "Trilocale a Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 230000,
+      "publishedAt": "2026-08-24T12:24:56.000Z",
+      "firstSeenAt": "2026-08-24T12:24:56.000Z",
+      "lastSeenAt": "2026-08-24T12:24:56.000Z",
+      "sellerType": "Agenzia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36372946/",
+      "sqm": 70,
+      "rooms": 3,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 230000,
+          "capturedAt": "2026-08-24T12:24:56.000Z"
+        }
+      ]
     }
   ],
-  "refreshedAt": "2026-08-24T11:25:34.000Z",
+  "refreshedAt": "2026-08-24T12:24:56.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -6805,9 +6917,9 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-08-24T11:25:34.000Z",
-      "count": 7,
-      "message": "Alert Gmail Casa.it: 7 annunci verificati entro 260.000 €; 2 esclusi oltre soglia"
+      "checkedAt": "2026-08-24T12:24:56.000Z",
+      "count": 11,
+      "message": "Alert Gmail verificati oggi: Casa.it (7), Idealista (4); 2 annunci Casa.it esclusi oltre 260.000 €"
     }
   }
 }
