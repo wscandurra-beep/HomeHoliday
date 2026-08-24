@@ -97,7 +97,7 @@ No API credentials are required for the currently active public tracker.
 
 ## Sincronizzazione fra dispositivi con Supabase
 
-Flag e note restano sempre salvati anche nel browser. Collegando Supabase vengono inoltre sincronizzati sul cloud per l'utente autenticato. L'accesso avviene tramite magic link email, senza password. Al primo accesso le annotazioni locali già presenti vengono trasferite automaticamente.
+Flag e note restano sempre salvati anche nel browser. Collegando Supabase vengono inoltre sincronizzati sul cloud per l'utente autenticato. L'accesso avviene tramite magic link email, senza password: **Accedi** è riservato alle email già registrate, mentre **Registrati** crea un nuovo account. Al primo accesso le annotazioni locali già presenti vengono trasferite automaticamente.
 
 1. Crea un progetto su Supabase.
 2. Apri **SQL Editor** ed esegui in ordine i file [`202608230001_create_property_annotations.sql`](supabase/migrations/202608230001_create_property_annotations.sql) e [`202608230002_add_shared_workspaces.sql`](supabase/migrations/202608230002_add_shared_workspaces.sql). Le tabelle usano Row Level Security: soltanto i membri di un gruppo possono leggerne e modificarne le annotazioni.
