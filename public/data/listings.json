@@ -6879,9 +6879,32 @@
           "capturedAt": "2026-08-24T12:24:56.000Z"
         }
       ]
+    },
+    {
+      "id": "immobiliare-131901276",
+      "externalId": "131901276",
+      "title": "Monolocale viale San Francesco 3, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 167000,
+      "publishedAt": "2026-08-24T15:57:39.000Z",
+      "firstSeenAt": "2026-08-24T15:57:39.000Z",
+      "lastSeenAt": "2026-08-24T15:57:39.000Z",
+      "sellerType": "Agenzia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131901276/",
+      "sqm": 40,
+      "rooms": 1,
+      "bathrooms": 1,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 167000,
+          "capturedAt": "2026-08-24T15:57:39.000Z"
+        }
+      ]
     }
   ],
-  "refreshedAt": "2026-08-24T15:00:47.102Z",
+  "refreshedAt": "2026-08-24T15:57:39.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -6914,6 +6937,12 @@
       "checkedAt": "2026-08-24T15:00:47.102Z",
       "count": 163,
       "message": "Dati disponibili dal bootstrap"
+    },
+    "emailAlerts": {
+      "ok": true,
+      "checkedAt": "2026-08-24T15:57:39.000Z",
+      "count": 1,
+      "message": "Alert Gmail Immobiliare.it: 1 nuovo annuncio importato con URL canonico"
     }
   }
 }
