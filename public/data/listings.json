@@ -1574,17 +1574,17 @@
     {
       "id": "casa-53704127",
       "externalId": "53704127",
-      "title": "Trilocale in Vendita in Via Amprimo 1 a Bardonecchia",
+      "title": "Appartamento in vendita in Via Amprimo 1, Centro, Bardonecchia",
       "location": "Bardonecchia",
       "price": 12000,
       "sellerType": "Agenzia",
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/53704127/",
-      "rooms": 3,
+      "rooms": 2,
       "bathrooms": 1,
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-24T10:54:01.188Z",
+      "lastSeenAt": "2026-08-24T11:25:34.000Z",
       "priceHistory": [
         {
           "price": 12000,
@@ -1879,7 +1879,7 @@
       "bathrooms": 2,
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-24T10:54:01.188Z",
+      "lastSeenAt": "2026-08-24T11:25:34.000Z",
       "priceHistory": [
         {
           "price": 190000,
@@ -2101,7 +2101,7 @@
       "floor": "piano terra",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-24T10:54:01.188Z",
+      "lastSeenAt": "2026-08-24T11:25:34.000Z",
       "priceHistory": [
         {
           "price": 68000,
@@ -2407,7 +2407,7 @@
       "floor": "1° piano",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-24T10:54:01.188Z",
+      "lastSeenAt": "2026-08-24T11:25:34.000Z",
       "priceHistory": [
         {
           "price": 128000,
@@ -2447,17 +2447,17 @@
     {
       "id": "casa-52426328",
       "externalId": "52426328",
-      "title": "Trilocale in Vendita in Via Amprimo 1 a Bardonecchia",
+      "title": "Appartamento in vendita in Via Amprimo 1, Centro, Bardonecchia",
       "location": "Bardonecchia",
       "price": 12000,
       "sellerType": "Agenzia",
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/52426328/",
-      "rooms": 3,
+      "rooms": 2,
       "bathrooms": 1,
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-24T10:54:01.188Z",
+      "lastSeenAt": "2026-08-24T11:25:34.000Z",
       "priceHistory": [
         {
           "price": 12000,
@@ -2661,7 +2661,7 @@
       "floor": "4° piano",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-24T10:54:01.188Z",
+      "lastSeenAt": "2026-08-24T11:25:34.000Z",
       "priceHistory": [
         {
           "price": 198000,
@@ -6707,14 +6707,14 @@
       "price": 225000,
       "publishedAt": "2026-08-23T12:51:02.000Z",
       "firstSeenAt": "2026-08-23T12:51:02.000Z",
-      "lastSeenAt": "2026-08-23T12:51:02.000Z",
+      "lastSeenAt": "2026-08-24T11:25:34.000Z",
       "sellerType": "Agenzia",
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/54599477/",
       "sqm": 90,
       "rooms": 3,
       "bathrooms": 1,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 225000,
@@ -6769,7 +6769,7 @@
       "lastSeenAt": "2026-08-22T18:49:19.988Z"
     }
   ],
-  "refreshedAt": "2026-08-24T10:54:01.188Z",
+  "refreshedAt": "2026-08-24T11:25:34.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -6802,6 +6802,12 @@
       "checkedAt": "2026-08-24T10:54:01.188Z",
       "count": 163,
       "message": "Dati disponibili dal bootstrap"
+    },
+    "emailAlerts": {
+      "ok": true,
+      "checkedAt": "2026-08-24T11:25:34.000Z",
+      "count": 7,
+      "message": "Alert Gmail Casa.it: 7 annunci verificati entro 260.000 €; 2 esclusi oltre soglia"
     }
   }
 }
