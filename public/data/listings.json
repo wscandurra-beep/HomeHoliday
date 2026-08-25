@@ -1411,7 +1411,7 @@
       "floor": "piano terra",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-25T10:50:12.038Z",
+      "lastSeenAt": "2026-08-25T11:25:56.000Z",
       "priceHistory": [
         {
           "price": 109125,
@@ -1586,7 +1586,7 @@
       "bathrooms": 1,
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-25T10:50:12.038Z",
+      "lastSeenAt": "2026-08-25T11:25:56.000Z",
       "priceHistory": [
         {
           "price": 12000,
@@ -1768,7 +1768,7 @@
       "floor": "4° piano",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-25T10:50:12.038Z",
+      "lastSeenAt": "2026-08-25T11:25:56.000Z",
       "priceHistory": [
         {
           "price": 220000,
@@ -1865,7 +1865,7 @@
       "floor": "3° piano",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-25T10:50:12.038Z",
+      "lastSeenAt": "2026-08-25T11:25:56.000Z",
       "priceHistory": [
         {
           "price": 154000,
@@ -2465,7 +2465,7 @@
       "bathrooms": 1,
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-25T10:50:12.038Z",
+      "lastSeenAt": "2026-08-25T11:25:56.000Z",
       "priceHistory": [
         {
           "price": 12000,
@@ -2646,7 +2646,7 @@
       "floor": "2° piano",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-25T10:50:12.038Z",
+      "lastSeenAt": "2026-08-25T11:25:56.000Z",
       "priceHistory": [
         {
           "price": 149000,
@@ -6998,7 +6998,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-08-25T10:50:12.038Z",
+  "refreshedAt": "2026-08-25T11:25:56.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -7031,6 +7031,12 @@
       "checkedAt": "2026-08-25T10:50:12.038Z",
       "count": 163,
       "message": "Dati disponibili dal bootstrap"
+    },
+    "emailAlerts": {
+      "ok": true,
+      "checkedAt": "2026-08-25T11:25:56.000Z",
+      "count": 6,
+      "message": "Alert Gmail Casa.it: 6 annunci verificati entro 260.000 €"
     }
   }
 }
