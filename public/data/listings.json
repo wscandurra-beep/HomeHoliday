@@ -6794,7 +6794,7 @@
       "price": 225000,
       "publishedAt": "2026-08-24T12:24:56.000Z",
       "firstSeenAt": "2026-08-24T12:24:56.000Z",
-      "lastSeenAt": "2026-08-24T12:24:56.000Z",
+      "lastSeenAt": "2026-08-26T08:52:25.000Z",
       "sellerType": "Agenzia",
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36620578/",
@@ -6996,9 +6996,37 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "idealista-35601648",
+      "externalId": "35601648",
+      "title": "Quadrilocale in Via la Rho, 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "price": 109125,
+      "publishedAt": "2026-08-26T08:52:25.000Z",
+      "firstSeenAt": "2026-08-26T08:52:25.000Z",
+      "lastSeenAt": "2026-08-26T08:52:25.000Z",
+      "sellerType": "Agenzia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35601648/",
+      "sqm": 90,
+      "rooms": 4,
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-08-26T08:52:25.000Z"
+        }
+      ],
+      "duplicateGroupId": "18265906d7",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
     }
   ],
-  "refreshedAt": "2026-08-26T15:53:58.087Z",
+  "refreshedAt": "2026-08-26T08:52:25.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -7031,6 +7059,12 @@
       "checkedAt": "2026-08-26T15:53:58.087Z",
       "count": 163,
       "message": "Dati disponibili dal bootstrap"
+    },
+    "emailAlerts": {
+      "ok": true,
+      "checkedAt": "2026-08-26T08:52:25.000Z",
+      "count": 2,
+      "message": "Alert Gmail Idealista: 1 nuovo annuncio importato entro 260.000 €; 1 già presente aggiornato"
     }
   }
 }
