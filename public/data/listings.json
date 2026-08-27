@@ -518,7 +518,7 @@
       "floor": "piano terra",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-27T09:49:43.919Z",
+      "lastSeenAt": "2026-08-27T10:20:10.000Z",
       "priceHistory": [
         {
           "price": 230000,
@@ -1412,7 +1412,7 @@
       "floor": "piano terra",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-27T09:49:43.919Z",
+      "lastSeenAt": "2026-08-27T10:20:10.000Z",
       "priceHistory": [
         {
           "price": 109125,
@@ -1615,7 +1615,7 @@
       "floor": "piano terra",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-08-27T09:49:43.919Z",
+      "lastSeenAt": "2026-08-27T10:20:10.000Z",
       "priceHistory": [
         {
           "price": 197000,
@@ -7028,7 +7028,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-08-27T09:49:43.919Z",
+  "refreshedAt": "2026-08-27T10:20:10.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -7061,6 +7061,12 @@
       "checkedAt": "2026-08-27T09:49:43.919Z",
       "count": 163,
       "message": "Dati disponibili dal bootstrap"
+    },
+    "emailAlerts": {
+      "ok": true,
+      "checkedAt": "2026-08-27T10:20:10.000Z",
+      "count": 3,
+      "message": "Alert Gmail Casa.it: 3 annunci entro 260.000 € già presenti e aggiornati; 4 annunci sopra soglia esclusi"
     }
   }
 }
