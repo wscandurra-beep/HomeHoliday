@@ -10,6 +10,7 @@ const storePath = path.join(dataDir, 'listings.json');
 const searchesPath = path.resolve('config/tracked-searches.json');
 const bootstrapPath = path.resolve('config/bootstrap-listings.json');
 const bootstrapDir = path.resolve('config/bootstrap');
+const emailAlertsPath = path.resolve('config/email-alert-listings.json');
 const sqmBackfillPath = path.resolve('config/sqm-backfill.json');
 
 const PROVIDER_SOURCE = {
@@ -46,6 +47,9 @@ async function readBootstrap() {
     const files = (await fs.readdir(bootstrapDir)).filter((name) => name.endsWith('.json')).sort();
     for (const file of files) listings.push(...await readJsonArray(path.join(bootstrapDir, file)));
   } catch {}
+  // Gmail alerts are durable input data, not a transient refresh result. Read
+  // them last so a newer email observation wins over the static bootstrap.
+  listings.push(...await readJsonArray(emailAlertsPath));
 
   const unique = new Map();
   for (const item of listings) {
@@ -163,7 +167,11 @@ if (bootstrapImmobiliareCount && !providerStatus['immobiliare-public'] && !provi
 const reconciled = reconcile(store.listings ?? [], mergedIncoming, now, successfulSources);
 const listings = annotateDuplicateGroups(reconciled);
 await fs.mkdir(dataDir, { recursive: true });
-await fs.writeFile(storePath, JSON.stringify({ listings, refreshedAt: now, providerStatus }, null, 2) + '\n');
+await fs.writeFile(storePath, JSON.stringify({
+  listings,
+  refreshedAt: now,
+  providerStatus: { ...(store.providerStatus ?? {}), ...providerStatus }
+}, null, 2) + '\n');
 
 for (const [provider, status] of Object.entries(providerStatus)) {
   console.log(`${provider}: ${status.ok ? `OK (${status.count ?? 0} listings)` : `FAILED (${status.message})`}`);

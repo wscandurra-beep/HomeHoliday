@@ -1,0 +1,77 @@
+name: Import Gmail property alerts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 18 * * *'
+      timezone: 'Europe/Rome'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: listings-data-write
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    env:
+      GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+      GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+      GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Check Gmail configuration
+        id: gmail
+        shell: bash
+        run: |
+          if [[ -n "$GMAIL_CLIENT_ID" && -n "$GMAIL_CLIENT_SECRET" && -n "$GMAIL_REFRESH_TOKEN" ]]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "Gmail OAuth secrets are not configured yet; import skipped." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Setup Node
+        if: steps.gmail.outputs.configured == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        if: steps.gmail.outputs.configured == 'true'
+        run: npm ci
+
+      - name: Import Gmail alerts
+        if: steps.gmail.outputs.configured == 'true'
+        run: npm run import:gmail
+
+      - name: Run deduplication and parser tests
+        if: steps.gmail.outputs.configured == 'true'
+        run: npm test
+
+      - name: Build application
+        if: steps.gmail.outputs.configured == 'true'
+        run: npm run build
+
+      - name: Commit data changes
+        if: steps.gmail.outputs.configured == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet -- public/data/listings.json config/email-alert-listings.json config/gmail-import-state.json config/gmail-unresolved.json; then
+            echo "No new Gmail alert data" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "homeholiday-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/listings.json config/email-alert-listings.json config/gmail-import-state.json config/gmail-unresolved.json
+          git commit -m "chore: import Gmail property alerts"
+          git pull --rebase origin main
+          git push origin main

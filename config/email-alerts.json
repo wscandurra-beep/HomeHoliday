@@ -1,0 +1,11 @@
+{
+  "location": "Bardonecchia",
+  "maxPrice": 260000,
+  "maxMessagesPerRun": 100,
+  "gmailQuery": "{from:casa.it from:immobiliare.it from:idealista.it}",
+  "providers": [
+    "Casa.it",
+    "Immobiliare.it",
+    "Idealista"
+  ]
+}

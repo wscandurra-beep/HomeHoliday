@@ -76,6 +76,43 @@ Price changes are appended to `priceHistory`. The store is written to `public/da
 
 A refresh commit on `main` also triggers the Pages deployment workflow, so new tracker data become visible on the site automatically.
 
+## Gmail property alerts
+
+HomeHoliday can import the alert emails sent by Casa.it, Immobiliare.it and Idealista without using ChatGPT or an AI service. The workflow [`.github/workflows/import-gmail-alerts.yml`](.github/workflows/import-gmail-alerts.yml) runs once a day at 18:07 in the `Europe/Rome` timezone and can also be started manually.
+
+The importer:
+
+- uses the Gmail API with the read-only `gmail.readonly` scope;
+- searches only messages from the three configured portals;
+- keeps provider, title, location, price, surface, rooms, receipt date, stable provider ID and canonical URL;
+- rejects listings above the configured maximum price;
+- never stores Gmail message bodies, OAuth tokens or tracking URLs in the repository;
+- hashes processed Gmail message IDs to make repeated runs idempotent;
+- preserves `firstSeenAt`, `lastSeenAt` and `priceHistory`;
+- runs the parser and deduplication tests before committing data to `main`.
+
+Immobiliare.it tracking links are followed only on the approved `clicks.immobiliare.it` host. A listing is accepted only when a numeric ID can be verified and normalized as `https://www.immobiliare.it/annunci/<ID>/`. Ambiguous links are recorded, without their tracking URL, in `config/gmail-unresolved.json` and no ID is invented.
+
+### One-time Gmail authorization
+
+1. In Google Cloud create an OAuth client for a desktop application and enable the Gmail API.
+2. Set the client values locally, then run the authorization helper:
+
+   ```bash
+   GMAIL_CLIENT_ID="..." GMAIL_CLIENT_SECRET="..." npm run gmail:authorize
+   ```
+
+3. Open the printed Google authorization URL and grant read-only access to `onenooneonethousand@gmail.com`.
+4. In **GitHub → Settings → Secrets and variables → Actions**, create these repository secrets:
+
+   ```text
+   GMAIL_CLIENT_ID
+   GMAIL_CLIENT_SECRET
+   GMAIL_REFRESH_TOKEN
+   ```
+
+The scheduled workflow skips cleanly until all three secrets are configured. Secrets and tokens must never be placed in `.env.example`, committed files, repository variables or workflow logs.
+
 ## Official Immobiliare.it Insights connector
 
 The previous official connector remains available as `scripts/connectors/immobiliare-insights.mjs`. It uses the Immobiliare.it Insights / Realitycs API with OAuth credentials and can be re-enabled later by adding a tracker with `provider: "immobiliare"` and configuring the required GitHub Secrets.
