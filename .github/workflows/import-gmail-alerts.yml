@@ -3,7 +3,7 @@ name: Import Gmail property alerts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 18 * * *'
+    - cron: '0 18 * * *'
       timezone: 'Europe/Rome'
 
 permissions:
