@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "casa-51520865",
+    "externalId": "51520865",
+    "title": "Appartamento in vendita in Via la Rho 19, Centro, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/51520865/",
+    "price": 149000,
+    "sqm": 72,
+    "rooms": 3,
+    "receivedAt": "2026-08-28T10:53:58.000Z",
+    "firstSeenAt": "2026-08-28T10:53:58.000Z",
+    "lastSeenAt": "2026-08-28T10:53:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 149000,
+        "capturedAt": "2026-08-28T10:53:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54366513",
+    "externalId": "54366513",
+    "title": "Appartamento in vendita in Via G. F. Medail 101, Centro, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54366513/",
+    "price": 189000,
+    "sqm": 68,
+    "rooms": 3,
+    "receivedAt": "2026-08-28T10:53:58.000Z",
+    "firstSeenAt": "2026-08-28T10:53:58.000Z",
+    "lastSeenAt": "2026-08-28T10:53:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 189000,
+        "capturedAt": "2026-08-28T10:53:58.000Z"
+      }
+    ]
+  }
+]
