@@ -17,6 +17,7 @@ function mergeOne(old, incoming) {
   return {
     ...old,
     ...incoming,
+    title: old.title ?? incoming.title,
     firstSeenAt: old.firstSeenAt ?? incoming.firstSeenAt,
     lastSeenAt: latestIso(old.lastSeenAt, incoming.lastSeenAt),
     priceHistory: priceHistory.length ? priceHistory : incoming.priceHistory,

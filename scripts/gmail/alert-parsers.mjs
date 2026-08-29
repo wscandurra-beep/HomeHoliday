@@ -12,10 +12,10 @@ function canonicalUrl(provider, id) {
   return `https://www.immobiliare.it/annunci/${id}/`;
 }
 
-function usefulTitle(label, location) {
+function usefulTitle(label) {
   const text = normalizeText(label);
-  if (!text || !text.includes(normalizeText(location))) return false;
-  return !/^(vedi|dettagli|vedi dettagli|avvia ricerca|guarda tutti gli annunci)$/.test(text);
+  if (!text) return false;
+  return !/^(vedi\b|dettagli\b|avvia ricerca\b|guarda tutti gli annunci\b)/.test(text);
 }
 
 function groupedDirectCandidates(html, provider, location) {
@@ -32,7 +32,7 @@ function groupedDirectCandidates(html, provider, location) {
   return [...grouped.entries()].map(([id, anchors]) => ({
     id,
     url: canonicalUrl(provider, id),
-    title: anchors.filter((anchor) => usefulTitle(anchor.label, location)).sort((a, b) => b.label.length - a.label.length)[0]?.label
+    title: anchors.filter((anchor) => usefulTitle(anchor.label)).sort((a, b) => b.label.length - a.label.length)[0]?.label
   })).filter((candidate) => candidate.title);
 }
 
@@ -54,7 +54,7 @@ function buildListings(candidates, provider, html, receivedAt, location, maxPric
     const block = blockForTitle(plainText, candidate.title, titles);
     const attributes = parseAttributes(block);
     if (!attributes.price || attributes.price > maxPrice) continue;
-    if (!normalizeText(candidate.title).includes(normalizeText(location))) continue;
+    if (!normalizeText(candidate.title).includes(normalizeText(location)) && !normalizeText(block).includes(normalizeText(location))) continue;
     listings.push({
       id: `${provider === 'Casa.it' ? 'casa' : provider === 'Idealista' ? 'idealista' : 'immobiliare'}-${candidate.id}`,
       externalId: candidate.id,
@@ -96,7 +96,7 @@ function trackingCandidates(html, location) {
   }
   return [...grouped.entries()].map(([trackingUrl, anchors]) => ({
     trackingUrl,
-    title: anchors.filter((anchor) => usefulTitle(anchor.label, location)).sort((a, b) => b.label.length - a.label.length)[0]?.label
+    title: anchors.filter((anchor) => usefulTitle(anchor.label)).sort((a, b) => b.label.length - a.label.length)[0]?.label
   })).filter((candidate) => candidate.title);
 }
 

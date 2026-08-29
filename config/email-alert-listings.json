@@ -30,14 +30,77 @@
     "price": 189000,
     "sqm": 68,
     "rooms": 3,
-    "receivedAt": "2026-08-28T10:53:58.000Z",
+    "receivedAt": "2026-08-29T10:28:35.000Z",
     "firstSeenAt": "2026-08-28T10:53:58.000Z",
-    "lastSeenAt": "2026-08-28T10:53:58.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-08-29T10:28:35.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 189000,
         "capturedAt": "2026-08-28T10:53:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53424681",
+    "externalId": "53424681",
+    "title": "Appartamento in vendita in Via Giuseppe Verdi 14,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53424681/",
+    "price": 230000,
+    "sqm": 63,
+    "rooms": 3,
+    "receivedAt": "2026-08-29T10:28:35.000Z",
+    "firstSeenAt": "2026-08-29T10:28:35.000Z",
+    "lastSeenAt": "2026-08-29T10:28:35.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 230000,
+        "capturedAt": "2026-08-29T10:28:35.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-52142898",
+    "externalId": "52142898",
+    "title": "Appartamento in vendita in Via G. F. Medail 89,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/52142898/",
+    "price": 220000,
+    "sqm": 50,
+    "rooms": 2,
+    "receivedAt": "2026-08-29T10:28:35.000Z",
+    "firstSeenAt": "2026-08-29T10:28:35.000Z",
+    "lastSeenAt": "2026-08-29T10:28:35.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 220000,
+        "capturedAt": "2026-08-29T10:28:35.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53492628",
+    "externalId": "53492628",
+    "title": "Appartamento in vendita in Viale Bramafam 30,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53492628/",
+    "price": 160000,
+    "sqm": 31,
+    "rooms": 1,
+    "receivedAt": "2026-08-29T10:28:35.000Z",
+    "firstSeenAt": "2026-08-29T10:28:35.000Z",
+    "lastSeenAt": "2026-08-29T10:28:35.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 160000,
+        "capturedAt": "2026-08-29T10:28:35.000Z"
       }
     ]
   }

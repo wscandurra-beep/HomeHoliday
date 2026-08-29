@@ -885,7 +885,7 @@
         }
       ],
       "sqm": 68,
-      "receivedAt": "2026-08-28T10:53:58.000Z",
+      "receivedAt": "2026-08-29T10:28:35.000Z",
       "duplicateGroupId": "6f5f72aff4",
       "duplicateSources": [
         "Casa.it",
@@ -1893,7 +1893,8 @@
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
       ],
-      "sqm": 31
+      "sqm": 31,
+      "receivedAt": "2026-08-29T10:28:35.000Z"
     },
     {
       "id": "casa-53489884",
@@ -1985,6 +1986,7 @@
         }
       ],
       "sqm": 63,
+      "receivedAt": "2026-08-29T10:28:35.000Z",
       "duplicateGroupId": "4272f36a42",
       "duplicateSources": [
         "Casa.it",
@@ -2568,6 +2570,7 @@
         }
       ],
       "sqm": 50,
+      "receivedAt": "2026-08-29T10:28:35.000Z",
       "duplicateGroupId": "69ea790080",
       "duplicateSources": [
         "Casa.it",
@@ -7359,10 +7362,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-08-28T10:53:58.000Z",
-      "count": 2,
+      "checkedAt": "2026-08-29T10:28:35.000Z",
+      "count": 4,
       "unresolved": 0,
-      "message": "2 annunci importati o aggiornati da 1 alert Gmail; 0 esclusi o senza dati idonei; 0 non risolti"
+      "message": "4 annunci importati o aggiornati da 1 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

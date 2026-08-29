@@ -19,6 +19,30 @@ test('parses Casa.it property links and strips tracking parameters', async () =>
   });
 });
 
+test('parses Casa.it when title and location are separate email elements', async () => {
+  const html = `
+    <a href="https://www.casa.it/immobili/53424681/?utm_source=alert">Appartamento in vendita in Via Giuseppe Verdi 14,</a>
+    <div>Centro, Bardonecchia (TO)</div>
+    <div>€ 230.000 63 m² 3 locali</div>
+    <a href="https://www.casa.it/immobili/53424681/?utm_source=alert">Vedi 21 foto e dettagli</a>`;
+  const result = await parseAlertMessage({ from: 'noreply@casa.it', internalDate: receivedAt, html }, { location: 'Bardonecchia', maxPrice: 260000 });
+  assert.equal(result.listings.length, 1);
+  assert.equal(result.listings[0].externalId, '53424681');
+  assert.equal(result.listings[0].title, 'Appartamento in vendita in Via Giuseppe Verdi 14,');
+  assert.equal(result.listings[0].price, 230000);
+  assert.equal(result.listings[0].sqm, 63);
+  assert.equal(result.listings[0].rooms, 3);
+});
+
+test('parses singular Casa.it room labels', async () => {
+  const html = `
+    <a href="https://www.casa.it/immobili/53492628/">Appartamento in vendita in Viale Bramafam 30,</a>
+    <div>Centro, Bardonecchia (TO)</div>
+    <div>€ 160.000 31 m² 1 locale</div>`;
+  const result = await parseAlertMessage({ from: 'noreply@casa.it', internalDate: receivedAt, html }, { location: 'Bardonecchia', maxPrice: 260000 });
+  assert.equal(result.listings[0].rooms, 1);
+});
+
 test('parses multiple Idealista listings and excludes prices above the configured maximum', async () => {
   const html = `
     <a href="https://www.idealista.it/immobile/34014883/?utm_source=alert">Bilocale in Via la Rho, 35, Bardonecchia</a>

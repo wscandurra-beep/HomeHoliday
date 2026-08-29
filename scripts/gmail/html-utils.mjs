@@ -54,7 +54,7 @@ export function parseAttributes(block = '') {
     [...block.matchAll(/(?:da\s+)?([\d.]+(?:,\d+)?)\s*€/gi)].map((match) => ({ index: match.index, value: match[1] }))
   ].flat().sort((a, b) => a.index - b.index);
   const sqmMatch = block.match(/(\d+(?:[.,]\d+)?)\s*m(?:²|2|q)(?=\s|[|<]|$)/i);
-  const roomsMatch = block.match(/(\d+)\s*(?:locali?\b|loc\.)/i);
+  const roomsMatch = block.match(/(\d+)\s*(?:local[ei]\b|loc\.)/i);
   return {
     price: parseItalianNumber(priceCandidates[0]?.value),
     sqm: parseItalianNumber(sqmMatch?.[1]),

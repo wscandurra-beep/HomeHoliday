@@ -9,9 +9,10 @@ const oldListing = {
   priceHistory: [{ price: 200000, capturedAt: '2026-08-20T10:00:00.000Z' }]
 };
 
-test('merge preserves firstSeenAt and appends priceHistory only for a real change', () => {
-  const incoming = { ...oldListing, price: 190000, firstSeenAt: '2026-08-27T10:00:00.000Z', lastSeenAt: '2026-08-27T10:00:00.000Z', receivedAt: '2026-08-27T10:00:00.000Z' };
+test('merge preserves firstSeenAt, the richer stored title and appends priceHistory only for a real change', () => {
+  const incoming = { ...oldListing, title: 'Appartamento in vendita', price: 190000, firstSeenAt: '2026-08-27T10:00:00.000Z', lastSeenAt: '2026-08-27T10:00:00.000Z', receivedAt: '2026-08-27T10:00:00.000Z' };
   const merged = mergeListings([oldListing], [incoming])[0];
+  assert.equal(merged.title, oldListing.title);
   assert.equal(merged.firstSeenAt, oldListing.firstSeenAt);
   assert.equal(merged.lastSeenAt, incoming.lastSeenAt);
   assert.equal(merged.status, 'UPDATED');
