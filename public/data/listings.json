@@ -349,23 +349,28 @@
       "externalId": "54578755",
       "title": "Bilocale in Vendita in Via Gen. Cantore 9 a Bardonecchia",
       "location": "Bardonecchia",
-      "price": 215000,
+      "price": 198000,
       "sellerType": "Agenzia",
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/54578755/",
       "rooms": 2,
       "bathrooms": 1,
       "floor": "2° piano",
-      "status": "ACTIVE",
+      "status": "UPDATED",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
       "lastSeenAt": "2026-09-03T11:15:16.503Z",
       "priceHistory": [
         {
           "price": 215000,
           "capturedAt": "2026-08-23T08:02:35.133Z"
+        },
+        {
+          "price": 198000,
+          "capturedAt": "2026-09-02T11:29:48.000Z"
         }
       ],
-      "sqm": 51
+      "sqm": 51,
+      "receivedAt": "2026-09-02T11:29:48.000Z"
     },
     {
       "id": "casa-54572531",
@@ -865,10 +870,11 @@
       ],
       "sqm": 68,
       "receivedAt": "2026-08-29T10:28:35.000Z",
-      "duplicateGroupId": "6f5f72aff4",
+      "duplicateGroupId": "d465dd3370",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -949,10 +955,11 @@
         }
       ],
       "sqm": 61,
-      "duplicateGroupId": "9e0bedaf4c",
+      "duplicateGroupId": "5d3f9c9db6",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -1566,7 +1573,8 @@
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
       ],
-      "sqm": 65
+      "sqm": 65,
+      "receivedAt": "2026-09-01T11:37:28.000Z"
     },
     {
       "id": "casa-53734901",
@@ -1590,6 +1598,7 @@
       "lastSeenAt": "2026-09-03T11:15:16.503Z",
       "bathrooms": 1,
       "floor": "1° piano",
+      "receivedAt": "2026-09-01T11:37:28.000Z",
       "duplicateGroupId": "e6ccb08252",
       "duplicateSources": [
         "Casa.it",
@@ -1742,10 +1751,12 @@
         }
       ],
       "sqm": 45,
-      "duplicateGroupId": "5455a3fb8a",
+      "receivedAt": "2026-09-02T11:29:48.000Z",
+      "duplicateGroupId": "20d036d86a",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -1849,7 +1860,8 @@
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
       ],
-      "sqm": 24
+      "sqm": 24,
+      "receivedAt": "2026-09-01T11:37:28.000Z"
     },
     {
       "id": "casa-53492628",
@@ -2022,6 +2034,7 @@
       "lastSeenAt": "2026-09-03T11:15:16.503Z",
       "bathrooms": 1,
       "floor": "1° piano",
+      "receivedAt": "2026-09-03T10:56:09.000Z",
       "duplicateGroupId": "4b99e6c77e",
       "duplicateSources": [
         "Casa.it",
@@ -2193,6 +2206,7 @@
       "lastSeenAt": "2026-09-03T11:15:16.503Z",
       "bathrooms": 1,
       "floor": "1° piano",
+      "receivedAt": "2026-09-03T10:56:09.000Z",
       "duplicateGroupId": "1d4e2d3f4d",
       "duplicateSources": [
         "Casa.it",
@@ -2550,10 +2564,11 @@
       ],
       "sqm": 50,
       "receivedAt": "2026-08-29T10:28:35.000Z",
-      "duplicateGroupId": "69ea790080",
+      "duplicateGroupId": "9944b8e997",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -2578,10 +2593,11 @@
         }
       ],
       "sqm": 25,
-      "duplicateGroupId": "d37eeb13ad",
+      "duplicateGroupId": "b0da396108",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -2606,6 +2622,7 @@
         }
       ],
       "sqm": 33,
+      "receivedAt": "2026-09-03T10:56:09.000Z",
       "duplicateGroupId": "0b9d60715e",
       "duplicateSources": [
         "Casa.it",
@@ -2681,10 +2698,11 @@
       ],
       "sqm": 72,
       "receivedAt": "2026-08-28T10:53:58.000Z",
-      "duplicateGroupId": "2a7e2f014b",
+      "duplicateGroupId": "be802e6661",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -2867,10 +2885,11 @@
         }
       ],
       "sqm": 52,
-      "duplicateGroupId": "f66c615be9",
+      "duplicateGroupId": "1c7f7ddb88",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -3888,10 +3907,11 @@
         }
       ],
       "sqm": 72,
-      "duplicateGroupId": "2a7e2f014b",
+      "duplicateGroupId": "be802e6661",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4217,10 +4237,11 @@
         }
       ],
       "sqm": 45,
-      "duplicateGroupId": "5455a3fb8a",
+      "duplicateGroupId": "20d036d86a",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4290,10 +4311,11 @@
         }
       ],
       "sqm": 52,
-      "duplicateGroupId": "f66c615be9",
+      "duplicateGroupId": "1c7f7ddb88",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4556,10 +4578,11 @@
         }
       ],
       "sqm": 25,
-      "duplicateGroupId": "d37eeb13ad",
+      "duplicateGroupId": "b0da396108",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -5008,10 +5031,11 @@
         }
       ],
       "sqm": 61,
-      "duplicateGroupId": "9e0bedaf4c",
+      "duplicateGroupId": "5d3f9c9db6",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -5597,10 +5621,11 @@
         }
       ],
       "sqm": 70,
-      "duplicateGroupId": "6f5f72aff4",
+      "duplicateGroupId": "d465dd3370",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -5931,10 +5956,11 @@
         }
       ],
       "sqm": 50,
-      "duplicateGroupId": "69ea790080",
+      "duplicateGroupId": "9944b8e997",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -7366,9 +7392,451 @@
         "Immobiliare.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "idealista-31674981",
+      "externalId": "31674981",
+      "title": "Bilocale in Via G. F. Medail, 74, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/31674981/",
+      "price": 190000,
+      "sqm": 52,
+      "rooms": 2,
+      "receivedAt": "2026-08-31T10:58:54.000Z",
+      "firstSeenAt": "2026-08-31T10:58:54.000Z",
+      "lastSeenAt": "2026-08-31T10:58:54.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 190000,
+          "capturedAt": "2026-08-31T10:58:54.000Z"
+        }
+      ],
+      "duplicateGroupId": "1c7f7ddb88",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-32734087",
+      "externalId": "32734087",
+      "title": "Trilocale in Via la Rho, 19, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/32734087/",
+      "price": 149000,
+      "sqm": 72,
+      "rooms": 3,
+      "receivedAt": "2026-08-31T10:58:54.000Z",
+      "firstSeenAt": "2026-08-31T10:58:54.000Z",
+      "lastSeenAt": "2026-08-31T10:58:54.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 149000,
+          "capturedAt": "2026-08-31T10:58:54.000Z"
+        }
+      ],
+      "duplicateGroupId": "be802e6661",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-36214789",
+      "externalId": "36214789",
+      "title": "Trilocale in Via G. F. Medail, 101, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36214789/",
+      "price": 189000,
+      "sqm": 68,
+      "rooms": 3,
+      "receivedAt": "2026-08-31T10:58:54.000Z",
+      "firstSeenAt": "2026-08-31T10:58:54.000Z",
+      "lastSeenAt": "2026-08-31T10:58:54.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 189000,
+          "capturedAt": "2026-08-31T10:58:54.000Z"
+        }
+      ],
+      "duplicateGroupId": "d465dd3370",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "immobiliare-132067496",
+      "externalId": "132067496",
+      "title": "Monolocale via Melezet, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/132067496/",
+      "price": 84000,
+      "sqm": 25,
+      "rooms": 1,
+      "receivedAt": "2026-09-01T08:20:29.000Z",
+      "firstSeenAt": "2026-09-01T08:20:29.000Z",
+      "lastSeenAt": "2026-09-01T08:20:29.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 84000,
+          "capturedAt": "2026-09-01T08:20:29.000Z"
+        }
+      ],
+      "duplicateGroupId": "8e289c61be",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "id": "idealista-35803659",
+      "externalId": "35803659",
+      "title": "Bilocale in Via Frejus, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35803659/",
+      "price": 255000,
+      "sqm": 58,
+      "rooms": 2,
+      "receivedAt": "2026-09-01T09:26:22.000Z",
+      "firstSeenAt": "2026-09-01T09:26:22.000Z",
+      "lastSeenAt": "2026-09-01T09:26:22.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 255000,
+          "capturedAt": "2026-09-01T09:26:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-36360146",
+      "externalId": "36360146",
+      "title": "Quadrilocale in Via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36360146/",
+      "price": 109125,
+      "sqm": 90,
+      "rooms": 4,
+      "receivedAt": "2026-09-01T09:26:22.000Z",
+      "firstSeenAt": "2026-09-01T09:26:22.000Z",
+      "lastSeenAt": "2026-09-01T09:26:22.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-09-01T09:26:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-131618720",
+      "externalId": "131618720",
+      "title": "Trilocale viale Callet 19, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/131618720/",
+      "price": 197000,
+      "sqm": 37,
+      "rooms": 3,
+      "receivedAt": "2026-09-01T10:20:53.000Z",
+      "firstSeenAt": "2026-09-01T10:20:53.000Z",
+      "lastSeenAt": "2026-09-01T10:20:53.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 197000,
+          "capturedAt": "2026-09-01T10:20:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-36680848",
+      "externalId": "36680848",
+      "title": "Monolocale in Via Melezet, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36680848/",
+      "price": 84000,
+      "sqm": 25,
+      "rooms": 1,
+      "receivedAt": "2026-09-02T07:02:02.000Z",
+      "firstSeenAt": "2026-09-01T10:21:20.000Z",
+      "lastSeenAt": "2026-09-02T07:02:02.000Z",
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 84000,
+          "capturedAt": "2026-09-01T10:21:20.000Z"
+        }
+      ],
+      "duplicateGroupId": "8e289c61be",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "id": "casa-54637739",
+      "externalId": "54637739",
+      "title": "Appartamento in vendita in Via Melezet,",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/54637739/",
+      "price": 84000,
+      "sqm": 25,
+      "rooms": 1,
+      "receivedAt": "2026-09-02T11:29:48.000Z",
+      "firstSeenAt": "2026-09-01T11:37:28.000Z",
+      "lastSeenAt": "2026-09-02T11:29:48.000Z",
+      "status": "ACTIVE",
+      "priceHistory": [
+        {
+          "price": 84000,
+          "capturedAt": "2026-09-01T11:37:28.000Z"
+        }
+      ],
+      "duplicateGroupId": "8e289c61be",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "id": "idealista-33438794",
+      "externalId": "33438794",
+      "title": "Monolocale in Viale Roma, 74, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/33438794/",
+      "price": 79000,
+      "sqm": 25,
+      "rooms": 1,
+      "receivedAt": "2026-09-02T07:02:02.000Z",
+      "firstSeenAt": "2026-09-02T07:02:02.000Z",
+      "lastSeenAt": "2026-09-02T07:02:02.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 79000,
+          "capturedAt": "2026-09-02T07:02:02.000Z"
+        }
+      ],
+      "duplicateGroupId": "b0da396108",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-36479346",
+      "externalId": "36479346",
+      "title": "Bilocale in Via Gen. Cantore, 9, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36479346/",
+      "price": 215000,
+      "sqm": 51,
+      "rooms": 2,
+      "receivedAt": "2026-09-03T09:39:59.000Z",
+      "firstSeenAt": "2026-09-02T08:05:46.000Z",
+      "lastSeenAt": "2026-09-03T09:39:59.000Z",
+      "status": "UPDATED",
+      "priceHistory": [
+        {
+          "price": 198000,
+          "capturedAt": "2026-09-02T08:05:46.000Z"
+        },
+        {
+          "price": 215000,
+          "capturedAt": "2026-09-03T09:39:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-132096390",
+      "externalId": "132096390",
+      "title": "Bilocale via Generale Antonio Cantore 9, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/132096390/",
+      "price": 198000,
+      "sqm": 51,
+      "rooms": 2,
+      "receivedAt": "2026-09-02T08:20:53.000Z",
+      "firstSeenAt": "2026-09-02T08:20:53.000Z",
+      "lastSeenAt": "2026-09-02T08:20:53.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 198000,
+          "capturedAt": "2026-09-02T08:20:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-132097738",
+      "externalId": "132097738",
+      "title": "Monolocale viale Roma 74, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/132097738/",
+      "price": 93000,
+      "sqm": 30,
+      "rooms": 1,
+      "receivedAt": "2026-09-02T08:47:32.000Z",
+      "firstSeenAt": "2026-09-02T08:47:32.000Z",
+      "lastSeenAt": "2026-09-02T08:47:32.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 93000,
+          "capturedAt": "2026-09-02T08:47:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-36699753",
+      "externalId": "36699753",
+      "title": "Quadrilocale in Via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36699753/",
+      "price": 109125,
+      "sqm": 90,
+      "rooms": 4,
+      "receivedAt": "2026-09-03T05:11:22.000Z",
+      "firstSeenAt": "2026-09-03T05:11:22.000Z",
+      "lastSeenAt": "2026-09-03T05:11:22.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-09-03T05:11:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-36185018",
+      "externalId": "36185018",
+      "title": "Trilocale in Viale Roma, 68, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36185018/",
+      "price": 220000,
+      "sqm": 61,
+      "rooms": 3,
+      "receivedAt": "2026-09-03T09:39:59.000Z",
+      "firstSeenAt": "2026-09-03T09:39:59.000Z",
+      "lastSeenAt": "2026-09-03T09:39:59.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-09-03T09:39:59.000Z"
+        }
+      ],
+      "duplicateGroupId": "5d3f9c9db6",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-33478450",
+      "externalId": "33478450",
+      "title": "Bilocale in Via G. F. Medail, 6, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/33478450/",
+      "price": 190000,
+      "sqm": 45,
+      "rooms": 2,
+      "receivedAt": "2026-09-03T09:39:59.000Z",
+      "firstSeenAt": "2026-09-03T09:39:59.000Z",
+      "lastSeenAt": "2026-09-03T09:39:59.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 190000,
+          "capturedAt": "2026-09-03T09:39:59.000Z"
+        }
+      ],
+      "duplicateGroupId": "20d036d86a",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-33478467",
+      "externalId": "33478467",
+      "title": "Bilocale in Via G. F. Medail, 89, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/33478467/",
+      "price": 220000,
+      "sqm": 50,
+      "rooms": 2,
+      "receivedAt": "2026-09-03T09:39:59.000Z",
+      "firstSeenAt": "2026-09-03T09:39:59.000Z",
+      "lastSeenAt": "2026-09-03T09:39:59.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-09-03T09:39:59.000Z"
+        }
+      ],
+      "duplicateGroupId": "9944b8e997",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "immobiliare-132162388",
+      "externalId": "132162388",
+      "title": "Trilocale via Melezet, 125, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/132162388/",
+      "price": 155000,
+      "sqm": 48,
+      "rooms": 3,
+      "receivedAt": "2026-09-03T12:23:45.000Z",
+      "firstSeenAt": "2026-09-03T12:23:45.000Z",
+      "lastSeenAt": "2026-09-03T12:23:45.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 155000,
+          "capturedAt": "2026-09-03T12:23:45.000Z"
+        }
+      ]
     }
   ],
-  "refreshedAt": "2026-09-03T11:15:16.503Z",
+  "refreshedAt": "2026-09-03T12:23:45.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -7404,10 +7872,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-08-29T10:28:35.000Z",
-      "count": 4,
+      "checkedAt": "2026-09-03T12:23:45.000Z",
+      "count": 30,
       "unresolved": 0,
-      "message": "4 annunci importati o aggiornati da 1 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
+      "message": "30 annunci importati o aggiornati da 17 alert Gmail; 33 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

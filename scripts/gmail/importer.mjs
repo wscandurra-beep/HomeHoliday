@@ -33,7 +33,21 @@ export function mergeListings(previous = [], incoming = []) {
 
 export function updateStores(store, emailArchive, incoming, observedAt, summary) {
   const archiveListings = mergeListings(emailArchive, incoming);
-  const allListings = annotateDuplicateGroups(mergeListings(store.listings ?? [], incoming));
+  const previousKeys = new Set((store.listings ?? []).map(keyOf));
+  const mergedListings = mergeListings(store.listings ?? [], incoming);
+  const finalStatusByKey = new Map(mergedListings.map((listing) => [keyOf(listing), listing.status]));
+
+  // A new listing can occur in more than one alert during the same import. The
+  // merge correctly advances its persisted status to ACTIVE, but duplicate
+  // matching must still treat it as new for this run. Historical entries are
+  // never promoted, and the real post-merge status is restored afterwards.
+  const duplicateCandidates = mergedListings.map((listing) =>
+    previousKeys.has(keyOf(listing)) ? listing : { ...listing, status: 'NEW' }
+  );
+  const allListings = annotateDuplicateGroups(duplicateCandidates).map((listing) => ({
+    ...listing,
+    status: finalStatusByKey.get(keyOf(listing))
+  }));
   return {
     archiveListings,
     store: {

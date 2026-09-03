@@ -31,3 +31,39 @@ test('store update preserves unrelated provider status and annotates the Gmail r
   assert.equal(result.store.providerStatus.emailAlerts.count, 1);
   assert.equal(result.archiveListings.length, 1);
 });
+
+test('same-run repeated listings remain eligible for NEW same-day cross-platform grouping', () => {
+  const observedAt = '2026-09-01T12:00:00.000Z';
+  const candidate = (externalId, source, title) => ({
+    externalId,
+    source,
+    title,
+    location: 'Bardonecchia',
+    price: 84000,
+    sqm: 25,
+    rooms: 1,
+    status: 'NEW',
+    firstSeenAt: observedAt,
+    lastSeenAt: observedAt,
+    receivedAt: observedAt,
+    priceHistory: [{ price: 84000, capturedAt: observedAt }]
+  });
+  const casa = candidate('casa-new', 'Casa.it', 'Monolocale via Melezet, Bardonecchia');
+  const idealista = candidate('idealista-new', 'Idealista', 'Appartamento a Bardonecchia');
+  const repeatedCasa = { ...casa, lastSeenAt: '2026-09-02T10:00:00.000Z', receivedAt: '2026-09-02T10:00:00.000Z' };
+
+  const result = updateStores(
+    { listings: [], providerStatus: {} },
+    [],
+    [casa, idealista, repeatedCasa],
+    repeatedCasa.receivedAt,
+    { messages: 2, imported: 3, unresolved: 0, excluded: 0 }
+  );
+
+  const storedCasa = result.store.listings.find((item) => item.externalId === casa.externalId);
+  const storedIdealista = result.store.listings.find((item) => item.externalId === idealista.externalId);
+  assert.equal(storedCasa.status, 'ACTIVE');
+  assert.equal(storedIdealista.status, 'NEW');
+  assert.ok(storedCasa.duplicateGroupId);
+  assert.equal(storedCasa.duplicateGroupId, storedIdealista.duplicateGroupId);
+});
