@@ -496,10 +496,10 @@
     "price": 109125,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-09-03T05:11:22.000Z",
+    "receivedAt": "2026-09-05T10:22:57.000Z",
     "firstSeenAt": "2026-09-03T05:11:22.000Z",
-    "lastSeenAt": "2026-09-03T05:11:22.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-05T10:22:57.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109125,
@@ -658,7 +658,7 @@
     "externalId": "36723570",
     "firstSeenAt": "2026-09-03T16:13:50.000Z",
     "id": "idealista-36723570",
-    "lastSeenAt": "2026-09-03T16:13:50.000Z",
+    "lastSeenAt": "2026-09-05T10:22:57.000Z",
     "location": "Bardonecchia",
     "price": 179000,
     "priceHistory": [
@@ -667,12 +667,12 @@
         "price": 179000
       }
     ],
-    "receivedAt": "2026-09-03T16:13:50.000Z",
+    "receivedAt": "2026-09-05T10:22:57.000Z",
     "rooms": 2,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36723570/",
     "sqm": 57,
-    "status": "NEW",
+    "status": "ACTIVE",
     "title": "Bilocale in Via Melezet, 18, Bardonecchia"
   },
   {
@@ -779,5 +779,89 @@
     "sqm": 50,
     "status": "NEW",
     "title": "Appartamento in vendita in Via Einaudi 11,"
+  },
+  {
+    "externalId": "33867029",
+    "firstSeenAt": "2026-09-04T19:37:15.000Z",
+    "id": "idealista-33867029",
+    "lastSeenAt": "2026-09-04T19:37:15.000Z",
+    "location": "Bardonecchia",
+    "price": 160000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-04T19:37:15.000Z",
+        "price": 160000
+      }
+    ],
+    "receivedAt": "2026-09-04T19:37:15.000Z",
+    "rooms": 2,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/33867029/",
+    "sqm": 51,
+    "status": "NEW",
+    "title": "Bilocale in Via G. F. Medail, 56, Bardonecchia"
+  },
+  {
+    "externalId": "34617693",
+    "firstSeenAt": "2026-09-04T19:37:15.000Z",
+    "id": "idealista-34617693",
+    "lastSeenAt": "2026-09-04T19:37:15.000Z",
+    "location": "Bardonecchia",
+    "price": 165000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-04T19:37:15.000Z",
+        "price": 165000
+      }
+    ],
+    "receivedAt": "2026-09-04T19:37:15.000Z",
+    "rooms": 3,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34617693/",
+    "sqm": 70,
+    "status": "NEW",
+    "title": "Trilocale in Via G. F. Medail, 12, Bardonecchia"
+  },
+  {
+    "externalId": "34817398",
+    "firstSeenAt": "2026-09-04T19:37:15.000Z",
+    "id": "idealista-34817398",
+    "lastSeenAt": "2026-09-04T19:37:15.000Z",
+    "location": "Bardonecchia",
+    "price": 198000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-04T19:37:15.000Z",
+        "price": 198000
+      }
+    ],
+    "receivedAt": "2026-09-04T19:37:15.000Z",
+    "rooms": 3,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34817398/",
+    "sqm": 82,
+    "status": "NEW",
+    "title": "Trilocale in Via Cianfuran, Bardonecchia"
+  },
+  {
+    "externalId": "36102087",
+    "firstSeenAt": "2026-09-05T10:22:57.000Z",
+    "id": "idealista-36102087",
+    "lastSeenAt": "2026-09-05T10:22:57.000Z",
+    "location": "Bardonecchia",
+    "price": 250000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-05T10:22:57.000Z",
+        "price": 250000
+      }
+    ],
+    "receivedAt": "2026-09-05T10:22:57.000Z",
+    "rooms": 3,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36102087/",
+    "sqm": 78,
+    "status": "NEW",
+    "title": "Appartamento su due piani in Viale Bramafam, 39, Bardonecchia"
   }
 ]

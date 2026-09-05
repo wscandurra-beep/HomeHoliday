@@ -1077,10 +1077,11 @@
         }
       ],
       "sqm": 78,
-      "duplicateGroupId": "c7eade9816",
+      "duplicateGroupId": "7ee34db1aa",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -2079,10 +2080,11 @@
       "bathrooms": 1,
       "floor": "1° piano",
       "receivedAt": "2026-09-03T10:56:09.000Z",
-      "duplicateGroupId": "4b99e6c77e",
+      "duplicateGroupId": "a64e1f8b4c",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -2252,10 +2254,11 @@
       "bathrooms": 1,
       "floor": "1° piano",
       "receivedAt": "2026-09-03T10:56:09.000Z",
-      "duplicateGroupId": "1d4e2d3f4d",
+      "duplicateGroupId": "bea8ea1cd8",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4330,10 +4333,11 @@
         }
       ],
       "sqm": 78,
-      "duplicateGroupId": "c7eade9816",
+      "duplicateGroupId": "7ee34db1aa",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4383,10 +4387,11 @@
         }
       ],
       "sqm": 70,
-      "duplicateGroupId": "1d4e2d3f4d",
+      "duplicateGroupId": "bea8ea1cd8",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4430,10 +4435,11 @@
         }
       ],
       "sqm": 51,
-      "duplicateGroupId": "4b99e6c77e",
+      "duplicateGroupId": "a64e1f8b4c",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -7053,7 +7059,7 @@
       "price": 109125,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-09-03T05:11:22.000Z",
+      "receivedAt": "2026-09-05T10:22:57.000Z",
       "firstSeenAt": "2026-09-03T05:11:22.000Z",
       "lastSeenAt": "2026-09-05T15:14:45.353Z",
       "status": "ACTIVE",
@@ -7179,7 +7185,7 @@
           "price": 179000
         }
       ],
-      "receivedAt": "2026-09-03T16:13:50.000Z",
+      "receivedAt": "2026-09-05T10:22:57.000Z",
       "rooms": 2,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36723570/",
@@ -7942,6 +7948,108 @@
         "Immobiliare.it",
         "Idealista"
       ]
+    },
+    {
+      "externalId": "33867029",
+      "firstSeenAt": "2026-09-04T19:37:15.000Z",
+      "id": "idealista-33867029",
+      "lastSeenAt": "2026-09-04T19:37:15.000Z",
+      "location": "Bardonecchia",
+      "price": 160000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-04T19:37:15.000Z",
+          "price": 160000
+        }
+      ],
+      "receivedAt": "2026-09-04T19:37:15.000Z",
+      "rooms": 2,
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/33867029/",
+      "sqm": 51,
+      "status": "NEW",
+      "title": "Bilocale in Via G. F. Medail, 56, Bardonecchia",
+      "duplicateGroupId": "a64e1f8b4c",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "externalId": "34617693",
+      "firstSeenAt": "2026-09-04T19:37:15.000Z",
+      "id": "idealista-34617693",
+      "lastSeenAt": "2026-09-04T19:37:15.000Z",
+      "location": "Bardonecchia",
+      "price": 165000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-04T19:37:15.000Z",
+          "price": 165000
+        }
+      ],
+      "receivedAt": "2026-09-04T19:37:15.000Z",
+      "rooms": 3,
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/34617693/",
+      "sqm": 70,
+      "status": "NEW",
+      "title": "Trilocale in Via G. F. Medail, 12, Bardonecchia",
+      "duplicateGroupId": "bea8ea1cd8",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "externalId": "34817398",
+      "firstSeenAt": "2026-09-04T19:37:15.000Z",
+      "id": "idealista-34817398",
+      "lastSeenAt": "2026-09-04T19:37:15.000Z",
+      "location": "Bardonecchia",
+      "price": 198000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-04T19:37:15.000Z",
+          "price": 198000
+        }
+      ],
+      "receivedAt": "2026-09-04T19:37:15.000Z",
+      "rooms": 3,
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/34817398/",
+      "sqm": 82,
+      "status": "NEW",
+      "title": "Trilocale in Via Cianfuran, Bardonecchia"
+    },
+    {
+      "externalId": "36102087",
+      "firstSeenAt": "2026-09-05T10:22:57.000Z",
+      "id": "idealista-36102087",
+      "lastSeenAt": "2026-09-05T10:22:57.000Z",
+      "location": "Bardonecchia",
+      "price": 250000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-05T10:22:57.000Z",
+          "price": 250000
+        }
+      ],
+      "receivedAt": "2026-09-05T10:22:57.000Z",
+      "rooms": 3,
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36102087/",
+      "sqm": 78,
+      "status": "NEW",
+      "title": "Appartamento su due piani in Viale Bramafam, 39, Bardonecchia",
+      "duplicateGroupId": "7ee34db1aa",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
     }
   ],
   "refreshedAt": "2026-09-05T15:14:45.353Z",
@@ -7980,10 +8088,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-09-04T11:16:53.000Z",
-      "count": 7,
+      "checkedAt": "2026-09-05T10:22:57.000Z",
+      "count": 8,
       "unresolved": 0,
-      "message": "7 annunci importati o aggiornati da 4 alert Gmail; 7 esclusi o senza dati idonei; 0 non risolti"
+      "message": "8 annunci importati o aggiornati da 2 alert Gmail; 0 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
