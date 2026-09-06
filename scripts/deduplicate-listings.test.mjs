@@ -15,6 +15,14 @@ test('normalizes abbreviated and extended street names', () => {
     addressFingerprint('Bilocale via Giuseppe Francesco Medail 56, Centro, Bardonecchia', 'Bardonecchia'),
     { street: 'medail', civic: '56' }
   );
+  assert.deepEqual(
+    addressFingerprint('Appartamento in Via Gen. Cantore 9, Bardonecchia', 'Bardonecchia'),
+    { street: 'cantore', civic: '9' }
+  );
+  assert.deepEqual(
+    addressFingerprint('Bilocale via Generale Antonio Cantore 9, Centro, Bardonecchia', 'Bardonecchia'),
+    { street: 'cantore', civic: '9' }
+  );
 });
 
 test('rejects similar listings at different addresses', () => {
@@ -66,4 +74,21 @@ test('does not use attribute-only pairing for older or different-day listings', 
   const immobiliare = { ...listing('imm', 'Immobiliare.it', 'Trilocale via Melezet 125, Centro, Bardonecchia', 225000, 90, 3), status: 'ACTIVE', firstSeenAt: '2026-08-23T12:00:00.000Z' };
   assert.equal(likelySameProperty(subito, immobiliare), false);
   assert.equal(likelySameProperty({ ...subito, status: 'NEW' }, { ...immobiliare, status: 'NEW', firstSeenAt: '2026-08-24T08:00:00.000Z' }), false);
+});
+
+test('preserves a previously verified attribute-only group after listings become ACTIVE', () => {
+  const previousGroup = 'verified-group';
+  const casa = {
+    ...listing('casa-active', 'Casa.it', 'Appartamento in Via Melezet, Bardonecchia', 84000, 25, 1),
+    status: 'ACTIVE', firstSeenAt: '2026-09-01T10:00:00.000Z', duplicateGroupId: previousGroup
+  };
+  const immobiliare = {
+    ...listing('imm-active', 'Immobiliare.it', 'Monolocale via Melezet, Centro, Bardonecchia', 84000, 25, 1),
+    status: 'ACTIVE', firstSeenAt: '2026-09-01T10:10:00.000Z', duplicateGroupId: previousGroup
+  };
+
+  assert.equal(likelySameProperty(casa, immobiliare), false);
+  const grouped = annotateDuplicateGroups([casa, immobiliare]);
+  assert.ok(grouped[0].duplicateGroupId);
+  assert.equal(grouped[0].duplicateGroupId, grouped[1].duplicateGroupId);
 });

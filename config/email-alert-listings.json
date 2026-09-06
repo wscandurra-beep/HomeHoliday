@@ -384,12 +384,12 @@
     "location": "Bardonecchia",
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36479346/",
-    "price": 215000,
+    "price": 198000,
     "sqm": 51,
     "rooms": 2,
-    "receivedAt": "2026-09-03T09:39:59.000Z",
+    "receivedAt": "2026-09-06T08:46:43.000Z",
     "firstSeenAt": "2026-09-02T08:05:46.000Z",
-    "lastSeenAt": "2026-09-03T09:39:59.000Z",
+    "lastSeenAt": "2026-09-06T08:46:43.000Z",
     "status": "UPDATED",
     "priceHistory": [
       {
@@ -399,6 +399,10 @@
       {
         "price": 215000,
         "capturedAt": "2026-09-03T09:39:59.000Z"
+      },
+      {
+        "price": 198000,
+        "capturedAt": "2026-09-06T08:46:43.000Z"
       }
     ]
   },
@@ -863,5 +867,47 @@
     "sqm": 78,
     "status": "NEW",
     "title": "Appartamento su due piani in Viale Bramafam, 39, Bardonecchia"
+  },
+  {
+    "externalId": "33315633",
+    "firstSeenAt": "2026-09-06T08:46:43.000Z",
+    "id": "idealista-33315633",
+    "lastSeenAt": "2026-09-06T08:46:43.000Z",
+    "location": "Bardonecchia",
+    "price": 98000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-06T08:46:43.000Z",
+        "price": 98000
+      }
+    ],
+    "receivedAt": "2026-09-06T08:46:43.000Z",
+    "rooms": 1,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/33315633/",
+    "sqm": 33,
+    "status": "NEW",
+    "title": "Monolocale in Via Melezet, 18, Bardonecchia"
+  },
+  {
+    "externalId": "132212310",
+    "firstSeenAt": "2026-09-06T11:03:22.000Z",
+    "id": "immobiliare-132212310",
+    "lastSeenAt": "2026-09-06T11:03:22.000Z",
+    "location": "Bardonecchia",
+    "price": 69500,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-06T11:03:22.000Z",
+        "price": 69500
+      }
+    ],
+    "receivedAt": "2026-09-06T11:03:22.000Z",
+    "rooms": 1,
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/132212310/",
+    "sqm": 31,
+    "status": "NEW",
+    "title": "Monolocale via Montenero 26, Centro, Bardonecchia"
   }
 ]

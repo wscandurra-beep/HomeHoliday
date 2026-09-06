@@ -10,8 +10,8 @@ const ADDRESS_MARKERS = new Set([
 ]);
 
 const ADDRESS_NOISE = new Set([
-  'a', 'centro', 'del', 'della', 'di', 'f', 'francesco', 'g', 'giuseppe', 'in',
-  'nel', 'vendita'
+  'a', 'antonio', 'centro', 'del', 'della', 'di', 'f', 'francesco', 'g', 'gen',
+  'generale', 'giuseppe', 'in', 'nel', 'vendita'
 ]);
 
 function normalizeText(value = '') {
@@ -106,8 +106,27 @@ export function likelySameProperty(a, b) {
 
 export function annotateDuplicateGroups(listings) {
   const groups = [];
+  const seededIndexes = new Set();
+
+  // Attribute-only matches are intentionally limited to same-day NEW
+  // listings. Once such a match has been verified, keep that identity on
+  // later runs instead of trying to infer it again from ACTIVE history.
+  const existingGroups = new Map();
+  listings.forEach((listing, index) => {
+    if (!listing.duplicateGroupId) return;
+    const members = existingGroups.get(listing.duplicateGroupId) ?? [];
+    members.push(index);
+    existingGroups.set(listing.duplicateGroupId, members);
+  });
+  for (const members of existingGroups.values()) {
+    const sources = members.map((index) => listings[index].source);
+    if (members.length < 2 || new Set(sources).size !== sources.length) continue;
+    groups.push(members);
+    members.forEach((index) => seededIndexes.add(index));
+  }
 
   for (let index = 0; index < listings.length; index += 1) {
+    if (seededIndexes.has(index)) continue;
     const listing = listings[index];
     const group = groups.find((members) =>
       !members.some((memberIndex) => listings[memberIndex].source === listing.source)
