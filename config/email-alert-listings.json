@@ -261,9 +261,9 @@
     "price": 84000,
     "sqm": 25,
     "rooms": 1,
-    "receivedAt": "2026-09-02T07:02:02.000Z",
+    "receivedAt": "2026-09-07T09:09:06.000Z",
     "firstSeenAt": "2026-09-01T10:21:20.000Z",
-    "lastSeenAt": "2026-09-02T07:02:02.000Z",
+    "lastSeenAt": "2026-09-07T09:09:06.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -909,5 +909,110 @@
     "sqm": 31,
     "status": "NEW",
     "title": "Monolocale via Montenero 26, Centro, Bardonecchia"
+  },
+  {
+    "externalId": "35611779",
+    "firstSeenAt": "2026-09-07T09:09:06.000Z",
+    "id": "idealista-35611779",
+    "lastSeenAt": "2026-09-07T09:09:06.000Z",
+    "location": "Bardonecchia",
+    "price": 109125,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-07T09:09:06.000Z",
+        "price": 109125
+      }
+    ],
+    "receivedAt": "2026-09-07T09:09:06.000Z",
+    "rooms": 4,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35611779/",
+    "sqm": 90,
+    "status": "NEW",
+    "title": "Quadrilocale in Via la Rho, 58, Bardonecchia"
+  },
+  {
+    "externalId": "36110235",
+    "firstSeenAt": "2026-09-07T09:09:06.000Z",
+    "id": "idealista-36110235",
+    "lastSeenAt": "2026-09-07T09:09:06.000Z",
+    "location": "Bardonecchia",
+    "price": 138000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-07T09:09:06.000Z",
+        "price": 138000
+      }
+    ],
+    "receivedAt": "2026-09-07T09:09:06.000Z",
+    "rooms": 3,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36110235/",
+    "sqm": 86,
+    "status": "NEW",
+    "title": "Trilocale in Strada Millaures, 10, Bardonecchia"
+  },
+  {
+    "externalId": "53990431",
+    "firstSeenAt": "2026-09-07T11:46:46.000Z",
+    "id": "casa-53990431",
+    "lastSeenAt": "2026-09-07T11:46:46.000Z",
+    "location": "Bardonecchia",
+    "price": 175000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-07T11:46:46.000Z",
+        "price": 175000
+      }
+    ],
+    "receivedAt": "2026-09-07T11:46:46.000Z",
+    "rooms": 2,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53990431/",
+    "sqm": 70,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Via Einaudi 23,"
+  },
+  {
+    "externalId": "53284300",
+    "firstSeenAt": "2026-09-07T11:46:46.000Z",
+    "id": "casa-53284300",
+    "lastSeenAt": "2026-09-07T11:46:46.000Z",
+    "location": "Bardonecchia",
+    "price": 198000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-07T11:46:46.000Z",
+        "price": 198000
+      }
+    ],
+    "receivedAt": "2026-09-07T11:46:46.000Z",
+    "rooms": 3,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53284300/",
+    "sqm": 82,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Via Cianfuran,"
+  },
+  {
+    "externalId": "54045901",
+    "firstSeenAt": "2026-09-07T11:46:46.000Z",
+    "id": "casa-54045901",
+    "lastSeenAt": "2026-09-07T11:46:46.000Z",
+    "location": "Bardonecchia",
+    "price": 27000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-07T11:46:46.000Z",
+        "price": 27000
+      }
+    ],
+    "receivedAt": "2026-09-07T11:46:46.000Z",
+    "rooms": 1,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54045901/",
+    "sqm": 11,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Via Pollicino 10,"
   }
 ]
