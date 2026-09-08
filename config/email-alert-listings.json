@@ -9,10 +9,10 @@
     "price": 149000,
     "sqm": 72,
     "rooms": 3,
-    "receivedAt": "2026-08-28T10:53:58.000Z",
+    "receivedAt": "2026-09-08T11:00:46.000Z",
     "firstSeenAt": "2026-08-28T10:53:58.000Z",
-    "lastSeenAt": "2026-08-28T10:53:58.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-08T11:00:46.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 149000,
@@ -300,17 +300,21 @@
     "location": "Bardonecchia",
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/53734901/",
-    "price": 210000,
+    "price": 189000,
     "sqm": 56,
     "rooms": 3,
-    "receivedAt": "2026-09-01T11:37:28.000Z",
+    "receivedAt": "2026-09-08T11:00:46.000Z",
     "firstSeenAt": "2026-09-01T11:37:28.000Z",
-    "lastSeenAt": "2026-09-01T11:37:28.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-08T11:00:46.000Z",
+    "status": "UPDATED",
     "priceHistory": [
       {
         "price": 210000,
         "capturedAt": "2026-09-01T11:37:28.000Z"
+      },
+      {
+        "price": 189000,
+        "capturedAt": "2026-09-08T11:00:46.000Z"
       }
     ]
   },
@@ -1014,5 +1018,173 @@
     "sqm": 11,
     "status": "NEW",
     "title": "Appartamento in vendita in Via Pollicino 10,"
+  },
+  {
+    "externalId": "35388407",
+    "firstSeenAt": "2026-09-07T16:27:01.000Z",
+    "id": "idealista-35388407",
+    "lastSeenAt": "2026-09-08T09:22:50.000Z",
+    "location": "Bardonecchia",
+    "price": 189000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-07T16:27:01.000Z",
+        "price": 189000
+      }
+    ],
+    "receivedAt": "2026-09-07T16:27:01.000Z",
+    "rooms": 3,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35388407/",
+    "sqm": 56,
+    "status": "NEW",
+    "title": "Trilocale in Viale Capuccio, 10, Bardonecchia"
+  },
+  {
+    "externalId": "128150652",
+    "firstSeenAt": "2026-09-07T18:20:31.000Z",
+    "id": "immobiliare-128150652",
+    "lastSeenAt": "2026-09-07T18:20:31.000Z",
+    "location": "Bardonecchia",
+    "price": 189000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-07T18:20:31.000Z",
+        "price": 189000
+      }
+    ],
+    "receivedAt": "2026-09-07T18:20:31.000Z",
+    "rooms": 3,
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/128150652/",
+    "sqm": 56,
+    "status": "NEW",
+    "title": "Trilocale viale Capuccio 10, Centro, Bardonecchia"
+  },
+  {
+    "externalId": "126558775",
+    "firstSeenAt": "2026-09-08T08:19:04.000Z",
+    "id": "immobiliare-126558775",
+    "lastSeenAt": "2026-09-08T08:19:04.000Z",
+    "location": "Bardonecchia",
+    "price": 149000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-08T08:19:04.000Z",
+        "price": 149000
+      }
+    ],
+    "receivedAt": "2026-09-08T08:19:04.000Z",
+    "rooms": 2,
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/126558775/",
+    "sqm": 56,
+    "status": "NEW",
+    "title": "Bilocale via Giovanni Giolitti 13, Centro, Bardonecchia"
+  },
+  {
+    "externalId": "36240645",
+    "firstSeenAt": "2026-09-08T09:22:50.000Z",
+    "id": "idealista-36240645",
+    "lastSeenAt": "2026-09-08T09:22:50.000Z",
+    "location": "Bardonecchia",
+    "price": 175000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-08T09:22:50.000Z",
+        "price": 175000
+      }
+    ],
+    "receivedAt": "2026-09-08T09:22:50.000Z",
+    "rooms": 2,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36240645/",
+    "sqm": 51,
+    "status": "NEW",
+    "title": "Bilocale in Via Genova, 30, Bardonecchia"
+  },
+  {
+    "externalId": "36461842",
+    "firstSeenAt": "2026-09-08T09:22:50.000Z",
+    "id": "idealista-36461842",
+    "lastSeenAt": "2026-09-08T09:22:50.000Z",
+    "location": "Bardonecchia",
+    "price": 170000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-08T09:22:50.000Z",
+        "price": 170000
+      }
+    ],
+    "receivedAt": "2026-09-08T09:22:50.000Z",
+    "rooms": 5,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36461842/",
+    "sqm": 95,
+    "status": "NEW",
+    "title": "Appartamento in Via Susa, Bardonecchia"
+  },
+  {
+    "externalId": "31604846",
+    "firstSeenAt": "2026-09-08T09:22:50.000Z",
+    "id": "idealista-31604846",
+    "lastSeenAt": "2026-09-08T09:22:50.000Z",
+    "location": "Bardonecchia",
+    "price": 198000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-08T09:22:50.000Z",
+        "price": 198000
+      }
+    ],
+    "receivedAt": "2026-09-08T09:22:50.000Z",
+    "rooms": 5,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/31604846/",
+    "sqm": 102,
+    "status": "NEW",
+    "title": "Appartamento in Via G. F. Medail, 19, Bardonecchia"
+  },
+  {
+    "externalId": "54053597",
+    "firstSeenAt": "2026-09-08T11:00:46.000Z",
+    "id": "casa-54053597",
+    "lastSeenAt": "2026-09-08T11:00:46.000Z",
+    "location": "Bardonecchia",
+    "price": 255000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-08T11:00:46.000Z",
+        "price": 255000
+      }
+    ],
+    "receivedAt": "2026-09-08T11:00:46.000Z",
+    "rooms": 2,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54053597/",
+    "sqm": 58,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Via Frejus,"
+  },
+  {
+    "externalId": "54043657",
+    "firstSeenAt": "2026-09-08T11:00:46.000Z",
+    "id": "casa-54043657",
+    "lastSeenAt": "2026-09-08T11:00:46.000Z",
+    "location": "Bardonecchia",
+    "price": 98000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-08T11:00:46.000Z",
+        "price": 98000
+      }
+    ],
+    "receivedAt": "2026-09-08T11:00:46.000Z",
+    "rooms": 2,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54043657/",
+    "sqm": 51,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Viale della Vittoria 10,"
   }
 ]

@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { getAccessToken, getMessage, listMessageIds, messageHash } from './gmail/gmail-client.mjs';
 import { parseAlertMessage } from './gmail/alert-parsers.mjs';
-import { unresolvedHash, updateStores } from './gmail/importer.mjs';
+import { collapseBatchObservations, unresolvedHash, updateStores } from './gmail/importer.mjs';
 
 const configPath = path.resolve('config/email-alerts.json');
 const statePath = path.resolve('config/gmail-import-state.json');
@@ -29,7 +29,7 @@ const afterEpoch = Math.max(0, Math.floor((Date.parse(state.lastProcessedAt ?? '
 const query = `${config.gmailQuery} after:${afterEpoch} -in:spam -in:trash`;
 const messageIds = await listMessageIds(accessToken, query, Number(config.maxMessagesPerRun ?? 100));
 
-const parsedListings = [];
+const parsedObservations = [];
 const unresolved = [];
 const seenMessages = [];
 let latestProcessedAt = state.lastProcessedAt;
@@ -46,7 +46,7 @@ for (const id of messageIds.reverse()) {
   if (!result.provider) continue;
   if (result.candidateCount) alertMessages += 1;
   excludedListings += result.excluded ?? 0;
-  parsedListings.push(...result.listings);
+  parsedObservations.push(...result.listings.map((listing) => ({ listing, subject: message.subject })));
   unresolved.push(...result.unresolved.map((entry) => ({ ...entry, hash: unresolvedHash(entry) })));
 }
 
@@ -54,6 +54,7 @@ const store = await readJson(storePath, { listings: [], refreshedAt: null, provi
 const emailArchive = await readJson(archivePath, []);
 const previousUnresolved = await readJson(unresolvedPath, []);
 const observedAt = latestProcessedAt ?? new Date().toISOString();
+const parsedListings = collapseBatchObservations(parsedObservations);
 const summary = {
   messages: alertMessages,
   imported: parsedListings.length,

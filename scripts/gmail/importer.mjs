@@ -3,6 +3,10 @@ import { annotateDuplicateGroups } from '../deduplicate-listings.mjs';
 
 const keyOf = (listing) => `${listing.source}:${listing.externalId}`;
 
+function isDedicatedPriceAlert(subject = '') {
+  return /(?:diminuzione|riduzione|ribasso|calo)\s+(?:di\s+)?prezzo/i.test(String(subject));
+}
+
 function latestIso(...values) {
   return values.filter(Boolean).sort().at(-1);
 }
@@ -29,6 +33,24 @@ export function mergeListings(previous = [], incoming = []) {
   const merged = new Map(previous.map((listing) => [keyOf(listing), listing]));
   for (const listing of incoming) merged.set(keyOf(listing), mergeOne(merged.get(keyOf(listing)), listing));
   return [...merged.values()];
+}
+
+export function collapseBatchObservations(observations = []) {
+  const selected = new Map();
+  for (const observation of observations) {
+    const listing = observation.listing;
+    const key = keyOf(listing);
+    const priority = isDedicatedPriceAlert(observation.subject) ? 1 : 0;
+    const previous = selected.get(key);
+    const lastSeenAt = latestIso(previous?.listing.lastSeenAt, listing.lastSeenAt);
+    const shouldReplace = !previous || priority > previous.priority || (
+      priority === previous.priority
+      && String(listing.receivedAt ?? listing.lastSeenAt ?? '') >= String(previous.listing.receivedAt ?? previous.listing.lastSeenAt ?? '')
+    );
+    const chosen = shouldReplace ? { listing, priority } : previous;
+    selected.set(key, { ...chosen, listing: { ...chosen.listing, lastSeenAt } });
+  }
+  return [...selected.values()].map((entry) => entry.listing);
 }
 
 export function updateStores(store, emailArchive, incoming, observedAt, summary) {

@@ -32,7 +32,8 @@ function groupedDirectCandidates(html, provider, location) {
   return [...grouped.entries()].map(([id, anchors]) => ({
     id,
     url: canonicalUrl(provider, id),
-    title: anchors.filter((anchor) => usefulTitle(anchor.label)).sort((a, b) => b.label.length - a.label.length)[0]?.label
+    title: anchors.filter((anchor) => usefulTitle(anchor.label)).sort((a, b) => b.label.length - a.label.length)[0]?.label,
+    index: Math.min(...anchors.map((anchor) => anchor.index))
   })).filter((candidate) => candidate.title);
 }
 
@@ -46,13 +47,23 @@ function blockForTitle(plainText, title, allTitles) {
   return plainText.slice(start, next > start ? next : start + 800);
 }
 
-function buildListings(candidates, provider, html, receivedAt, location, maxPrice) {
+function blockForCandidate(html, plainText, candidate, candidates) {
+  if (Number.isFinite(candidate.index)) {
+    const next = candidates
+      .map((other) => other === candidate ? -1 : other.index)
+      .filter((index) => Number.isFinite(index) && index > candidate.index)
+      .sort((a, b) => a - b)[0];
+    return htmlToText(html.slice(candidate.index, next ?? candidate.index + 12000));
+  }
+  return blockForTitle(plainText, candidate.title, candidates.map((item) => item.title));
+}
+
+function buildListings(candidates, provider, html, receivedAt, location, maxPrice, preferLatestPrice = false) {
   const plainText = htmlToText(html);
-  const titles = candidates.map((candidate) => candidate.title);
   const listings = [];
   for (const candidate of candidates) {
-    const block = blockForTitle(plainText, candidate.title, titles);
-    const attributes = parseAttributes(block);
+    const block = blockForCandidate(html, plainText, candidate, candidates);
+    const attributes = parseAttributes(block, { preferLatestPrice });
     if (!attributes.price || attributes.price > maxPrice) continue;
     if (!normalizeText(candidate.title).includes(normalizeText(location)) && !normalizeText(block).includes(normalizeText(location))) continue;
     listings.push({
@@ -96,7 +107,8 @@ function trackingCandidates(html, location) {
   }
   return [...grouped.entries()].map(([trackingUrl, anchors]) => ({
     trackingUrl,
-    title: anchors.filter((anchor) => usefulTitle(anchor.label)).sort((a, b) => b.label.length - a.label.length)[0]?.label
+    title: anchors.filter((anchor) => usefulTitle(anchor.label)).sort((a, b) => b.label.length - a.label.length)[0]?.label,
+    index: Math.min(...anchors.map((anchor) => anchor.index))
   })).filter((candidate) => candidate.title);
 }
 
@@ -122,14 +134,14 @@ export async function resolveImmobiliareCandidate(candidate, block, fetchImpl = 
     headers: { 'User-Agent': 'HomeHoliday/1.0 (+https://github.com/wscandurra-beep/HomeHoliday)' }
   });
   const direct = String(response.url ?? '').match(PROPERTY_URLS['Immobiliare.it']);
-  if (direct) return { id: direct[1], url: canonicalUrl('Immobiliare.it', direct[1]), title: candidate.title };
+  if (direct) return { id: direct[1], url: canonicalUrl('Immobiliare.it', direct[1]), title: candidate.title, index: candidate.index };
   if (!response.ok) return undefined;
 
   const body = await response.text();
   const ids = [...new Set([...body.matchAll(/immobiliare\.it\/annunci\/(\d+)/gi)].map((match) => match[1]))];
   const attributes = parseAttributes(block);
   if (ids.length !== 1 || !pageVerifiesCandidate(body, candidate, location, attributes)) return undefined;
-  return { id: ids[0], url: canonicalUrl('Immobiliare.it', ids[0]), title: candidate.title };
+  return { id: ids[0], url: canonicalUrl('Immobiliare.it', ids[0]), title: candidate.title, index: candidate.index };
 }
 
 export async function parseAlertMessage(message, options = {}) {
@@ -145,17 +157,17 @@ export async function parseAlertMessage(message, options = {}) {
 
   if (provider !== 'Immobiliare.it') {
     const candidates = groupedDirectCandidates(html, provider, location);
-    const listings = buildListings(candidates, provider, html, receivedAt, location, maxPrice);
+    const preferLatestPrice = /(?:diminuzione|riduzione|ribasso|calo)\s+(?:di\s+)?prezzo/i.test(String(message.subject ?? ''));
+    const listings = buildListings(candidates, provider, html, receivedAt, location, maxPrice, preferLatestPrice);
     return { provider, listings, unresolved: [], candidateCount: candidates.length, excluded: candidates.length - listings.length };
   }
 
   const plainText = htmlToText(html);
   const rawCandidates = trackingCandidates(html, location);
-  const titles = rawCandidates.map((candidate) => candidate.title);
   const resolved = [];
   const unresolved = [];
   for (const candidate of rawCandidates) {
-    const block = blockForTitle(plainText, candidate.title, titles);
+    const block = blockForCandidate(html, plainText, candidate, rawCandidates);
     const attributes = parseAttributes(block);
     if (!attributes.price || attributes.price > maxPrice) continue;
     try {

@@ -43,6 +43,18 @@ test('parses singular Casa.it room labels', async () => {
   assert.equal(result.listings[0].rooms, 1);
 });
 
+test('keeps repeated Casa.it titles tied to their own listing block', async () => {
+  const html = `
+    <a href="https://www.casa.it/immobili/54053597/">Appartamento in vendita in Via Frejus,</a>
+    <div>Centro, Bardonecchia (TO) € 255.000 58 m² 2 locali</div>
+    <a href="https://www.casa.it/immobili/54047856/">Appartamento in vendita in Via Frejus,</a>
+    <div>Centro, Bardonecchia (TO) € 590.000 102 m² 4 locali</div>`;
+  const result = await parseAlertMessage({ from: 'noreply@casa.it', internalDate: receivedAt, html }, { location: 'Bardonecchia', maxPrice: 260000 });
+  assert.equal(result.candidateCount, 2);
+  assert.equal(result.excluded, 1);
+  assert.deepEqual(result.listings.map((listing) => listing.externalId), ['54053597']);
+});
+
 test('parses multiple Idealista listings and excludes prices above the configured maximum', async () => {
   const html = `
     <a href="https://www.idealista.it/immobile/34014883/?utm_source=alert">Bilocale in Via la Rho, 35, Bardonecchia</a>
@@ -55,6 +67,19 @@ test('parses multiple Idealista listings and excludes prices above the configure
   assert.equal(result.listings[0].price, 109125);
   assert.equal(result.listings[0].sqm, 90);
   assert.equal(result.listings[0].rooms, 4);
+});
+
+test('uses the reduced price from a dedicated Idealista price-drop alert', async () => {
+  const html = `
+    <a href="https://www.idealista.it/immobile/35388407/">Trilocale in Viale Capuccio, 10, Bardonecchia</a>
+    <div>210.000 € ↓10% 189.000 € 3.375 €/m² 3 locali 56 m²</div>`;
+  const result = await parseAlertMessage({
+    from: 'nonrispondere@idealista.it',
+    subject: 'Diminuzione di prezzo per la tua ricerca',
+    internalDate: receivedAt,
+    html
+  }, { location: 'Bardonecchia', maxPrice: 260000 });
+  assert.equal(result.listings[0].price, 189000);
 });
 
 test('resolves Immobiliare tracking URLs only to a verified numeric canonical URL', async () => {

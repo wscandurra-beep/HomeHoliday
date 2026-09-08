@@ -48,15 +48,19 @@ export function normalizeText(value = '') {
     .trim();
 }
 
-export function parseAttributes(block = '') {
+export function parseAttributes(block = '', options = {}) {
   const priceCandidates = [
-    [...block.matchAll(/€\s*([\d.]+(?:,\d+)?)/gi)].map((match) => ({ index: match.index, value: match[1] })),
-    [...block.matchAll(/(?:da\s+)?([\d.]+(?:,\d+)?)\s*€/gi)].map((match) => ({ index: match.index, value: match[1] }))
-  ].flat().sort((a, b) => a.index - b.index);
+    [...block.matchAll(/€\s*([\d.]+(?:,\d+)?)/gi)].map((match) => ({ kind: 'prefix', index: match.index, end: (match.index ?? 0) + match[0].length, value: match[1] })),
+    [...block.matchAll(/(?:da\s+)?([\d.]+(?:,\d+)?)\s*€/gi)].map((match) => ({ kind: 'suffix', index: match.index, end: (match.index ?? 0) + match[0].length, value: match[1] }))
+  ].flat()
+    .filter((candidate) => candidate.kind !== 'prefix' || !/^\s*€/.test(block.slice(candidate.end)))
+    .filter((candidate) => !/^\s*\/\s*m(?:²|2|q)/i.test(block.slice(candidate.end)))
+    .sort((a, b) => a.index - b.index);
+  const priceCandidate = options.preferLatestPrice ? priceCandidates.at(-1) : priceCandidates[0];
   const sqmMatch = block.match(/(\d+(?:[.,]\d+)?)\s*m(?:²|2|q)(?=\s|[|<]|$)/i);
   const roomsMatch = block.match(/(\d+)\s*(?:local[ei]\b|loc\.)/i);
   return {
-    price: parseItalianNumber(priceCandidates[0]?.value),
+    price: parseItalianNumber(priceCandidate?.value),
     sqm: parseItalianNumber(sqmMatch?.[1]),
     rooms: roomsMatch ? Number(roomsMatch[1]) : undefined
   };

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { mergeListings, updateStores } from './importer.mjs';
+import { collapseBatchObservations, mergeListings, updateStores } from './importer.mjs';
 
 const oldListing = {
   id: 'casa-1', externalId: '1', source: 'Casa.it', title: 'Trilocale a Bardonecchia', location: 'Bardonecchia',
@@ -66,4 +66,27 @@ test('same-run repeated listings remain eligible for NEW same-day cross-platform
   assert.equal(storedIdealista.status, 'NEW');
   assert.ok(storedCasa.duplicateGroupId);
   assert.equal(storedCasa.duplicateGroupId, storedIdealista.duplicateGroupId);
+});
+
+test('a dedicated price alert takes precedence over a later stale daily digest', () => {
+  const priceDrop = {
+    ...oldListing,
+    price: 189000,
+    receivedAt: '2026-09-07T16:27:01.000Z',
+    lastSeenAt: '2026-09-07T16:27:01.000Z'
+  };
+  const staleDigest = {
+    ...oldListing,
+    price: 210000,
+    receivedAt: '2026-09-08T09:22:50.000Z',
+    lastSeenAt: '2026-09-08T09:22:50.000Z'
+  };
+  const collapsed = collapseBatchObservations([
+    { listing: priceDrop, subject: 'Diminuzione di prezzo per la tua ricerca' },
+    { listing: staleDigest, subject: 'Riepilogo giornaliero dei nuovi annunci' }
+  ]);
+  assert.equal(collapsed.length, 1);
+  assert.equal(collapsed[0].price, 189000);
+  assert.equal(collapsed[0].receivedAt, priceDrop.receivedAt);
+  assert.equal(collapsed[0].lastSeenAt, staleDigest.lastSeenAt);
 });
