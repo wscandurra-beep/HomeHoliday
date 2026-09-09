@@ -462,10 +462,10 @@
     "price": 190000,
     "sqm": 45,
     "rooms": 2,
-    "receivedAt": "2026-09-02T11:29:48.000Z",
+    "receivedAt": "2026-09-09T11:31:03.000Z",
     "firstSeenAt": "2026-09-02T11:29:48.000Z",
-    "lastSeenAt": "2026-09-02T11:29:48.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-09T11:31:03.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 190000,
@@ -708,7 +708,7 @@
     "externalId": "54664042",
     "firstSeenAt": "2026-09-03T20:00:53.000Z",
     "id": "casa-54664042",
-    "lastSeenAt": "2026-09-04T11:16:53.000Z",
+    "lastSeenAt": "2026-09-09T11:31:03.000Z",
     "location": "Bardonecchia",
     "price": 179000,
     "priceHistory": [
@@ -717,7 +717,7 @@
         "price": 179000
       }
     ],
-    "receivedAt": "2026-09-04T11:16:53.000Z",
+    "receivedAt": "2026-09-09T11:31:03.000Z",
     "rooms": 2,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54664042/",
@@ -1186,5 +1186,110 @@
     "sqm": 51,
     "status": "NEW",
     "title": "Appartamento in vendita in Viale della Vittoria 10,"
+  },
+  {
+    "externalId": "53015890",
+    "firstSeenAt": "2026-09-09T11:31:03.000Z",
+    "id": "casa-53015890",
+    "lastSeenAt": "2026-09-09T11:31:03.000Z",
+    "location": "Bardonecchia",
+    "price": 70000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-09T11:31:03.000Z",
+        "price": 70000
+      }
+    ],
+    "receivedAt": "2026-09-09T11:31:03.000Z",
+    "rooms": 1,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53015890/",
+    "sqm": 28,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Via G. Sommeiller 17,"
+  },
+  {
+    "externalId": "54121382",
+    "firstSeenAt": "2026-09-09T11:31:03.000Z",
+    "id": "casa-54121382",
+    "lastSeenAt": "2026-09-09T11:31:03.000Z",
+    "location": "Bardonecchia",
+    "price": 220000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-09T11:31:03.000Z",
+        "price": 220000
+      }
+    ],
+    "receivedAt": "2026-09-09T11:31:03.000Z",
+    "rooms": 2,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54121382/",
+    "sqm": 43,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Via Montello 9,"
+  },
+  {
+    "externalId": "54039418",
+    "firstSeenAt": "2026-09-09T11:31:03.000Z",
+    "id": "casa-54039418",
+    "lastSeenAt": "2026-09-09T11:31:03.000Z",
+    "location": "Bardonecchia",
+    "price": 170000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-09T11:31:03.000Z",
+        "price": 170000
+      }
+    ],
+    "receivedAt": "2026-09-09T11:31:03.000Z",
+    "rooms": 2,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54039418/",
+    "sqm": 55,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Viale San Francesco 6,"
+  },
+  {
+    "externalId": "54103755",
+    "firstSeenAt": "2026-09-09T11:31:03.000Z",
+    "id": "casa-54103755",
+    "lastSeenAt": "2026-09-09T11:31:03.000Z",
+    "location": "Bardonecchia",
+    "price": 210000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-09T11:31:03.000Z",
+        "price": 210000
+      }
+    ],
+    "receivedAt": "2026-09-09T11:31:03.000Z",
+    "rooms": 2,
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54103755/",
+    "sqm": 61,
+    "status": "NEW",
+    "title": "Appartamento in vendita in Via G. F. Medail 20,"
+  },
+  {
+    "externalId": "36763938",
+    "firstSeenAt": "2026-09-09T14:17:11.000Z",
+    "id": "idealista-36763938",
+    "lastSeenAt": "2026-09-09T14:17:11.000Z",
+    "location": "Bardonecchia",
+    "price": 250000,
+    "priceHistory": [
+      {
+        "capturedAt": "2026-09-09T14:17:11.000Z",
+        "price": 250000
+      }
+    ],
+    "receivedAt": "2026-09-09T14:17:11.000Z",
+    "rooms": 3,
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36763938/",
+    "sqm": 70,
+    "status": "NEW",
+    "title": "Appartamento su due piani in Viale Bramafam, 39, Bardonecchia"
   }
 ]
