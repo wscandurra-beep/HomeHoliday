@@ -1585,5 +1585,194 @@
         "capturedAt": "2026-09-11T14:30:11.000Z"
       }
     ]
+  },
+  {
+    "id": "casa-54725698",
+    "externalId": "54725698",
+    "title": "Appartamento in vendita in Via la Rho,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54725698/",
+    "price": 109126,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-09-14T11:19:29.000Z",
+    "firstSeenAt": "2026-09-14T11:19:29.000Z",
+    "lastSeenAt": "2026-09-14T11:19:29.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109126,
+        "capturedAt": "2026-09-14T11:19:29.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54592324",
+    "externalId": "54592324",
+    "title": "Appartamento in vendita in Frazione Melezet 102,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54592324/",
+    "price": 160000,
+    "sqm": 60,
+    "rooms": 2,
+    "receivedAt": "2026-09-14T11:19:29.000Z",
+    "firstSeenAt": "2026-09-14T11:19:29.000Z",
+    "lastSeenAt": "2026-09-14T11:19:29.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 160000,
+        "capturedAt": "2026-09-14T11:19:29.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53826973",
+    "externalId": "53826973",
+    "title": "Appartamento in vendita in Viale Roma 68,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53826973/",
+    "price": 220000,
+    "sqm": 60,
+    "rooms": 3,
+    "receivedAt": "2026-09-14T11:19:29.000Z",
+    "firstSeenAt": "2026-09-14T11:19:29.000Z",
+    "lastSeenAt": "2026-09-14T11:19:29.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 220000,
+        "capturedAt": "2026-09-14T11:19:29.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54340568",
+    "externalId": "54340568",
+    "title": "Appartamento in vendita in Viale Roma 68,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54340568/",
+    "price": 220000,
+    "sqm": 61,
+    "rooms": 3,
+    "receivedAt": "2026-09-14T11:19:29.000Z",
+    "firstSeenAt": "2026-09-14T11:19:29.000Z",
+    "lastSeenAt": "2026-09-14T11:19:29.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 220000,
+        "capturedAt": "2026-09-14T11:19:29.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54340581",
+    "externalId": "54340581",
+    "title": "Appartamento in vendita in Via Pollicino 10,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54340581/",
+    "price": 250000,
+    "sqm": 80,
+    "rooms": 3,
+    "receivedAt": "2026-09-14T11:19:29.000Z",
+    "firstSeenAt": "2026-09-14T11:19:29.000Z",
+    "lastSeenAt": "2026-09-14T11:19:29.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 250000,
+        "capturedAt": "2026-09-14T11:19:29.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36586159",
+    "externalId": "36586159",
+    "title": "Bilocale in Frazione Melezet, 102, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36586159/",
+    "price": 160000,
+    "sqm": 60,
+    "rooms": 2,
+    "receivedAt": "2026-09-14T13:29:19.000Z",
+    "firstSeenAt": "2026-09-14T13:29:19.000Z",
+    "lastSeenAt": "2026-09-14T13:29:19.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 160000,
+        "capturedAt": "2026-09-14T13:29:19.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36094722",
+    "externalId": "36094722",
+    "title": "Quadrilocale in Via Pollicino, 10, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36094722/",
+    "price": 250000,
+    "sqm": 120,
+    "rooms": 4,
+    "receivedAt": "2026-09-14T13:29:19.000Z",
+    "firstSeenAt": "2026-09-14T13:29:19.000Z",
+    "lastSeenAt": "2026-09-14T13:29:19.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 250000,
+        "capturedAt": "2026-09-14T13:29:19.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-18420496",
+    "externalId": "18420496",
+    "title": "Proprietà rustica in Borgata Horres s.n.c, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/18420496/",
+    "price": 130000,
+    "sqm": 190,
+    "rooms": 5,
+    "receivedAt": "2026-09-14T13:29:19.000Z",
+    "firstSeenAt": "2026-09-14T13:29:19.000Z",
+    "lastSeenAt": "2026-09-14T13:29:19.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 130000,
+        "capturedAt": "2026-09-14T13:29:19.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36816876",
+    "externalId": "36816876",
+    "title": "Trilocale in Via la Rho, 58, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36816876/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 3,
+    "receivedAt": "2026-09-14T14:20:00.000Z",
+    "firstSeenAt": "2026-09-14T14:20:00.000Z",
+    "lastSeenAt": "2026-09-14T14:20:00.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-14T14:20:00.000Z"
+      }
+    ]
   }
 ]
