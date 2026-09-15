@@ -58,14 +58,29 @@ function blockForCandidate(html, plainText, candidate, candidates) {
   return blockForTitle(plainText, candidate.title, candidates.map((item) => item.title));
 }
 
+function immediateContextForCandidate(html, candidate, candidates, fallbackBlock) {
+  if (!Number.isFinite(candidate.index)) return normalizeText(fallbackBlock).slice(0, 600);
+  const next = candidates
+    .map((other) => other === candidate ? -1 : other.index)
+    .filter((index) => Number.isFinite(index) && index > candidate.index)
+    .sort((a, b) => a - b)[0];
+  const end = Math.min(next ?? candidate.index + 5000, candidate.index + 5000);
+  return normalizeText(htmlToText(html.slice(candidate.index, end)));
+}
+
 function buildListings(candidates, provider, html, receivedAt, location, maxPrice, preferLatestPrice = false) {
   const plainText = htmlToText(html);
+  const normalizedLocation = normalizeText(location);
   const listings = [];
   for (const candidate of candidates) {
     const block = blockForCandidate(html, plainText, candidate, candidates);
     const attributes = parseAttributes(block, { preferLatestPrice });
     if (!attributes.price || attributes.price > maxPrice) continue;
-    if (!normalizeText(candidate.title).includes(normalizeText(location)) && !normalizeText(block).includes(normalizeText(location))) continue;
+    // Recommendation sections can contain properties outside the saved-search
+    // location, while the email footer or a later card still mentions it. Only
+    // accept the location when it belongs to this card's immediate context.
+    const localContext = immediateContextForCandidate(html, candidate, candidates, block);
+    if (!normalizeText(candidate.title).includes(normalizedLocation) && !localContext.includes(normalizedLocation)) continue;
     listings.push({
       id: `${provider === 'Casa.it' ? 'casa' : provider === 'Idealista' ? 'idealista' : 'immobiliare'}-${candidate.id}`,
       externalId: candidate.id,

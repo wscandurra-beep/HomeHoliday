@@ -100,3 +100,29 @@ test('does not invent an Immobiliare listing ID when the tracking URL cannot be 
   assert.equal(result.listings.length, 0);
   assert.equal(result.unresolved.length, 1);
 });
+
+test('excludes out-of-area Immobiliare recommendations from a Bardonecchia alert', async () => {
+  const targetTracking = 'https://clicks.immobiliare.it/f/a/bardonecchia';
+  const otherTracking = 'https://clicks.immobiliare.it/f/a/torino';
+  const html = `
+    <a href="${targetTracking}">Bilocale viale San Francesco 6, Centro, Bardonecchia</a>
+    <div>€ 165.000 60 m² | 2 locali</div>
+    <a href="${otherTracking}">C.SO AGNELLI/IV NOVEMBRE PANORAMICO 90MQ</a>
+    <div>Santa Rita € 260.000 90 m² | 4 locali</div>`;
+  const fetchImpl = async (url) => ({
+    ok: true,
+    url: url === targetTracking
+      ? 'https://www.immobiliare.it/annunci/132432712/'
+      : 'https://www.immobiliare.it/annunci/132288278/',
+    text: async () => ''
+  });
+
+  const result = await parseAlertMessage({
+    from: 'noreply@notifiche.immobiliare.it',
+    internalDate: receivedAt,
+    html
+  }, { location: 'Bardonecchia', maxPrice: 260000, fetchImpl });
+
+  assert.deepEqual(result.listings.map((listing) => listing.externalId), ['132432712']);
+  assert.equal(result.excluded, 1);
+});
