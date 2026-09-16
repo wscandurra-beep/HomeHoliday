@@ -69,6 +69,28 @@ test('pairs same-day NEW listings when one portal hides the address', () => {
   assert.equal(grouped[0].duplicateGroupId, grouped[1].duplicateGroupId);
 });
 
+test('normalizes s.n.c. and pairs only same-day NEW listings without a civic number', () => {
+  assert.deepEqual(
+    addressFingerprint('Trilocale in Via la Rho s.n.c, Bardonecchia', 'Bardonecchia'),
+    { street: 'la rho', civic: undefined }
+  );
+  assert.deepEqual(
+    addressFingerprint('Appartamento in vendita in Via la Rho, Bardonecchia', 'Bardonecchia'),
+    { street: 'la rho', civic: undefined }
+  );
+
+  const common = { status: 'NEW', firstSeenAt: '2026-09-16T10:00:00.000Z' };
+  const idealista = { ...listing('36835410', 'Idealista', 'Trilocale in Via la Rho s.n.c, Bardonecchia', 109125, 90, 3), ...common };
+  const casa = { ...listing('54745886', 'Casa.it', 'Appartamento in vendita in Via la Rho, Bardonecchia', 109125, 90, 3), ...common };
+
+  assert.equal(likelySameProperty(idealista, casa), true);
+  assert.equal(likelySameProperty({ ...idealista, status: 'ACTIVE' }, { ...casa, status: 'ACTIVE' }), false);
+
+  const grouped = annotateDuplicateGroups([idealista, casa]);
+  assert.ok(grouped[0].duplicateGroupId);
+  assert.equal(grouped[0].duplicateGroupId, grouped[1].duplicateGroupId);
+});
+
 test('does not use attribute-only pairing for older or different-day listings', () => {
   const subito = { ...listing('subito', 'Subito.it', 'Appartamento Bardonecchia [BD23VRG]', 225000, 90, 3), status: 'ACTIVE', firstSeenAt: '2026-08-23T12:00:00.000Z' };
   const immobiliare = { ...listing('imm', 'Immobiliare.it', 'Trilocale via Melezet 125, Centro, Bardonecchia', 225000, 90, 3), status: 'ACTIVE', firstSeenAt: '2026-08-23T12:00:00.000Z' };

@@ -11,7 +11,9 @@ const ADDRESS_MARKERS = new Set([
 
 const ADDRESS_NOISE = new Set([
   'a', 'antonio', 'centro', 'del', 'della', 'di', 'f', 'francesco', 'g', 'gen',
-  'generale', 'giuseppe', 'in', 'nel', 'vendita'
+  'generale', 'giuseppe', 'in', 'nel', 'vendita',
+  // Common variants of "senza numero civico" must not become street words.
+  's', 'n', 'c', 'snc'
 ]);
 
 function normalizeText(value = '') {
