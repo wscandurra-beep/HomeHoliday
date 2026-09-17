@@ -19,6 +19,13 @@
           "price": 195000,
           "capturedAt": "2026-09-17T13:28:24.666Z"
         }
+      ],
+      "duplicateGroupId": "fe5e040261",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
       ]
     },
     {
@@ -1448,10 +1455,11 @@
       ],
       "sqm": 90,
       "receivedAt": "2026-09-15T11:35:38.000Z",
-      "duplicateGroupId": "5f0f6c8fe1",
+      "duplicateGroupId": "09704120c6",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -1525,10 +1533,11 @@
       ],
       "sqm": 90,
       "receivedAt": "2026-09-15T11:35:38.000Z",
-      "duplicateGroupId": "2e5a0507d9",
+      "duplicateGroupId": "7606831e7c",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -3660,10 +3669,11 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "5f0f6c8fe1",
+      "duplicateGroupId": "09704120c6",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4158,10 +4168,11 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "2e5a0507d9",
+      "duplicateGroupId": "7606831e7c",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -8234,7 +8245,7 @@
           "price": 109125
         }
       ],
-      "receivedAt": "2026-09-16T10:16:57.000Z",
+      "receivedAt": "2026-09-17T10:01:57.000Z",
       "rooms": 4,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/35780911/",
@@ -8286,7 +8297,7 @@
           "price": 109125
         }
       ],
-      "receivedAt": "2026-09-16T10:33:15.000Z",
+      "receivedAt": "2026-09-17T10:01:57.000Z",
       "rooms": 3,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36835410/",
@@ -8338,7 +8349,7 @@
           "price": 109125
         }
       ],
-      "receivedAt": "2026-09-16T13:04:47.000Z",
+      "receivedAt": "2026-09-17T11:03:37.000Z",
       "rooms": 3,
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/54745886/",
@@ -8364,7 +8375,7 @@
           "price": 195000
         }
       ],
-      "receivedAt": "2026-09-16T13:07:55.000Z",
+      "receivedAt": "2026-09-17T10:01:57.000Z",
       "rooms": 3,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36836723/",
@@ -8424,7 +8435,13 @@
       "sourceUrl": "https://www.immobiliare.it/annunci/132486686/",
       "sqm": 80,
       "status": "ACTIVE",
-      "title": "Trilocale via Fontan, 4, Centro, Bardonecchia"
+      "title": "Trilocale via Fontan, 4, Centro, Bardonecchia",
+      "duplicateGroupId": "ddc8bcaa2a",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
     },
     {
       "externalId": "54747061",
@@ -8439,7 +8456,7 @@
           "price": 195000
         }
       ],
-      "receivedAt": "2026-09-16T15:49:22.000Z",
+      "receivedAt": "2026-09-17T11:03:37.000Z",
       "rooms": 3,
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/54747061/",
@@ -9211,6 +9228,198 @@
         "Immobiliare.it",
         "Idealista"
       ]
+    },
+    {
+      "externalId": "36839775",
+      "firstSeenAt": "2026-09-17T10:01:57.000Z",
+      "id": "idealista-36839775",
+      "lastSeenAt": "2026-09-17T10:01:57.000Z",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-17T10:01:57.000Z",
+          "price": 210000
+        }
+      ],
+      "receivedAt": "2026-09-17T10:01:57.000Z",
+      "rooms": 3,
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36839775/",
+      "sqm": 80,
+      "status": "NEW",
+      "title": "Trilocale in Via Fontan, 4, Bardonecchia",
+      "duplicateGroupId": "ddc8bcaa2a",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "externalId": "54749971",
+      "firstSeenAt": "2026-09-17T11:03:37.000Z",
+      "id": "casa-54749971",
+      "lastSeenAt": "2026-09-17T11:03:37.000Z",
+      "location": "Bardonecchia",
+      "price": 210000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-17T11:03:37.000Z",
+          "price": 210000
+        }
+      ],
+      "receivedAt": "2026-09-17T11:03:37.000Z",
+      "rooms": 3,
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/54749971/",
+      "sqm": 80,
+      "status": "NEW",
+      "title": "Appartamento in vendita in Via Fontan 4,",
+      "duplicateGroupId": "ddc8bcaa2a",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "externalId": "132502800",
+      "firstSeenAt": "2026-09-17T08:26:11.000Z",
+      "id": "immobiliare-132502800",
+      "lastSeenAt": "2026-09-17T08:26:11.000Z",
+      "location": "Bardonecchia",
+      "price": 195000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-17T08:26:11.000Z",
+          "price": 195000
+        }
+      ],
+      "receivedAt": "2026-09-17T08:26:11.000Z",
+      "rooms": 3,
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/132502800/",
+      "sqm": 65,
+      "status": "NEW",
+      "title": "Trilocale via susa, 13, Centro, Bardonecchia",
+      "duplicateGroupId": "fe5e040261",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "externalId": "35765203",
+      "firstSeenAt": "2026-09-17T10:01:57.000Z",
+      "id": "idealista-35765203",
+      "lastSeenAt": "2026-09-17T10:01:57.000Z",
+      "location": "Bardonecchia",
+      "price": 145500,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-17T10:01:57.000Z",
+          "price": 145500
+        }
+      ],
+      "receivedAt": "2026-09-17T10:01:57.000Z",
+      "rooms": 4,
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35765203/",
+      "sqm": 90,
+      "status": "NEW",
+      "title": "Quadrilocale in Via la Rho, 58, Bardonecchia",
+      "duplicateGroupId": "09704120c6",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "externalId": "35643253",
+      "firstSeenAt": "2026-09-17T10:01:57.000Z",
+      "id": "idealista-35643253",
+      "lastSeenAt": "2026-09-17T10:01:57.000Z",
+      "location": "Bardonecchia",
+      "price": 145490,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-17T10:01:57.000Z",
+          "price": 145490
+        }
+      ],
+      "receivedAt": "2026-09-17T10:01:57.000Z",
+      "rooms": 4,
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35643253/",
+      "sqm": 90,
+      "status": "NEW",
+      "title": "Quadrilocale in Via la Rho, 58, Bardonecchia",
+      "duplicateGroupId": "7606831e7c",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "externalId": "36846575",
+      "firstSeenAt": "2026-09-17T10:18:40.000Z",
+      "id": "idealista-36846575",
+      "lastSeenAt": "2026-09-17T10:18:40.000Z",
+      "location": "Bardonecchia",
+      "price": 195000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-17T10:18:40.000Z",
+          "price": 195000
+        }
+      ],
+      "receivedAt": "2026-09-17T10:18:40.000Z",
+      "rooms": 3,
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36846575/",
+      "sqm": 65,
+      "status": "NEW",
+      "title": "Trilocale in Via Susa, 13, Bardonecchia",
+      "duplicateGroupId": "fe5e040261",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "externalId": "54754508",
+      "firstSeenAt": "2026-09-17T13:17:11.000Z",
+      "id": "casa-54754508",
+      "lastSeenAt": "2026-09-17T13:17:11.000Z",
+      "location": "Bardonecchia",
+      "price": 195000,
+      "priceHistory": [
+        {
+          "capturedAt": "2026-09-17T13:17:11.000Z",
+          "price": 195000
+        }
+      ],
+      "receivedAt": "2026-09-17T13:17:11.000Z",
+      "rooms": 3,
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/54754508/",
+      "sqm": 65,
+      "status": "NEW",
+      "title": "Appartamento in vendita in Via Susa 13,",
+      "duplicateGroupId": "fe5e040261",
+      "duplicateSources": [
+        "Subito.it",
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
     }
   ],
   "refreshedAt": "2026-09-17T13:28:24.666Z",
@@ -9249,10 +9458,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-09-16T15:49:22.000Z",
-      "count": 16,
+      "checkedAt": "2026-09-17T13:17:11.000Z",
+      "count": 12,
       "unresolved": 0,
-      "message": "16 annunci importati o aggiornati da 9 alert Gmail; 17 esclusi o senza dati idonei; 0 non risolti"
+      "message": "12 annunci importati o aggiornati da 7 alert Gmail; 8 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
