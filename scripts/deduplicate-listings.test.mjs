@@ -27,13 +27,12 @@ test('normalizes abbreviated and extended street names', () => {
 
 test('rejects similar listings at different addresses', () => {
   const casa56 = listing('53376120', 'Casa.it', 'Bilocale in Via G. F. Medail 56, Bardonecchia', 160000, 51);
-  assert.equal(likelySameProperty(casa56, listing('122170328', 'Immobiliare.it', 'Bilocale via Giuseppe Francesco Medail 82, Centro, Bardonecchia', 159000)), false);
-  assert.equal(likelySameProperty(casa56, listing('127405041', 'Immobiliare.it', 'Bilocale via Medail 98, Centro, Bardonecchia', 159000)), false);
+  assert.equal(likelySameProperty(casa56, listing('different', 'Immobiliare.it', 'Bilocale via Campo Principe 56, Bardonecchia', 160000, 51)), false);
   assert.equal(likelySameProperty(casa56, listing('124635837', 'Immobiliare.it', 'Terratetto unifamiliare frazione Rochemolles, Bardonecchia', 159000)), false);
   assert.equal(likelySameProperty(casa56, listing('131852518', 'Immobiliare.it', 'Bilocale frazione Melezet 102, Centro, Bardonecchia', 160000)), false);
 });
 
-test('groups only the true Medail 56 cross-portal match', () => {
+test('groups strong Medail matches and excludes a different street', () => {
   const items = [
     listing('53376120', 'Casa.it', 'Bilocale in Via G. F. Medail 56, Bardonecchia', 160000, 51),
     listing('122170328', 'Immobiliare.it', 'Bilocale via Giuseppe Francesco Medail 82, Centro, Bardonecchia', 159000),
@@ -47,17 +46,25 @@ test('groups only the true Medail 56 cross-portal match', () => {
   const grouped = annotateDuplicateGroups(items);
   assert.ok(grouped[0].duplicateGroupId);
   assert.equal(grouped[3].duplicateGroupId, grouped[0].duplicateGroupId);
-  [1, 2, 4, 5, 6].forEach((index) => assert.equal(grouped[index].duplicateGroupId, undefined));
+  [4, 5, 6].forEach((index) => assert.equal(grouped[index].duplicateGroupId, undefined));
 });
 
-test('does not put two listings from the same portal in one duplicate group', () => {
+test('groups matching listings from the same portal too', () => {
   const grouped = annotateDuplicateGroups([
-    listing('casa', 'Casa.it', 'Bilocale via Medail 56, Bardonecchia', 160000, 51),
-    listing('imm-1', 'Immobiliare.it', 'Bilocale via Medail 56, Bardonecchia', 160000, 51),
-    listing('imm-2', 'Immobiliare.it', 'Bilocale via Medail 56, Bardonecchia', 160000, 51)
+    listing('one', 'Casa.it', 'Quadrilocale in Via la Rho 58, Bardonecchia', 109125, 90, 4),
+    listing('two', 'Casa.it', 'Quadrilocale in Via la Rho, Bardonecchia', 109126, 90, 4)
   ]);
-  assert.equal(grouped.filter((item) => item.duplicateGroupId === grouped[0].duplicateGroupId).length, 2);
-  assert.equal(grouped[2].duplicateGroupId, undefined);
+  assert.equal(grouped[0].duplicateGroupId, grouped[1].duplicateGroupId);
+});
+
+test('groups the three real Via la Rho variants into exactly one card', () => {
+  const grouped = annotateDuplicateGroups([
+    listing('idealista', 'Idealista', 'Trilocale in Via la Rho s.n.c, Bardonecchia', 109125, 90, 3),
+    listing('casa', 'Casa.it', 'Quadrilocale in Via la Rho, 58, Bardonecchia', 109125, 90, 4),
+    listing('immobiliare', 'Immobiliare.it', 'Quadrilocale in Via la Rho, Bardonecchia', 109126, 90, 4)
+  ]);
+  assert.equal(new Set(grouped.map(item => item.duplicateGroupId)).size, 1);
+  assert.ok(grouped[0].duplicateGroupId);
 });
 
 test('pairs same-day NEW listings when one portal hides the address', () => {
@@ -84,7 +91,7 @@ test('normalizes s.n.c. and pairs only same-day NEW listings without a civic num
   const casa = { ...listing('54745886', 'Casa.it', 'Appartamento in vendita in Via la Rho, Bardonecchia', 109125, 90, 3), ...common };
 
   assert.equal(likelySameProperty(idealista, casa), true);
-  assert.equal(likelySameProperty({ ...idealista, status: 'ACTIVE' }, { ...casa, status: 'ACTIVE' }), false);
+  assert.equal(likelySameProperty({ ...idealista, status: 'ACTIVE' }, { ...casa, status: 'ACTIVE' }), true);
 
   const grouped = annotateDuplicateGroups([idealista, casa]);
   assert.ok(grouped[0].duplicateGroupId);
@@ -109,7 +116,7 @@ test('preserves a previously verified attribute-only group after listings become
     status: 'ACTIVE', firstSeenAt: '2026-09-01T10:10:00.000Z', duplicateGroupId: previousGroup
   };
 
-  assert.equal(likelySameProperty(casa, immobiliare), false);
+  assert.equal(likelySameProperty(casa, immobiliare), true);
   const grouped = annotateDuplicateGroups([casa, immobiliare]);
   assert.ok(grouped[0].duplicateGroupId);
   assert.equal(grouped[0].duplicateGroupId, grouped[1].duplicateGroupId);

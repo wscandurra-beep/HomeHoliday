@@ -80,73 +80,57 @@ function newOnSameDay(a, b) {
   return String(aDate).slice(0, 10) === String(bDate).slice(0, 10);
 }
 
-export function likelySameProperty(a, b) {
-  if (a.source === b.source) return false;
-  if (normalizeText(a.location) !== normalizeText(b.location)) return false;
-
+export function similarityScore(a, b) {
+  if (normalizeText(a.location) !== normalizeText(b.location)) return 0;
   const aAddress = addressFingerprint(a.title, a.location);
   const bAddress = addressFingerprint(b.title, b.location);
+  const address = aAddress && bAddress ? tokenScore(aAddress.street, bAddress.street) : 0;
+  const surface = toleranceScore(a.sqm, b.sqm, 0.05);
+  const price = toleranceScore(a.price, b.price, 0.02);
+  const text = tokenScore(`${a.title} ${a.location}`, `${b.title} ${b.location}`);
+  return 0.35 * address + 0.25 * surface + 0.2 * price + 0.1 + 0.1 * text;
+}
 
-  // An explicit disagreement is definitive, regardless of similar price/size.
-  if (aAddress && bAddress) {
-    if (aAddress.street !== bAddress.street) return false;
-    if (aAddress.civic && bAddress.civic && aAddress.civic !== bAddress.civic) return false;
+function tokenScore(a, b) {
+  const left = new Set(normalizeText(a).split(' ').filter(Boolean));
+  const right = new Set(normalizeText(b).split(' ').filter(Boolean));
+  if (!left.size || !right.size) return 0;
+  const intersection = [...left].filter(token => right.has(token)).length;
+  return intersection / new Set([...left, ...right]).size;
+}
 
-    if (!closeEnough(a.price, b.price, 0.03)) return false;
-    if (!closeEnough(a.sqm, b.sqm, 0.05)) return false;
-    if (a.rooms != null && b.rooms != null && Number(a.rooms) !== Number(b.rooms)) return false;
+function toleranceScore(a, b, tolerance) {
+  if (a == null || b == null || Number(a) <= 0 || Number(b) <= 0) return 0;
+  const difference = Math.abs(Number(a) - Number(b)) / Math.max(Number(a), Number(b));
+  return Math.max(0, 1 - difference / tolerance);
+}
 
-    // Street + civic is strong enough even when a portal omits surface area.
-    if (aAddress.civic && bAddress.civic) return true;
-  }
-
-  // A newly published listing may hide the address or use only an agency code.
-  // In that case pair it only with another NEW cross-portal listing observed on
-  // the same day and with a complete, nearly identical attribute set.
-  return newOnSameDay(a, b) && strictAttributeMatch(a, b);
+export function likelySameProperty(a, b) {
+  const left = addressFingerprint(a.title, a.location), right = addressFingerprint(b.title, b.location);
+  const exactCivic = left?.street === right?.street && left?.civic && left.civic === right?.civic && closeEnough(a.price, b.price, 0.02);
+  return similarityScore(a, b) >= 0.8 || Boolean(exactCivic) || (newOnSameDay(a, b) && strictAttributeMatch(a, b));
 }
 
 export function annotateDuplicateGroups(listings) {
-  const groups = [];
-  const seededIndexes = new Set();
+  const parent = listings.map((_, index) => index);
+  const find = (index) => parent[index] === index ? index : (parent[index] = find(parent[index]));
+  const union = (a, b) => { const ra = find(a), rb = find(b); if (ra !== rb) parent[rb] = ra; };
 
-  // Attribute-only matches are intentionally limited to same-day NEW
-  // listings. Once such a match has been verified, keep that identity on
-  // later runs instead of trying to infer it again from ACTIVE history.
-  const existingGroups = new Map();
-  listings.forEach((listing, index) => {
-    if (!listing.duplicateGroupId) return;
-    const members = existingGroups.get(listing.duplicateGroupId) ?? [];
-    members.push(index);
-    existingGroups.set(listing.duplicateGroupId, members);
-  });
-  for (const members of existingGroups.values()) {
-    const sources = members.map((index) => listings[index].source);
-    if (members.length < 2 || new Set(sources).size !== sources.length) continue;
-    groups.push(members);
-    members.forEach((index) => seededIndexes.add(index));
+  for (let a = 0; a < listings.length; a += 1) {
+    for (let b = a + 1; b < listings.length; b += 1) {
+      const persisted = listings[a].duplicateGroupId && listings[a].duplicateGroupId === listings[b].duplicateGroupId;
+      if (persisted || likelySameProperty(listings[a], listings[b])) union(a, b);
+    }
   }
 
-  for (let index = 0; index < listings.length; index += 1) {
-    if (seededIndexes.has(index)) continue;
-    const listing = listings[index];
-    const group = groups.find((members) =>
-      !members.some((memberIndex) => listings[memberIndex].source === listing.source)
-      && members.every((memberIndex) => likelySameProperty(listings[memberIndex], listing))
-    );
-    if (group) group.push(index);
-    else groups.push([index]);
-  }
-
+  const groups = new Map();
+  listings.forEach((_, index) => groups.set(find(index), [...(groups.get(find(index)) || []), index]));
   const result = listings.map(({ duplicateGroupId: _group, duplicateSources: _sources, ...listing }) => listing);
-  for (const members of groups.filter((group) => group.length > 1)) {
-    const seed = members.map((i) => `${result[i].source}:${result[i].externalId}`).sort().join('|');
+  for (const members of [...groups.values()].filter(group => group.length > 1)) {
+    const seed = members.map(i => `${result[i].source}:${result[i].externalId}`).sort().join('|');
     const groupId = crypto.createHash('sha1').update(seed).digest('hex').slice(0, 10);
-    const sources = members.map((i) => result[i].source);
-    members.forEach((i) => {
-      result[i].duplicateGroupId = groupId;
-      result[i].duplicateSources = sources;
-    });
+    const sources = members.map(i => result[i].source);
+    members.forEach(i => { result[i].duplicateGroupId = groupId; result[i].duplicateSources = sources; });
   }
   return result;
 }
