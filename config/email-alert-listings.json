@@ -1023,7 +1023,7 @@
     "externalId": "35388407",
     "firstSeenAt": "2026-09-07T16:27:01.000Z",
     "id": "idealista-35388407",
-    "lastSeenAt": "2026-09-08T09:22:50.000Z",
+    "lastSeenAt": "2026-09-18T09:42:18.000Z",
     "location": "Bardonecchia",
     "price": 189000,
     "priceHistory": [
@@ -1032,12 +1032,12 @@
         "price": 189000
       }
     ],
-    "receivedAt": "2026-09-07T16:27:01.000Z",
+    "receivedAt": "2026-09-18T09:42:18.000Z",
     "rooms": 3,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/35388407/",
     "sqm": 56,
-    "status": "NEW",
+    "status": "ACTIVE",
     "title": "Trilocale in Viale Capuccio, 10, Bardonecchia"
   },
   {
@@ -2178,7 +2178,7 @@
     "externalId": "36836723",
     "firstSeenAt": "2026-09-16T13:07:55.000Z",
     "id": "idealista-36836723",
-    "lastSeenAt": "2026-09-17T10:01:57.000Z",
+    "lastSeenAt": "2026-09-18T09:42:18.000Z",
     "location": "Bardonecchia",
     "price": 195000,
     "priceHistory": [
@@ -2187,7 +2187,7 @@
         "price": 195000
       }
     ],
-    "receivedAt": "2026-09-17T10:01:57.000Z",
+    "receivedAt": "2026-09-18T09:42:18.000Z",
     "rooms": 3,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36836723/",
@@ -2262,7 +2262,7 @@
     "externalId": "36839775",
     "firstSeenAt": "2026-09-17T10:01:57.000Z",
     "id": "idealista-36839775",
-    "lastSeenAt": "2026-09-17T10:01:57.000Z",
+    "lastSeenAt": "2026-09-18T09:42:18.000Z",
     "location": "Bardonecchia",
     "price": 210000,
     "priceHistory": [
@@ -2271,12 +2271,12 @@
         "price": 210000
       }
     ],
-    "receivedAt": "2026-09-17T10:01:57.000Z",
+    "receivedAt": "2026-09-18T09:42:18.000Z",
     "rooms": 3,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36839775/",
     "sqm": 80,
-    "status": "NEW",
+    "status": "ACTIVE",
     "title": "Trilocale in Via Fontan, 4, Bardonecchia"
   },
   {
@@ -2367,7 +2367,7 @@
     "externalId": "36846575",
     "firstSeenAt": "2026-09-17T10:18:40.000Z",
     "id": "idealista-36846575",
-    "lastSeenAt": "2026-09-17T10:18:40.000Z",
+    "lastSeenAt": "2026-09-18T09:42:18.000Z",
     "location": "Bardonecchia",
     "price": 195000,
     "priceHistory": [
@@ -2376,19 +2376,19 @@
         "price": 195000
       }
     ],
-    "receivedAt": "2026-09-17T10:18:40.000Z",
+    "receivedAt": "2026-09-18T09:42:18.000Z",
     "rooms": 3,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36846575/",
     "sqm": 65,
-    "status": "NEW",
+    "status": "ACTIVE",
     "title": "Trilocale in Via Susa, 13, Bardonecchia"
   },
   {
     "externalId": "54754508",
     "firstSeenAt": "2026-09-17T13:17:11.000Z",
     "id": "casa-54754508",
-    "lastSeenAt": "2026-09-17T13:17:11.000Z",
+    "lastSeenAt": "2026-09-18T11:25:40.000Z",
     "location": "Bardonecchia",
     "price": 195000,
     "priceHistory": [
@@ -2397,12 +2397,12 @@
         "price": 195000
       }
     ],
-    "receivedAt": "2026-09-17T13:17:11.000Z",
+    "receivedAt": "2026-09-18T11:25:40.000Z",
     "rooms": 3,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54754508/",
     "sqm": 65,
-    "status": "NEW",
+    "status": "ACTIVE",
     "title": "Appartamento in vendita in Via Susa 13,"
   }
 ]

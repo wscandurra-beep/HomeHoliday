@@ -8852,7 +8852,7 @@
           "price": 189000
         }
       ],
-      "receivedAt": "2026-09-07T16:27:01.000Z",
+      "receivedAt": "2026-09-18T09:42:18.000Z",
       "rooms": 3,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/35388407/",
@@ -10216,7 +10216,7 @@
           "price": 195000
         }
       ],
-      "receivedAt": "2026-09-17T10:01:57.000Z",
+      "receivedAt": "2026-09-18T09:42:18.000Z",
       "rooms": 3,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36836723/",
@@ -10324,7 +10324,7 @@
           "price": 210000
         }
       ],
-      "receivedAt": "2026-09-17T10:01:57.000Z",
+      "receivedAt": "2026-09-18T09:42:18.000Z",
       "rooms": 3,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36839775/",
@@ -10470,7 +10470,7 @@
           "price": 195000
         }
       ],
-      "receivedAt": "2026-09-17T10:18:40.000Z",
+      "receivedAt": "2026-09-18T09:42:18.000Z",
       "rooms": 3,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36846575/",
@@ -10498,7 +10498,7 @@
           "price": 195000
         }
       ],
-      "receivedAt": "2026-09-17T13:17:11.000Z",
+      "receivedAt": "2026-09-18T11:25:40.000Z",
       "rooms": 3,
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/54754508/",
@@ -11426,10 +11426,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-09-17T13:17:11.000Z",
-      "count": 12,
+      "checkedAt": "2026-09-18T11:25:40.000Z",
+      "count": 5,
       "unresolved": 0,
-      "message": "12 annunci importati o aggiornati da 7 alert Gmail; 8 esclusi o senza dati idonei; 0 non risolti"
+      "message": "5 annunci importati o aggiornati da 2 alert Gmail; 5 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
