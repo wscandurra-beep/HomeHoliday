@@ -2388,7 +2388,7 @@
     "externalId": "54754508",
     "firstSeenAt": "2026-09-17T13:17:11.000Z",
     "id": "casa-54754508",
-    "lastSeenAt": "2026-09-18T11:25:40.000Z",
+    "lastSeenAt": "2026-09-19T11:22:58.000Z",
     "location": "Bardonecchia",
     "price": 195000,
     "priceHistory": [
@@ -2397,12 +2397,201 @@
         "price": 195000
       }
     ],
-    "receivedAt": "2026-09-18T11:25:40.000Z",
+    "receivedAt": "2026-09-19T11:22:58.000Z",
     "rooms": 3,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54754508/",
     "sqm": 65,
     "status": "ACTIVE",
     "title": "Appartamento in vendita in Via Susa 13,"
+  },
+  {
+    "id": "immobiliare-132557290",
+    "externalId": "132557290",
+    "title": "appartamento all'asta, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/132557290/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 3,
+    "receivedAt": "2026-09-18T19:37:34.000Z",
+    "firstSeenAt": "2026-09-18T19:37:34.000Z",
+    "lastSeenAt": "2026-09-18T19:37:34.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-18T19:37:34.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36259808",
+    "externalId": "36259808",
+    "title": "Monolocale in Via G. F. Medail, 38, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36259808/",
+    "price": 150000,
+    "sqm": 35,
+    "rooms": 1,
+    "receivedAt": "2026-09-19T09:26:17.000Z",
+    "firstSeenAt": "2026-09-19T09:26:17.000Z",
+    "lastSeenAt": "2026-09-19T09:26:17.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 150000,
+        "capturedAt": "2026-09-19T09:26:17.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36333731",
+    "externalId": "36333731",
+    "title": "Trilocale in Via la Rho, 58, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36333731/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 3,
+    "receivedAt": "2026-09-19T09:26:17.000Z",
+    "firstSeenAt": "2026-09-19T09:26:17.000Z",
+    "lastSeenAt": "2026-09-19T09:26:17.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-19T09:26:17.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54467544",
+    "externalId": "54467544",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54467544/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 3,
+    "receivedAt": "2026-09-19T11:22:58.000Z",
+    "firstSeenAt": "2026-09-19T11:22:58.000Z",
+    "lastSeenAt": "2026-09-19T11:22:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-19T11:22:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54218413",
+    "externalId": "54218413",
+    "title": "Appartamento in vendita in Via Montello 61,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54218413/",
+    "price": 259000,
+    "sqm": 77,
+    "rooms": 3,
+    "receivedAt": "2026-09-19T11:22:58.000Z",
+    "firstSeenAt": "2026-09-19T11:22:58.000Z",
+    "lastSeenAt": "2026-09-19T11:22:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 259000,
+        "capturedAt": "2026-09-19T11:22:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54455496",
+    "externalId": "54455496",
+    "title": "Appartamento in vendita in Via G. Sommeiller 8 -10,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54455496/",
+    "price": 240000,
+    "sqm": 100,
+    "rooms": 4,
+    "receivedAt": "2026-09-19T11:22:58.000Z",
+    "firstSeenAt": "2026-09-19T11:22:58.000Z",
+    "lastSeenAt": "2026-09-19T11:22:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 240000,
+        "capturedAt": "2026-09-19T11:22:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53894274",
+    "externalId": "53894274",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53894274/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 1,
+    "receivedAt": "2026-09-19T11:22:58.000Z",
+    "firstSeenAt": "2026-09-19T11:22:58.000Z",
+    "lastSeenAt": "2026-09-19T11:22:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-19T11:22:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53906099",
+    "externalId": "53906099",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53906099/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-09-19T11:22:58.000Z",
+    "firstSeenAt": "2026-09-19T11:22:58.000Z",
+    "lastSeenAt": "2026-09-19T11:22:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-19T11:22:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54448570",
+    "externalId": "54448570",
+    "title": "Appartamento in vendita in Via G. F. Medail 43,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54448570/",
+    "price": 205000,
+    "sqm": 75,
+    "rooms": 3,
+    "receivedAt": "2026-09-19T11:22:58.000Z",
+    "firstSeenAt": "2026-09-19T11:22:58.000Z",
+    "lastSeenAt": "2026-09-19T11:22:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 205000,
+        "capturedAt": "2026-09-19T11:22:58.000Z"
+      }
+    ]
   }
 ]
