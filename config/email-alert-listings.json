@@ -2031,7 +2031,7 @@
     "externalId": "36835410",
     "firstSeenAt": "2026-09-16T10:33:15.000Z",
     "id": "idealista-36835410",
-    "lastSeenAt": "2026-09-17T10:01:57.000Z",
+    "lastSeenAt": "2026-09-20T09:27:31.000Z",
     "location": "Bardonecchia",
     "price": 109125,
     "priceHistory": [
@@ -2040,7 +2040,7 @@
         "price": 109125
       }
     ],
-    "receivedAt": "2026-09-17T10:01:57.000Z",
+    "receivedAt": "2026-09-20T09:27:31.000Z",
     "rooms": 3,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36835410/",
@@ -2367,7 +2367,7 @@
     "externalId": "36846575",
     "firstSeenAt": "2026-09-17T10:18:40.000Z",
     "id": "idealista-36846575",
-    "lastSeenAt": "2026-09-18T09:42:18.000Z",
+    "lastSeenAt": "2026-09-20T09:27:31.000Z",
     "location": "Bardonecchia",
     "price": 195000,
     "priceHistory": [
@@ -2376,7 +2376,7 @@
         "price": 195000
       }
     ],
-    "receivedAt": "2026-09-18T09:42:18.000Z",
+    "receivedAt": "2026-09-20T09:27:31.000Z",
     "rooms": 3,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36846575/",
@@ -2591,6 +2591,90 @@
       {
         "price": 205000,
         "capturedAt": "2026-09-19T11:22:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36877678",
+    "externalId": "36877678",
+    "title": "Quadrilocale in Via la Rho, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36877678/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-09-20T00:04:15.000Z",
+    "firstSeenAt": "2026-09-20T00:04:15.000Z",
+    "lastSeenAt": "2026-09-20T00:04:15.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-20T00:04:15.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-34994625",
+    "externalId": "34994625",
+    "title": "Trilocale in Via Giuseppe Verdi, 14, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34994625/",
+    "price": 230000,
+    "sqm": 63,
+    "rooms": 3,
+    "receivedAt": "2026-09-20T09:27:31.000Z",
+    "firstSeenAt": "2026-09-20T09:27:31.000Z",
+    "lastSeenAt": "2026-09-20T09:27:31.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 230000,
+        "capturedAt": "2026-09-20T09:27:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-132613954",
+    "externalId": "132613954",
+    "title": "Trilocale via Fontan, 4, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/132613954/",
+    "price": 210000,
+    "sqm": 80,
+    "rooms": 3,
+    "receivedAt": "2026-09-20T10:07:58.000Z",
+    "firstSeenAt": "2026-09-20T10:07:58.000Z",
+    "lastSeenAt": "2026-09-20T10:07:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 210000,
+        "capturedAt": "2026-09-20T10:07:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-130514828",
+    "externalId": "130514828",
+    "title": "Trilocale via G. F. Medail 100B, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/130514828/",
+    "price": 165000,
+    "sqm": 60,
+    "rooms": 3,
+    "receivedAt": "2026-09-20T10:26:04.000Z",
+    "firstSeenAt": "2026-09-20T10:26:04.000Z",
+    "lastSeenAt": "2026-09-20T10:26:04.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 165000,
+        "capturedAt": "2026-09-20T10:26:04.000Z"
       }
     ]
   }
