@@ -674,7 +674,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -718,6 +718,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -744,7 +745,7 @@
       "bathrooms": 2,
       "floor": "1° piano",
       "receivedAt": "2026-09-10T11:11:24.000Z",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -788,6 +789,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -813,7 +815,8 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "receivedAt": "2026-09-21T10:47:20.000Z",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -857,6 +860,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -882,7 +886,8 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "receivedAt": "2026-09-21T10:47:20.000Z",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -926,6 +931,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -951,7 +957,8 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "receivedAt": "2026-09-21T10:47:20.000Z",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -995,6 +1002,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -1021,7 +1029,7 @@
       ],
       "sqm": 90,
       "receivedAt": "2026-09-19T11:22:58.000Z",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -1065,6 +1073,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -1358,10 +1367,11 @@
       ],
       "sqm": 35,
       "receivedAt": "2026-09-11T11:32:12.000Z",
-      "duplicateGroupId": "661130bb74",
+      "duplicateGroupId": "88dfad0198",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -1678,10 +1688,11 @@
       ],
       "sqm": 51,
       "receivedAt": "2026-09-08T11:00:46.000Z",
-      "duplicateGroupId": "d888f5ab61",
+      "duplicateGroupId": "7de6bf5168",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -1854,7 +1865,7 @@
       "bathrooms": 1,
       "floor": "piano terra",
       "receivedAt": "2026-09-19T11:22:58.000Z",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -1898,6 +1909,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -1923,7 +1935,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -1967,6 +1979,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -1992,7 +2005,7 @@
       "lastSeenAt": "2026-09-21T12:49:29.761Z",
       "bathrooms": 1,
       "floor": "piano terra",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -2036,6 +2049,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -2062,7 +2076,7 @@
       "bathrooms": 1,
       "floor": "piano terra",
       "receivedAt": "2026-09-19T11:22:58.000Z",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -2106,6 +2120,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -2131,7 +2146,8 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "receivedAt": "2026-09-21T10:47:20.000Z",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -2175,6 +2191,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -4078,10 +4095,11 @@
         }
       ],
       "sqm": 51,
-      "duplicateGroupId": "d888f5ab61",
+      "duplicateGroupId": "7de6bf5168",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4150,7 +4168,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -4194,6 +4212,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -4851,7 +4870,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -4895,6 +4914,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -4994,7 +5014,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -5038,6 +5058,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -5107,7 +5128,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -5151,6 +5172,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -5953,7 +5975,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -5997,6 +6019,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -6274,7 +6297,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -6318,6 +6341,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -6362,10 +6386,11 @@
         }
       ],
       "sqm": 35,
-      "duplicateGroupId": "661130bb74",
+      "duplicateGroupId": "88dfad0198",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -6873,7 +6898,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -6917,6 +6942,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -7340,7 +7366,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -7384,6 +7410,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -7705,7 +7732,7 @@
         }
       ],
       "sqm": 90,
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -7749,6 +7776,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -8169,7 +8197,7 @@
           "capturedAt": "2026-09-01T09:26:22.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -8213,6 +8241,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -8421,7 +8450,7 @@
           "capturedAt": "2026-09-03T05:11:22.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -8465,6 +8494,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -8832,7 +8862,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Quadrilocale in Via la Rho, 58, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -8876,6 +8906,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9091,7 +9122,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Quadrilocale in Via la Rho, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9135,6 +9166,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9212,7 +9244,7 @@
           "capturedAt": "2026-09-11T14:30:11.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9256,6 +9288,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9279,7 +9312,7 @@
           "capturedAt": "2026-09-11T14:30:11.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9323,6 +9356,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9346,7 +9380,7 @@
           "capturedAt": "2026-09-11T14:30:11.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9390,6 +9424,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9413,7 +9448,7 @@
           "capturedAt": "2026-09-14T11:19:29.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9457,6 +9492,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9563,7 +9599,7 @@
           "capturedAt": "2026-09-14T14:20:00.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9607,6 +9643,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9630,7 +9667,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Appartamento in vendita in Via la Rho 58,",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9674,6 +9711,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9697,7 +9735,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Quadrilocale in Via la Rho, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9741,6 +9779,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9764,7 +9803,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Quadrilocale in Via la Rho, 58, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9808,6 +9847,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9831,7 +9871,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Trilocale in Via la Rho, 58, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9875,6 +9915,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9898,7 +9939,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Quadrilocale in Via la Rho, 58, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -9942,6 +9983,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -9986,7 +10028,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Quadrilocale in Via la Rho, 58, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -10030,6 +10072,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -10053,7 +10096,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Quadrilocale in Via la Rho, 58, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -10097,6 +10140,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -10120,7 +10164,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Trilocale in Via la Rho s.n.c, Bardonecchia",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -10164,6 +10208,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -10187,7 +10232,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Appartamento in vendita in Via la Rho 58,",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -10231,6 +10276,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -10254,7 +10300,7 @@
       "sqm": 90,
       "status": "ACTIVE",
       "title": "Appartamento in vendita in Via la Rho,",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -10298,6 +10344,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -10375,12 +10422,13 @@
       "sqm": 80,
       "status": "ACTIVE",
       "title": "Trilocale via Fontan, 4, Centro, Bardonecchia",
-      "duplicateGroupId": "5214353150",
+      "duplicateGroupId": "dce1db7b53",
       "duplicateSources": [
         "Immobiliare.it",
         "Idealista",
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -10430,12 +10478,13 @@
       "sqm": 80,
       "status": "ACTIVE",
       "title": "Trilocale in Via Fontan, 4, Bardonecchia",
-      "duplicateGroupId": "5214353150",
+      "duplicateGroupId": "dce1db7b53",
       "duplicateSources": [
         "Immobiliare.it",
         "Idealista",
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -10451,19 +10500,20 @@
           "price": 210000
         }
       ],
-      "receivedAt": "2026-09-17T11:03:37.000Z",
+      "receivedAt": "2026-09-21T10:47:20.000Z",
       "rooms": 3,
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/54749971/",
       "sqm": 80,
       "status": "ACTIVE",
       "title": "Appartamento in vendita in Via Fontan 4,",
-      "duplicateGroupId": "5214353150",
+      "duplicateGroupId": "dce1db7b53",
       "duplicateSources": [
         "Immobiliare.it",
         "Idealista",
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -10682,7 +10732,7 @@
           "capturedAt": "2026-09-19T09:26:17.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -10726,6 +10776,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -10739,7 +10790,7 @@
       "price": 109125,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-09-20T00:04:15.000Z",
+      "receivedAt": "2026-09-21T09:08:24.000Z",
       "firstSeenAt": "2026-09-20T00:04:15.000Z",
       "lastSeenAt": "2026-09-21T12:49:29.761Z",
       "status": "ACTIVE",
@@ -10749,7 +10800,7 @@
           "capturedAt": "2026-09-20T00:04:15.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -10793,6 +10844,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -10843,12 +10895,13 @@
           "capturedAt": "2026-09-20T10:07:58.000Z"
         }
       ],
-      "duplicateGroupId": "5214353150",
+      "duplicateGroupId": "dce1db7b53",
       "duplicateSources": [
         "Immobiliare.it",
         "Idealista",
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -11397,7 +11450,7 @@
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
       "lastSeenAt": "2026-08-23T07:01:52.472Z",
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -11441,6 +11494,7 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
         "Idealista"
       ]
     },
@@ -11700,7 +11754,7 @@
           "capturedAt": "2026-08-26T08:52:25.000Z"
         }
       ],
-      "duplicateGroupId": "9ed11c08ec",
+      "duplicateGroupId": "5dd29529cf",
       "duplicateSources": [
         "Casa.it",
         "Casa.it",
@@ -11744,6 +11798,179 @@
         "Idealista",
         "Idealista",
         "Casa.it",
+        "Idealista",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "immobiliare-132625612",
+      "externalId": "132625612",
+      "title": "Bilocale viale della Vittoria, 8, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/132625612/",
+      "price": 195000,
+      "sqm": 55,
+      "rooms": 2,
+      "receivedAt": "2026-09-21T07:35:27.000Z",
+      "firstSeenAt": "2026-09-21T07:35:27.000Z",
+      "lastSeenAt": "2026-09-21T07:35:27.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 195000,
+          "capturedAt": "2026-09-21T07:35:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-35595539",
+      "externalId": "35595539",
+      "title": "Monolocale in Via la Rho, 58, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35595539/",
+      "price": 109125,
+      "sqm": 90,
+      "rooms": 1,
+      "receivedAt": "2026-09-21T09:08:24.000Z",
+      "firstSeenAt": "2026-09-21T09:08:24.000Z",
+      "lastSeenAt": "2026-09-21T09:08:24.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-09-21T09:08:24.000Z"
+        }
+      ],
+      "duplicateGroupId": "5dd29529cf",
+      "duplicateSources": [
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Casa.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Idealista",
+        "Casa.it",
+        "Casa.it",
+        "Idealista",
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-36142028",
+      "externalId": "36142028",
+      "title": "Monolocale in Via G. F. Medail, 20, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36142028/",
+      "price": 115000,
+      "sqm": 35,
+      "rooms": 1,
+      "receivedAt": "2026-09-21T09:08:24.000Z",
+      "firstSeenAt": "2026-09-21T09:08:24.000Z",
+      "lastSeenAt": "2026-09-21T09:08:24.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 115000,
+          "capturedAt": "2026-09-21T09:08:24.000Z"
+        }
+      ],
+      "duplicateGroupId": "88dfad0198",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-35783034",
+      "externalId": "35783034",
+      "title": "Bilocale in Viale della Vittoria, 10, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35783034/",
+      "price": 98000,
+      "sqm": 51,
+      "rooms": 2,
+      "receivedAt": "2026-09-21T09:08:24.000Z",
+      "firstSeenAt": "2026-09-21T09:08:24.000Z",
+      "lastSeenAt": "2026-09-21T09:08:24.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 98000,
+          "capturedAt": "2026-09-21T09:08:24.000Z"
+        }
+      ],
+      "duplicateGroupId": "7de6bf5168",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-36886568",
+      "externalId": "36886568",
+      "title": "Trilocale in Via Fontan, 4, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36886568/",
+      "price": 210000,
+      "sqm": 80,
+      "rooms": 3,
+      "receivedAt": "2026-09-21T09:48:40.000Z",
+      "firstSeenAt": "2026-09-21T09:48:40.000Z",
+      "lastSeenAt": "2026-09-21T09:48:40.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 210000,
+          "capturedAt": "2026-09-21T09:48:40.000Z"
+        }
+      ],
+      "duplicateGroupId": "dce1db7b53",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it",
+        "Immobiliare.it",
         "Idealista"
       ]
     }
@@ -11784,10 +12011,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-09-20T10:26:04.000Z",
-      "count": 6,
+      "checkedAt": "2026-09-21T10:47:20.000Z",
+      "count": 11,
       "unresolved": 0,
-      "message": "6 annunci importati o aggiornati da 4 alert Gmail; 10 esclusi o senza dati idonei; 0 non risolti"
+      "message": "11 annunci importati o aggiornati da 4 alert Gmail; 7 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

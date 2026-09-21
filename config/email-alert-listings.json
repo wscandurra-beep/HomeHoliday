@@ -2283,7 +2283,7 @@
     "externalId": "54749971",
     "firstSeenAt": "2026-09-17T11:03:37.000Z",
     "id": "casa-54749971",
-    "lastSeenAt": "2026-09-17T11:03:37.000Z",
+    "lastSeenAt": "2026-09-21T10:47:20.000Z",
     "location": "Bardonecchia",
     "price": 210000,
     "priceHistory": [
@@ -2292,12 +2292,12 @@
         "price": 210000
       }
     ],
-    "receivedAt": "2026-09-17T11:03:37.000Z",
+    "receivedAt": "2026-09-21T10:47:20.000Z",
     "rooms": 3,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54749971/",
     "sqm": 80,
-    "status": "NEW",
+    "status": "ACTIVE",
     "title": "Appartamento in vendita in Via Fontan 4,"
   },
   {
@@ -2604,10 +2604,10 @@
     "price": 109125,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-09-20T00:04:15.000Z",
+    "receivedAt": "2026-09-21T09:08:24.000Z",
     "firstSeenAt": "2026-09-20T00:04:15.000Z",
-    "lastSeenAt": "2026-09-20T00:04:15.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-21T09:08:24.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109125,
@@ -2675,6 +2675,195 @@
       {
         "price": 165000,
         "capturedAt": "2026-09-20T10:26:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-132625612",
+    "externalId": "132625612",
+    "title": "Bilocale viale della Vittoria, 8, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/132625612/",
+    "price": 195000,
+    "sqm": 55,
+    "rooms": 2,
+    "receivedAt": "2026-09-21T07:35:27.000Z",
+    "firstSeenAt": "2026-09-21T07:35:27.000Z",
+    "lastSeenAt": "2026-09-21T07:35:27.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 195000,
+        "capturedAt": "2026-09-21T07:35:27.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35595539",
+    "externalId": "35595539",
+    "title": "Monolocale in Via la Rho, 58, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35595539/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 1,
+    "receivedAt": "2026-09-21T09:08:24.000Z",
+    "firstSeenAt": "2026-09-21T09:08:24.000Z",
+    "lastSeenAt": "2026-09-21T09:08:24.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-21T09:08:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36142028",
+    "externalId": "36142028",
+    "title": "Monolocale in Via G. F. Medail, 20, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36142028/",
+    "price": 115000,
+    "sqm": 35,
+    "rooms": 1,
+    "receivedAt": "2026-09-21T09:08:24.000Z",
+    "firstSeenAt": "2026-09-21T09:08:24.000Z",
+    "lastSeenAt": "2026-09-21T09:08:24.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 115000,
+        "capturedAt": "2026-09-21T09:08:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35783034",
+    "externalId": "35783034",
+    "title": "Bilocale in Viale della Vittoria, 10, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35783034/",
+    "price": 98000,
+    "sqm": 51,
+    "rooms": 2,
+    "receivedAt": "2026-09-21T09:08:24.000Z",
+    "firstSeenAt": "2026-09-21T09:08:24.000Z",
+    "lastSeenAt": "2026-09-21T09:08:24.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 98000,
+        "capturedAt": "2026-09-21T09:08:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36886568",
+    "externalId": "36886568",
+    "title": "Trilocale in Via Fontan, 4, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36886568/",
+    "price": 210000,
+    "sqm": 80,
+    "rooms": 3,
+    "receivedAt": "2026-09-21T09:48:40.000Z",
+    "firstSeenAt": "2026-09-21T09:48:40.000Z",
+    "lastSeenAt": "2026-09-21T09:48:40.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 210000,
+        "capturedAt": "2026-09-21T09:48:40.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54474969",
+    "externalId": "54474969",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54474969/",
+    "price": 109120,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-09-21T10:47:20.000Z",
+    "firstSeenAt": "2026-09-21T10:47:20.000Z",
+    "lastSeenAt": "2026-09-21T10:47:20.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109120,
+        "capturedAt": "2026-09-21T10:47:20.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54475615",
+    "externalId": "54475615",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54475615/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-09-21T10:47:20.000Z",
+    "firstSeenAt": "2026-09-21T10:47:20.000Z",
+    "lastSeenAt": "2026-09-21T10:47:20.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-21T10:47:20.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54475944",
+    "externalId": "54475944",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54475944/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 3,
+    "receivedAt": "2026-09-21T10:47:20.000Z",
+    "firstSeenAt": "2026-09-21T10:47:20.000Z",
+    "lastSeenAt": "2026-09-21T10:47:20.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-21T10:47:20.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53893957",
+    "externalId": "53893957",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53893957/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-09-21T10:47:20.000Z",
+    "firstSeenAt": "2026-09-21T10:47:20.000Z",
+    "lastSeenAt": "2026-09-21T10:47:20.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-21T10:47:20.000Z"
       }
     ]
   }
