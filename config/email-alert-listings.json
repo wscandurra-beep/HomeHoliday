@@ -1596,10 +1596,10 @@
     "price": 109126,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-09-14T11:19:29.000Z",
+    "receivedAt": "2026-09-22T11:18:58.000Z",
     "firstSeenAt": "2026-09-14T11:19:29.000Z",
-    "lastSeenAt": "2026-09-14T11:19:29.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-22T11:18:58.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109126,
@@ -2283,7 +2283,7 @@
     "externalId": "54749971",
     "firstSeenAt": "2026-09-17T11:03:37.000Z",
     "id": "casa-54749971",
-    "lastSeenAt": "2026-09-21T10:47:20.000Z",
+    "lastSeenAt": "2026-09-22T11:18:58.000Z",
     "location": "Bardonecchia",
     "price": 210000,
     "priceHistory": [
@@ -2292,7 +2292,7 @@
         "price": 210000
       }
     ],
-    "receivedAt": "2026-09-21T10:47:20.000Z",
+    "receivedAt": "2026-09-22T11:18:58.000Z",
     "rooms": 3,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54749971/",
@@ -2772,10 +2772,10 @@
     "price": 210000,
     "sqm": 80,
     "rooms": 3,
-    "receivedAt": "2026-09-21T09:48:40.000Z",
+    "receivedAt": "2026-09-22T09:41:54.000Z",
     "firstSeenAt": "2026-09-21T09:48:40.000Z",
-    "lastSeenAt": "2026-09-21T09:48:40.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-22T09:41:54.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 210000,
@@ -2864,6 +2864,216 @@
       {
         "price": 109125,
         "capturedAt": "2026-09-21T10:47:20.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36894009",
+    "externalId": "36894009",
+    "title": "Quadrilocale in Via la Rho, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36894009/",
+    "price": 109126,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-09-21T23:38:39.000Z",
+    "firstSeenAt": "2026-09-21T23:38:39.000Z",
+    "lastSeenAt": "2026-09-21T23:38:39.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109126,
+        "capturedAt": "2026-09-21T23:38:39.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35504205",
+    "externalId": "35504205",
+    "title": "Trilocale in Viale Roma, 68, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35504205/",
+    "price": 220000,
+    "sqm": 60,
+    "rooms": 3,
+    "receivedAt": "2026-09-22T09:41:54.000Z",
+    "firstSeenAt": "2026-09-22T09:41:54.000Z",
+    "lastSeenAt": "2026-09-22T09:41:54.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 220000,
+        "capturedAt": "2026-09-22T09:41:54.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36313002",
+    "externalId": "36313002",
+    "title": "Trilocale in Via G. F. Medail, 43, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36313002/",
+    "price": 205000,
+    "sqm": 75,
+    "rooms": 3,
+    "receivedAt": "2026-09-22T09:41:54.000Z",
+    "firstSeenAt": "2026-09-22T09:41:54.000Z",
+    "lastSeenAt": "2026-09-22T09:41:54.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 205000,
+        "capturedAt": "2026-09-22T09:41:54.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36320523",
+    "externalId": "36320523",
+    "title": "Quadrilocale in Via G. Sommeiller, 8 -10, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36320523/",
+    "price": 240000,
+    "sqm": 100,
+    "rooms": 4,
+    "receivedAt": "2026-09-22T09:41:54.000Z",
+    "firstSeenAt": "2026-09-22T09:41:54.000Z",
+    "lastSeenAt": "2026-09-22T09:41:54.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 240000,
+        "capturedAt": "2026-09-22T09:41:54.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35345357",
+    "externalId": "35345357",
+    "title": "Trilocale in Borgata Les Arnauds, 25, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35345357/",
+    "price": 185000,
+    "sqm": 59,
+    "rooms": 3,
+    "receivedAt": "2026-09-22T11:03:43.000Z",
+    "firstSeenAt": "2026-09-22T11:03:43.000Z",
+    "lastSeenAt": "2026-09-22T11:03:43.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 185000,
+        "capturedAt": "2026-09-22T11:03:43.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53697661",
+    "externalId": "53697661",
+    "title": "Appartamento in vendita in Borgata Les Arnauds 25,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53697661/",
+    "price": 185000,
+    "sqm": 59,
+    "rooms": 3,
+    "receivedAt": "2026-09-22T11:18:58.000Z",
+    "firstSeenAt": "2026-09-22T11:18:58.000Z",
+    "lastSeenAt": "2026-09-22T11:18:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 185000,
+        "capturedAt": "2026-09-22T11:18:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53895121",
+    "externalId": "53895121",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53895121/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 3,
+    "receivedAt": "2026-09-22T11:18:58.000Z",
+    "firstSeenAt": "2026-09-22T11:18:58.000Z",
+    "lastSeenAt": "2026-09-22T11:18:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-22T11:18:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54492229",
+    "externalId": "54492229",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54492229/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-09-22T11:18:58.000Z",
+    "firstSeenAt": "2026-09-22T11:18:58.000Z",
+    "lastSeenAt": "2026-09-22T11:18:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-22T11:18:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54501695",
+    "externalId": "54501695",
+    "title": "Appartamento in vendita in Via Montello 9,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54501695/",
+    "price": 258000,
+    "sqm": 48,
+    "rooms": 2,
+    "receivedAt": "2026-09-22T11:18:58.000Z",
+    "firstSeenAt": "2026-09-22T11:18:58.000Z",
+    "lastSeenAt": "2026-09-22T11:18:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 258000,
+        "capturedAt": "2026-09-22T11:18:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-132673226",
+    "externalId": "132673226",
+    "title": "Trilocale via Luigi Einaudi 21 bis, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/132673226/",
+    "price": 220000,
+    "sqm": 89,
+    "rooms": 3,
+    "receivedAt": "2026-09-22T14:17:20.000Z",
+    "firstSeenAt": "2026-09-22T14:17:20.000Z",
+    "lastSeenAt": "2026-09-22T14:17:20.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 220000,
+        "capturedAt": "2026-09-22T14:17:20.000Z"
       }
     ]
   }
