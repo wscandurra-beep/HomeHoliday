@@ -3234,16 +3234,17 @@
     "price": 109125,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-09-24T00:35:18.000Z",
+    "receivedAt": "2026-09-25T09:56:10.000Z",
     "firstSeenAt": "2026-09-24T00:35:18.000Z",
-    "lastSeenAt": "2026-09-24T00:35:18.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-25T09:56:10.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109125,
         "capturedAt": "2026-09-24T00:35:18.000Z"
       }
-    ]
+    ],
+    "sellerType": "Agenzia"
   },
   {
     "id": "casa-54556513",
@@ -3318,16 +3319,17 @@
     "price": 109125,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-09-24T11:22:11.000Z",
+    "receivedAt": "2026-09-25T09:56:10.000Z",
     "firstSeenAt": "2026-09-24T11:22:11.000Z",
-    "lastSeenAt": "2026-09-24T11:22:11.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-09-25T09:56:10.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109125,
         "capturedAt": "2026-09-24T11:22:11.000Z"
       }
-    ]
+    ],
+    "sellerType": "Agenzia"
   },
   {
     "id": "immobiliare-132806062",
@@ -3347,6 +3349,182 @@
       {
         "price": 109125,
         "capturedAt": "2026-09-24T11:31:57.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54815387",
+    "externalId": "54815387",
+    "title": "Appartamento in vendita in Via la Rho 58,",
+    "location": "Bardonecchia",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 4,
+    "sellerType": "Agenzia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54815387/",
+    "status": "NEW",
+    "firstSeenAt": "2026-09-25T11:05:04.000Z",
+    "lastSeenAt": "2026-09-25T11:05:04.000Z",
+    "receivedAt": "2026-09-25T11:05:04.000Z",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-09-25T11:05:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54390272",
+    "externalId": "54390272",
+    "title": "Appartamento in vendita in Via Genova 30,",
+    "location": "Bardonecchia",
+    "price": 175000,
+    "sqm": 51,
+    "rooms": 2,
+    "sellerType": "Agenzia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54390272/",
+    "status": "NEW",
+    "firstSeenAt": "2026-09-25T11:05:04.000Z",
+    "lastSeenAt": "2026-09-25T11:05:04.000Z",
+    "receivedAt": "2026-09-25T11:05:04.000Z",
+    "priceHistory": [
+      {
+        "price": 175000,
+        "capturedAt": "2026-09-25T11:05:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54584945",
+    "externalId": "54584945",
+    "title": "Appartamento in vendita in Via Einaudi 27,",
+    "location": "Bardonecchia",
+    "price": 140000,
+    "sqm": 62,
+    "rooms": 2,
+    "sellerType": "Agenzia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54584945/",
+    "status": "NEW",
+    "firstSeenAt": "2026-09-25T11:05:04.000Z",
+    "lastSeenAt": "2026-09-25T11:05:04.000Z",
+    "receivedAt": "2026-09-25T11:05:04.000Z",
+    "priceHistory": [
+      {
+        "price": 140000,
+        "capturedAt": "2026-09-25T11:05:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54240970",
+    "externalId": "54240970",
+    "title": "Appartamento in vendita in Frazione Melezet 12,",
+    "location": "Bardonecchia",
+    "price": 210000,
+    "sqm": 63,
+    "rooms": 3,
+    "sellerType": "Agenzia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54240970/",
+    "status": "NEW",
+    "firstSeenAt": "2026-09-25T11:05:04.000Z",
+    "lastSeenAt": "2026-09-25T11:05:04.000Z",
+    "receivedAt": "2026-09-25T11:05:04.000Z",
+    "priceHistory": [
+      {
+        "price": 210000,
+        "capturedAt": "2026-09-25T11:05:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54589163",
+    "externalId": "54589163",
+    "title": "Appartamento in vendita in Via Einaudi 27,",
+    "location": "Bardonecchia",
+    "price": 140000,
+    "sqm": 62,
+    "rooms": 2,
+    "sellerType": "Agenzia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54589163/",
+    "status": "NEW",
+    "firstSeenAt": "2026-09-25T11:05:04.000Z",
+    "lastSeenAt": "2026-09-25T11:05:04.000Z",
+    "receivedAt": "2026-09-25T11:05:04.000Z",
+    "priceHistory": [
+      {
+        "price": 140000,
+        "capturedAt": "2026-09-25T11:05:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53268639",
+    "externalId": "53268639",
+    "title": "Appartamento in vendita in Via Gen. Cantore 11,",
+    "location": "Bardonecchia",
+    "price": 135000,
+    "sqm": 45,
+    "rooms": 2,
+    "sellerType": "Agenzia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53268639/",
+    "status": "NEW",
+    "firstSeenAt": "2026-09-25T11:05:04.000Z",
+    "lastSeenAt": "2026-09-25T11:05:04.000Z",
+    "receivedAt": "2026-09-25T11:05:04.000Z",
+    "priceHistory": [
+      {
+        "price": 135000,
+        "capturedAt": "2026-09-25T11:05:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-34889313",
+    "externalId": "34889313",
+    "title": "Monolocale in Viale Bramafam, 37, Bardonecchia",
+    "location": "Bardonecchia",
+    "price": 115000,
+    "sqm": 42,
+    "rooms": 1,
+    "sellerType": "Agenzia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34889313/",
+    "status": "NEW",
+    "firstSeenAt": "2026-09-25T09:56:10.000Z",
+    "lastSeenAt": "2026-09-25T09:56:10.000Z",
+    "receivedAt": "2026-09-25T09:56:10.000Z",
+    "priceHistory": [
+      {
+        "price": 115000,
+        "capturedAt": "2026-09-25T09:56:10.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-34656166",
+    "externalId": "34656166",
+    "title": "Bilocale a Bardonecchia",
+    "location": "Bardonecchia",
+    "price": 109000,
+    "sqm": 30,
+    "rooms": 2,
+    "sellerType": "Agenzia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34656166/",
+    "status": "NEW",
+    "firstSeenAt": "2026-09-25T09:56:10.000Z",
+    "lastSeenAt": "2026-09-25T09:56:10.000Z",
+    "receivedAt": "2026-09-25T09:56:10.000Z",
+    "priceHistory": [
+      {
+        "price": 109000,
+        "capturedAt": "2026-09-25T09:56:10.000Z"
       }
     ]
   }
