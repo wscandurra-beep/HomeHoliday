@@ -3527,5 +3527,194 @@
         "capturedAt": "2026-09-25T09:56:10.000Z"
       }
     ]
+  },
+  {
+    "id": "casa-53678678",
+    "externalId": "53678678",
+    "title": "Appartamento in vendita in Via G. F. Medail 40,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53678678/",
+    "price": 150000,
+    "sqm": 43,
+    "rooms": 2,
+    "receivedAt": "2026-09-26T10:39:31.000Z",
+    "firstSeenAt": "2026-09-26T10:39:31.000Z",
+    "lastSeenAt": "2026-09-26T10:39:31.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 150000,
+        "capturedAt": "2026-09-26T10:39:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-53296575",
+    "externalId": "53296575",
+    "title": "Appartamento in vendita in Via Cavour 31,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/53296575/",
+    "price": 158000,
+    "sqm": 47,
+    "rooms": 2,
+    "receivedAt": "2026-09-26T10:39:31.000Z",
+    "firstSeenAt": "2026-09-26T10:39:31.000Z",
+    "lastSeenAt": "2026-09-26T10:39:31.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 158000,
+        "capturedAt": "2026-09-26T10:39:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54832624",
+    "externalId": "54832624",
+    "title": "Appartamento in vendita in Via G. F. Medail 22,",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54832624/",
+    "price": 172000,
+    "sqm": 57,
+    "rooms": 3,
+    "receivedAt": "2026-09-26T10:39:31.000Z",
+    "firstSeenAt": "2026-09-26T10:39:31.000Z",
+    "lastSeenAt": "2026-09-26T10:39:31.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 172000,
+        "capturedAt": "2026-09-26T10:39:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36944195",
+    "externalId": "36944195",
+    "title": "Trilocale in Via G. F. Medail, 22, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36944195/",
+    "price": 172000,
+    "sqm": 57,
+    "rooms": 3,
+    "receivedAt": "2026-09-26T09:37:04.000Z",
+    "firstSeenAt": "2026-09-26T09:37:04.000Z",
+    "lastSeenAt": "2026-09-26T09:37:04.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 172000,
+        "capturedAt": "2026-09-26T09:37:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35317717",
+    "externalId": "35317717",
+    "title": "Bilocale in Via G. F. Medail, 40, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35317717/",
+    "price": 150000,
+    "sqm": 43,
+    "rooms": 2,
+    "receivedAt": "2026-09-26T09:37:04.000Z",
+    "firstSeenAt": "2026-09-26T09:37:04.000Z",
+    "lastSeenAt": "2026-09-26T09:37:04.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 150000,
+        "capturedAt": "2026-09-26T09:37:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-34830545",
+    "externalId": "34830545",
+    "title": "Bilocale in Via Cavour, 31, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34830545/",
+    "price": 158000,
+    "sqm": 47,
+    "rooms": 2,
+    "receivedAt": "2026-09-25T20:55:55.000Z",
+    "firstSeenAt": "2026-09-25T20:55:55.000Z",
+    "lastSeenAt": "2026-09-26T09:37:04.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 158000,
+        "capturedAt": "2026-09-25T20:55:55.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36586043",
+    "externalId": "36586043",
+    "title": "Bilocale in Via Gen. Cantore, 11, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36586043/",
+    "price": 135000,
+    "sqm": 45,
+    "rooms": 2,
+    "receivedAt": "2026-09-26T09:37:04.000Z",
+    "firstSeenAt": "2026-09-26T09:37:04.000Z",
+    "lastSeenAt": "2026-09-26T09:37:04.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 135000,
+        "capturedAt": "2026-09-26T09:37:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-34949279",
+    "externalId": "34949279",
+    "title": "Bilocale in Roma, 79, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34949279/",
+    "price": 148000,
+    "sqm": 45,
+    "rooms": 2,
+    "receivedAt": "2026-09-26T09:37:04.000Z",
+    "firstSeenAt": "2026-09-26T09:37:04.000Z",
+    "lastSeenAt": "2026-09-26T09:37:04.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 148000,
+        "capturedAt": "2026-09-26T09:37:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36391390",
+    "externalId": "36391390",
+    "title": "Monolocale in Via G. F. Medail, 57, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36391390/",
+    "price": 165000,
+    "sqm": 40,
+    "rooms": 1,
+    "receivedAt": "2026-09-26T09:37:04.000Z",
+    "firstSeenAt": "2026-09-26T09:37:04.000Z",
+    "lastSeenAt": "2026-09-26T09:37:04.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 165000,
+        "capturedAt": "2026-09-26T09:37:04.000Z"
+      }
+    ]
   }
 ]

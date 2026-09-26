@@ -22,6 +22,17 @@ test('merge preserves firstSeenAt, the richer stored title and appends priceHist
   ]);
 });
 
+test('merge promotes an explicit-address title over a generic stored title', () => {
+  const incoming = {
+    ...oldListing,
+    title: 'Trilocale in Via G. F. Medail 40, Bardonecchia',
+    lastSeenAt: '2026-09-26T10:00:00.000Z',
+    receivedAt: '2026-09-26T10:00:00.000Z'
+  };
+  const merged = mergeListings([oldListing], [incoming])[0];
+  assert.equal(merged.title, incoming.title);
+});
+
 test('store update preserves unrelated provider status and annotates the Gmail run', () => {
   const result = updateStores(
     { listings: [oldListing], refreshedAt: oldListing.lastSeenAt, providerStatus: { subito: { ok: true } } },
@@ -89,4 +100,27 @@ test('a dedicated price alert takes precedence over a later stale daily digest',
   assert.equal(collapsed[0].price, 189000);
   assert.equal(collapsed[0].receivedAt, priceDrop.receivedAt);
   assert.equal(collapsed[0].lastSeenAt, staleDigest.lastSeenAt);
+});
+
+test('a price alert keeps the explicit address supplied by a later digest', () => {
+  const priceDrop = {
+    ...oldListing,
+    title: 'Bilocale a Bardonecchia',
+    price: 158000,
+    receivedAt: '2026-09-25T20:55:55.000Z',
+    lastSeenAt: '2026-09-25T20:55:55.000Z'
+  };
+  const staleDigest = {
+    ...oldListing,
+    title: 'Bilocale in Via Cavour 31, Bardonecchia',
+    price: 162000,
+    receivedAt: '2026-09-26T09:37:04.000Z',
+    lastSeenAt: '2026-09-26T09:37:04.000Z'
+  };
+  const collapsed = collapseBatchObservations([
+    { listing: priceDrop, subject: 'Diminuzione di prezzo per la tua ricerca' },
+    { listing: staleDigest, subject: 'Riepilogo giornaliero dei nuovi annunci' }
+  ]);
+  assert.equal(collapsed[0].price, priceDrop.price);
+  assert.equal(collapsed[0].title, staleDigest.title);
 });

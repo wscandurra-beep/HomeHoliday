@@ -1,5 +1,5 @@
 import crypto from 'node:crypto';
-import { annotateDuplicateGroups } from '../deduplicate-listings.mjs';
+import { addressFingerprint, annotateDuplicateGroups } from '../deduplicate-listings.mjs';
 
 const keyOf = (listing) => `${listing.source}:${listing.externalId}`;
 
@@ -9,6 +9,14 @@ function isDedicatedPriceAlert(subject = '') {
 
 function latestIso(...values) {
   return values.filter(Boolean).sort().at(-1);
+}
+
+function titleWithBestAddress(primary, secondary, location) {
+  const primaryTitle = primary ?? secondary;
+  if (!primaryTitle || !secondary) return primaryTitle;
+  const primaryAddress = addressFingerprint(primaryTitle, location);
+  const secondaryAddress = addressFingerprint(secondary, location);
+  return !primaryAddress && secondaryAddress ? secondary : primaryTitle;
 }
 
 function mergeOne(old, incoming) {
@@ -21,7 +29,7 @@ function mergeOne(old, incoming) {
   return {
     ...old,
     ...incoming,
-    title: old.title ?? incoming.title,
+    title: titleWithBestAddress(old.title, incoming.title, incoming.location ?? old.location),
     firstSeenAt: old.firstSeenAt ?? incoming.firstSeenAt,
     lastSeenAt: latestIso(old.lastSeenAt, incoming.lastSeenAt),
     priceHistory: priceHistory.length ? priceHistory : incoming.priceHistory,
@@ -48,7 +56,15 @@ export function collapseBatchObservations(observations = []) {
       && String(listing.receivedAt ?? listing.lastSeenAt ?? '') >= String(previous.listing.receivedAt ?? previous.listing.lastSeenAt ?? '')
     );
     const chosen = shouldReplace ? { listing, priority } : previous;
-    selected.set(key, { ...chosen, listing: { ...chosen.listing, lastSeenAt } });
+    const other = shouldReplace ? previous?.listing : listing;
+    selected.set(key, {
+      ...chosen,
+      listing: {
+        ...chosen.listing,
+        title: titleWithBestAddress(chosen.listing.title, other?.title, chosen.listing.location ?? other?.location),
+        lastSeenAt
+      }
+    });
   }
   return [...selected.values()].map((entry) => entry.listing);
 }
