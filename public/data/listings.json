@@ -10542,7 +10542,7 @@
       "externalId": "36835410",
       "firstSeenAt": "2026-09-16T10:33:15.000Z",
       "id": "idealista-36835410",
-      "lastSeenAt": "2026-09-29T08:31:29.182Z",
+      "lastSeenAt": "2026-09-29T10:07:20.000Z",
       "location": "Bardonecchia",
       "price": 109125,
       "priceHistory": [
@@ -10551,7 +10551,7 @@
           "price": 109125
         }
       ],
-      "receivedAt": "2026-09-28T10:40:38.000Z",
+      "receivedAt": "2026-09-29T10:07:20.000Z",
       "rooms": 3,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36835410/",
@@ -12523,11 +12523,11 @@
       "sqm": 90,
       "rooms": 4,
       "sourceUrl": "https://www.idealista.it/immobile/36956145/",
-      "receivedAt": "2026-09-28T09:36:23.000Z",
+      "receivedAt": "2026-09-29T10:07:20.000Z",
       "id": "idealista-36956145",
       "location": "Bardonecchia",
       "firstSeenAt": "2026-09-27T00:55:59.000Z",
-      "lastSeenAt": "2026-09-29T08:31:29.182Z",
+      "lastSeenAt": "2026-09-29T10:07:20.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -12600,11 +12600,11 @@
       "sqm": 90,
       "rooms": 3,
       "sourceUrl": "https://www.casa.it/immobili/54842063/",
-      "receivedAt": "2026-09-28T12:35:54.000Z",
+      "receivedAt": "2026-09-29T11:26:57.000Z",
       "id": "casa-54842063",
       "location": "Bardonecchia",
       "firstSeenAt": "2026-09-28T12:35:54.000Z",
-      "lastSeenAt": "2026-09-29T08:31:29.182Z",
+      "lastSeenAt": "2026-09-29T11:26:57.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -12677,11 +12677,11 @@
       "sqm": 90,
       "rooms": 3,
       "sourceUrl": "https://www.idealista.it/immobile/36969702/",
-      "receivedAt": "2026-09-28T10:08:37.000Z",
+      "receivedAt": "2026-09-29T10:07:20.000Z",
       "id": "idealista-36969702",
       "location": "Bardonecchia",
       "firstSeenAt": "2026-09-28T10:08:37.000Z",
-      "lastSeenAt": "2026-09-29T08:31:29.182Z",
+      "lastSeenAt": "2026-09-29T10:07:20.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -13731,7 +13731,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-09-29T08:31:29.182Z",
+  "refreshedAt": "2026-09-29T11:26:57.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -13767,10 +13767,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-09-28T12:35:54.000Z",
-      "count": 7,
+      "checkedAt": "2026-09-29T11:26:57.000Z",
+      "count": 4,
       "unresolved": 0,
-      "message": "7 annunci importati o aggiornati da 5 alert Gmail; 4 esclusi o senza dati idonei; 0 non risolti"
+      "message": "4 annunci importati o aggiornati da 2 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
