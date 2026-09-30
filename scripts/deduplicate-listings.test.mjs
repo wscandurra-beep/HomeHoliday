@@ -23,6 +23,10 @@ test('normalizes abbreviated and extended street names', () => {
     addressFingerprint('Bilocale via Generale Antonio Cantore 9, Centro, Bardonecchia', 'Bardonecchia'),
     { street: 'cantore', civic: '9' }
   );
+  assert.deepEqual(
+    addressFingerprint('Monolocale via Germano Sommeiller 17, Centro, Bardonecchia', 'Bardonecchia'),
+    { street: 'sommeiller', civic: '17' }
+  );
 });
 
 test('rejects similar listings at different addresses', () => {

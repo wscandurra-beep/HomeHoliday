@@ -3190,7 +3190,13 @@
         }
       ],
       "sqm": 28,
-      "receivedAt": "2026-09-09T11:31:03.000Z"
+      "receivedAt": "2026-09-09T11:31:03.000Z",
+      "duplicateGroupId": "eaf8c1e21c",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
     },
     {
       "id": "casa-52908854",
@@ -6034,7 +6040,12 @@
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
       ],
-      "sqm": 82
+      "sqm": 82,
+      "duplicateGroupId": "0a3e481ff5",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Immobiliare.it"
+      ]
     },
     {
       "id": "immobiliare-131850992",
@@ -6762,7 +6773,13 @@
           "capturedAt": "2026-08-22T18:59:21.223Z"
         }
       ],
-      "sqm": 28
+      "sqm": 28,
+      "duplicateGroupId": "eaf8c1e21c",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
     },
     {
       "id": "immobiliare-130329648",
@@ -12397,9 +12414,9 @@
       "price": 158000,
       "sqm": 47,
       "rooms": 2,
-      "receivedAt": "2026-09-25T20:55:55.000Z",
+      "receivedAt": "2026-09-30T10:08:56.000Z",
       "firstSeenAt": "2026-09-25T20:55:55.000Z",
-      "lastSeenAt": "2026-09-30T08:34:54.727Z",
+      "lastSeenAt": "2026-09-30T10:08:56.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -12677,11 +12694,11 @@
       "sqm": 90,
       "rooms": 3,
       "sourceUrl": "https://www.idealista.it/immobile/36969702/",
-      "receivedAt": "2026-09-29T10:07:20.000Z",
+      "receivedAt": "2026-09-30T10:08:56.000Z",
       "id": "idealista-36969702",
       "location": "Bardonecchia",
       "firstSeenAt": "2026-09-28T10:08:37.000Z",
-      "lastSeenAt": "2026-09-30T08:34:54.727Z",
+      "lastSeenAt": "2026-09-30T10:08:56.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -13729,9 +13746,103 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "immobiliare-133103300",
+      "externalId": "133103300",
+      "title": "Trilocale viale della Vittoria, 34, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/133103300/",
+      "price": 250000,
+      "sqm": 82,
+      "rooms": 3,
+      "receivedAt": "2026-09-30T14:53:26.000Z",
+      "firstSeenAt": "2026-09-30T14:53:26.000Z",
+      "lastSeenAt": "2026-09-30T14:53:26.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-09-30T14:53:26.000Z"
+        }
+      ],
+      "duplicateGroupId": "0a3e481ff5",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "idealista-34472217",
+      "externalId": "34472217",
+      "title": "Monolocale in Via G. Sommeiller, 17, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/34472217/",
+      "price": 70000,
+      "sqm": 28,
+      "rooms": 1,
+      "receivedAt": "2026-09-30T10:08:56.000Z",
+      "firstSeenAt": "2026-09-30T10:08:56.000Z",
+      "lastSeenAt": "2026-09-30T10:08:56.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 70000,
+          "capturedAt": "2026-09-30T10:08:56.000Z"
+        }
+      ],
+      "duplicateGroupId": "eaf8c1e21c",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "immobiliare-133040514",
+      "externalId": "133040514",
+      "title": "Bilocale viale Capuccio 38, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/133040514/",
+      "price": 220000,
+      "sqm": 47,
+      "rooms": 2,
+      "receivedAt": "2026-09-30T04:10:56.000Z",
+      "firstSeenAt": "2026-09-30T04:10:56.000Z",
+      "lastSeenAt": "2026-09-30T04:10:56.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-09-30T04:10:56.000Z"
+        }
+      ]
+    },
+    {
+      "id": "immobiliare-133040878",
+      "externalId": "133040878",
+      "title": "Appartamento ottimo stato, quarto piano, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/133040878/",
+      "price": 220000,
+      "sqm": 47,
+      "receivedAt": "2026-09-29T19:13:39.000Z",
+      "firstSeenAt": "2026-09-29T19:13:39.000Z",
+      "lastSeenAt": "2026-09-29T19:13:39.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-09-29T19:13:39.000Z"
+        }
+      ]
     }
   ],
-  "refreshedAt": "2026-09-30T08:34:54.727Z",
+  "refreshedAt": "2026-09-30T14:53:26.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -13767,10 +13878,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-09-29T11:26:57.000Z",
-      "count": 4,
+      "checkedAt": "2026-09-30T14:53:26.000Z",
+      "count": 6,
       "unresolved": 0,
-      "message": "4 annunci importati o aggiornati da 2 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
+      "message": "6 annunci importati o aggiornati da 6 alert Gmail; 15 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
