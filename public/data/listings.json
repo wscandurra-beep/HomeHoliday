@@ -9342,7 +9342,7 @@
       "externalId": "36763938",
       "firstSeenAt": "2026-09-09T14:17:11.000Z",
       "id": "idealista-36763938",
-      "lastSeenAt": "2026-10-01T08:57:02.156Z",
+      "lastSeenAt": "2026-10-01T09:25:00.000Z",
       "location": "Bardonecchia",
       "price": 250000,
       "priceHistory": [
@@ -9351,7 +9351,7 @@
           "price": 250000
         }
       ],
-      "receivedAt": "2026-09-10T09:32:08.000Z",
+      "receivedAt": "2026-10-01T09:25:00.000Z",
       "rooms": 3,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36763938/",
@@ -13840,9 +13840,51 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "idealista-34334138",
+      "externalId": "34334138",
+      "title": "Trilocale a Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/34334138/",
+      "price": 35000,
+      "sqm": 93,
+      "rooms": 3,
+      "receivedAt": "2026-10-01T09:25:00.000Z",
+      "firstSeenAt": "2026-10-01T09:25:00.000Z",
+      "lastSeenAt": "2026-10-01T09:25:00.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 35000,
+          "capturedAt": "2026-10-01T09:25:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-37008216",
+      "externalId": "37008216",
+      "title": "Quadrilocale in Via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37008216/",
+      "price": 109125,
+      "sqm": 90,
+      "rooms": 4,
+      "receivedAt": "2026-09-30T23:19:03.000Z",
+      "firstSeenAt": "2026-09-30T23:19:03.000Z",
+      "lastSeenAt": "2026-09-30T23:19:03.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-09-30T23:19:03.000Z"
+        }
+      ]
     }
   ],
-  "refreshedAt": "2026-10-01T08:57:02.156Z",
+  "refreshedAt": "2026-10-01T09:25:00.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -13878,10 +13920,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-09-30T14:53:26.000Z",
-      "count": 6,
+      "checkedAt": "2026-10-01T09:25:00.000Z",
+      "count": 3,
       "unresolved": 0,
-      "message": "6 annunci importati o aggiornati da 6 alert Gmail; 15 esclusi o senza dati idonei; 0 non risolti"
+      "message": "3 annunci importati o aggiornati da 2 alert Gmail; 1 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

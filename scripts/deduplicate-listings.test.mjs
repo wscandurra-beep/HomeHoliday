@@ -56,16 +56,17 @@ test('groups strong Medail matches and excludes a different street', () => {
 test('groups matching listings from the same portal too', () => {
   const grouped = annotateDuplicateGroups([
     listing('one', 'Casa.it', 'Quadrilocale in Via la Rho 58, Bardonecchia', 109125, 90, 4),
-    listing('two', 'Casa.it', 'Quadrilocale in Via la Rho, Bardonecchia', 109126, 90, 4)
+    listing('two', 'Casa.it', 'Quadrilocale in Via la Rho 58, Bardonecchia', 109126, 90, 4)
   ]);
   assert.equal(grouped[0].duplicateGroupId, grouped[1].duplicateGroupId);
 });
 
-test('groups the three real Via la Rho variants into exactly one card', () => {
+test('preserves a verified Via la Rho group despite historical room-count differences', () => {
+  const duplicateGroupId = 'verified-via-la-rho';
   const grouped = annotateDuplicateGroups([
-    listing('idealista', 'Idealista', 'Trilocale in Via la Rho s.n.c, Bardonecchia', 109125, 90, 3),
-    listing('casa', 'Casa.it', 'Quadrilocale in Via la Rho, 58, Bardonecchia', 109125, 90, 4),
-    listing('immobiliare', 'Immobiliare.it', 'Quadrilocale in Via la Rho, Bardonecchia', 109126, 90, 4)
+    { ...listing('idealista', 'Idealista', 'Trilocale in Via la Rho s.n.c, Bardonecchia', 109125, 90, 3), duplicateGroupId },
+    { ...listing('casa', 'Casa.it', 'Quadrilocale in Via la Rho, 58, Bardonecchia', 109125, 90, 4), duplicateGroupId },
+    { ...listing('immobiliare', 'Immobiliare.it', 'Quadrilocale in Via la Rho, Bardonecchia', 109126, 90, 4), duplicateGroupId }
   ]);
   assert.equal(new Set(grouped.map(item => item.duplicateGroupId)).size, 1);
   assert.ok(grouped[0].duplicateGroupId);
@@ -95,7 +96,7 @@ test('normalizes s.n.c. and pairs only same-day NEW listings without a civic num
   const casa = { ...listing('54745886', 'Casa.it', 'Appartamento in vendita in Via la Rho, Bardonecchia', 109125, 90, 3), ...common };
 
   assert.equal(likelySameProperty(idealista, casa), true);
-  assert.equal(likelySameProperty({ ...idealista, status: 'ACTIVE' }, { ...casa, status: 'ACTIVE' }), true);
+  assert.equal(likelySameProperty({ ...idealista, status: 'ACTIVE' }, { ...casa, status: 'ACTIVE' }), false);
 
   const grouped = annotateDuplicateGroups([idealista, casa]);
   assert.ok(grouped[0].duplicateGroupId);
@@ -107,6 +108,10 @@ test('does not use attribute-only pairing for older or different-day listings', 
   const immobiliare = { ...listing('imm', 'Immobiliare.it', 'Trilocale via Melezet 125, Centro, Bardonecchia', 225000, 90, 3), status: 'ACTIVE', firstSeenAt: '2026-08-23T12:00:00.000Z' };
   assert.equal(likelySameProperty(subito, immobiliare), false);
   assert.equal(likelySameProperty({ ...subito, status: 'NEW' }, { ...immobiliare, status: 'NEW', firstSeenAt: '2026-08-24T08:00:00.000Z' }), false);
+
+  const historicalRho = { ...listing('old-rho', 'Casa.it', 'Quadrilocale in Via la Rho, Bardonecchia', 109125, 90, 4), status: 'ACTIVE', firstSeenAt: '2026-09-01T08:00:00.000Z' };
+  const newRho = { ...listing('new-rho', 'Idealista', 'Quadrilocale in Via la Rho, Bardonecchia', 109125, 90, 4), status: 'NEW', firstSeenAt: '2026-10-01T08:00:00.000Z' };
+  assert.equal(likelySameProperty(historicalRho, newRho), false);
 });
 
 test('preserves a previously verified attribute-only group after listings become ACTIVE', () => {
@@ -120,7 +125,7 @@ test('preserves a previously verified attribute-only group after listings become
     status: 'ACTIVE', firstSeenAt: '2026-09-01T10:10:00.000Z', duplicateGroupId: previousGroup
   };
 
-  assert.equal(likelySameProperty(casa, immobiliare), true);
+  assert.equal(likelySameProperty(casa, immobiliare), false);
   const grouped = annotateDuplicateGroups([casa, immobiliare]);
   assert.ok(grouped[0].duplicateGroupId);
   assert.equal(grouped[0].duplicateGroupId, grouped[1].duplicateGroupId);

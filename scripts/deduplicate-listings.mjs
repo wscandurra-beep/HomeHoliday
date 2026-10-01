@@ -108,7 +108,7 @@ function toleranceScore(a, b, tolerance) {
 export function likelySameProperty(a, b) {
   const left = addressFingerprint(a.title, a.location), right = addressFingerprint(b.title, b.location);
   const exactCivic = left?.street === right?.street && left?.civic && left.civic === right?.civic && closeEnough(a.price, b.price, 0.02);
-  return similarityScore(a, b) >= 0.8 || Boolean(exactCivic) || (newOnSameDay(a, b) && strictAttributeMatch(a, b));
+  return Boolean(exactCivic) || (newOnSameDay(a, b) && strictAttributeMatch(a, b));
 }
 
 export function annotateDuplicateGroups(listings) {
