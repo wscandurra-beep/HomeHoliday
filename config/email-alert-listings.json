@@ -3919,9 +3919,9 @@
     "price": 109125,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-02T10:14:31.000Z",
+    "receivedAt": "2026-10-03T09:55:38.000Z",
     "firstSeenAt": "2026-09-30T23:19:03.000Z",
-    "lastSeenAt": "2026-10-02T10:14:31.000Z",
+    "lastSeenAt": "2026-10-03T09:55:38.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -3969,6 +3969,48 @@
       {
         "price": 12000,
         "capturedAt": "2026-10-02T11:04:03.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35353652",
+    "externalId": "35353652",
+    "title": "Bilocale in Via Montello, 9, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35353652/",
+    "price": 240000,
+    "sqm": 43,
+    "rooms": 2,
+    "receivedAt": "2026-10-03T09:55:38.000Z",
+    "firstSeenAt": "2026-10-03T09:55:38.000Z",
+    "lastSeenAt": "2026-10-03T09:55:38.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 240000,
+        "capturedAt": "2026-10-03T09:55:38.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35109636",
+    "externalId": "35109636",
+    "title": "Bilocale a Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35109636/",
+    "price": 220000,
+    "sqm": 65,
+    "rooms": 2,
+    "receivedAt": "2026-10-03T09:55:38.000Z",
+    "firstSeenAt": "2026-10-03T09:55:38.000Z",
+    "lastSeenAt": "2026-10-03T09:55:38.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 220000,
+        "capturedAt": "2026-10-03T09:55:38.000Z"
       }
     ]
   }

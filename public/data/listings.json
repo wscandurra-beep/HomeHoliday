@@ -1660,7 +1660,12 @@
         }
       ],
       "sqm": 43,
-      "receivedAt": "2026-10-02T11:04:03.000Z"
+      "receivedAt": "2026-10-02T11:04:03.000Z",
+      "duplicateGroupId": "3f3df2f342",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
     },
     {
       "id": "casa-54103755",
@@ -12894,7 +12899,7 @@
       "price": 109125,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-10-02T10:14:31.000Z",
+      "receivedAt": "2026-10-03T09:55:38.000Z",
       "firstSeenAt": "2026-09-30T23:19:03.000Z",
       "lastSeenAt": "2026-10-03T11:40:27.917Z",
       "status": "ACTIVE",
@@ -13888,6 +13893,53 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "idealista-35353652",
+      "externalId": "35353652",
+      "title": "Bilocale in Via Montello, 9, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35353652/",
+      "price": 240000,
+      "sqm": 43,
+      "rooms": 2,
+      "receivedAt": "2026-10-03T09:55:38.000Z",
+      "firstSeenAt": "2026-10-03T09:55:38.000Z",
+      "lastSeenAt": "2026-10-03T09:55:38.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 240000,
+          "capturedAt": "2026-10-03T09:55:38.000Z"
+        }
+      ],
+      "duplicateGroupId": "3f3df2f342",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-35109636",
+      "externalId": "35109636",
+      "title": "Bilocale a Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35109636/",
+      "price": 220000,
+      "sqm": 65,
+      "rooms": 2,
+      "receivedAt": "2026-10-03T09:55:38.000Z",
+      "firstSeenAt": "2026-10-03T09:55:38.000Z",
+      "lastSeenAt": "2026-10-03T09:55:38.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 220000,
+          "capturedAt": "2026-10-03T09:55:38.000Z"
+        }
+      ]
     }
   ],
   "refreshedAt": "2026-10-03T11:40:27.917Z",
@@ -13926,10 +13978,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-02T11:04:03.000Z",
-      "count": 6,
+      "checkedAt": "2026-10-03T10:56:04.000Z",
+      "count": 3,
       "unresolved": 0,
-      "message": "6 annunci importati o aggiornati da 2 alert Gmail; 4 esclusi o senza dati idonei; 0 non risolti"
+      "message": "3 annunci importati o aggiornati da 2 alert Gmail; 1 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
