@@ -4013,5 +4013,68 @@
         "capturedAt": "2026-10-03T09:55:38.000Z"
       }
     ]
+  },
+  {
+    "id": "idealista-34108283",
+    "externalId": "34108283",
+    "title": "Bilocale a Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34108283/",
+    "price": 128000,
+    "sqm": 38,
+    "rooms": 2,
+    "receivedAt": "2026-10-04T09:07:51.000Z",
+    "firstSeenAt": "2026-10-04T09:07:51.000Z",
+    "lastSeenAt": "2026-10-04T09:07:51.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 128000,
+        "capturedAt": "2026-10-04T09:07:51.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35196962",
+    "externalId": "35196962",
+    "title": "Bilocale a Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35196962/",
+    "price": 195000,
+    "sqm": 55,
+    "rooms": 2,
+    "receivedAt": "2026-10-04T09:07:51.000Z",
+    "firstSeenAt": "2026-10-04T09:07:51.000Z",
+    "lastSeenAt": "2026-10-04T09:07:51.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 195000,
+        "capturedAt": "2026-10-04T09:07:51.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-33829065",
+    "externalId": "33829065",
+    "title": "Monolocale in Via Campo Principe, 27, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/33829065/",
+    "price": 59000,
+    "sqm": 41,
+    "rooms": 1,
+    "receivedAt": "2026-10-04T09:07:51.000Z",
+    "firstSeenAt": "2026-10-04T09:07:51.000Z",
+    "lastSeenAt": "2026-10-04T09:07:51.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 59000,
+        "capturedAt": "2026-10-04T09:07:51.000Z"
+      }
+    ]
   }
 ]
