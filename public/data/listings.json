@@ -523,10 +523,11 @@
       ],
       "sqm": 54,
       "receivedAt": "2026-09-24T10:50:34.000Z",
-      "duplicateGroupId": "82bf30bbed",
+      "duplicateGroupId": "8b41550f12",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -5938,10 +5939,11 @@
         }
       ],
       "sqm": 54,
-      "duplicateGroupId": "82bf30bbed",
+      "duplicateGroupId": "8b41550f12",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -14011,6 +14013,106 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "immobiliare-133233148",
+      "externalId": "133233148",
+      "title": "Bilocale piazza Valle Stretta, 1, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/133233148/",
+      "price": 208000,
+      "sqm": 59,
+      "rooms": 2,
+      "receivedAt": "2026-10-05T06:46:35.000Z",
+      "firstSeenAt": "2026-10-05T06:46:35.000Z",
+      "lastSeenAt": "2026-10-05T06:46:35.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 208000,
+          "capturedAt": "2026-10-05T06:46:35.000Z"
+        }
+      ],
+      "duplicateGroupId": "a7f95bc088",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-36439690",
+      "externalId": "36439690",
+      "title": "Bilocale in Via Campo Principe, 21, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36439690/",
+      "price": 250000,
+      "sqm": 54,
+      "rooms": 2,
+      "receivedAt": "2026-10-05T09:47:32.000Z",
+      "firstSeenAt": "2026-10-05T09:47:32.000Z",
+      "lastSeenAt": "2026-10-05T09:47:32.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-10-05T09:47:32.000Z"
+        }
+      ],
+      "duplicateGroupId": "8b41550f12",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-31497590",
+      "externalId": "31497590",
+      "title": "Casale/cascina in Borgata Vernets s.n.c, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/31497590/",
+      "price": 245000,
+      "sqm": 105,
+      "rooms": 4,
+      "receivedAt": "2026-10-05T09:47:32.000Z",
+      "firstSeenAt": "2026-10-05T09:47:32.000Z",
+      "lastSeenAt": "2026-10-05T09:47:32.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 245000,
+          "capturedAt": "2026-10-05T09:47:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-37045848",
+      "externalId": "37045848",
+      "title": "Bilocale in Piazza Valle Stretta, 1, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37045848/",
+      "price": 208000,
+      "sqm": 59,
+      "rooms": 2,
+      "receivedAt": "2026-10-05T11:05:46.000Z",
+      "firstSeenAt": "2026-10-05T11:05:46.000Z",
+      "lastSeenAt": "2026-10-05T11:05:46.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 208000,
+          "capturedAt": "2026-10-05T11:05:46.000Z"
+        }
+      ],
+      "duplicateGroupId": "a7f95bc088",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista"
+      ]
     }
   ],
   "refreshedAt": "2026-10-05T14:40:52.705Z",
@@ -14049,10 +14151,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-04T09:07:51.000Z",
-      "count": 3,
+      "checkedAt": "2026-10-05T11:05:46.000Z",
+      "count": 4,
       "unresolved": 0,
-      "message": "3 annunci importati o aggiornati da 1 alert Gmail; 0 esclusi o senza dati idonei; 0 non risolti"
+      "message": "4 annunci importati o aggiornati da 3 alert Gmail; 5 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

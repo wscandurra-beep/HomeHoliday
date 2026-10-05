@@ -4076,5 +4076,89 @@
         "capturedAt": "2026-10-04T09:07:51.000Z"
       }
     ]
+  },
+  {
+    "id": "immobiliare-133233148",
+    "externalId": "133233148",
+    "title": "Bilocale piazza Valle Stretta, 1, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/133233148/",
+    "price": 208000,
+    "sqm": 59,
+    "rooms": 2,
+    "receivedAt": "2026-10-05T06:46:35.000Z",
+    "firstSeenAt": "2026-10-05T06:46:35.000Z",
+    "lastSeenAt": "2026-10-05T06:46:35.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 208000,
+        "capturedAt": "2026-10-05T06:46:35.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36439690",
+    "externalId": "36439690",
+    "title": "Bilocale in Via Campo Principe, 21, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36439690/",
+    "price": 250000,
+    "sqm": 54,
+    "rooms": 2,
+    "receivedAt": "2026-10-05T09:47:32.000Z",
+    "firstSeenAt": "2026-10-05T09:47:32.000Z",
+    "lastSeenAt": "2026-10-05T09:47:32.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 250000,
+        "capturedAt": "2026-10-05T09:47:32.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-31497590",
+    "externalId": "31497590",
+    "title": "Casale/cascina in Borgata Vernets s.n.c, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/31497590/",
+    "price": 245000,
+    "sqm": 105,
+    "rooms": 4,
+    "receivedAt": "2026-10-05T09:47:32.000Z",
+    "firstSeenAt": "2026-10-05T09:47:32.000Z",
+    "lastSeenAt": "2026-10-05T09:47:32.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 245000,
+        "capturedAt": "2026-10-05T09:47:32.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37045848",
+    "externalId": "37045848",
+    "title": "Bilocale in Piazza Valle Stretta, 1, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37045848/",
+    "price": 208000,
+    "sqm": 59,
+    "rooms": 2,
+    "receivedAt": "2026-10-05T11:05:46.000Z",
+    "firstSeenAt": "2026-10-05T11:05:46.000Z",
+    "lastSeenAt": "2026-10-05T11:05:46.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 208000,
+        "capturedAt": "2026-10-05T11:05:46.000Z"
+      }
+    ]
   }
 ]
