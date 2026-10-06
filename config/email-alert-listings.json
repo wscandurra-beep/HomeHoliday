@@ -2287,7 +2287,7 @@
     "externalId": "54749971",
     "firstSeenAt": "2026-09-17T11:03:37.000Z",
     "id": "casa-54749971",
-    "lastSeenAt": "2026-09-22T11:18:58.000Z",
+    "lastSeenAt": "2026-10-06T10:56:32.000Z",
     "location": "Bardonecchia",
     "price": 210000,
     "priceHistory": [
@@ -2296,7 +2296,7 @@
         "price": 210000
       }
     ],
-    "receivedAt": "2026-09-22T11:18:58.000Z",
+    "receivedAt": "2026-10-06T10:56:32.000Z",
     "rooms": 3,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54749971/",
@@ -3940,10 +3940,10 @@
     "price": 12000,
     "sqm": 13,
     "rooms": 3,
-    "receivedAt": "2026-10-02T11:04:03.000Z",
+    "receivedAt": "2026-10-06T10:56:32.000Z",
     "firstSeenAt": "2026-10-02T11:04:03.000Z",
-    "lastSeenAt": "2026-10-02T11:04:03.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-06T10:56:32.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 12000,
@@ -3961,10 +3961,10 @@
     "price": 12000,
     "sqm": 13,
     "rooms": 3,
-    "receivedAt": "2026-10-02T11:04:03.000Z",
+    "receivedAt": "2026-10-06T10:56:32.000Z",
     "firstSeenAt": "2026-10-02T11:04:03.000Z",
-    "lastSeenAt": "2026-10-02T11:04:03.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-06T10:56:32.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 12000,
@@ -4150,14 +4150,161 @@
     "price": 208000,
     "sqm": 59,
     "rooms": 2,
-    "receivedAt": "2026-10-05T11:05:46.000Z",
+    "receivedAt": "2026-10-06T09:56:51.000Z",
     "firstSeenAt": "2026-10-05T11:05:46.000Z",
-    "lastSeenAt": "2026-10-05T11:05:46.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-06T09:56:51.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 208000,
         "capturedAt": "2026-10-05T11:05:46.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37049963",
+    "externalId": "37049963",
+    "title": "Trilocale in Via Einaudi, 21, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37049963/",
+    "price": 220000,
+    "sqm": 95,
+    "rooms": 3,
+    "receivedAt": "2026-10-06T09:56:51.000Z",
+    "firstSeenAt": "2026-10-06T09:56:51.000Z",
+    "lastSeenAt": "2026-10-06T09:56:51.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 220000,
+        "capturedAt": "2026-10-06T09:56:51.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54903376",
+    "externalId": "54903376",
+    "title": "Appartamento in vendita in Via Einaudi 21, Centro, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54903376/",
+    "price": 220000,
+    "sqm": 95,
+    "rooms": 3,
+    "receivedAt": "2026-10-06T10:56:32.000Z",
+    "firstSeenAt": "2026-10-06T10:56:32.000Z",
+    "lastSeenAt": "2026-10-06T10:56:32.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 220000,
+        "capturedAt": "2026-10-06T10:56:32.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-133261226",
+    "externalId": "133261226",
+    "title": "Trilocale via Melezet 130, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/133261226/",
+    "price": 190000,
+    "sqm": 57,
+    "rooms": 3,
+    "receivedAt": "2026-10-06T04:09:24.000Z",
+    "firstSeenAt": "2026-10-06T04:09:24.000Z",
+    "lastSeenAt": "2026-10-06T04:09:24.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 190000,
+        "capturedAt": "2026-10-06T04:09:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35293681",
+    "externalId": "35293681",
+    "title": "Bilocale in Via Giuseppe Verdi, 12, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35293681/",
+    "price": 230000,
+    "sqm": 70,
+    "rooms": 2,
+    "receivedAt": "2026-10-06T09:56:51.000Z",
+    "firstSeenAt": "2026-10-06T09:56:51.000Z",
+    "lastSeenAt": "2026-10-06T09:56:51.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 230000,
+        "capturedAt": "2026-10-06T09:56:51.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36185065",
+    "externalId": "36185065",
+    "title": "Trilocale in Via Pollicino, 10, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36185065/",
+    "price": 250000,
+    "sqm": 80,
+    "rooms": 3,
+    "receivedAt": "2026-10-06T09:56:51.000Z",
+    "firstSeenAt": "2026-10-06T09:56:51.000Z",
+    "lastSeenAt": "2026-10-06T09:56:51.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 250000,
+        "capturedAt": "2026-10-06T09:56:51.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35868791",
+    "externalId": "35868791",
+    "title": "Bilocale in Via G. F. Medail, 20, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35868791/",
+    "price": 210000,
+    "sqm": 61,
+    "rooms": 2,
+    "receivedAt": "2026-10-06T09:56:51.000Z",
+    "firstSeenAt": "2026-10-06T09:56:51.000Z",
+    "lastSeenAt": "2026-10-06T09:56:51.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 210000,
+        "capturedAt": "2026-10-06T09:56:51.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-54898416",
+    "externalId": "54898416",
+    "title": "Appartamento in vendita in Piazza Valle Stretta 1, Centro, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/54898416/",
+    "price": 208000,
+    "sqm": 59,
+    "rooms": 2,
+    "receivedAt": "2026-10-06T10:56:32.000Z",
+    "firstSeenAt": "2026-10-06T10:56:32.000Z",
+    "lastSeenAt": "2026-10-06T10:56:32.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 208000,
+        "capturedAt": "2026-10-06T10:56:32.000Z"
       }
     ]
   }
