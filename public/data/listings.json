@@ -1916,7 +1916,12 @@
         }
       ],
       "sqm": 50,
-      "receivedAt": "2026-09-04T11:16:53.000Z"
+      "receivedAt": "2026-09-04T11:16:53.000Z",
+      "duplicateGroupId": "d47547dac1",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
     },
     {
       "id": "casa-53933945",
@@ -2750,7 +2755,12 @@
         }
       ],
       "sqm": 31,
-      "receivedAt": "2026-08-29T10:28:35.000Z"
+      "receivedAt": "2026-08-29T10:28:35.000Z",
+      "duplicateGroupId": "0cd25b32d1",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
     },
     {
       "id": "casa-53489884",
@@ -7797,11 +7807,11 @@
       "externalId": "129561304",
       "title": "Bilocale viale Dalla Vecchia 8, Centro, Bardonecchia",
       "location": "Bardonecchia",
-      "price": 225000,
+      "price": 205000,
       "sellerType": "Agenzia",
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/129561304/",
-      "status": "ACTIVE",
+      "status": "UPDATED",
       "rooms": 2,
       "firstSeenAt": "2026-08-22T18:59:21.223Z",
       "lastSeenAt": "2026-10-08T13:30:29.690Z",
@@ -7809,8 +7819,14 @@
         {
           "price": 225000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
+        },
+        {
+          "price": 205000,
+          "capturedAt": "2026-10-07T16:26:41.000Z"
         }
-      ]
+      ],
+      "sqm": 61,
+      "receivedAt": "2026-10-07T16:26:41.000Z"
     },
     {
       "id": "immobiliare-128832562",
@@ -7947,11 +7963,11 @@
       "externalId": "129562590",
       "title": "Monolocale viale Dalla Vecchia 8, Centro, Bardonecchia",
       "location": "Bardonecchia",
-      "price": 135000,
+      "price": 112000,
       "sellerType": "Agenzia",
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/129562590/",
-      "status": "ACTIVE",
+      "status": "UPDATED",
       "rooms": 1,
       "firstSeenAt": "2026-08-22T18:59:21.223Z",
       "lastSeenAt": "2026-10-08T13:30:29.690Z",
@@ -7959,8 +7975,14 @@
         {
           "price": 135000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
+        },
+        {
+          "price": 112000,
+          "capturedAt": "2026-10-07T16:26:41.000Z"
         }
-      ]
+      ],
+      "sqm": 44,
+      "receivedAt": "2026-10-07T16:26:41.000Z"
     },
     {
       "id": "immobiliare-131313468",
@@ -8593,6 +8615,12 @@
           "price": 197000,
           "capturedAt": "2026-09-01T10:20:53.000Z"
         }
+      ],
+      "duplicateGroupId": "0897ee46ca",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
       ]
     },
     {
@@ -10999,7 +11027,7 @@
           "price": 210000
         }
       ],
-      "receivedAt": "2026-10-06T10:56:32.000Z",
+      "receivedAt": "2026-10-08T10:43:14.000Z",
       "rooms": 3,
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/54749971/",
@@ -13220,7 +13248,7 @@
       "price": 220000,
       "sqm": 95,
       "rooms": 3,
-      "receivedAt": "2026-10-06T10:56:32.000Z",
+      "receivedAt": "2026-10-08T10:43:14.000Z",
       "firstSeenAt": "2026-10-06T10:56:32.000Z",
       "lastSeenAt": "2026-10-08T13:30:29.690Z",
       "status": "ACTIVE",
@@ -13379,7 +13407,7 @@
       "price": 109125,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-10-06T23:23:52.000Z",
+      "receivedAt": "2026-10-08T09:51:14.000Z",
       "firstSeenAt": "2026-10-06T23:23:52.000Z",
       "lastSeenAt": "2026-10-08T13:30:29.690Z",
       "status": "ACTIVE",
@@ -13474,7 +13502,7 @@
       "price": 155000,
       "sqm": 48,
       "rooms": 3,
-      "receivedAt": "2026-10-07T12:45:15.000Z",
+      "receivedAt": "2026-10-08T09:51:14.000Z",
       "firstSeenAt": "2026-10-07T12:45:15.000Z",
       "lastSeenAt": "2026-10-08T13:30:29.690Z",
       "status": "ACTIVE",
@@ -13501,7 +13529,7 @@
       "price": 155000,
       "sqm": 48,
       "rooms": 3,
-      "receivedAt": "2026-10-07T15:14:47.000Z",
+      "receivedAt": "2026-10-08T10:43:14.000Z",
       "firstSeenAt": "2026-10-07T15:14:47.000Z",
       "lastSeenAt": "2026-10-08T13:30:29.690Z",
       "status": "ACTIVE",
@@ -14501,9 +14529,188 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "idealista-37084566",
+      "externalId": "37084566",
+      "title": "Quadrilocale in Via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37084566/",
+      "price": 109126,
+      "sqm": 90,
+      "rooms": 4,
+      "receivedAt": "2026-10-08T00:33:04.000Z",
+      "firstSeenAt": "2026-10-08T00:33:04.000Z",
+      "lastSeenAt": "2026-10-08T00:33:04.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109126,
+          "capturedAt": "2026-10-08T00:33:04.000Z"
+        }
+      ],
+      "duplicateGroupId": "be34cff8d1",
+      "duplicateSources": [
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "id": "idealista-37091342",
+      "externalId": "37091342",
+      "title": "Trilocale in Viale Callet, 19, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37091342/",
+      "price": 197000,
+      "sqm": 37,
+      "rooms": 3,
+      "receivedAt": "2026-10-08T09:49:05.000Z",
+      "firstSeenAt": "2026-10-08T09:49:05.000Z",
+      "lastSeenAt": "2026-10-08T09:49:05.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 197000,
+          "capturedAt": "2026-10-08T09:49:05.000Z"
+        }
+      ],
+      "duplicateGroupId": "0897ee46ca",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "id": "idealista-35075679",
+      "externalId": "35075679",
+      "title": "Monolocale in Viale Bramafam, 30, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35075679/",
+      "price": 160000,
+      "sqm": 31,
+      "rooms": 1,
+      "receivedAt": "2026-10-08T09:51:14.000Z",
+      "firstSeenAt": "2026-10-08T09:51:14.000Z",
+      "lastSeenAt": "2026-10-08T09:51:14.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 160000,
+          "capturedAt": "2026-10-08T09:51:14.000Z"
+        }
+      ],
+      "duplicateGroupId": "0cd25b32d1",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-35072799",
+      "externalId": "35072799",
+      "title": "Trilocale a Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35072799/",
+      "price": 154000,
+      "sqm": 82,
+      "rooms": 3,
+      "receivedAt": "2026-10-08T09:51:14.000Z",
+      "firstSeenAt": "2026-10-08T09:51:14.000Z",
+      "lastSeenAt": "2026-10-08T09:51:14.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 154000,
+          "capturedAt": "2026-10-08T09:51:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-35674921",
+      "externalId": "35674921",
+      "title": "Bilocale in Via Einaudi, 11, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/35674921/",
+      "price": 165000,
+      "sqm": 50,
+      "rooms": 2,
+      "receivedAt": "2026-10-08T09:51:14.000Z",
+      "firstSeenAt": "2026-10-08T09:51:14.000Z",
+      "lastSeenAt": "2026-10-08T09:51:14.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-10-08T09:51:14.000Z"
+        }
+      ],
+      "duplicateGroupId": "d47547dac1",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "casa-54930722",
+      "externalId": "54930722",
+      "title": "Appartamento in vendita in Via la Rho, Centro, Bardonecchia (TO)",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/54930722/",
+      "price": 109126,
+      "sqm": 90,
+      "rooms": 4,
+      "receivedAt": "2026-10-08T10:43:14.000Z",
+      "firstSeenAt": "2026-10-08T10:43:14.000Z",
+      "lastSeenAt": "2026-10-08T10:43:14.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109126,
+          "capturedAt": "2026-10-08T10:43:14.000Z"
+        }
+      ],
+      "duplicateGroupId": "be34cff8d1",
+      "duplicateSources": [
+        "Idealista",
+        "Casa.it"
+      ]
+    },
+    {
+      "id": "casa-54937479",
+      "externalId": "54937479",
+      "title": "Appartamento in vendita in Viale Callet 19, Centro, Bardonecchia (TO)",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/54937479/",
+      "price": 197000,
+      "sqm": 37,
+      "rooms": 3,
+      "receivedAt": "2026-10-08T13:44:14.000Z",
+      "firstSeenAt": "2026-10-08T13:44:14.000Z",
+      "lastSeenAt": "2026-10-08T13:44:14.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 197000,
+          "capturedAt": "2026-10-08T13:44:14.000Z"
+        }
+      ],
+      "duplicateGroupId": "0897ee46ca",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it"
+      ]
     }
   ],
-  "refreshedAt": "2026-10-08T13:30:29.690Z",
+  "refreshedAt": "2026-10-08T13:44:14.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -14539,10 +14746,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-07T15:14:47.000Z",
-      "count": 9,
+      "checkedAt": "2026-10-08T13:44:14.000Z",
+      "count": 14,
       "unresolved": 0,
-      "message": "9 annunci importati o aggiornati da 5 alert Gmail; 1 esclusi o senza dati idonei; 0 non risolti"
+      "message": "14 annunci importati o aggiornati da 6 alert Gmail; 0 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
