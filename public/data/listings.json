@@ -3818,10 +3818,11 @@
       "lastSeenAt": "2026-10-09T09:05:30.634Z",
       "bathrooms": 1,
       "floor": "piano terra",
-      "duplicateGroupId": "05010d4f99",
+      "duplicateGroupId": "865e5ec4de",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -3902,7 +3903,12 @@
           "capturedAt": "2026-08-23T08:02:35.133Z"
         }
       ],
-      "sqm": 60
+      "sqm": 60,
+      "duplicateGroupId": "5757e8f889",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
     },
     {
       "id": "casa-43580295",
@@ -4234,10 +4240,11 @@
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
       "lastSeenAt": "2026-10-09T09:05:30.634Z",
       "sqm": 48,
-      "duplicateGroupId": "05010d4f99",
+      "duplicateGroupId": "865e5ec4de",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -13502,7 +13509,7 @@
       "price": 155000,
       "sqm": 48,
       "rooms": 3,
-      "receivedAt": "2026-10-08T09:51:14.000Z",
+      "receivedAt": "2026-10-09T09:05:08.000Z",
       "firstSeenAt": "2026-10-07T12:45:15.000Z",
       "lastSeenAt": "2026-10-09T09:05:30.634Z",
       "status": "ACTIVE",
@@ -13556,7 +13563,7 @@
       "price": 109126,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-10-08T00:33:04.000Z",
+      "receivedAt": "2026-10-09T09:05:08.000Z",
       "firstSeenAt": "2026-10-08T00:33:04.000Z",
       "lastSeenAt": "2026-10-09T09:05:30.634Z",
       "status": "ACTIVE",
@@ -13582,7 +13589,7 @@
       "price": 197000,
       "sqm": 37,
       "rooms": 3,
-      "receivedAt": "2026-10-08T09:49:05.000Z",
+      "receivedAt": "2026-10-09T09:05:08.000Z",
       "firstSeenAt": "2026-10-08T09:49:05.000Z",
       "lastSeenAt": "2026-10-09T09:05:30.634Z",
       "status": "ACTIVE",
@@ -13708,9 +13715,9 @@
       "price": 197000,
       "sqm": 37,
       "rooms": 3,
-      "receivedAt": "2026-10-08T13:44:14.000Z",
+      "receivedAt": "2026-10-09T11:18:48.000Z",
       "firstSeenAt": "2026-10-08T13:44:14.000Z",
-      "lastSeenAt": "2026-10-09T09:05:30.634Z",
+      "lastSeenAt": "2026-10-09T11:18:48.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -14708,9 +14715,83 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "idealista-13901839",
+      "externalId": "13901839",
+      "title": "Bilocale in Via Giuseppe Verdi, 23, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/13901839/",
+      "price": 170000,
+      "sqm": 48,
+      "rooms": 2,
+      "receivedAt": "2026-10-09T09:05:08.000Z",
+      "firstSeenAt": "2026-10-09T09:05:08.000Z",
+      "lastSeenAt": "2026-10-09T09:05:08.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 170000,
+          "capturedAt": "2026-10-09T09:05:08.000Z"
+        }
+      ],
+      "duplicateGroupId": "865e5ec4de",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-18740107",
+      "externalId": "18740107",
+      "title": "Bilocale in Via Melezet, 16, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/18740107/",
+      "price": 195000,
+      "sqm": 60,
+      "rooms": 2,
+      "receivedAt": "2026-10-09T09:05:08.000Z",
+      "firstSeenAt": "2026-10-09T09:05:08.000Z",
+      "lastSeenAt": "2026-10-09T09:05:08.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 195000,
+          "capturedAt": "2026-10-09T09:05:08.000Z"
+        }
+      ],
+      "duplicateGroupId": "5757e8f889",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "immobiliare-133412014",
+      "externalId": "133412014",
+      "title": "Bilocale via Medail, 118, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/133412014/",
+      "price": 185000,
+      "sqm": 65,
+      "rooms": 2,
+      "receivedAt": "2026-10-09T13:23:42.000Z",
+      "firstSeenAt": "2026-10-09T13:23:42.000Z",
+      "lastSeenAt": "2026-10-09T13:23:42.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 185000,
+          "capturedAt": "2026-10-09T13:23:42.000Z"
+        }
+      ]
     }
   ],
-  "refreshedAt": "2026-10-09T09:05:30.634Z",
+  "refreshedAt": "2026-10-09T13:23:42.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -14746,10 +14827,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-08T13:44:14.000Z",
-      "count": 14,
+      "checkedAt": "2026-10-09T13:23:42.000Z",
+      "count": 7,
       "unresolved": 0,
-      "message": "14 annunci importati o aggiornati da 6 alert Gmail; 0 esclusi o senza dati idonei; 0 non risolti"
+      "message": "7 annunci importati o aggiornati da 3 alert Gmail; 0 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

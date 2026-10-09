@@ -4402,9 +4402,9 @@
     "price": 155000,
     "sqm": 48,
     "rooms": 3,
-    "receivedAt": "2026-10-08T09:51:14.000Z",
+    "receivedAt": "2026-10-09T09:05:08.000Z",
     "firstSeenAt": "2026-10-07T12:45:15.000Z",
-    "lastSeenAt": "2026-10-08T09:51:14.000Z",
+    "lastSeenAt": "2026-10-09T09:05:08.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -4486,10 +4486,10 @@
     "price": 109126,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-08T00:33:04.000Z",
+    "receivedAt": "2026-10-09T09:05:08.000Z",
     "firstSeenAt": "2026-10-08T00:33:04.000Z",
-    "lastSeenAt": "2026-10-08T00:33:04.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-09T09:05:08.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109126,
@@ -4507,10 +4507,10 @@
     "price": 197000,
     "sqm": 37,
     "rooms": 3,
-    "receivedAt": "2026-10-08T09:49:05.000Z",
+    "receivedAt": "2026-10-09T09:05:08.000Z",
     "firstSeenAt": "2026-10-08T09:49:05.000Z",
-    "lastSeenAt": "2026-10-08T09:49:05.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-09T09:05:08.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 197000,
@@ -4612,14 +4612,77 @@
     "price": 197000,
     "sqm": 37,
     "rooms": 3,
-    "receivedAt": "2026-10-08T13:44:14.000Z",
+    "receivedAt": "2026-10-09T11:18:48.000Z",
     "firstSeenAt": "2026-10-08T13:44:14.000Z",
-    "lastSeenAt": "2026-10-08T13:44:14.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-09T11:18:48.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 197000,
         "capturedAt": "2026-10-08T13:44:14.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-13901839",
+    "externalId": "13901839",
+    "title": "Bilocale in Via Giuseppe Verdi, 23, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/13901839/",
+    "price": 170000,
+    "sqm": 48,
+    "rooms": 2,
+    "receivedAt": "2026-10-09T09:05:08.000Z",
+    "firstSeenAt": "2026-10-09T09:05:08.000Z",
+    "lastSeenAt": "2026-10-09T09:05:08.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 170000,
+        "capturedAt": "2026-10-09T09:05:08.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-18740107",
+    "externalId": "18740107",
+    "title": "Bilocale in Via Melezet, 16, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/18740107/",
+    "price": 195000,
+    "sqm": 60,
+    "rooms": 2,
+    "receivedAt": "2026-10-09T09:05:08.000Z",
+    "firstSeenAt": "2026-10-09T09:05:08.000Z",
+    "lastSeenAt": "2026-10-09T09:05:08.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 195000,
+        "capturedAt": "2026-10-09T09:05:08.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-133412014",
+    "externalId": "133412014",
+    "title": "Bilocale via Medail, 118, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/133412014/",
+    "price": 185000,
+    "sqm": 65,
+    "rooms": 2,
+    "receivedAt": "2026-10-09T13:23:42.000Z",
+    "firstSeenAt": "2026-10-09T13:23:42.000Z",
+    "lastSeenAt": "2026-10-09T13:23:42.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 185000,
+        "capturedAt": "2026-10-09T13:23:42.000Z"
       }
     ]
   }
