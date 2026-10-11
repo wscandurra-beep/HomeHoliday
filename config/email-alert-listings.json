@@ -2245,7 +2245,7 @@
     "externalId": "54747061",
     "firstSeenAt": "2026-09-16T15:49:22.000Z",
     "id": "casa-54747061",
-    "lastSeenAt": "2026-09-23T11:33:35.000Z",
+    "lastSeenAt": "2026-10-11T10:18:20.000Z",
     "location": "Bardonecchia",
     "price": 195000,
     "priceHistory": [
@@ -2254,7 +2254,7 @@
         "price": 195000
       }
     ],
-    "receivedAt": "2026-09-23T11:33:35.000Z",
+    "receivedAt": "2026-10-11T10:18:20.000Z",
     "rooms": 3,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54747061/",
@@ -4696,10 +4696,10 @@
     "price": 109126,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-09T23:52:45.000Z",
+    "receivedAt": "2026-10-11T08:31:21.000Z",
     "firstSeenAt": "2026-10-09T23:52:45.000Z",
-    "lastSeenAt": "2026-10-09T23:52:45.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-11T08:31:21.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109126,
@@ -4738,10 +4738,10 @@
     "price": 180000,
     "sqm": 64,
     "rooms": 2,
-    "receivedAt": "2026-10-10T11:25:41.000Z",
+    "receivedAt": "2026-10-11T08:31:21.000Z",
     "firstSeenAt": "2026-10-10T11:25:41.000Z",
-    "lastSeenAt": "2026-10-10T11:25:41.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-11T08:31:21.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 180000,
@@ -4759,14 +4759,56 @@
     "price": 180000,
     "sqm": 64,
     "rooms": 2,
-    "receivedAt": "2026-10-10T11:30:22.000Z",
+    "receivedAt": "2026-10-11T10:18:20.000Z",
     "firstSeenAt": "2026-10-10T11:30:22.000Z",
-    "lastSeenAt": "2026-10-10T11:30:22.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-11T10:18:20.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 180000,
         "capturedAt": "2026-10-10T11:30:22.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-22332270",
+    "externalId": "22332270",
+    "title": "Attico in Viale della Vittoria, 15, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/22332270/",
+    "price": 195000,
+    "sqm": 75,
+    "rooms": 3,
+    "receivedAt": "2026-10-11T08:31:21.000Z",
+    "firstSeenAt": "2026-10-11T08:31:21.000Z",
+    "lastSeenAt": "2026-10-11T08:31:21.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 195000,
+        "capturedAt": "2026-10-11T08:31:21.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-33243063",
+    "externalId": "33243063",
+    "title": "Bilocale in Via Amprimo, 4, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/33243063/",
+    "price": 170000,
+    "sqm": 55,
+    "rooms": 2,
+    "receivedAt": "2026-10-11T08:31:21.000Z",
+    "firstSeenAt": "2026-10-11T08:31:21.000Z",
+    "lastSeenAt": "2026-10-11T08:31:21.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 170000,
+        "capturedAt": "2026-10-11T08:31:21.000Z"
       }
     ]
   }
