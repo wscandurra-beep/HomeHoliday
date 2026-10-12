@@ -4811,5 +4811,89 @@
         "capturedAt": "2026-10-11T08:31:21.000Z"
       }
     ]
+  },
+  {
+    "id": "idealista-36372957",
+    "externalId": "36372957",
+    "title": "Bilocale in Via Montello, 9, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36372957/",
+    "price": 258000,
+    "sqm": 48,
+    "rooms": 2,
+    "receivedAt": "2026-10-12T07:37:06.000Z",
+    "firstSeenAt": "2026-10-12T07:37:06.000Z",
+    "lastSeenAt": "2026-10-12T07:37:06.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 258000,
+        "capturedAt": "2026-10-12T07:37:06.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-35014383",
+    "externalId": "35014383",
+    "title": "Trilocale in Borgata Gleise, 19, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/35014383/",
+    "price": 255000,
+    "sqm": 80,
+    "rooms": 3,
+    "receivedAt": "2026-10-12T07:37:06.000Z",
+    "firstSeenAt": "2026-10-12T07:37:06.000Z",
+    "lastSeenAt": "2026-10-12T07:37:06.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 255000,
+        "capturedAt": "2026-10-12T07:37:06.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-34717162",
+    "externalId": "34717162",
+    "title": "Monolocale in Via G. F. Medail, 20, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34717162/",
+    "price": 68000,
+    "sqm": 33,
+    "rooms": 1,
+    "receivedAt": "2026-10-12T07:37:06.000Z",
+    "firstSeenAt": "2026-10-12T07:37:06.000Z",
+    "lastSeenAt": "2026-10-12T07:37:06.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 68000,
+        "capturedAt": "2026-10-12T07:37:06.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37121899",
+    "externalId": "37121899",
+    "title": "Trilocale in Via la Rho, 58, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37121899/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 3,
+    "receivedAt": "2026-10-12T07:03:58.000Z",
+    "firstSeenAt": "2026-10-12T07:03:58.000Z",
+    "lastSeenAt": "2026-10-12T07:03:58.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-10-12T07:03:58.000Z"
+      }
+    ]
   }
 ]
