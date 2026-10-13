@@ -4696,9 +4696,9 @@
     "price": 109126,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-11T08:31:21.000Z",
+    "receivedAt": "2026-10-13T08:08:28.000Z",
     "firstSeenAt": "2026-10-09T23:52:45.000Z",
-    "lastSeenAt": "2026-10-11T08:31:21.000Z",
+    "lastSeenAt": "2026-10-13T08:08:28.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -4885,14 +4885,35 @@
     "price": 109125,
     "sqm": 90,
     "rooms": 3,
-    "receivedAt": "2026-10-12T07:03:58.000Z",
+    "receivedAt": "2026-10-13T08:08:28.000Z",
     "firstSeenAt": "2026-10-12T07:03:58.000Z",
-    "lastSeenAt": "2026-10-12T07:03:58.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-13T08:08:28.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109125,
         "capturedAt": "2026-10-12T07:03:58.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-133515726",
+    "externalId": "133515726",
+    "title": "Trilocale viale Mario Capuccio, 3, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/133515726/",
+    "price": 235000,
+    "sqm": 86,
+    "rooms": 3,
+    "receivedAt": "2026-10-13T15:26:49.000Z",
+    "firstSeenAt": "2026-10-13T15:26:49.000Z",
+    "lastSeenAt": "2026-10-13T15:26:49.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 235000,
+        "capturedAt": "2026-10-13T15:26:49.000Z"
       }
     ]
   }
