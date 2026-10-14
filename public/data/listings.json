@@ -1567,10 +1567,11 @@
       ],
       "sqm": 77,
       "receivedAt": "2026-09-19T11:22:58.000Z",
-      "duplicateGroupId": "314df46d26",
+      "duplicateGroupId": "2b34996c34",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -3727,10 +3728,11 @@
         }
       ],
       "sqm": 110,
-      "duplicateGroupId": "af31e87d67",
+      "duplicateGroupId": "ec8bbffe23",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -4333,10 +4335,11 @@
         }
       ],
       "sqm": 100,
-      "duplicateGroupId": "af31e87d67",
+      "duplicateGroupId": "ec8bbffe23",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -5174,10 +5177,11 @@
         }
       ],
       "sqm": 77,
-      "duplicateGroupId": "314df46d26",
+      "duplicateGroupId": "2b34996c34",
       "duplicateSources": [
         "Casa.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -14144,6 +14148,12 @@
           "price": 235000,
           "capturedAt": "2026-10-13T15:26:49.000Z"
         }
+      ],
+      "duplicateGroupId": "504f12b346",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Casa.it",
+        "Idealista"
       ]
     },
     {
@@ -15215,9 +15225,138 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "casa-54977489",
+      "externalId": "54977489",
+      "title": "Appartamento in vendita in Viale Mario Capuccio 3,",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/54977489/",
+      "price": 235000,
+      "sqm": 86,
+      "rooms": 3,
+      "receivedAt": "2026-10-14T10:43:57.000Z",
+      "firstSeenAt": "2026-10-14T10:43:57.000Z",
+      "lastSeenAt": "2026-10-14T10:43:57.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 235000,
+          "capturedAt": "2026-10-14T10:43:57.000Z"
+        }
+      ],
+      "duplicateGroupId": "504f12b346",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-37146146",
+      "externalId": "37146146",
+      "title": "Trilocale in Viale Mario Capuccio, 3, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37146146/",
+      "price": 235000,
+      "sqm": 86,
+      "rooms": 3,
+      "receivedAt": "2026-10-14T08:14:51.000Z",
+      "firstSeenAt": "2026-10-13T17:04:24.000Z",
+      "lastSeenAt": "2026-10-14T08:14:51.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 235000,
+          "capturedAt": "2026-10-13T17:04:24.000Z"
+        }
+      ],
+      "duplicateGroupId": "504f12b346",
+      "duplicateSources": [
+        "Immobiliare.it",
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-37148969",
+      "externalId": "37148969",
+      "title": "Quadrilocale in Via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37148969/",
+      "price": 109126,
+      "sqm": 90,
+      "rooms": 4,
+      "receivedAt": "2026-10-14T00:02:53.000Z",
+      "firstSeenAt": "2026-10-14T00:02:53.000Z",
+      "lastSeenAt": "2026-10-14T00:02:53.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109126,
+          "capturedAt": "2026-10-14T00:02:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-36030537",
+      "externalId": "36030537",
+      "title": "Trilocale in Via Montello, 61, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/36030537/",
+      "price": 259000,
+      "sqm": 77,
+      "rooms": 3,
+      "receivedAt": "2026-10-14T08:14:51.000Z",
+      "firstSeenAt": "2026-10-14T08:14:51.000Z",
+      "lastSeenAt": "2026-10-14T08:14:51.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 259000,
+          "capturedAt": "2026-10-14T08:14:51.000Z"
+        }
+      ],
+      "duplicateGroupId": "2b34996c34",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-30584011",
+      "externalId": "30584011",
+      "title": "Quadrilocale in Viale Roma, 80, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/30584011/",
+      "price": 250000,
+      "sqm": 110,
+      "rooms": 4,
+      "receivedAt": "2026-10-14T08:14:51.000Z",
+      "firstSeenAt": "2026-10-14T08:14:51.000Z",
+      "lastSeenAt": "2026-10-14T08:14:51.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 250000,
+          "capturedAt": "2026-10-14T08:14:51.000Z"
+        }
+      ],
+      "duplicateGroupId": "ec8bbffe23",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista"
+      ]
     }
   ],
-  "refreshedAt": "2026-10-14T13:44:00.969Z",
+  "refreshedAt": "2026-10-14T16:03:01.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -15253,10 +15392,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-13T16:06:07.169Z",
-      "count": 3,
+      "checkedAt": "2026-10-14T16:03:01.000Z",
+      "count": 5,
       "unresolved": 0,
-      "message": "3 annunci importati o aggiornati da 2 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
+      "message": "5 annunci importati o aggiornati da 4 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
