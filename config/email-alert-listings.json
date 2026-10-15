@@ -4969,10 +4969,10 @@
     "price": 109126,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-14T00:02:53.000Z",
+    "receivedAt": "2026-10-15T08:11:01.000Z",
     "firstSeenAt": "2026-10-14T00:02:53.000Z",
-    "lastSeenAt": "2026-10-14T00:02:53.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-15T08:11:01.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109126,
@@ -5019,6 +5019,27 @@
       {
         "price": 250000,
         "capturedAt": "2026-10-14T08:14:51.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-130141466",
+    "externalId": "130141466",
+    "title": "Monolocale viale della Vittoria 67, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/130141466/",
+    "price": 78000,
+    "sqm": 25,
+    "rooms": 1,
+    "receivedAt": "2026-10-15T10:34:45.000Z",
+    "firstSeenAt": "2026-10-15T10:34:45.000Z",
+    "lastSeenAt": "2026-10-15T10:34:45.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 78000,
+        "capturedAt": "2026-10-15T10:34:45.000Z"
       }
     ]
   }

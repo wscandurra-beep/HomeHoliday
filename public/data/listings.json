@@ -7497,11 +7497,11 @@
       "externalId": "130141466",
       "title": "Monolocale viale della Vittoria 67, Centro, Bardonecchia",
       "location": "Bardonecchia",
-      "price": 90000,
+      "price": 78000,
       "sellerType": "Agenzia",
       "source": "Immobiliare.it",
       "sourceUrl": "https://www.immobiliare.it/annunci/130141466/",
-      "status": "ACTIVE",
+      "status": "UPDATED",
       "rooms": 1,
       "firstSeenAt": "2026-08-22T18:59:21.223Z",
       "lastSeenAt": "2026-10-15T11:30:10.926Z",
@@ -7509,9 +7509,14 @@
         {
           "price": 90000,
           "capturedAt": "2026-08-22T18:59:21.223Z"
+        },
+        {
+          "price": 78000,
+          "capturedAt": "2026-10-15T10:34:45.000Z"
         }
       ],
-      "sqm": 25
+      "sqm": 25,
+      "receivedAt": "2026-10-15T10:34:45.000Z"
     },
     {
       "id": "immobiliare-131484654",
@@ -14220,7 +14225,7 @@
       "price": 109126,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-10-14T00:02:53.000Z",
+      "receivedAt": "2026-10-15T08:11:01.000Z",
       "firstSeenAt": "2026-10-14T00:02:53.000Z",
       "lastSeenAt": "2026-10-15T11:30:10.926Z",
       "status": "ACTIVE",
@@ -15356,7 +15361,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-10-15T11:30:10.926Z",
+  "refreshedAt": "2026-10-15T16:03:45.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -15392,10 +15397,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-14T16:03:01.000Z",
-      "count": 5,
+      "checkedAt": "2026-10-15T16:03:45.000Z",
+      "count": 2,
       "unresolved": 0,
-      "message": "5 annunci importati o aggiornati da 4 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
+      "message": "2 annunci importati o aggiornati da 3 alert Gmail; 4 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
