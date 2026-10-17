@@ -10461,7 +10461,7 @@
           "price": 109120
         }
       ],
-      "receivedAt": "2026-09-15T09:38:40.000Z",
+      "receivedAt": "2026-10-17T06:55:58.000Z",
       "rooms": 4,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36342437/",
@@ -13932,7 +13932,7 @@
       "price": 180000,
       "sqm": 64,
       "rooms": 2,
-      "receivedAt": "2026-10-11T08:31:21.000Z",
+      "receivedAt": "2026-10-17T08:09:24.000Z",
       "firstSeenAt": "2026-10-10T11:25:41.000Z",
       "lastSeenAt": "2026-10-17T15:35:36.720Z",
       "status": "ACTIVE",
@@ -14225,7 +14225,7 @@
       "price": 235000,
       "sqm": 86,
       "rooms": 3,
-      "receivedAt": "2026-10-14T10:43:57.000Z",
+      "receivedAt": "2026-10-17T10:42:53.000Z",
       "firstSeenAt": "2026-10-14T10:43:57.000Z",
       "lastSeenAt": "2026-10-17T15:35:36.720Z",
       "status": "ACTIVE",
@@ -14358,7 +14358,7 @@
       "price": 168000,
       "sqm": 50,
       "rooms": 3,
-      "receivedAt": "2026-10-16T14:19:18.000Z",
+      "receivedAt": "2026-10-17T08:09:24.000Z",
       "firstSeenAt": "2026-10-16T14:19:18.000Z",
       "lastSeenAt": "2026-10-17T15:35:36.720Z",
       "status": "ACTIVE",
@@ -14368,10 +14368,11 @@
           "capturedAt": "2026-10-16T14:19:18.000Z"
         }
       ],
-      "duplicateGroupId": "13752e52f7",
+      "duplicateGroupId": "ca5e5ec3b4",
       "duplicateSources": [
         "Idealista",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Casa.it"
       ]
     },
     {
@@ -14384,7 +14385,7 @@
       "price": 199000,
       "sqm": 53,
       "rooms": 3,
-      "receivedAt": "2026-10-16T13:47:48.000Z",
+      "receivedAt": "2026-10-17T10:42:53.000Z",
       "firstSeenAt": "2026-10-16T13:47:48.000Z",
       "lastSeenAt": "2026-10-17T15:35:36.720Z",
       "status": "ACTIVE",
@@ -14442,10 +14443,11 @@
           "capturedAt": "2026-10-16T13:13:21.000Z"
         }
       ],
-      "duplicateGroupId": "13752e52f7",
+      "duplicateGroupId": "ca5e5ec3b4",
       "duplicateSources": [
         "Idealista",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Casa.it"
       ]
     },
     {
@@ -14511,9 +14513,9 @@
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/37180321/",
       "price": 199000,
-      "sqm": 47,
+      "sqm": 53,
       "rooms": 3,
-      "receivedAt": "2026-10-16T10:45:27.000Z",
+      "receivedAt": "2026-10-17T08:09:24.000Z",
       "firstSeenAt": "2026-10-16T10:45:27.000Z",
       "lastSeenAt": "2026-10-17T15:35:36.720Z",
       "status": "ACTIVE",
@@ -15620,6 +15622,33 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "casa-55003721",
+      "externalId": "55003721",
+      "title": "Attico/Mansarda in vendita in Piazza Statuto 5, Centro, Bardonecchia (TO)",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/55003721/",
+      "price": 168000,
+      "sqm": 50,
+      "rooms": 3,
+      "receivedAt": "2026-10-17T10:42:53.000Z",
+      "firstSeenAt": "2026-10-17T10:42:53.000Z",
+      "lastSeenAt": "2026-10-17T10:42:53.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 168000,
+          "capturedAt": "2026-10-17T10:42:53.000Z"
+        }
+      ],
+      "duplicateGroupId": "ca5e5ec3b4",
+      "duplicateSources": [
+        "Idealista",
+        "Immobiliare.it",
+        "Casa.it"
+      ]
     }
   ],
   "refreshedAt": "2026-10-17T15:35:36.720Z",
@@ -15658,10 +15687,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-16T15:56:00.000Z",
-      "count": 10,
+      "checkedAt": "2026-10-17T10:42:53.000Z",
+      "count": 7,
       "unresolved": 0,
-      "message": "10 annunci importati o aggiornati da 11 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
+      "message": "7 annunci importati o aggiornati da 3 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

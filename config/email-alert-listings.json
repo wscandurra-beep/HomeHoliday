@@ -1867,7 +1867,7 @@
     "externalId": "36342437",
     "firstSeenAt": "2026-09-15T09:38:40.000Z",
     "id": "idealista-36342437",
-    "lastSeenAt": "2026-09-15T09:38:40.000Z",
+    "lastSeenAt": "2026-10-17T06:55:58.000Z",
     "location": "Bardonecchia",
     "price": 109120,
     "priceHistory": [
@@ -1876,12 +1876,12 @@
         "price": 109120
       }
     ],
-    "receivedAt": "2026-09-15T09:38:40.000Z",
+    "receivedAt": "2026-10-17T06:55:58.000Z",
     "rooms": 4,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36342437/",
     "sqm": 90,
-    "status": "NEW",
+    "status": "ACTIVE",
     "title": "Quadrilocale in Via la Rho, 58, Bardonecchia"
   },
   {
@@ -4742,9 +4742,9 @@
     "price": 180000,
     "sqm": 64,
     "rooms": 2,
-    "receivedAt": "2026-10-11T08:31:21.000Z",
+    "receivedAt": "2026-10-17T08:09:24.000Z",
     "firstSeenAt": "2026-10-10T11:25:41.000Z",
-    "lastSeenAt": "2026-10-11T08:31:21.000Z",
+    "lastSeenAt": "2026-10-17T08:09:24.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -4931,10 +4931,10 @@
     "price": 235000,
     "sqm": 86,
     "rooms": 3,
-    "receivedAt": "2026-10-14T10:43:57.000Z",
+    "receivedAt": "2026-10-17T10:42:53.000Z",
     "firstSeenAt": "2026-10-14T10:43:57.000Z",
-    "lastSeenAt": "2026-10-14T10:43:57.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-17T10:42:53.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 235000,
@@ -5061,10 +5061,10 @@
     "price": 168000,
     "sqm": 50,
     "rooms": 3,
-    "receivedAt": "2026-10-16T14:19:18.000Z",
+    "receivedAt": "2026-10-17T08:09:24.000Z",
     "firstSeenAt": "2026-10-16T14:19:18.000Z",
-    "lastSeenAt": "2026-10-16T14:19:18.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-17T08:09:24.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 168000,
@@ -5082,10 +5082,10 @@
     "price": 199000,
     "sqm": 53,
     "rooms": 3,
-    "receivedAt": "2026-10-16T13:47:48.000Z",
+    "receivedAt": "2026-10-17T10:42:53.000Z",
     "firstSeenAt": "2026-10-16T13:47:48.000Z",
-    "lastSeenAt": "2026-10-16T13:47:48.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-17T10:42:53.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 199000,
@@ -5185,12 +5185,12 @@
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/37180321/",
     "price": 199000,
-    "sqm": 47,
+    "sqm": 53,
     "rooms": 3,
-    "receivedAt": "2026-10-16T10:45:27.000Z",
+    "receivedAt": "2026-10-17T08:09:24.000Z",
     "firstSeenAt": "2026-10-16T10:45:27.000Z",
-    "lastSeenAt": "2026-10-16T10:45:27.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-17T08:09:24.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 199000,
@@ -5216,6 +5216,27 @@
       {
         "price": 225000,
         "capturedAt": "2026-10-15T16:22:29.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-55003721",
+    "externalId": "55003721",
+    "title": "Attico/Mansarda in vendita in Piazza Statuto 5, Centro, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/55003721/",
+    "price": 168000,
+    "sqm": 50,
+    "rooms": 3,
+    "receivedAt": "2026-10-17T10:42:53.000Z",
+    "firstSeenAt": "2026-10-17T10:42:53.000Z",
+    "lastSeenAt": "2026-10-17T10:42:53.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 168000,
+        "capturedAt": "2026-10-17T10:42:53.000Z"
       }
     ]
   }
