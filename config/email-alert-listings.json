@@ -1384,7 +1384,7 @@
     "externalId": "54490527",
     "firstSeenAt": "2026-09-10T11:11:24.000Z",
     "id": "casa-54490527",
-    "lastSeenAt": "2026-10-07T10:47:45.000Z",
+    "lastSeenAt": "2026-10-18T10:27:15.000Z",
     "location": "Bardonecchia",
     "price": 109125,
     "priceHistory": [
@@ -1393,7 +1393,7 @@
         "price": 109125
       }
     ],
-    "receivedAt": "2026-10-07T10:47:45.000Z",
+    "receivedAt": "2026-10-18T10:27:15.000Z",
     "rooms": 4,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54490527/",
@@ -1867,7 +1867,7 @@
     "externalId": "36342437",
     "firstSeenAt": "2026-09-15T09:38:40.000Z",
     "id": "idealista-36342437",
-    "lastSeenAt": "2026-10-17T06:55:58.000Z",
+    "lastSeenAt": "2026-10-18T08:51:51.000Z",
     "location": "Bardonecchia",
     "price": 109120,
     "priceHistory": [
@@ -1876,7 +1876,7 @@
         "price": 109120
       }
     ],
-    "receivedAt": "2026-10-17T06:55:58.000Z",
+    "receivedAt": "2026-10-18T08:51:51.000Z",
     "rooms": 4,
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/36342437/",
@@ -4301,9 +4301,9 @@
     "price": 208000,
     "sqm": 59,
     "rooms": 2,
-    "receivedAt": "2026-10-07T10:47:45.000Z",
+    "receivedAt": "2026-10-18T10:27:15.000Z",
     "firstSeenAt": "2026-10-06T10:56:32.000Z",
-    "lastSeenAt": "2026-10-07T10:47:45.000Z",
+    "lastSeenAt": "2026-10-18T10:27:15.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -4973,9 +4973,9 @@
     "price": 109126,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-15T08:11:01.000Z",
+    "receivedAt": "2026-10-18T08:51:51.000Z",
     "firstSeenAt": "2026-10-14T00:02:53.000Z",
-    "lastSeenAt": "2026-10-15T08:11:01.000Z",
+    "lastSeenAt": "2026-10-18T08:51:51.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5237,6 +5237,90 @@
       {
         "price": 168000,
         "capturedAt": "2026-10-17T10:42:53.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-55012534",
+    "externalId": "55012534",
+    "title": "Appartamento in vendita in Via G. F. Medail 20, Centro, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/55012534/",
+    "price": 115000,
+    "sqm": 35,
+    "rooms": 1,
+    "receivedAt": "2026-10-18T14:22:46.000Z",
+    "firstSeenAt": "2026-10-18T14:22:46.000Z",
+    "lastSeenAt": "2026-10-18T14:22:46.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 115000,
+        "capturedAt": "2026-10-18T14:22:46.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37195572",
+    "externalId": "37195572",
+    "title": "Monolocale in Via G. F. Medail, 20, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37195572/",
+    "price": 115000,
+    "sqm": 35,
+    "rooms": 1,
+    "receivedAt": "2026-10-18T14:19:33.000Z",
+    "firstSeenAt": "2026-10-18T14:19:33.000Z",
+    "lastSeenAt": "2026-10-18T14:19:33.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 115000,
+        "capturedAt": "2026-10-18T14:19:33.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-133669392",
+    "externalId": "133669392",
+    "title": "Monolocale via Medail, 20, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/133669392/",
+    "price": 115000,
+    "sqm": 35,
+    "rooms": 1,
+    "receivedAt": "2026-10-18T10:39:41.000Z",
+    "firstSeenAt": "2026-10-18T10:39:41.000Z",
+    "lastSeenAt": "2026-10-18T10:39:41.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 115000,
+        "capturedAt": "2026-10-18T10:39:41.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37192859",
+    "externalId": "37192859",
+    "title": "Quadrilocale in Via la Rho, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37192859/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-10-17T22:59:23.000Z",
+    "firstSeenAt": "2026-10-17T22:59:23.000Z",
+    "lastSeenAt": "2026-10-17T22:59:23.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-10-17T22:59:23.000Z"
       }
     ]
   }

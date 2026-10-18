@@ -773,7 +773,7 @@
       "lastSeenAt": "2026-10-18T15:52:59.959Z",
       "bathrooms": 2,
       "floor": "1° piano",
-      "receivedAt": "2026-10-07T10:47:45.000Z",
+      "receivedAt": "2026-10-18T10:27:15.000Z",
       "duplicateGroupId": "3fd24de3e8",
       "duplicateSources": [
         "Casa.it",
@@ -1452,11 +1452,14 @@
       ],
       "sqm": 35,
       "receivedAt": "2026-09-11T11:32:12.000Z",
-      "duplicateGroupId": "88dfad0198",
+      "duplicateGroupId": "d23bfcf3bc",
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it",
-        "Idealista"
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
       ]
     },
     {
@@ -6708,11 +6711,14 @@
         }
       ],
       "sqm": 35,
-      "duplicateGroupId": "88dfad0198",
+      "duplicateGroupId": "d23bfcf3bc",
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it",
-        "Idealista"
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
       ]
     },
     {
@@ -10461,7 +10467,7 @@
           "price": 109120
         }
       ],
-      "receivedAt": "2026-10-17T06:55:58.000Z",
+      "receivedAt": "2026-10-18T08:51:51.000Z",
       "rooms": 4,
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36342437/",
@@ -11632,11 +11638,14 @@
           "capturedAt": "2026-09-21T09:08:24.000Z"
         }
       ],
-      "duplicateGroupId": "88dfad0198",
+      "duplicateGroupId": "d23bfcf3bc",
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it",
-        "Idealista"
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
       ]
     },
     {
@@ -13455,7 +13464,7 @@
       "price": 208000,
       "sqm": 59,
       "rooms": 2,
-      "receivedAt": "2026-10-07T10:47:45.000Z",
+      "receivedAt": "2026-10-18T10:27:15.000Z",
       "firstSeenAt": "2026-10-06T10:56:32.000Z",
       "lastSeenAt": "2026-10-18T15:52:59.959Z",
       "status": "ACTIVE",
@@ -14279,7 +14288,7 @@
       "price": 109126,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-10-15T08:11:01.000Z",
+      "receivedAt": "2026-10-18T08:51:51.000Z",
       "firstSeenAt": "2026-10-14T00:02:53.000Z",
       "lastSeenAt": "2026-10-18T15:52:59.959Z",
       "status": "ACTIVE",
@@ -15649,6 +15658,117 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "casa-55012534",
+      "externalId": "55012534",
+      "title": "Appartamento in vendita in Via G. F. Medail 20, Centro, Bardonecchia (TO)",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/55012534/",
+      "price": 115000,
+      "sqm": 35,
+      "rooms": 1,
+      "receivedAt": "2026-10-18T14:22:46.000Z",
+      "firstSeenAt": "2026-10-18T14:22:46.000Z",
+      "lastSeenAt": "2026-10-18T14:22:46.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 115000,
+          "capturedAt": "2026-10-18T14:22:46.000Z"
+        }
+      ],
+      "duplicateGroupId": "d23bfcf3bc",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "idealista-37195572",
+      "externalId": "37195572",
+      "title": "Monolocale in Via G. F. Medail, 20, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37195572/",
+      "price": 115000,
+      "sqm": 35,
+      "rooms": 1,
+      "receivedAt": "2026-10-18T14:19:33.000Z",
+      "firstSeenAt": "2026-10-18T14:19:33.000Z",
+      "lastSeenAt": "2026-10-18T14:19:33.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 115000,
+          "capturedAt": "2026-10-18T14:19:33.000Z"
+        }
+      ],
+      "duplicateGroupId": "d23bfcf3bc",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "immobiliare-133669392",
+      "externalId": "133669392",
+      "title": "Monolocale via Medail, 20, Centro, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/133669392/",
+      "price": 115000,
+      "sqm": 35,
+      "rooms": 1,
+      "receivedAt": "2026-10-18T10:39:41.000Z",
+      "firstSeenAt": "2026-10-18T10:39:41.000Z",
+      "lastSeenAt": "2026-10-18T10:39:41.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 115000,
+          "capturedAt": "2026-10-18T10:39:41.000Z"
+        }
+      ],
+      "duplicateGroupId": "d23bfcf3bc",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Idealista",
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "idealista-37192859",
+      "externalId": "37192859",
+      "title": "Quadrilocale in Via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37192859/",
+      "price": 109125,
+      "sqm": 90,
+      "rooms": 4,
+      "receivedAt": "2026-10-17T22:59:23.000Z",
+      "firstSeenAt": "2026-10-17T22:59:23.000Z",
+      "lastSeenAt": "2026-10-17T22:59:23.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109125,
+          "capturedAt": "2026-10-17T22:59:23.000Z"
+        }
+      ]
     }
   ],
   "refreshedAt": "2026-10-18T15:52:59.959Z",
@@ -15687,10 +15807,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-17T10:42:53.000Z",
-      "count": 7,
+      "checkedAt": "2026-10-18T14:22:46.000Z",
+      "count": 8,
       "unresolved": 0,
-      "message": "7 annunci importati o aggiornati da 3 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
+      "message": "8 annunci importati o aggiornati da 6 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
