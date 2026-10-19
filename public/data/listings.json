@@ -13787,7 +13787,7 @@
       "price": 109126,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-10-08T10:43:14.000Z",
+      "receivedAt": "2026-10-19T10:43:06.000Z",
       "firstSeenAt": "2026-10-08T10:43:14.000Z",
       "lastSeenAt": "2026-10-19T13:17:03.401Z",
       "status": "ACTIVE",
@@ -14572,7 +14572,7 @@
       "price": 168000,
       "sqm": 50,
       "rooms": 3,
-      "receivedAt": "2026-10-17T10:42:53.000Z",
+      "receivedAt": "2026-10-19T10:43:06.000Z",
       "firstSeenAt": "2026-10-17T10:42:53.000Z",
       "lastSeenAt": "2026-10-19T13:17:03.401Z",
       "status": "ACTIVE",
@@ -14599,7 +14599,7 @@
       "price": 115000,
       "sqm": 35,
       "rooms": 1,
-      "receivedAt": "2026-10-18T14:22:46.000Z",
+      "receivedAt": "2026-10-19T10:43:06.000Z",
       "firstSeenAt": "2026-10-18T14:22:46.000Z",
       "lastSeenAt": "2026-10-19T13:17:03.401Z",
       "status": "ACTIVE",
@@ -14629,7 +14629,7 @@
       "price": 115000,
       "sqm": 35,
       "rooms": 1,
-      "receivedAt": "2026-10-18T14:19:33.000Z",
+      "receivedAt": "2026-10-19T07:39:34.000Z",
       "firstSeenAt": "2026-10-18T14:19:33.000Z",
       "lastSeenAt": "2026-10-19T13:17:03.401Z",
       "status": "ACTIVE",
@@ -14689,7 +14689,7 @@
       "price": 109125,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-10-17T22:59:23.000Z",
+      "receivedAt": "2026-10-19T07:39:34.000Z",
       "firstSeenAt": "2026-10-17T22:59:23.000Z",
       "lastSeenAt": "2026-10-19T13:17:03.401Z",
       "status": "ACTIVE",
@@ -15790,6 +15790,48 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "immobiliare-133681370",
+      "externalId": "133681370",
+      "title": "Appartamento ottimo stato, quarto piano, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/133681370/",
+      "price": 198000,
+      "sqm": 47,
+      "rooms": 2,
+      "receivedAt": "2026-10-19T06:13:43.000Z",
+      "firstSeenAt": "2026-10-19T06:13:43.000Z",
+      "lastSeenAt": "2026-10-19T06:13:43.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 198000,
+          "capturedAt": "2026-10-19T06:13:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "idealista-37197796",
+      "externalId": "37197796",
+      "title": "Quadrilocale in Via la Rho, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37197796/",
+      "price": 109126,
+      "sqm": 90,
+      "rooms": 4,
+      "receivedAt": "2026-10-19T00:09:09.000Z",
+      "firstSeenAt": "2026-10-19T00:09:09.000Z",
+      "lastSeenAt": "2026-10-19T00:09:09.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 109126,
+          "capturedAt": "2026-10-19T00:09:09.000Z"
+        }
+      ]
     }
   ],
   "refreshedAt": "2026-10-19T13:17:03.401Z",
@@ -15828,10 +15870,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-18T14:22:46.000Z",
-      "count": 8,
+      "checkedAt": "2026-10-19T10:43:06.000Z",
+      "count": 7,
       "unresolved": 0,
-      "message": "8 annunci importati o aggiornati da 6 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
+      "message": "7 annunci importati o aggiornati da 4 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
