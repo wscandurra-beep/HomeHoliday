@@ -14710,7 +14710,7 @@
       "price": 109126,
       "sqm": 90,
       "rooms": 4,
-      "receivedAt": "2026-10-20T08:10:38.000Z",
+      "receivedAt": "2026-10-21T08:13:41.000Z",
       "firstSeenAt": "2026-10-19T00:09:09.000Z",
       "lastSeenAt": "2026-10-21T13:48:43.509Z",
       "status": "ACTIVE",
@@ -15832,6 +15832,27 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "idealista-34143072",
+      "externalId": "34143072",
+      "title": "Casa indipendente in Strada per Rochemolles, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/34143072/",
+      "price": 159000,
+      "sqm": 95,
+      "rooms": 4,
+      "receivedAt": "2026-10-21T08:13:41.000Z",
+      "firstSeenAt": "2026-10-21T08:13:41.000Z",
+      "lastSeenAt": "2026-10-21T08:13:41.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 159000,
+          "capturedAt": "2026-10-21T08:13:41.000Z"
+        }
+      ]
     }
   ],
   "refreshedAt": "2026-10-21T13:48:43.509Z",
@@ -15870,10 +15891,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-20T11:13:02.000Z",
-      "count": 6,
+      "checkedAt": "2026-10-21T11:06:38.000Z",
+      "count": 2,
       "unresolved": 0,
-      "message": "6 annunci importati o aggiornati da 2 alert Gmail; 0 esclusi o senza dati idonei; 0 non risolti"
+      "message": "2 annunci importati o aggiornati da 2 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

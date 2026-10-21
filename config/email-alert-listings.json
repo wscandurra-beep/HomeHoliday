@@ -5355,14 +5355,35 @@
     "price": 109126,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-20T08:10:38.000Z",
+    "receivedAt": "2026-10-21T08:13:41.000Z",
     "firstSeenAt": "2026-10-19T00:09:09.000Z",
-    "lastSeenAt": "2026-10-20T08:10:38.000Z",
+    "lastSeenAt": "2026-10-21T08:13:41.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109126,
         "capturedAt": "2026-10-19T00:09:09.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-34143072",
+    "externalId": "34143072",
+    "title": "Casa indipendente in Strada per Rochemolles, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/34143072/",
+    "price": 159000,
+    "sqm": 95,
+    "rooms": 4,
+    "receivedAt": "2026-10-21T08:13:41.000Z",
+    "firstSeenAt": "2026-10-21T08:13:41.000Z",
+    "lastSeenAt": "2026-10-21T08:13:41.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 159000,
+        "capturedAt": "2026-10-21T08:13:41.000Z"
       }
     ]
   }
