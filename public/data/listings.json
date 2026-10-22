@@ -3669,7 +3669,7 @@
       "floor": "2° piano",
       "status": "ACTIVE",
       "firstSeenAt": "2026-08-23T07:33:36.219Z",
-      "lastSeenAt": "2026-10-22T11:53:43.084Z",
+      "lastSeenAt": "2026-10-22T12:16:11.000Z",
       "priceHistory": [
         {
           "price": 149000,
@@ -3677,7 +3677,7 @@
         }
       ],
       "sqm": 72,
-      "receivedAt": "2026-09-08T11:00:46.000Z",
+      "receivedAt": "2026-10-22T12:16:11.000Z",
       "duplicateGroupId": "be802e6661",
       "duplicateSources": [
         "Casa.it",
@@ -13293,7 +13293,7 @@
       "price": 208000,
       "sqm": 59,
       "rooms": 2,
-      "receivedAt": "2026-10-07T10:21:16.000Z",
+      "receivedAt": "2026-10-22T08:08:46.000Z",
       "firstSeenAt": "2026-10-05T11:05:46.000Z",
       "lastSeenAt": "2026-10-22T11:53:43.084Z",
       "status": "ACTIVE",
@@ -15897,7 +15897,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-10-22T11:53:43.084Z",
+  "refreshedAt": "2026-10-22T12:16:11.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -15933,10 +15933,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-21T11:06:38.000Z",
+      "checkedAt": "2026-10-22T12:16:11.000Z",
       "count": 2,
       "unresolved": 0,
-      "message": "2 annunci importati o aggiornati da 2 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
+      "message": "2 annunci importati o aggiornati da 2 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

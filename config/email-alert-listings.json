@@ -9,9 +9,9 @@
     "price": 149000,
     "sqm": 72,
     "rooms": 3,
-    "receivedAt": "2026-09-08T11:00:46.000Z",
+    "receivedAt": "2026-10-22T12:16:11.000Z",
     "firstSeenAt": "2026-08-28T10:53:58.000Z",
-    "lastSeenAt": "2026-09-08T11:00:46.000Z",
+    "lastSeenAt": "2026-10-22T12:16:11.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -4154,9 +4154,9 @@
     "price": 208000,
     "sqm": 59,
     "rooms": 2,
-    "receivedAt": "2026-10-07T10:21:16.000Z",
+    "receivedAt": "2026-10-22T08:08:46.000Z",
     "firstSeenAt": "2026-10-05T11:05:46.000Z",
-    "lastSeenAt": "2026-10-07T10:21:16.000Z",
+    "lastSeenAt": "2026-10-22T08:08:46.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
