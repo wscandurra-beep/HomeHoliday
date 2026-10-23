@@ -1384,7 +1384,7 @@
     "externalId": "54490527",
     "firstSeenAt": "2026-09-10T11:11:24.000Z",
     "id": "casa-54490527",
-    "lastSeenAt": "2026-10-18T10:27:15.000Z",
+    "lastSeenAt": "2026-10-23T11:07:22.000Z",
     "location": "Bardonecchia",
     "price": 109125,
     "priceHistory": [
@@ -1393,7 +1393,7 @@
         "price": 109125
       }
     ],
-    "receivedAt": "2026-10-18T10:27:15.000Z",
+    "receivedAt": "2026-10-23T11:07:22.000Z",
     "rooms": 4,
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/54490527/",
@@ -5271,9 +5271,9 @@
     "price": 115000,
     "sqm": 35,
     "rooms": 1,
-    "receivedAt": "2026-10-19T07:39:34.000Z",
+    "receivedAt": "2026-10-23T08:05:22.000Z",
     "firstSeenAt": "2026-10-18T14:19:33.000Z",
-    "lastSeenAt": "2026-10-19T07:39:34.000Z",
+    "lastSeenAt": "2026-10-23T08:05:22.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5384,6 +5384,69 @@
       {
         "price": 159000,
         "capturedAt": "2026-10-21T08:13:41.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-115960111",
+    "externalId": "115960111",
+    "title": "Trilocale via Fontan 4/6, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/115960111/",
+    "price": 215000,
+    "sqm": 53,
+    "rooms": 3,
+    "receivedAt": "2026-10-23T10:18:11.000Z",
+    "firstSeenAt": "2026-10-23T10:18:11.000Z",
+    "lastSeenAt": "2026-10-23T10:18:11.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 215000,
+        "capturedAt": "2026-10-23T10:18:11.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37246406",
+    "externalId": "37246406",
+    "title": "Quadrilocale in Via la Rho, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37246406/",
+    "price": 109125,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-10-22T23:22:16.000Z",
+    "firstSeenAt": "2026-10-22T23:22:16.000Z",
+    "lastSeenAt": "2026-10-22T23:22:16.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109125,
+        "capturedAt": "2026-10-22T23:22:16.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-115492957",
+    "externalId": "115492957",
+    "title": "Bilocale via Pollicino 10, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/115492957/",
+    "price": 170000,
+    "sqm": 50,
+    "rooms": 2,
+    "receivedAt": "2026-10-22T18:15:14.000Z",
+    "firstSeenAt": "2026-10-22T18:15:14.000Z",
+    "lastSeenAt": "2026-10-22T18:15:14.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 170000,
+        "capturedAt": "2026-10-22T18:15:14.000Z"
       }
     ]
   }
