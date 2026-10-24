@@ -4595,9 +4595,9 @@
     "price": 109126,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-19T10:43:06.000Z",
+    "receivedAt": "2026-10-24T11:11:55.000Z",
     "firstSeenAt": "2026-10-08T10:43:14.000Z",
-    "lastSeenAt": "2026-10-19T10:43:06.000Z",
+    "lastSeenAt": "2026-10-24T11:11:55.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5418,10 +5418,10 @@
     "price": 109125,
     "sqm": 90,
     "rooms": 4,
-    "receivedAt": "2026-10-22T23:22:16.000Z",
+    "receivedAt": "2026-10-24T08:03:17.000Z",
     "firstSeenAt": "2026-10-22T23:22:16.000Z",
-    "lastSeenAt": "2026-10-22T23:22:16.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-24T08:03:17.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 109125,
@@ -5447,6 +5447,27 @@
       {
         "price": 170000,
         "capturedAt": "2026-10-22T18:15:14.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37258492",
+    "externalId": "37258492",
+    "title": "Quadrilocale in Via la Rho, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37258492/",
+    "price": 109126,
+    "sqm": 90,
+    "rooms": 4,
+    "receivedAt": "2026-10-24T00:17:31.000Z",
+    "firstSeenAt": "2026-10-24T00:17:31.000Z",
+    "lastSeenAt": "2026-10-24T00:17:31.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 109126,
+        "capturedAt": "2026-10-24T00:17:31.000Z"
       }
     ]
   }
