@@ -11,6 +11,7 @@ HomeHoliday is a personal property scouting and monitoring application that cons
 - Filter by rooms: 1, 2, 3, 4, 5+ or unavailable, in both cards and table
 - Room counts come from provider data, alert text or explicit property names (e.g. bilocale); bedrooms alone are not treated as total rooms
 - Selecting “Non interessante” or “Venduto” automatically moves the property to “Annunci nascosti”; “Ripristina” makes it visible again
+- Legacy annotations with either flag are cleaned up automatically when loaded locally or from the active Supabase workspace, preserving notes and flags. Explicit restores are retained on reload and across devices. Cloud cleanup updates only the visibility marker and skips rows changed concurrently.
 - Normalized listing model across providers
 - Price per square meter
 - Status tracking: `NEW`, `ACTIVE`, `UPDATED`, `REMOVED`, `BACK_ONLINE`
