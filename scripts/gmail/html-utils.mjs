@@ -1,3 +1,5 @@
+import { parseRooms } from '../../src/listingRooms.mjs';
+
 const NAMED_ENTITIES = {
   amp: '&', apos: "'", euro: '€', gt: '>', lt: '<', nbsp: ' ', quot: '"', sup2: '²'
 };
@@ -58,10 +60,9 @@ export function parseAttributes(block = '', options = {}) {
     .sort((a, b) => a.index - b.index);
   const priceCandidate = options.preferLatestPrice ? priceCandidates.at(-1) : priceCandidates[0];
   const sqmMatch = block.match(/(\d+(?:[.,]\d+)?)\s*m(?:²|2|q)(?=\s|[|<]|$)/i);
-  const roomsMatch = block.match(/(\d+)\s*(?:local[ei]\b|loc\.)/i);
   return {
     price: parseItalianNumber(priceCandidate?.value),
     sqm: parseItalianNumber(sqmMatch?.[1]),
-    rooms: roomsMatch ? Number(roomsMatch[1]) : undefined
+    rooms: parseRooms(block)
   };
 }

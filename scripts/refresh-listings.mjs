@@ -1,3 +1,4 @@
+import { listingRooms } from '../src/listingRooms.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fetchImmobiliareListings } from './connectors/immobiliare-insights.mjs';
@@ -84,6 +85,7 @@ function reconcile(previous, incoming, now, successfulSources) {
     next.push({
       ...old,
       ...item,
+      rooms: listingRooms(item) ?? listingRooms(old),
       status: wasRemoved ? 'BACK_ONLINE' : priceChanged ? 'UPDATED' : 'ACTIVE',
       firstSeenAt: old.firstSeenAt,
       lastSeenAt: now,
@@ -165,7 +167,7 @@ if (bootstrapImmobiliareCount && !providerStatus['immobiliare-public'] && !provi
   };
 }
 const reconciled = reconcile(store.listings ?? [], mergedIncoming, now, successfulSources);
-const listings = annotateDuplicateGroups(reconciled);
+const listings = annotateDuplicateGroups(reconciled.map(listing => ({ ...listing, rooms: listingRooms(listing) })));
 await fs.mkdir(dataDir, { recursive: true });
 await fs.writeFile(storePath, JSON.stringify({
   listings,

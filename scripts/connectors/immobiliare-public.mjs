@@ -1,3 +1,5 @@
+import { parseRooms } from '../../src/listingRooms.mjs';
+
 const DEFAULT_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (compatible; HomeHoliday/0.1; personal property tracker)',
   'Accept-Language': 'it-IT,it;q=0.9,en;q=0.8'
@@ -29,16 +31,6 @@ function parsePrice(text) {
 function parseSqm(text) {
   const match = text.match(/(\d{1,4})\s*m²/i);
   return match ? Number(match[1]) : undefined;
-}
-
-function parseRooms(title='') {
-  const t = title.toLowerCase();
-  if (t.includes('monolocale')) return 1;
-  if (t.includes('bilocale')) return 2;
-  if (t.includes('trilocale')) return 3;
-  if (t.includes('quadrilocale')) return 4;
-  const m = t.match(/(\d+)\s*locali/);
-  return m ? Number(m[1]) : undefined;
 }
 
 function extractTitle(text, location) {
