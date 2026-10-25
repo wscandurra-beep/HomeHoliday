@@ -5250,9 +5250,9 @@
     "price": 115000,
     "sqm": 35,
     "rooms": 1,
-    "receivedAt": "2026-10-19T10:43:06.000Z",
+    "receivedAt": "2026-10-25T11:28:38.000Z",
     "firstSeenAt": "2026-10-18T14:22:46.000Z",
-    "lastSeenAt": "2026-10-19T10:43:06.000Z",
+    "lastSeenAt": "2026-10-25T11:28:38.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5468,6 +5468,27 @@
       {
         "price": 109126,
         "capturedAt": "2026-10-24T00:17:31.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-36185154",
+    "externalId": "36185154",
+    "title": "Monolocale in Via Campo Principe, 27, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/36185154/",
+    "price": 59000,
+    "sqm": 40,
+    "rooms": 1,
+    "receivedAt": "2026-10-25T08:57:47.000Z",
+    "firstSeenAt": "2026-10-25T08:57:47.000Z",
+    "lastSeenAt": "2026-10-25T08:57:47.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 59000,
+        "capturedAt": "2026-10-25T08:57:47.000Z"
       }
     ]
   }
