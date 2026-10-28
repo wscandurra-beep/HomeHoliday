@@ -14586,7 +14586,7 @@
       "price": 115000,
       "sqm": 35,
       "rooms": 1,
-      "receivedAt": "2026-10-27T12:33:19.000Z",
+      "receivedAt": "2026-10-28T11:58:07.000Z",
       "firstSeenAt": "2026-10-18T14:22:46.000Z",
       "lastSeenAt": "2026-10-28T16:37:58.902Z",
       "status": "ACTIVE",
@@ -16058,10 +16058,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-27T12:33:19.000Z",
+      "checkedAt": "2026-10-28T11:58:07.000Z",
       "count": 1,
       "unresolved": 0,
-      "message": "1 annunci importati o aggiornati da 2 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
+      "message": "1 annunci importati o aggiornati da 3 alert Gmail; 5 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
