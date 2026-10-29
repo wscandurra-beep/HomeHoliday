@@ -3729,20 +3729,24 @@
     "source": "Immobiliare.it",
     "externalId": "132885072",
     "title": "Monolocale viale della Vittoria 21, Centro, Bardonecchia",
-    "price": 105000,
+    "price": 98000,
     "sqm": 43,
     "rooms": 1,
     "sourceUrl": "https://www.immobiliare.it/annunci/132885072/",
-    "receivedAt": "2026-09-27T04:06:35.000Z",
+    "receivedAt": "2026-10-28T17:00:02.000Z",
     "id": "immobiliare-132885072",
     "location": "Bardonecchia",
     "firstSeenAt": "2026-09-27T04:06:35.000Z",
-    "lastSeenAt": "2026-09-27T04:06:35.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-28T17:00:02.000Z",
+    "status": "UPDATED",
     "priceHistory": [
       {
         "price": 105000,
         "capturedAt": "2026-09-27T04:06:35.000Z"
+      },
+      {
+        "price": 98000,
+        "capturedAt": "2026-10-28T17:00:02.000Z"
       }
     ]
   },
