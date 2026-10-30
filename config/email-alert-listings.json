@@ -462,9 +462,9 @@
     "price": 190000,
     "sqm": 45,
     "rooms": 2,
-    "receivedAt": "2026-09-28T10:52:30.000Z",
+    "receivedAt": "2026-10-30T11:55:38.000Z",
     "firstSeenAt": "2026-09-02T11:29:48.000Z",
-    "lastSeenAt": "2026-09-28T10:52:30.000Z",
+    "lastSeenAt": "2026-10-30T11:55:38.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -4869,17 +4869,21 @@
     "location": "Bardonecchia",
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/34717162/",
-    "price": 68000,
-    "sqm": 33,
+    "price": 62000,
+    "sqm": 20,
     "rooms": 1,
-    "receivedAt": "2026-10-12T07:37:06.000Z",
+    "receivedAt": "2026-10-30T06:52:15.000Z",
     "firstSeenAt": "2026-10-12T07:37:06.000Z",
-    "lastSeenAt": "2026-10-12T07:37:06.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-30T06:52:15.000Z",
+    "status": "UPDATED",
     "priceHistory": [
       {
         "price": 68000,
         "capturedAt": "2026-10-12T07:37:06.000Z"
+      },
+      {
+        "price": 62000,
+        "capturedAt": "2026-10-30T06:52:15.000Z"
       }
     ]
   },
@@ -5493,6 +5497,90 @@
       {
         "price": 59000,
         "capturedAt": "2026-10-25T08:57:47.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Casa.it",
+    "externalId": "55104318",
+    "title": "Appartamento in vendita in Via Pietro Micca 7, Centro, Bardonecchia (TO)",
+    "price": 249000,
+    "sqm": 72,
+    "rooms": 3,
+    "sourceUrl": "https://www.casa.it/immobili/55104318/",
+    "receivedAt": "2026-10-30T11:55:38.000Z",
+    "id": "casa-55104318",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-10-30T11:55:38.000Z",
+    "lastSeenAt": "2026-10-30T11:55:38.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 249000,
+        "capturedAt": "2026-10-30T11:55:38.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Casa.it",
+    "externalId": "53202962",
+    "title": "Appartamento in vendita in Via G. F. Medail 20, Centro, Bardonecchia (TO)",
+    "price": 67000,
+    "sqm": 20,
+    "rooms": 1,
+    "sourceUrl": "https://www.casa.it/immobili/53202962/",
+    "receivedAt": "2026-10-30T11:55:38.000Z",
+    "id": "casa-53202962",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-10-30T11:55:38.000Z",
+    "lastSeenAt": "2026-10-30T11:55:38.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 67000,
+        "capturedAt": "2026-10-30T11:55:38.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Idealista",
+    "externalId": "37314209",
+    "title": "Trilocale in Via Pietro Micca, 7, Bardonecchia",
+    "price": 249000,
+    "sqm": 72,
+    "rooms": 3,
+    "sourceUrl": "https://www.idealista.it/immobile/37314209/",
+    "receivedAt": "2026-10-30T00:06:26.000Z",
+    "id": "idealista-37314209",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-10-30T00:06:26.000Z",
+    "lastSeenAt": "2026-10-30T00:06:26.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 249000,
+        "capturedAt": "2026-10-30T00:06:26.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Immobiliare.it",
+    "externalId": "134130327",
+    "title": "Trilocale via Pietro Micca 7, Centro, Bardonecchia",
+    "price": 249000,
+    "sqm": 72,
+    "rooms": 3,
+    "sourceUrl": "https://www.immobiliare.it/annunci/134130327/",
+    "receivedAt": "2026-10-29T15:37:36.000Z",
+    "id": "immobiliare-134130327",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-10-29T15:37:36.000Z",
+    "lastSeenAt": "2026-10-29T15:37:36.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 249000,
+        "capturedAt": "2026-10-29T15:37:36.000Z"
       }
     ]
   }
