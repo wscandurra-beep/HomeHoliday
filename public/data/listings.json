@@ -2613,7 +2613,7 @@
         }
       ],
       "sqm": 45,
-      "receivedAt": "2026-10-30T11:55:38.000Z",
+      "receivedAt": "2026-10-31T11:32:56.000Z",
       "duplicateGroupId": "20d036d86a",
       "duplicateSources": [
         "Casa.it",
@@ -3075,7 +3075,7 @@
         }
       ],
       "sqm": 20,
-      "receivedAt": "2026-10-30T11:55:38.000Z",
+      "receivedAt": "2026-10-31T11:32:56.000Z",
       "duplicateGroupId": "1539835d4d",
       "duplicateSources": [
         "Casa.it",
@@ -14868,7 +14868,7 @@
       "sqm": 72,
       "rooms": 3,
       "sourceUrl": "https://www.idealista.it/immobile/37314209/",
-      "receivedAt": "2026-10-30T00:06:26.000Z",
+      "receivedAt": "2026-10-31T09:21:41.000Z",
       "id": "idealista-37314209",
       "location": "Bardonecchia",
       "firstSeenAt": "2026-10-30T00:06:26.000Z",
@@ -16152,10 +16152,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-30T11:55:38.000Z",
-      "count": 6,
+      "checkedAt": "2026-10-31T11:32:56.000Z",
+      "count": 3,
       "unresolved": 0,
-      "message": "6 annunci importati o aggiornati da 4 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
+      "message": "3 annunci importati o aggiornati da 2 alert Gmail; 4 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

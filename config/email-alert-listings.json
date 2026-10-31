@@ -462,9 +462,9 @@
     "price": 190000,
     "sqm": 45,
     "rooms": 2,
-    "receivedAt": "2026-10-30T11:55:38.000Z",
+    "receivedAt": "2026-10-31T11:32:56.000Z",
     "firstSeenAt": "2026-09-02T11:29:48.000Z",
-    "lastSeenAt": "2026-10-30T11:55:38.000Z",
+    "lastSeenAt": "2026-10-31T11:32:56.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5529,12 +5529,12 @@
     "sqm": 20,
     "rooms": 1,
     "sourceUrl": "https://www.casa.it/immobili/53202962/",
-    "receivedAt": "2026-10-30T11:55:38.000Z",
+    "receivedAt": "2026-10-31T11:32:56.000Z",
     "id": "casa-53202962",
     "location": "Bardonecchia",
     "firstSeenAt": "2026-10-30T11:55:38.000Z",
-    "lastSeenAt": "2026-10-30T11:55:38.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-31T11:32:56.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 67000,
@@ -5550,12 +5550,12 @@
     "sqm": 72,
     "rooms": 3,
     "sourceUrl": "https://www.idealista.it/immobile/37314209/",
-    "receivedAt": "2026-10-30T00:06:26.000Z",
+    "receivedAt": "2026-10-31T09:21:41.000Z",
     "id": "idealista-37314209",
     "location": "Bardonecchia",
     "firstSeenAt": "2026-10-30T00:06:26.000Z",
-    "lastSeenAt": "2026-10-30T00:06:26.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-10-31T09:21:41.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 249000,
