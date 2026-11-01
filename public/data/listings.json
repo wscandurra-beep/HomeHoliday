@@ -2918,7 +2918,7 @@
       "lastSeenAt": "2026-11-01T13:25:23.581Z",
       "bathrooms": 1,
       "floor": "1° piano",
-      "receivedAt": "2026-09-28T10:52:30.000Z",
+      "receivedAt": "2026-11-01T11:02:49.000Z",
       "duplicateGroupId": "a64e1f8b4c",
       "duplicateSources": [
         "Casa.it",
@@ -8455,7 +8455,7 @@
       "price": 190000,
       "sqm": 52,
       "rooms": 2,
-      "receivedAt": "2026-08-31T10:58:54.000Z",
+      "receivedAt": "2026-11-01T08:50:19.000Z",
       "firstSeenAt": "2026-08-31T10:58:54.000Z",
       "lastSeenAt": "2026-11-01T13:25:23.581Z",
       "status": "ACTIVE",
@@ -15913,19 +15913,20 @@
       "price": 230000,
       "publishedAt": "2026-08-24T12:24:56.000Z",
       "firstSeenAt": "2026-08-24T12:24:56.000Z",
-      "lastSeenAt": "2026-08-24T12:24:56.000Z",
+      "lastSeenAt": "2026-11-01T08:50:19.000Z",
       "sellerType": "Agenzia",
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/36372946/",
       "sqm": 70,
       "rooms": 3,
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 230000,
           "capturedAt": "2026-08-24T12:24:56.000Z"
         }
-      ]
+      ],
+      "receivedAt": "2026-11-01T08:50:19.000Z"
     },
     {
       "id": "immobiliare-131901276",
@@ -16010,24 +16011,25 @@
     {
       "id": "idealista-34368311",
       "externalId": "34368311",
-      "title": "Bilocale in Via Amprimo, 1, Bardonecchia",
+      "title": "Trilocale in Via Amprimo, 1, Bardonecchia",
       "price": 12000,
       "sqm": 13,
-      "rooms": 2,
+      "rooms": 3,
       "location": "Bardonecchia",
       "publishedAt": "2026-08-25T09:30:20.000Z",
       "firstSeenAt": "2026-08-25T09:30:20.000Z",
-      "lastSeenAt": "2026-08-25T09:30:20.000Z",
+      "lastSeenAt": "2026-11-01T08:50:19.000Z",
       "sellerType": "Agenzia",
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/34368311/",
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 12000,
           "capturedAt": "2026-08-25T09:30:20.000Z"
         }
       ],
+      "receivedAt": "2026-11-01T08:50:19.000Z",
       "duplicateGroupId": "020723b062",
       "duplicateSources": [
         "Casa.it",
@@ -16152,10 +16154,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-10-31T11:32:56.000Z",
-      "count": 3,
+      "checkedAt": "2026-11-01T11:02:49.000Z",
+      "count": 4,
       "unresolved": 0,
-      "message": "3 annunci importati o aggiornati da 2 alert Gmail; 4 esclusi o senza dati idonei; 0 non risolti"
+      "message": "4 annunci importati o aggiornati da 2 alert Gmail; 1 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

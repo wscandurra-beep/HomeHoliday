@@ -114,10 +114,10 @@
     "price": 190000,
     "sqm": 52,
     "rooms": 2,
-    "receivedAt": "2026-08-31T10:58:54.000Z",
+    "receivedAt": "2026-11-01T08:50:19.000Z",
     "firstSeenAt": "2026-08-31T10:58:54.000Z",
-    "lastSeenAt": "2026-08-31T10:58:54.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-01T08:50:19.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 190000,
@@ -588,9 +588,9 @@
     "price": 160000,
     "sqm": 51,
     "rooms": 2,
-    "receivedAt": "2026-09-28T10:52:30.000Z",
+    "receivedAt": "2026-11-01T11:02:49.000Z",
     "firstSeenAt": "2026-09-03T10:56:09.000Z",
-    "lastSeenAt": "2026-09-28T10:52:30.000Z",
+    "lastSeenAt": "2026-11-01T11:02:49.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5581,6 +5581,48 @@
       {
         "price": 249000,
         "capturedAt": "2026-10-29T15:37:36.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Idealista",
+    "externalId": "34368311",
+    "title": "Trilocale in Via Amprimo, 1, Bardonecchia",
+    "price": 12000,
+    "sqm": 13,
+    "rooms": 3,
+    "sourceUrl": "https://www.idealista.it/immobile/34368311/",
+    "receivedAt": "2026-11-01T08:50:19.000Z",
+    "id": "idealista-34368311",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-11-01T08:50:19.000Z",
+    "lastSeenAt": "2026-11-01T08:50:19.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 12000,
+        "capturedAt": "2026-11-01T08:50:19.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Idealista",
+    "externalId": "36372946",
+    "title": "Trilocale a Bardonecchia",
+    "price": 230000,
+    "sqm": 70,
+    "rooms": 3,
+    "sourceUrl": "https://www.idealista.it/immobile/36372946/",
+    "receivedAt": "2026-11-01T08:50:19.000Z",
+    "id": "idealista-36372946",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-11-01T08:50:19.000Z",
+    "lastSeenAt": "2026-11-01T08:50:19.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 230000,
+        "capturedAt": "2026-11-01T08:50:19.000Z"
       }
     ]
   }
