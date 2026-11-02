@@ -2918,7 +2918,7 @@
       "lastSeenAt": "2026-11-02T15:54:37.961Z",
       "bathrooms": 1,
       "floor": "1° piano",
-      "receivedAt": "2026-11-01T11:02:49.000Z",
+      "receivedAt": "2026-11-02T11:38:20.000Z",
       "duplicateGroupId": "a64e1f8b4c",
       "duplicateSources": [
         "Casa.it",
@@ -14868,7 +14868,7 @@
       "sqm": 72,
       "rooms": 3,
       "sourceUrl": "https://www.idealista.it/immobile/37314209/",
-      "receivedAt": "2026-10-31T09:21:41.000Z",
+      "receivedAt": "2026-11-02T08:43:31.000Z",
       "id": "idealista-37314209",
       "location": "Bardonecchia",
       "firstSeenAt": "2026-10-30T00:06:26.000Z",
@@ -15991,17 +15991,18 @@
       "location": "Bardonecchia",
       "publishedAt": "2026-08-25T09:30:20.000Z",
       "firstSeenAt": "2026-08-25T09:30:20.000Z",
-      "lastSeenAt": "2026-08-25T09:30:20.000Z",
+      "lastSeenAt": "2026-11-02T08:43:31.000Z",
       "sellerType": "Agenzia",
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/35116183/",
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 159000,
           "capturedAt": "2026-08-25T09:30:20.000Z"
         }
       ],
+      "receivedAt": "2026-11-02T08:43:31.000Z",
       "duplicateGroupId": "a591bfeeec",
       "duplicateSources": [
         "Casa.it",
@@ -16012,24 +16013,25 @@
     {
       "id": "idealista-33797111",
       "externalId": "33797111",
-      "title": "Bilocale in Via Amprimo, 1, Bardonecchia",
+      "title": "Trilocale in Via Amprimo, 1, Bardonecchia",
       "price": 12000,
       "sqm": 13,
-      "rooms": 2,
+      "rooms": 3,
       "location": "Bardonecchia",
       "publishedAt": "2026-08-25T09:30:20.000Z",
       "firstSeenAt": "2026-08-25T09:30:20.000Z",
-      "lastSeenAt": "2026-08-25T09:30:20.000Z",
+      "lastSeenAt": "2026-11-02T08:43:31.000Z",
       "sellerType": "Agenzia",
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/33797111/",
-      "status": "NEW",
+      "status": "ACTIVE",
       "priceHistory": [
         {
           "price": 12000,
           "capturedAt": "2026-08-25T09:30:20.000Z"
         }
       ],
+      "receivedAt": "2026-11-02T08:43:31.000Z",
       "duplicateGroupId": "020723b062",
       "duplicateSources": [
         "Casa.it",
@@ -16116,6 +16118,58 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "source": "Casa.it",
+      "externalId": "55119383",
+      "title": "Appartamento in vendita in Via Susa 13, Centro, Bardonecchia (TO)",
+      "price": 80000,
+      "sqm": 45,
+      "rooms": 2,
+      "sourceUrl": "https://www.casa.it/immobili/55119383/",
+      "receivedAt": "2026-11-02T10:28:34.000Z",
+      "id": "casa-55119383",
+      "location": "Bardonecchia",
+      "firstSeenAt": "2026-11-02T10:28:34.000Z",
+      "lastSeenAt": "2026-11-02T10:28:34.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 80000,
+          "capturedAt": "2026-11-02T10:28:34.000Z"
+        }
+      ],
+      "duplicateGroupId": "722ab61918",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "source": "Idealista",
+      "externalId": "34399832",
+      "title": "Bilocale in Via Susa, 13, Bardonecchia",
+      "price": 80000,
+      "sqm": 45,
+      "rooms": 2,
+      "sourceUrl": "https://www.idealista.it/immobile/34399832/",
+      "receivedAt": "2026-11-02T10:25:00.000Z",
+      "id": "idealista-34399832",
+      "location": "Bardonecchia",
+      "firstSeenAt": "2026-11-02T10:25:00.000Z",
+      "lastSeenAt": "2026-11-02T10:25:00.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 80000,
+          "capturedAt": "2026-11-02T10:25:00.000Z"
+        }
+      ],
+      "duplicateGroupId": "722ab61918",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
     }
   ],
   "refreshedAt": "2026-11-02T15:54:37.961Z",
@@ -16154,10 +16208,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-11-01T11:02:49.000Z",
-      "count": 4,
+      "checkedAt": "2026-11-02T11:38:20.000Z",
+      "count": 6,
       "unresolved": 0,
-      "message": "4 annunci importati o aggiornati da 2 alert Gmail; 1 esclusi o senza dati idonei; 0 non risolti"
+      "message": "6 annunci importati o aggiornati da 4 alert Gmail; 1 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

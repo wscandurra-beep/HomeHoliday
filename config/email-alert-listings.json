@@ -588,9 +588,9 @@
     "price": 160000,
     "sqm": 51,
     "rooms": 2,
-    "receivedAt": "2026-11-01T11:02:49.000Z",
+    "receivedAt": "2026-11-02T11:38:20.000Z",
     "firstSeenAt": "2026-09-03T10:56:09.000Z",
-    "lastSeenAt": "2026-11-01T11:02:49.000Z",
+    "lastSeenAt": "2026-11-02T11:38:20.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5550,11 +5550,11 @@
     "sqm": 72,
     "rooms": 3,
     "sourceUrl": "https://www.idealista.it/immobile/37314209/",
-    "receivedAt": "2026-10-31T09:21:41.000Z",
+    "receivedAt": "2026-11-02T08:43:31.000Z",
     "id": "idealista-37314209",
     "location": "Bardonecchia",
     "firstSeenAt": "2026-10-30T00:06:26.000Z",
-    "lastSeenAt": "2026-10-31T09:21:41.000Z",
+    "lastSeenAt": "2026-11-02T08:43:31.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5623,6 +5623,90 @@
       {
         "price": 230000,
         "capturedAt": "2026-11-01T08:50:19.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Casa.it",
+    "externalId": "55119383",
+    "title": "Appartamento in vendita in Via Susa 13, Centro, Bardonecchia (TO)",
+    "price": 80000,
+    "sqm": 45,
+    "rooms": 2,
+    "sourceUrl": "https://www.casa.it/immobili/55119383/",
+    "receivedAt": "2026-11-02T10:28:34.000Z",
+    "id": "casa-55119383",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-11-02T10:28:34.000Z",
+    "lastSeenAt": "2026-11-02T10:28:34.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 80000,
+        "capturedAt": "2026-11-02T10:28:34.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Idealista",
+    "externalId": "34399832",
+    "title": "Bilocale in Via Susa, 13, Bardonecchia",
+    "price": 80000,
+    "sqm": 45,
+    "rooms": 2,
+    "sourceUrl": "https://www.idealista.it/immobile/34399832/",
+    "receivedAt": "2026-11-02T10:25:00.000Z",
+    "id": "idealista-34399832",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-11-02T10:25:00.000Z",
+    "lastSeenAt": "2026-11-02T10:25:00.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 80000,
+        "capturedAt": "2026-11-02T10:25:00.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Idealista",
+    "externalId": "35116183",
+    "title": "Bilocale in Via G. F. Medail, 98, Bardonecchia",
+    "price": 159000,
+    "sqm": 54,
+    "rooms": 2,
+    "sourceUrl": "https://www.idealista.it/immobile/35116183/",
+    "receivedAt": "2026-11-02T08:43:31.000Z",
+    "id": "idealista-35116183",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-11-02T08:43:31.000Z",
+    "lastSeenAt": "2026-11-02T08:43:31.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 159000,
+        "capturedAt": "2026-11-02T08:43:31.000Z"
+      }
+    ]
+  },
+  {
+    "source": "Idealista",
+    "externalId": "33797111",
+    "title": "Trilocale in Via Amprimo, 1, Bardonecchia",
+    "price": 12000,
+    "sqm": 13,
+    "rooms": 3,
+    "sourceUrl": "https://www.idealista.it/immobile/33797111/",
+    "receivedAt": "2026-11-02T08:43:31.000Z",
+    "id": "idealista-33797111",
+    "location": "Bardonecchia",
+    "firstSeenAt": "2026-11-02T08:43:31.000Z",
+    "lastSeenAt": "2026-11-02T08:43:31.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 12000,
+        "capturedAt": "2026-11-02T08:43:31.000Z"
       }
     ]
   }
