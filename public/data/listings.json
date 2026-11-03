@@ -3712,23 +3712,28 @@
       "externalId": "50230708",
       "title": "Bilocale in Vendita in Via Pollicino 10 a Bardonecchia",
       "location": "Bardonecchia",
-      "price": 180000,
+      "price": 170000,
       "sellerType": "Agenzia",
       "source": "Casa.it",
       "sourceUrl": "https://www.casa.it/immobili/50230708/",
       "sqm": 50,
       "rooms": 2,
-      "status": "ACTIVE",
+      "status": "UPDATED",
       "priceHistory": [
         {
           "price": 180000,
           "capturedAt": "2026-08-22T14:03:52.603Z"
+        },
+        {
+          "price": 170000,
+          "capturedAt": "2026-11-03T12:03:32.000Z"
         }
       ],
       "firstSeenAt": "2026-08-22T14:03:52.603Z",
       "lastSeenAt": "2026-11-03T16:15:31.675Z",
       "bathrooms": 1,
       "floor": "1° piano",
+      "receivedAt": "2026-11-03T12:03:32.000Z",
       "duplicateGroupId": "2e7eabd907",
       "duplicateSources": [
         "Casa.it",
@@ -13531,17 +13536,21 @@
       "location": "Bardonecchia",
       "source": "Idealista",
       "sourceUrl": "https://www.idealista.it/immobile/31210297/",
-      "price": 180000,
+      "price": 170000,
       "sqm": 50,
       "rooms": 2,
-      "receivedAt": "2026-10-07T10:21:16.000Z",
+      "receivedAt": "2026-11-02T18:05:16.000Z",
       "firstSeenAt": "2026-10-07T10:21:16.000Z",
       "lastSeenAt": "2026-11-03T16:15:31.675Z",
-      "status": "ACTIVE",
+      "status": "UPDATED",
       "priceHistory": [
         {
           "price": 180000,
           "capturedAt": "2026-10-07T10:21:16.000Z"
+        },
+        {
+          "price": 170000,
+          "capturedAt": "2026-11-02T18:05:16.000Z"
         }
       ],
       "duplicateGroupId": "2e7eabd907",
@@ -16191,6 +16200,191 @@
         "Casa.it",
         "Idealista"
       ]
+    },
+    {
+      "id": "casa-55125457",
+      "externalId": "55125457",
+      "title": "Appartamento in vendita, Centro, Bardonecchia (TO)",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/55125457/",
+      "price": 105000,
+      "sqm": 40,
+      "rooms": 2,
+      "receivedAt": "2026-11-03T12:03:32.000Z",
+      "firstSeenAt": "2026-11-02T21:32:27.000Z",
+      "lastSeenAt": "2026-11-03T12:03:32.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 105000,
+          "capturedAt": "2026-11-03T12:03:32.000Z"
+        }
+      ],
+      "duplicateGroupId": "d9c8196f94",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "casa-55124692",
+      "externalId": "55124692",
+      "title": "Appartamento in vendita in Via Einaudi 35, Centro, Bardonecchia (TO)",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/55124692/",
+      "price": 165000,
+      "sqm": 45,
+      "rooms": 1,
+      "receivedAt": "2026-11-03T12:03:32.000Z",
+      "firstSeenAt": "2026-11-02T18:50:26.000Z",
+      "lastSeenAt": "2026-11-03T12:03:32.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-11-03T12:03:32.000Z"
+        }
+      ],
+      "duplicateGroupId": "1f38acf306",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "casa-55124439",
+      "externalId": "55124439",
+      "title": "Appartamento in vendita in Via Pollicino 10, Centro, Bardonecchia (TO)",
+      "location": "Bardonecchia",
+      "source": "Casa.it",
+      "sourceUrl": "https://www.casa.it/immobili/55124439/",
+      "price": 230000,
+      "sqm": 60,
+      "rooms": 2,
+      "receivedAt": "2026-11-03T12:03:32.000Z",
+      "firstSeenAt": "2026-11-02T18:28:14.000Z",
+      "lastSeenAt": "2026-11-03T12:03:32.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 230000,
+          "capturedAt": "2026-11-03T12:03:32.000Z"
+        }
+      ],
+      "duplicateGroupId": "1656e9f254",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-37345386",
+      "externalId": "37345386",
+      "title": "Bilocale a Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37345386/",
+      "price": 105000,
+      "sqm": 40,
+      "rooms": 2,
+      "receivedAt": "2026-11-03T09:12:49.000Z",
+      "firstSeenAt": "2026-11-02T21:30:38.000Z",
+      "lastSeenAt": "2026-11-03T09:12:49.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 105000,
+          "capturedAt": "2026-11-03T09:12:49.000Z"
+        }
+      ],
+      "duplicateGroupId": "d9c8196f94",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
+      ]
+    },
+    {
+      "id": "idealista-37344422",
+      "externalId": "37344422",
+      "title": "Monolocale in Via Einaudi, 35, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/37344422/",
+      "price": 165000,
+      "sqm": 45,
+      "rooms": 1,
+      "receivedAt": "2026-11-03T09:12:49.000Z",
+      "firstSeenAt": "2026-11-02T18:36:41.000Z",
+      "lastSeenAt": "2026-11-03T09:12:49.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 165000,
+          "capturedAt": "2026-11-03T09:12:49.000Z"
+        }
+      ],
+      "duplicateGroupId": "1f38acf306",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "idealista-27827567",
+      "externalId": "27827567",
+      "title": "Bilocale in Via Pollicino, 10, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Idealista",
+      "sourceUrl": "https://www.idealista.it/immobile/27827567/",
+      "price": 230000,
+      "sqm": 60,
+      "rooms": 2,
+      "receivedAt": "2026-11-03T09:12:49.000Z",
+      "firstSeenAt": "2026-11-02T18:12:22.000Z",
+      "lastSeenAt": "2026-11-03T09:12:49.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 230000,
+          "capturedAt": "2026-11-03T09:12:49.000Z"
+        }
+      ],
+      "duplicateGroupId": "1656e9f254",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista"
+      ]
+    },
+    {
+      "id": "immobiliare-134354543",
+      "externalId": "134354543",
+      "title": "Appartamento da ristrutturare, secondo piano, Bardonecchia",
+      "location": "Bardonecchia",
+      "source": "Immobiliare.it",
+      "sourceUrl": "https://www.immobiliare.it/annunci/134354543/",
+      "price": 105000,
+      "sqm": 40,
+      "rooms": 2,
+      "receivedAt": "2026-11-02T21:14:35.000Z",
+      "firstSeenAt": "2026-11-02T21:14:35.000Z",
+      "lastSeenAt": "2026-11-02T21:14:35.000Z",
+      "status": "NEW",
+      "priceHistory": [
+        {
+          "price": 105000,
+          "capturedAt": "2026-11-02T21:14:35.000Z"
+        }
+      ],
+      "duplicateGroupId": "d9c8196f94",
+      "duplicateSources": [
+        "Casa.it",
+        "Idealista",
+        "Immobiliare.it"
+      ]
     }
   ],
   "refreshedAt": "2026-11-03T16:15:31.675Z",
@@ -16229,10 +16423,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-11-02T11:38:20.000Z",
-      "count": 6,
+      "checkedAt": "2026-11-03T12:03:32.000Z",
+      "count": 9,
       "unresolved": 0,
-      "message": "6 annunci importati o aggiornati da 4 alert Gmail; 1 esclusi o senza dati idonei; 0 non risolti"
+      "message": "9 annunci importati o aggiornati da 10 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
