@@ -15167,7 +15167,7 @@
       "price": 105000,
       "sqm": 40,
       "rooms": 2,
-      "receivedAt": "2026-11-03T09:12:49.000Z",
+      "receivedAt": "2026-11-05T09:11:46.000Z",
       "firstSeenAt": "2026-11-02T21:30:38.000Z",
       "lastSeenAt": "2026-11-05T09:29:50.171Z",
       "status": "ACTIVE",
@@ -15194,7 +15194,7 @@
       "price": 165000,
       "sqm": 45,
       "rooms": 1,
-      "receivedAt": "2026-11-03T09:12:49.000Z",
+      "receivedAt": "2026-11-05T09:11:46.000Z",
       "firstSeenAt": "2026-11-02T18:36:41.000Z",
       "lastSeenAt": "2026-11-05T09:29:50.171Z",
       "status": "ACTIVE",
@@ -15220,7 +15220,7 @@
       "price": 230000,
       "sqm": 60,
       "rooms": 2,
-      "receivedAt": "2026-11-03T09:12:49.000Z",
+      "receivedAt": "2026-11-05T09:11:46.000Z",
       "firstSeenAt": "2026-11-02T18:12:22.000Z",
       "lastSeenAt": "2026-11-05T09:29:50.171Z",
       "status": "ACTIVE",
@@ -16399,7 +16399,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-11-05T09:29:50.171Z",
+  "refreshedAt": "2026-11-05T12:01:45.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -16435,10 +16435,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-11-04T11:56:25.000Z",
+      "checkedAt": "2026-11-05T12:01:45.000Z",
       "count": 3,
       "unresolved": 0,
-      "message": "3 annunci importati o aggiornati da 4 alert Gmail; 4 esclusi o senza dati idonei; 0 non risolti"
+      "message": "3 annunci importati o aggiornati da 2 alert Gmail; 1 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

@@ -5820,10 +5820,10 @@
     "price": 105000,
     "sqm": 40,
     "rooms": 2,
-    "receivedAt": "2026-11-03T09:12:49.000Z",
+    "receivedAt": "2026-11-05T09:11:46.000Z",
     "firstSeenAt": "2026-11-02T21:30:38.000Z",
-    "lastSeenAt": "2026-11-03T09:12:49.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-05T09:11:46.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 105000,
@@ -5841,10 +5841,10 @@
     "price": 165000,
     "sqm": 45,
     "rooms": 1,
-    "receivedAt": "2026-11-03T09:12:49.000Z",
+    "receivedAt": "2026-11-05T09:11:46.000Z",
     "firstSeenAt": "2026-11-02T18:36:41.000Z",
-    "lastSeenAt": "2026-11-03T09:12:49.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-05T09:11:46.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 165000,
@@ -5862,10 +5862,10 @@
     "price": 230000,
     "sqm": 60,
     "rooms": 2,
-    "receivedAt": "2026-11-03T09:12:49.000Z",
+    "receivedAt": "2026-11-05T09:11:46.000Z",
     "firstSeenAt": "2026-11-02T18:12:22.000Z",
-    "lastSeenAt": "2026-11-03T09:12:49.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-05T09:11:46.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 230000,
