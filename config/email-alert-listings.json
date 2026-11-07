@@ -4170,9 +4170,9 @@
     "price": 208000,
     "sqm": 59,
     "rooms": 2,
-    "receivedAt": "2026-10-22T08:08:46.000Z",
+    "receivedAt": "2026-11-07T09:01:59.000Z",
     "firstSeenAt": "2026-10-05T11:05:46.000Z",
-    "lastSeenAt": "2026-10-22T08:08:46.000Z",
+    "lastSeenAt": "2026-11-07T09:01:59.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5912,6 +5912,48 @@
       {
         "price": 109125,
         "capturedAt": "2026-11-06T14:25:27.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37181706",
+    "externalId": "37181706",
+    "title": "Baita/chalet in prerichard s.n.c, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37181706/",
+    "price": 190000,
+    "sqm": 650,
+    "rooms": 8,
+    "receivedAt": "2026-11-07T09:17:05.000Z",
+    "firstSeenAt": "2026-11-07T09:17:05.000Z",
+    "lastSeenAt": "2026-11-07T09:17:05.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 190000,
+        "capturedAt": "2026-11-07T09:17:05.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-55167018",
+    "externalId": "55167018",
+    "title": "Baita/Bungalow/Chalet/Trullo in vendita in prerichard, Millaures, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/55167018/",
+    "price": 190000,
+    "sqm": 650,
+    "rooms": 8,
+    "receivedAt": "2026-11-07T11:17:22.000Z",
+    "firstSeenAt": "2026-11-07T09:19:26.000Z",
+    "lastSeenAt": "2026-11-07T11:17:22.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 190000,
+        "capturedAt": "2026-11-07T09:19:26.000Z"
       }
     ]
   }
