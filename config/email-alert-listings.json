@@ -5925,10 +5925,10 @@
     "price": 190000,
     "sqm": 650,
     "rooms": 8,
-    "receivedAt": "2026-11-07T09:17:05.000Z",
+    "receivedAt": "2026-11-08T08:43:44.000Z",
     "firstSeenAt": "2026-11-07T09:17:05.000Z",
-    "lastSeenAt": "2026-11-07T09:17:05.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-08T08:43:44.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 190000,
