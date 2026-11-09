@@ -5956,5 +5956,68 @@
         "capturedAt": "2026-11-07T09:19:26.000Z"
       }
     ]
+  },
+  {
+    "id": "casa-55171722",
+    "externalId": "55171722",
+    "title": "Appartamento in vendita Les Arnauds, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/55171722/",
+    "price": 190000,
+    "sqm": 57,
+    "rooms": 3,
+    "receivedAt": "2026-11-09T11:03:35.000Z",
+    "firstSeenAt": "2026-11-09T09:01:10.000Z",
+    "lastSeenAt": "2026-11-09T11:03:35.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 190000,
+        "capturedAt": "2026-11-09T09:01:10.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-55171721",
+    "externalId": "55171721",
+    "title": "Appartamento in vendita Centro, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/55171721/",
+    "price": 198000,
+    "sqm": 47,
+    "rooms": 2,
+    "receivedAt": "2026-11-09T11:03:35.000Z",
+    "firstSeenAt": "2026-11-09T09:01:08.000Z",
+    "lastSeenAt": "2026-11-09T11:03:35.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 198000,
+        "capturedAt": "2026-11-09T09:01:08.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37415393",
+    "externalId": "37415393",
+    "title": "Bilocale a Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37415393/",
+    "price": 198000,
+    "sqm": 47,
+    "rooms": 2,
+    "receivedAt": "2026-11-09T09:15:08.000Z",
+    "firstSeenAt": "2026-11-09T09:15:08.000Z",
+    "lastSeenAt": "2026-11-09T09:15:08.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 198000,
+        "capturedAt": "2026-11-09T09:15:08.000Z"
+      }
+    ]
   }
 ]
