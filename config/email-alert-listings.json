@@ -303,9 +303,9 @@
     "price": 179000,
     "sqm": 56,
     "rooms": 3,
-    "receivedAt": "2026-11-04T11:56:25.000Z",
+    "receivedAt": "2026-11-10T12:03:10.000Z",
     "firstSeenAt": "2026-09-01T11:37:28.000Z",
-    "lastSeenAt": "2026-11-04T11:56:25.000Z",
+    "lastSeenAt": "2026-11-10T12:03:10.000Z",
     "status": "UPDATED",
     "priceHistory": [
       {
@@ -3579,10 +3579,10 @@
     "price": 158000,
     "sqm": 47,
     "rooms": 2,
-    "receivedAt": "2026-09-26T10:39:31.000Z",
+    "receivedAt": "2026-11-10T12:03:10.000Z",
     "firstSeenAt": "2026-09-26T10:39:31.000Z",
-    "lastSeenAt": "2026-09-26T10:39:31.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-10T12:03:10.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 158000,
@@ -3600,10 +3600,10 @@
     "price": 172000,
     "sqm": 57,
     "rooms": 3,
-    "receivedAt": "2026-09-26T10:39:31.000Z",
+    "receivedAt": "2026-11-10T12:03:10.000Z",
     "firstSeenAt": "2026-09-26T10:39:31.000Z",
-    "lastSeenAt": "2026-09-26T10:39:31.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-10T12:03:10.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 172000,
@@ -5960,17 +5960,17 @@
   {
     "id": "casa-55171722",
     "externalId": "55171722",
-    "title": "Appartamento in vendita Les Arnauds, Bardonecchia (TO)",
+    "title": "Appartamento in vendita in Via Melezet 130,",
     "location": "Bardonecchia",
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/55171722/",
     "price": 190000,
     "sqm": 57,
     "rooms": 3,
-    "receivedAt": "2026-11-09T11:03:35.000Z",
+    "receivedAt": "2026-11-10T12:03:10.000Z",
     "firstSeenAt": "2026-11-09T09:01:10.000Z",
-    "lastSeenAt": "2026-11-09T11:03:35.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-10T12:03:10.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 190000,
@@ -5981,17 +5981,17 @@
   {
     "id": "casa-55171721",
     "externalId": "55171721",
-    "title": "Appartamento in vendita Centro, Bardonecchia (TO)",
+    "title": "Attico/Mansarda in vendita in Piazza Valle Stretta,",
     "location": "Bardonecchia",
     "source": "Casa.it",
     "sourceUrl": "https://www.casa.it/immobili/55171721/",
     "price": 198000,
     "sqm": 47,
     "rooms": 2,
-    "receivedAt": "2026-11-09T11:03:35.000Z",
+    "receivedAt": "2026-11-10T12:03:10.000Z",
     "firstSeenAt": "2026-11-09T09:01:08.000Z",
-    "lastSeenAt": "2026-11-09T11:03:35.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-10T12:03:10.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 198000,
@@ -6002,21 +6002,84 @@
   {
     "id": "idealista-37415393",
     "externalId": "37415393",
-    "title": "Bilocale a Bardonecchia",
+    "title": "Attico in Piazza Valle Stretta s.n.c, Bardonecchia",
     "location": "Bardonecchia",
     "source": "Idealista",
     "sourceUrl": "https://www.idealista.it/immobile/37415393/",
     "price": 198000,
     "sqm": 47,
     "rooms": 2,
-    "receivedAt": "2026-11-09T09:15:08.000Z",
+    "receivedAt": "2026-11-10T09:02:21.000Z",
     "firstSeenAt": "2026-11-09T09:15:08.000Z",
-    "lastSeenAt": "2026-11-09T09:15:08.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-10T09:02:21.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 198000,
         "capturedAt": "2026-11-09T09:15:08.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37415382",
+    "externalId": "37415382",
+    "title": "Trilocale in Via Melezet, 130, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37415382/",
+    "price": 190000,
+    "sqm": 57,
+    "rooms": 3,
+    "receivedAt": "2026-11-10T09:02:21.000Z",
+    "firstSeenAt": "2026-11-10T09:02:21.000Z",
+    "lastSeenAt": "2026-11-10T09:02:21.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 190000,
+        "capturedAt": "2026-11-10T09:02:21.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37438254",
+    "externalId": "37438254",
+    "title": "Bilocale in Viale Bramafam, 30, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37438254/",
+    "price": 180000,
+    "sqm": 64,
+    "rooms": 2,
+    "receivedAt": "2026-11-10T16:31:04.000Z",
+    "firstSeenAt": "2026-11-10T16:31:04.000Z",
+    "lastSeenAt": "2026-11-10T16:31:04.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 180000,
+        "capturedAt": "2026-11-10T16:31:04.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-134607191",
+    "externalId": "134607191",
+    "title": "Bilocale viale Bramafam 30, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/134607191/",
+    "price": 180000,
+    "sqm": 64,
+    "rooms": 2,
+    "receivedAt": "2026-11-10T16:19:24.000Z",
+    "firstSeenAt": "2026-11-10T16:19:24.000Z",
+    "lastSeenAt": "2026-11-10T16:19:24.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 180000,
+        "capturedAt": "2026-11-10T16:19:24.000Z"
       }
     ]
   }
