@@ -6051,10 +6051,10 @@
     "price": 180000,
     "sqm": 64,
     "rooms": 2,
-    "receivedAt": "2026-11-10T16:31:04.000Z",
+    "receivedAt": "2026-11-11T09:19:26.000Z",
     "firstSeenAt": "2026-11-10T16:31:04.000Z",
-    "lastSeenAt": "2026-11-10T16:31:04.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-11T09:19:26.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 180000,
