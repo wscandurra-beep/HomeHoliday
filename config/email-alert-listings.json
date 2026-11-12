@@ -5925,9 +5925,9 @@
     "price": 190000,
     "sqm": 650,
     "rooms": 8,
-    "receivedAt": "2026-11-08T08:43:44.000Z",
+    "receivedAt": "2026-11-12T09:10:07.000Z",
     "firstSeenAt": "2026-11-07T09:17:05.000Z",
-    "lastSeenAt": "2026-11-08T08:43:44.000Z",
+    "lastSeenAt": "2026-11-12T09:10:07.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -6030,10 +6030,10 @@
     "price": 190000,
     "sqm": 57,
     "rooms": 3,
-    "receivedAt": "2026-11-10T09:02:21.000Z",
+    "receivedAt": "2026-11-12T09:10:07.000Z",
     "firstSeenAt": "2026-11-10T09:02:21.000Z",
-    "lastSeenAt": "2026-11-10T09:02:21.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-12T09:10:07.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 190000,
@@ -6080,6 +6080,90 @@
       {
         "price": 180000,
         "capturedAt": "2026-11-10T16:19:24.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-134565073",
+    "externalId": "134565073",
+    "title": "Trilocale viale Bramafam 32/C, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/134565073/",
+    "price": 255000,
+    "sqm": 68,
+    "rooms": 3,
+    "receivedAt": "2026-11-11T19:35:00.000Z",
+    "firstSeenAt": "2026-11-11T19:35:00.000Z",
+    "lastSeenAt": "2026-11-11T19:35:00.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 255000,
+        "capturedAt": "2026-11-11T19:35:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "idealista-37464460",
+    "externalId": "37464460",
+    "title": "Monolocale in Viale Dalla Vecchia, 8, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Idealista",
+    "sourceUrl": "https://www.idealista.it/immobile/37464460/",
+    "price": 112000,
+    "sqm": 44,
+    "rooms": 1,
+    "receivedAt": "2026-11-12T16:12:19.000Z",
+    "firstSeenAt": "2026-11-12T16:12:19.000Z",
+    "lastSeenAt": "2026-11-12T16:12:19.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 112000,
+        "capturedAt": "2026-11-12T16:12:19.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-134674385",
+    "externalId": "134674385",
+    "title": "Monolocale viale Dalla Vecchia, 8, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/134674385/",
+    "price": 112000,
+    "sqm": 44,
+    "rooms": 1,
+    "receivedAt": "2026-11-12T16:14:07.000Z",
+    "firstSeenAt": "2026-11-12T16:14:07.000Z",
+    "lastSeenAt": "2026-11-12T16:14:07.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 112000,
+        "capturedAt": "2026-11-12T16:14:07.000Z"
+      }
+    ]
+  },
+  {
+    "id": "casa-55207104",
+    "externalId": "55207104",
+    "title": "Appartamento in vendita in Viale Dalla Vecchia 8, Centro, Bardonecchia (TO)",
+    "location": "Bardonecchia",
+    "source": "Casa.it",
+    "sourceUrl": "https://www.casa.it/immobili/55207104/",
+    "price": 112000,
+    "sqm": 44,
+    "rooms": 1,
+    "receivedAt": "2026-11-12T16:14:13.000Z",
+    "firstSeenAt": "2026-11-12T16:14:13.000Z",
+    "lastSeenAt": "2026-11-12T16:14:13.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 112000,
+        "capturedAt": "2026-11-12T16:14:13.000Z"
       }
     ]
   }
