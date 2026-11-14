@@ -3065,10 +3065,10 @@
     "price": 258000,
     "sqm": 48,
     "rooms": 2,
-    "receivedAt": "2026-09-22T11:18:58.000Z",
+    "receivedAt": "2026-11-14T11:11:33.000Z",
     "firstSeenAt": "2026-09-22T11:18:58.000Z",
-    "lastSeenAt": "2026-09-22T11:18:58.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-14T11:11:33.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 258000,
@@ -6009,9 +6009,9 @@
     "price": 198000,
     "sqm": 47,
     "rooms": 2,
-    "receivedAt": "2026-11-10T09:02:21.000Z",
+    "receivedAt": "2026-11-14T09:59:50.000Z",
     "firstSeenAt": "2026-11-09T09:15:08.000Z",
-    "lastSeenAt": "2026-11-10T09:02:21.000Z",
+    "lastSeenAt": "2026-11-14T09:59:50.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -6164,6 +6164,48 @@
       {
         "price": 112000,
         "capturedAt": "2026-11-12T16:14:13.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-134730847",
+    "externalId": "134730847",
+    "title": "Appartamento via Melezet, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/134730847/",
+    "price": 247000,
+    "sqm": 60,
+    "rooms": 5,
+    "receivedAt": "2026-11-13T19:20:05.000Z",
+    "firstSeenAt": "2026-11-13T19:20:05.000Z",
+    "lastSeenAt": "2026-11-13T19:20:05.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 247000,
+        "capturedAt": "2026-11-13T19:20:05.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-134732825",
+    "externalId": "134732825",
+    "title": "Bilocale via Montello, 9, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/134732825/",
+    "price": 258000,
+    "sqm": 48,
+    "rooms": 2,
+    "receivedAt": "2026-11-13T19:56:13.000Z",
+    "firstSeenAt": "2026-11-13T19:56:13.000Z",
+    "lastSeenAt": "2026-11-13T19:56:13.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 258000,
+        "capturedAt": "2026-11-13T19:56:13.000Z"
       }
     ]
   }
