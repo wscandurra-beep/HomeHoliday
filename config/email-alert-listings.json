@@ -51,10 +51,10 @@
     "price": 230000,
     "sqm": 63,
     "rooms": 3,
-    "receivedAt": "2026-08-29T10:28:35.000Z",
+    "receivedAt": "2026-11-15T10:58:06.000Z",
     "firstSeenAt": "2026-08-29T10:28:35.000Z",
-    "lastSeenAt": "2026-08-29T10:28:35.000Z",
-    "status": "NEW",
+    "lastSeenAt": "2026-11-15T10:58:06.000Z",
+    "status": "ACTIVE",
     "priceHistory": [
       {
         "price": 230000,
