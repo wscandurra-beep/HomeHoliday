@@ -1977,9 +1977,9 @@
       "price": 220000,
       "sqm": 60,
       "rooms": 3,
-      "receivedAt": "2026-09-14T11:19:29.000Z",
+      "receivedAt": "2026-11-19T11:56:40.000Z",
       "firstSeenAt": "2026-09-14T11:19:29.000Z",
-      "lastSeenAt": "2026-11-19T10:21:05.311Z",
+      "lastSeenAt": "2026-11-19T11:56:40.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -2198,9 +2198,9 @@
       "price": 190000,
       "sqm": 45,
       "rooms": 2,
-      "receivedAt": "2026-10-31T11:32:56.000Z",
+      "receivedAt": "2026-11-19T11:56:40.000Z",
       "firstSeenAt": "2026-09-02T11:29:48.000Z",
-      "lastSeenAt": "2026-11-19T10:21:05.311Z",
+      "lastSeenAt": "2026-11-19T11:56:40.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -2476,9 +2476,9 @@
       "price": 160000,
       "sqm": 51,
       "rooms": 2,
-      "receivedAt": "2026-11-16T11:31:47.000Z",
+      "receivedAt": "2026-11-19T11:56:40.000Z",
       "firstSeenAt": "2026-09-03T10:56:09.000Z",
-      "lastSeenAt": "2026-11-19T10:21:05.311Z",
+      "lastSeenAt": "2026-11-19T11:56:40.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -14221,9 +14221,9 @@
       "price": 112000,
       "sqm": 44,
       "rooms": 1,
-      "receivedAt": "2026-11-13T11:55:14.000Z",
+      "receivedAt": "2026-11-19T11:56:40.000Z",
       "firstSeenAt": "2026-11-12T16:14:13.000Z",
-      "lastSeenAt": "2026-11-19T10:21:05.311Z",
+      "lastSeenAt": "2026-11-19T11:56:40.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -14402,7 +14402,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-11-19T10:21:05.311Z",
+  "refreshedAt": "2026-11-19T11:56:40.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -14438,10 +14438,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-11-18T09:17:30.000Z",
-      "count": 1,
+      "checkedAt": "2026-11-19T11:56:40.000Z",
+      "count": 4,
       "unresolved": 0,
-      "message": "1 annunci importati o aggiornati da 1 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
+      "message": "4 annunci importati o aggiornati da 2 alert Gmail; 5 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
