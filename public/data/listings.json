@@ -14438,10 +14438,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-11-20T15:11:26.000Z",
+      "checkedAt": "2026-11-21T11:00:54.000Z",
       "count": 0,
       "unresolved": 0,
-      "message": "0 annunci importati o aggiornati da 4 alert Gmail; 6 esclusi o senza dati idonei; 0 non risolti"
+      "message": "0 annunci importati o aggiornati da 3 alert Gmail; 7 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
