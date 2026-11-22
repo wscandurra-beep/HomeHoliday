@@ -13980,9 +13980,9 @@
       "price": 190000,
       "sqm": 57,
       "rooms": 3,
-      "receivedAt": "2026-11-10T12:03:10.000Z",
+      "receivedAt": "2026-11-22T10:57:05.000Z",
       "firstSeenAt": "2026-11-09T09:01:10.000Z",
-      "lastSeenAt": "2026-11-22T09:50:01.044Z",
+      "lastSeenAt": "2026-11-22T10:57:05.000Z",
       "status": "ACTIVE",
       "priceHistory": [
         {
@@ -14402,7 +14402,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-11-22T09:50:01.044Z",
+  "refreshedAt": "2026-11-22T10:57:05.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -14438,10 +14438,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-11-21T11:00:54.000Z",
-      "count": 0,
+      "checkedAt": "2026-11-22T10:57:05.000Z",
+      "count": 1,
       "unresolved": 0,
-      "message": "0 annunci importati o aggiornati da 3 alert Gmail; 7 esclusi o senza dati idonei; 0 non risolti"
+      "message": "1 annunci importati o aggiornati da 2 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
