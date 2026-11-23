@@ -14402,7 +14402,7 @@
       ]
     }
   ],
-  "refreshedAt": "2026-11-23T07:39:34.356Z",
+  "refreshedAt": "2026-11-23T09:00:00.000Z",
   "providerStatus": {
     "casa": {
       "ok": false,
@@ -14438,10 +14438,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-11-22T10:57:05.000Z",
-      "count": 1,
+      "checkedAt": "2026-11-23T09:00:00.000Z",
+      "count": 0,
       "unresolved": 0,
-      "message": "1 annunci importati o aggiornati da 2 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
+      "message": "0 annunci importati o aggiornati da 1 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }
