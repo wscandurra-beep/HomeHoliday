@@ -2599,27 +2599,32 @@
       "source": "Casa.it",
       "externalId": "53202962",
       "title": "Appartamento in vendita in Via G. F. Medail 20, Centro, Bardonecchia (TO)",
-      "price": 67000,
+      "price": 62000,
       "sqm": 20,
       "rooms": 1,
       "sourceUrl": "https://www.casa.it/immobili/53202962/",
-      "receivedAt": "2026-10-31T11:32:56.000Z",
+      "receivedAt": "2026-11-26T09:44:51.000Z",
       "id": "casa-53202962",
       "location": "Bardonecchia",
       "firstSeenAt": "2026-10-30T11:55:38.000Z",
       "lastSeenAt": "2026-11-26T10:54:29.682Z",
-      "status": "ACTIVE",
+      "status": "UPDATED",
       "priceHistory": [
         {
           "price": 67000,
           "capturedAt": "2026-10-30T11:55:38.000Z"
+        },
+        {
+          "price": 62000,
+          "capturedAt": "2026-11-26T09:44:51.000Z"
         }
       ],
-      "duplicateGroupId": "c613f1ebad",
+      "duplicateGroupId": "1539835d4d",
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -7174,11 +7179,12 @@
           "capturedAt": "2026-11-13T17:45:22.340Z"
         }
       ],
-      "duplicateGroupId": "c613f1ebad",
+      "duplicateGroupId": "1539835d4d",
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -7229,11 +7235,12 @@
           "capturedAt": "2026-11-13T17:45:22.340Z"
         }
       ],
-      "duplicateGroupId": "c613f1ebad",
+      "duplicateGroupId": "1539835d4d",
       "duplicateSources": [
         "Casa.it",
         "Immobiliare.it",
-        "Immobiliare.it"
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -11888,7 +11895,7 @@
       "price": 208000,
       "sqm": 59,
       "rooms": 2,
-      "receivedAt": "2026-11-07T09:01:59.000Z",
+      "receivedAt": "2026-11-26T09:22:54.000Z",
       "firstSeenAt": "2026-10-05T11:05:46.000Z",
       "lastSeenAt": "2026-11-26T10:54:29.682Z",
       "status": "ACTIVE",
@@ -12742,6 +12749,13 @@
           "price": 62000,
           "capturedAt": "2026-10-30T06:52:15.000Z"
         }
+      ],
+      "duplicateGroupId": "1539835d4d",
+      "duplicateSources": [
+        "Casa.it",
+        "Immobiliare.it",
+        "Immobiliare.it",
+        "Idealista"
       ]
     },
     {
@@ -14438,10 +14452,10 @@
     },
     "emailAlerts": {
       "ok": true,
-      "checkedAt": "2026-11-25T09:50:47.000Z",
-      "count": 1,
+      "checkedAt": "2026-11-26T09:44:51.000Z",
+      "count": 2,
       "unresolved": 0,
-      "message": "1 annunci importati o aggiornati da 2 alert Gmail; 3 esclusi o senza dati idonei; 0 non risolti"
+      "message": "2 annunci importati o aggiornati da 2 alert Gmail; 2 esclusi o senza dati idonei; 0 non risolti"
     }
   }
 }

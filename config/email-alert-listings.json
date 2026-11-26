@@ -4170,9 +4170,9 @@
     "price": 208000,
     "sqm": 59,
     "rooms": 2,
-    "receivedAt": "2026-11-07T09:01:59.000Z",
+    "receivedAt": "2026-11-26T09:22:54.000Z",
     "firstSeenAt": "2026-10-05T11:05:46.000Z",
-    "lastSeenAt": "2026-11-07T09:01:59.000Z",
+    "lastSeenAt": "2026-11-26T09:22:54.000Z",
     "status": "ACTIVE",
     "priceHistory": [
       {
@@ -5541,20 +5541,24 @@
     "source": "Casa.it",
     "externalId": "53202962",
     "title": "Appartamento in vendita in Via G. F. Medail 20, Centro, Bardonecchia (TO)",
-    "price": 67000,
+    "price": 62000,
     "sqm": 20,
     "rooms": 1,
     "sourceUrl": "https://www.casa.it/immobili/53202962/",
-    "receivedAt": "2026-10-31T11:32:56.000Z",
+    "receivedAt": "2026-11-26T09:44:51.000Z",
     "id": "casa-53202962",
     "location": "Bardonecchia",
     "firstSeenAt": "2026-10-30T11:55:38.000Z",
-    "lastSeenAt": "2026-10-31T11:32:56.000Z",
-    "status": "ACTIVE",
+    "lastSeenAt": "2026-11-26T09:44:51.000Z",
+    "status": "UPDATED",
     "priceHistory": [
       {
         "price": 67000,
         "capturedAt": "2026-10-30T11:55:38.000Z"
+      },
+      {
+        "price": 62000,
+        "capturedAt": "2026-11-26T09:44:51.000Z"
       }
     ]
   },
