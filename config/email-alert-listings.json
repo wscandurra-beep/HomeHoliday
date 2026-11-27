@@ -5545,11 +5545,11 @@
     "sqm": 20,
     "rooms": 1,
     "sourceUrl": "https://www.casa.it/immobili/53202962/",
-    "receivedAt": "2026-11-26T09:44:51.000Z",
+    "receivedAt": "2026-11-27T09:48:14.000Z",
     "id": "casa-53202962",
     "location": "Bardonecchia",
     "firstSeenAt": "2026-10-30T11:55:38.000Z",
-    "lastSeenAt": "2026-11-26T09:44:51.000Z",
+    "lastSeenAt": "2026-11-27T09:48:14.000Z",
     "status": "UPDATED",
     "priceHistory": [
       {
@@ -6294,6 +6294,48 @@
       {
         "price": 205000,
         "capturedAt": "2026-11-16T14:40:50.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-135126531",
+    "externalId": "135126531",
+    "title": "Bilocale via Giuseppe Francesco Medail 42, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/135126531/",
+    "price": 139000,
+    "sqm": 50,
+    "rooms": 2,
+    "receivedAt": "2026-11-27T09:50:46.000Z",
+    "firstSeenAt": "2026-11-27T09:50:46.000Z",
+    "lastSeenAt": "2026-11-27T09:50:46.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 139000,
+        "capturedAt": "2026-11-27T09:50:46.000Z"
+      }
+    ]
+  },
+  {
+    "id": "immobiliare-135133669",
+    "externalId": "135133669",
+    "title": "Appartamento viale Roma 80, Centro, Bardonecchia",
+    "location": "Bardonecchia",
+    "source": "Immobiliare.it",
+    "sourceUrl": "https://www.immobiliare.it/annunci/135133669/",
+    "price": 259000,
+    "sqm": 100,
+    "rooms": 5,
+    "receivedAt": "2026-11-27T14:50:24.000Z",
+    "firstSeenAt": "2026-11-27T14:50:24.000Z",
+    "lastSeenAt": "2026-11-27T14:50:24.000Z",
+    "status": "NEW",
+    "priceHistory": [
+      {
+        "price": 259000,
+        "capturedAt": "2026-11-27T14:50:24.000Z"
       }
     ]
   }
